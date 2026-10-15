@@ -1,0 +1,13 @@
+# Ignore large training dataset
+AI_datasets/RouteLLM/gpt4_dataset/train.jsonl
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+
+# Local environment variables
+.env
