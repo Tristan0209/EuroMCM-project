@@ -1,0 +1,66 @@
+{
+  "schema_version": 3,
+  "power_scenario": "dgx_8gpu_one_host_per_region_model_pool",
+  "topology": "DE/FR/ES each have separate S and L hosts; six fixed powered 8-GPU hosts",
+  "estimated_energy_kwh": "incremental facility busy-GPU-over-idle energy only",
+  "increment_formula": "service_seconds*(gpu_busy_w-gpu_idle_w)*pue/3.6e6",
+  "idle_base_formula": "sum_physical_hosts((shared_w+installed_gpus*gpu_idle_w)*pue*common_horizon_seconds)/3.6e6",
+  "facility_total": "fixed_host_idle_base + busy_gpu_increment + network + controller; each exactly once",
+  "reference_service_already_scaled": true,
+  "installed_gpus_create_no_additional_admitted_capacity": true,
+  "capacity_change_power": "capacity changes block admission only; hosts remain powered",
+  "p_idle_w_p_busy_w_aliases": "whole-host idle and whole-host with ONE busy GPU; difference is the single-slot increment",
+  "multiple_slots": "host baseline charged once, irrespective of admitted slot count",
+  "controller": "separate inherited incremental computing-work proxy, not another host idle base",
+  "profile": {
+    "name": "illustrative_independent_replica",
+    "model_hardware": "unspecified; replace with isolated measurements",
+    "service_provenance": "assumed_not_fitted_to_public_measurements",
+    "power_provenance": "ML.ENERGY_single_B200_GPU_power_at_specific_Qwen3_configuration_plus_assumed_idle_and_shared_power_not_system_measurement",
+    "pue_provenance": "assumed_not_measured",
+    "service_boundary": "server_service_excludes_queue_and_external_network",
+    "power_scope": "single_DGX_B200_eight_installed_GPUs_independent_replicas",
+    "feature_names": [
+      "1",
+      "input_k",
+      "output_after_first_k",
+      "input_k_squared",
+      "input_k_times_output_k",
+      "output_k_squared"
+    ],
+    "prefill_coefficients": [
+      0.05,
+      0.2,
+      0.0,
+      0.01,
+      0.0,
+      0.0
+    ],
+    "decode_coefficients": [
+      0.0,
+      0.0,
+      8.0,
+      0.0,
+      0.1,
+      0.02
+    ],
+    "residual_log_sigma": 0.15,
+    "pue": 1.2,
+    "gpu_count_per_server": 8,
+    "shared_w": 1500.0,
+    "gpu_idle_w": 175.0,
+    "gpu_busy_w": 760,
+    "server_max_w": 14300.0,
+    "shared_power_sensitivity_w": [
+      750.0,
+      1500.0,
+      2500.0
+    ],
+    "gpu_idle_sensitivity_w": [
+      100.0,
+      175.0,
+      250.0
+    ]
+  },
+  "source_config_sha256": "78e26b5fd8f7034d4eb99918c4eb82f0a16097acc913be67eabaf3178c055ed4"
+}

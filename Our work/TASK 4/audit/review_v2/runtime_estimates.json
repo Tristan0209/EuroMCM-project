@@ -1,0 +1,46 @@
+{
+  "status": "ESTIMATE_ONLY_NOT_EXPERIMENT_RESULTS",
+  "historical_pair_seconds": 18.334187695833318,
+  "core": [
+    {
+      "module": "M1",
+      "execution_references": 48,
+      "pair_equivalents": 24,
+      "workload_multiplier": 1,
+      "historical_linear_seconds": 440.0205046999996
+    },
+    {
+      "module": "M2",
+      "execution_references": 192,
+      "pair_equivalents": 96,
+      "workload_multiplier": 1,
+      "historical_linear_seconds": 1760.0820187999984
+    },
+    {
+      "module": "M3",
+      "execution_references": 4000,
+      "pair_equivalents": 2000,
+      "workload_multiplier": 1,
+      "historical_linear_seconds": 36668.37539166664
+    },
+    {
+      "module": "M4",
+      "execution_references": 120,
+      "pair_equivalents": 60,
+      "workload_multiplier": 1.75,
+      "historical_linear_seconds": 1925.0897080624986
+    },
+    {
+      "module": "M6",
+      "execution_references": 192,
+      "pair_equivalents": 96,
+      "workload_multiplier": 1,
+      "historical_linear_seconds": 1760.0820187999984
+    }
+  ],
+  "raw_execution_references": 4558,
+  "conditional_duplicate_references": 18,
+  "conditional_unique_executions": 4540,
+  "deduplicated_pair_linear_hours_excluding_P2": 11.7746227646574,
+  "P2_same_speed_greedy_reference_seconds_only": 37.03456249999998
+}

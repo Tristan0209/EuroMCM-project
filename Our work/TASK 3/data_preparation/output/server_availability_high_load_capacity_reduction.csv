@@ -1,0 +1,11 @@
+datetime_utc,region,model_type,available_capacity,provenance
+2024-05-10T00:00:00Z,DE,S,1,task3_assumed_static_initial
+2024-05-10T00:00:00Z,DE,L,1,task3_assumed_static_initial
+2024-05-10T00:00:00Z,FR,S,1,task3_assumed_static_initial
+2024-05-10T00:00:00Z,FR,L,1,task3_assumed_static_initial
+2024-05-10T00:00:00Z,ES,S,1,task3_assumed_static_initial
+2024-05-10T00:00:00Z,ES,L,1,task3_assumed_static_initial
+2024-05-10T02:00:00+00:00,FR,L,0,task3_assumed_high_load_capacity_reduction
+2024-05-10T02:00:00+00:00,ES,L,0,task3_assumed_high_load_capacity_reduction
+2024-05-10T02:30:00+00:00,FR,L,1,task3_assumed_high_load_capacity_reduction
+2024-05-10T02:30:00+00:00,ES,L,1,task3_assumed_high_load_capacity_reduction

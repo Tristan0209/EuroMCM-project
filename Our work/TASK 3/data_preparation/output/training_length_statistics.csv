@@ -1,0 +1,7 @@
+task_type,model_type,count,mean,estimated_output_tokens_proxy,source_partition
+Code,L,256,281.3515625,281,train_only
+Code,S,256,263.0,263,train_only
+General,L,16451,5.307458513160294,5,train_only
+General,S,16451,4.930460154397909,5,train_only
+Math,L,5115,148.89442815249268,149,train_only
+Math,S,5115,118.04652981427175,118,train_only

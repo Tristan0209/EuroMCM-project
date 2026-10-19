@@ -1,0 +1,33 @@
+{
+  "artifacts": {
+    "affected_request_audit.py": "f351f927714a2e06a4bb81e6b502d6312e2d1d1880b172f0daf220764459d378",
+    "analyze_release.py": "274eeb56ac8b6d9f6adb583bc99f7e478fc0b3aca655a9cdcbccddf4b6c8689f",
+    "bootstrap.py": "1e660d99d20656c96d9e8e610152302aa35fa751247998b0d9d43c46968fbde8",
+    "build_runner.py": "d1c70a41d6812d80bba8a31f2c6066daccfb8c3e85ecba290ba7ec65d56debdd",
+    "compare_events.py": "efa41d0bb792c13d07147c833f3c56cacad28b834f96f2ec698ed68d77738a1a",
+    "context.py": "b88ce93e9e00cdac7ed3259b2d038d024e506689b98d9f4d0f4b2dbecf8caf0b",
+    "core_worker.py": "5673344fc6ebd1415215dc9f1bcf901a06aa1a32c9dfdcac7653f30e9762e7b0",
+    "experiments.py": "d70488cfd79aff93a6d17da8dc8dd339eceeeb328c9b4a93a71eb5496a721356",
+    "finish_checks.py": "aae17e40928293bab39d7a931a9d6dbd09ce5d4b27fb5f34213980d372bf94c4",
+    "freeze.py": "52a0ff45afce2f682e1dbc081ff8abae6867143fe569890969d8207e03a5fd93",
+    "make_additional_figures.py": "f5abb87ac4fe747e92bec9cbb9467451448acd6ba49b472a456a3e8e294542aa",
+    "normalize_tables.py": "4e13bd099f78b8a1544898963fdf82d48bc910777afb5c522b228028a2fdb6a1",
+    "pipeline.py": "adb3fdf66814132f817fe20a281d39f282ee9e763da6976fe3e43cb0da579812",
+    "policies.py": "dd233f9ab9196710f35060ac9ccda977bfb86e89bf3f0e8dab624e4ffa229702",
+    "preflight.py": "be1609c25cf1c22f720fd522866def26d7726da07a0052cf5c4471bf296d2a09",
+    "queue_milp.py": "a5d6ac9cf82a565020248d6ba374c4953dadde23bf96a7073d97137c5e148948",
+    "recovery.py": "ea1635a361fc728276251efc9e363e79fb585d854cafd796298d1436ede6ce2d",
+    "repeat_stability.py": "01a5f274f899274dda5cbd01c963408e186a6404a630d18e8b8be47a15981817",
+    "reports_release.py": "f9e76363d0fa7c8641681aec1b9e4910a656e26bd3d8ca83abcbafccf3b0189c",
+    "resume_after_workers.py": "596f572166daa892da44debc8d660bfb67dd1a87313b4b5d9973ef9c3099bd40",
+    "run_all.py": "eac34c07a12648d12253e0c6200c8c44df02f264800ec2633d4e58a7db6486c9",
+    "run_tests.py": "9b67a2853caaa25eeadea12a0286c101c5121b472d030256d783f7d51710a74a",
+    "spatial.py": "dc358cdb7a493e41f059cbf697049e7ee2684d31fd42c031d867b55e414e7d01",
+    "validate_release.py": "917917f502f087685cef7fe2a9e362a7424633a3bf1247edc767bc3b59ea02bb",
+    "tests/test_recovery.py": "f4e41ab0bf5a4a7a600976200514c9c9a31c1cc9fe4e8b52df0f620c9d0a5710",
+    "v2/des.py": "c15f2f5e32f8cdb6360b169ce75cc96b9f2d3d1572105de2c9bd1117e8eda15a",
+    "v2/milp.py": "178201c4fc7799affcb7eac668a496ac6fbe27915575cd9a745b358ca92dc11a",
+    "v2/__init__.py": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+  },
+  "purpose": "Submission source integrity; original freeze_manifest.json is historical evidence."
+}

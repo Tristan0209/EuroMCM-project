@@ -1,0 +1,455 @@
+{
+  "family": "Pre_direct",
+  "fallback_tasks": [
+    "Code",
+    "Math"
+  ],
+  "overall_alpha": 0.05,
+  "individual_alpha": 0.0008333333333333334,
+  "number_fixed_families": 10,
+  "number_tasks": 3,
+  "number_losses": 2,
+  "bounds": {
+    "Pre_direct": [
+      {
+        "task_type": "Code",
+        "independent_groups": 43,
+        "harm_groups": 3,
+        "positive_loss_mean": 0.06976744186046512,
+        "duplicate_mass_allowance": 0.011627906976744207,
+        "mean_loss_upper": 0.6688897147163891,
+        "pass_loss_upper": 0.2860127662619748,
+        "individual_alpha": 0.0008333333333333334
+      },
+      {
+        "task_type": "General",
+        "independent_groups": 2746,
+        "harm_groups": 29,
+        "positive_loss_mean": 0.010651857246904588,
+        "duplicate_mass_allowance": 0.001091305929428854,
+        "mean_loss_upper": 0.025963445701414838,
+        "pass_loss_upper": 0.019307239584454305,
+        "individual_alpha": 0.0008333333333333334
+      },
+      {
+        "task_type": "Math",
+        "independent_groups": 853,
+        "harm_groups": 0,
+        "positive_loss_mean": 0.0,
+        "duplicate_mass_allowance": 0.0005847953216374657,
+        "mean_loss_upper": 0.02190035405182223,
+        "pass_loss_upper": 0.008862277376811004,
+        "individual_alpha": 0.0008333333333333334
+      }
+    ],
+    "Ridge": [
+      {
+        "task_type": "Code",
+        "independent_groups": 43,
+        "harm_groups": 6,
+        "positive_loss_mean": 0.13953488372093023,
+        "duplicate_mass_allowance": 0.011627906976744207,
+        "mean_loss_upper": 0.7945134545324213,
+        "pass_loss_upper": 0.3803557659984229,
+        "individual_alpha": 0.0008333333333333334
+      },
+      {
+        "task_type": "General",
+        "independent_groups": 2746,
+        "harm_groups": 29,
+        "positive_loss_mean": 0.010651857246904588,
+        "duplicate_mass_allowance": 0.001091305929428854,
+        "mean_loss_upper": 0.025963445701414838,
+        "pass_loss_upper": 0.019307239584454305,
+        "individual_alpha": 0.0008333333333333334
+      },
+      {
+        "task_type": "Math",
+        "independent_groups": 853,
+        "harm_groups": 15,
+        "positive_loss_mean": 0.010257913247362251,
+        "duplicate_mass_allowance": 0.0005847953216374657,
+        "mean_loss_upper": 0.04152682686423089,
+        "pass_loss_upper": 0.0372447642728347,
+        "individual_alpha": 0.0008333333333333334
+      }
+    ],
+    "Bayesian_Ridge": [
+      {
+        "task_type": "Code",
+        "independent_groups": 43,
+        "harm_groups": 5,
+        "positive_loss_mean": 0.11627906976744186,
+        "duplicate_mass_allowance": 0.011627906976744207,
+        "mean_loss_upper": 0.7554627628072919,
+        "pass_loss_upper": 0.35048873544401293,
+        "individual_alpha": 0.0008333333333333334
+      },
+      {
+        "task_type": "General",
+        "independent_groups": 2746,
+        "harm_groups": 28,
+        "positive_loss_mean": 0.010287691187181355,
+        "duplicate_mass_allowance": 0.001091305929428854,
+        "mean_loss_upper": 0.025465153430842085,
+        "pass_loss_upper": 0.018840557601658342,
+        "individual_alpha": 0.0008333333333333334
+      },
+      {
+        "task_type": "Math",
+        "independent_groups": 853,
+        "harm_groups": 23,
+        "positive_loss_mean": 0.014654161781946073,
+        "duplicate_mass_allowance": 0.0005847953216374657,
+        "mean_loss_upper": 0.04697213113262551,
+        "pass_loss_upper": 0.049726279803161015,
+        "individual_alpha": 0.0008333333333333334
+      }
+    ],
+    "Logistic_Regression": [
+      {
+        "task_type": "Code",
+        "independent_groups": 43,
+        "harm_groups": 4,
+        "positive_loss_mean": 0.09302325581395349,
+        "duplicate_mass_allowance": 0.011627906976744207,
+        "mean_loss_upper": 0.7138857603096886,
+        "pass_loss_upper": 0.3191739343476233,
+        "individual_alpha": 0.0008333333333333334
+      },
+      {
+        "task_type": "General",
+        "independent_groups": 2746,
+        "harm_groups": 30,
+        "positive_loss_mean": 0.011016023306627822,
+        "duplicate_mass_allowance": 0.001091305929428854,
+        "mean_loss_upper": 0.026459315669501056,
+        "pass_loss_upper": 0.01977215673027937,
+        "individual_alpha": 0.0008333333333333334
+      },
+      {
+        "task_type": "Math",
+        "independent_groups": 853,
+        "harm_groups": 10,
+        "positive_loss_mean": 0.005275498241500586,
+        "duplicate_mass_allowance": 0.0005847953216374657,
+        "mean_loss_upper": 0.033472859481939114,
+        "pass_loss_upper": 0.028985421318367784,
+        "individual_alpha": 0.0008333333333333334
+      }
+    ],
+    "CART": [
+      {
+        "task_type": "Code",
+        "independent_groups": 43,
+        "harm_groups": 1,
+        "positive_loss_mean": 0.023255813953488372,
+        "duplicate_mass_allowance": 0.011627906976744207,
+        "mean_loss_upper": 0.5590393300686145,
+        "pass_loss_upper": 0.21076859850084245,
+        "individual_alpha": 0.0008333333333333334
+      },
+      {
+        "task_type": "General",
+        "independent_groups": 2746,
+        "harm_groups": 33,
+        "positive_loss_mean": 0.011926438455935906,
+        "duplicate_mass_allowance": 0.001091305929428854,
+        "mean_loss_upper": 0.027737093060310015,
+        "pass_loss_upper": 0.021157125315484967,
+        "individual_alpha": 0.0008333333333333334
+      },
+      {
+        "task_type": "Math",
+        "independent_groups": 853,
+        "harm_groups": 8,
+        "positive_loss_mean": 0.005275498241500586,
+        "duplicate_mass_allowance": 0.0005847953216374657,
+        "mean_loss_upper": 0.03464020844517725,
+        "pass_loss_upper": 0.02551952483065246,
+        "individual_alpha": 0.0008333333333333334
+      }
+    ],
+    "LightGBM": [
+      {
+        "task_type": "Code",
+        "independent_groups": 43,
+        "harm_groups": 1,
+        "positive_loss_mean": 0.023255813953488372,
+        "duplicate_mass_allowance": 0.011627906976744207,
+        "mean_loss_upper": 0.5590393300686145,
+        "pass_loss_upper": 0.21076859850084245,
+        "individual_alpha": 0.0008333333333333334
+      },
+      {
+        "task_type": "General",
+        "independent_groups": 2746,
+        "harm_groups": 30,
+        "positive_loss_mean": 0.011016023306627822,
+        "duplicate_mass_allowance": 0.001091305929428854,
+        "mean_loss_upper": 0.026459315669501056,
+        "pass_loss_upper": 0.01977215673027937,
+        "individual_alpha": 0.0008333333333333334
+      },
+      {
+        "task_type": "Math",
+        "independent_groups": 853,
+        "harm_groups": 17,
+        "positive_loss_mean": 0.008792497069167644,
+        "duplicate_mass_allowance": 0.0005847953216374657,
+        "mean_loss_upper": 0.03878742857637519,
+        "pass_loss_upper": 0.04043295419924083,
+        "individual_alpha": 0.0008333333333333334
+      }
+    ],
+    "MLP": [
+      {
+        "task_type": "Code",
+        "independent_groups": 43,
+        "harm_groups": 3,
+        "positive_loss_mean": 0.06976744186046512,
+        "duplicate_mass_allowance": 0.011627906976744207,
+        "mean_loss_upper": 0.6688897147163891,
+        "pass_loss_upper": 0.2860127662619748,
+        "individual_alpha": 0.0008333333333333334
+      },
+      {
+        "task_type": "General",
+        "independent_groups": 2746,
+        "harm_groups": 49,
+        "positive_loss_mean": 0.017753095411507647,
+        "duplicate_mass_allowance": 0.001091305929428854,
+        "mean_loss_upper": 0.03530677666968978,
+        "pass_loss_upper": 0.02835314165630093,
+        "individual_alpha": 0.0008333333333333334
+      },
+      {
+        "task_type": "Math",
+        "independent_groups": 853,
+        "harm_groups": 10,
+        "positive_loss_mean": 0.004982415005861665,
+        "duplicate_mass_allowance": 0.0005847953216374657,
+        "mean_loss_upper": 0.032856976118339126,
+        "pass_loss_upper": 0.028985421318367784,
+        "individual_alpha": 0.0008333333333333334
+      }
+    ],
+    "Random_Forest": [
+      {
+        "task_type": "Code",
+        "independent_groups": 43,
+        "harm_groups": 2,
+        "positive_loss_mean": 0.046511627906976744,
+        "duplicate_mass_allowance": 0.011627906976744207,
+        "mean_loss_upper": 0.6187469393769578,
+        "pass_loss_upper": 0.25032763076175624,
+        "individual_alpha": 0.0008333333333333334
+      },
+      {
+        "task_type": "General",
+        "independent_groups": 2746,
+        "harm_groups": 47,
+        "positive_loss_mean": 0.01702476329206118,
+        "duplicate_mass_allowance": 0.001091305929428854,
+        "mean_loss_upper": 0.034306713040224354,
+        "pass_loss_upper": 0.027467837920089697,
+        "individual_alpha": 0.0008333333333333334
+      },
+      {
+        "task_type": "Math",
+        "independent_groups": 853,
+        "harm_groups": 10,
+        "positive_loss_mean": 0.005861664712778429,
+        "duplicate_mass_allowance": 0.0005847953216374657,
+        "mean_loss_upper": 0.034658770335557226,
+        "pass_loss_upper": 0.028985421318367784,
+        "individual_alpha": 0.0008333333333333334
+      }
+    ],
+    "LinUCB": [
+      {
+        "task_type": "Code",
+        "independent_groups": 43,
+        "harm_groups": 6,
+        "positive_loss_mean": 0.13953488372093023,
+        "duplicate_mass_allowance": 0.011627906976744207,
+        "mean_loss_upper": 0.7945134545324213,
+        "pass_loss_upper": 0.3803557659984229,
+        "individual_alpha": 0.0008333333333333334
+      },
+      {
+        "task_type": "General",
+        "independent_groups": 2746,
+        "harm_groups": 29,
+        "positive_loss_mean": 0.010651857246904588,
+        "duplicate_mass_allowance": 0.001091305929428854,
+        "mean_loss_upper": 0.025963445701414838,
+        "pass_loss_upper": 0.019307239584454305,
+        "individual_alpha": 0.0008333333333333334
+      },
+      {
+        "task_type": "Math",
+        "independent_groups": 853,
+        "harm_groups": 15,
+        "positive_loss_mean": 0.010257913247362251,
+        "duplicate_mass_allowance": 0.0005847953216374657,
+        "mean_loss_upper": 0.04152682686423089,
+        "pass_loss_upper": 0.0372447642728347,
+        "individual_alpha": 0.0008333333333333334
+      }
+    ],
+    "Thompson_Sampling": [
+      {
+        "task_type": "Code",
+        "independent_groups": 43,
+        "harm_groups": 1,
+        "positive_loss_mean": 0.023255813953488372,
+        "duplicate_mass_allowance": 0.011627906976744207,
+        "mean_loss_upper": 0.5590393300686145,
+        "pass_loss_upper": 0.21076859850084245,
+        "individual_alpha": 0.0008333333333333334
+      },
+      {
+        "task_type": "General",
+        "independent_groups": 2746,
+        "harm_groups": 42,
+        "positive_loss_mean": 0.015386016023306628,
+        "duplicate_mass_allowance": 0.001091305929428854,
+        "mean_loss_upper": 0.032214628529687706,
+        "pass_loss_upper": 0.025238650845880853,
+        "individual_alpha": 0.0008333333333333334
+      },
+      {
+        "task_type": "Math",
+        "independent_groups": 853,
+        "harm_groups": 24,
+        "positive_loss_mean": 0.016705744431418524,
+        "duplicate_mass_allowance": 0.0005847953216374657,
+        "mean_loss_upper": 0.05012939641808506,
+        "pass_loss_upper": 0.05124328598142402,
+        "individual_alpha": 0.0008333333333333334
+      }
+    ]
+  },
+  "family_selection": "minimum selection-partition model cost after uniform calibration bounds and explicit all-L fallbacks",
+  "zero_event_risk_not_zero": true,
+  "known_task_mixtures": [
+    {
+      "General": 0.7529737206085754,
+      "Math": 0.23540802213001383,
+      "Code": 0.011618257261410789
+    },
+    {
+      "General": 0.7541838134430727,
+      "Math": 0.23401920438957477,
+      "Code": 0.011796982167352537
+    },
+    {
+      "General": 0.7551465576005453,
+      "Math": 0.2331288343558282,
+      "Code": 0.011724608043626449
+    }
+  ],
+  "duplicate_mass_limits": {
+    "Code": 0.011627906976744207,
+    "General": 0.001091305929428854,
+    "Math": 0.0005847953216374657
+  },
+  "model_weights_and_thresholds_unchanged": true,
+  "introduced_after_prior_old_test_diagnostics": true,
+  "test_scores_used_for_exact_selection": false,
+  "assumptions": [
+    "fixed learned policies conditional on training/selection",
+    "independent exchangeable normalized prompt groups within each task",
+    "future task mixture and duplicate mass bounded by declared scenario",
+    "original benchmark Score is the evaluation target, not real correctness"
+  ],
+  "not_a_production_quality_guarantee": true,
+  "earlier_failures_preserved": true,
+  "rules": {
+    "Pre_direct": {
+      "fallback_tasks": [
+        "Code",
+        "Math"
+      ],
+      "aggregate_mean_upper": 0.01960620664487209,
+      "aggregate_pass_upper": 0.01457979550896965
+    },
+    "Ridge": {
+      "fallback_tasks": [
+        "Code",
+        "Math"
+      ],
+      "aggregate_mean_upper": 0.01960620664487209,
+      "aggregate_pass_upper": 0.01457979550896965
+    },
+    "Bayesian_Ridge": {
+      "fallback_tasks": [
+        "Code",
+        "Math"
+      ],
+      "aggregate_mean_upper": 0.019229922952070117,
+      "aggregate_pass_upper": 0.014227382216167083
+    },
+    "Logistic_Regression": {
+      "fallback_tasks": [
+        "Code",
+        "Math"
+      ],
+      "aggregate_mean_upper": 0.01998066114428989,
+      "aggregate_pass_upper": 0.01493087609120892
+    },
+    "CART": {
+      "fallback_tasks": [
+        "Code",
+        "General",
+        "Math"
+      ],
+      "aggregate_mean_upper": 0,
+      "aggregate_pass_upper": 0
+    },
+    "LightGBM": {
+      "fallback_tasks": [
+        "Code",
+        "Math"
+      ],
+      "aggregate_mean_upper": 0.01998066114428989,
+      "aggregate_pass_upper": 0.01493087609120892
+    },
+    "MLP": {
+      "fallback_tasks": [
+        "Code",
+        "General",
+        "Math"
+      ],
+      "aggregate_mean_upper": 0,
+      "aggregate_pass_upper": 0
+    },
+    "Random_Forest": {
+      "fallback_tasks": [
+        "Code",
+        "General",
+        "Math"
+      ],
+      "aggregate_mean_upper": 0,
+      "aggregate_pass_upper": 0
+    },
+    "LinUCB": {
+      "fallback_tasks": [
+        "Code",
+        "Math"
+      ],
+      "aggregate_mean_upper": 0.01960620664487209,
+      "aggregate_pass_upper": 0.01457979550896965
+    },
+    "Thompson_Sampling": {
+      "fallback_tasks": [
+        "Code",
+        "General",
+        "Math"
+      ],
+      "aggregate_mean_upper": 0,
+      "aggregate_pass_upper": 0
+    }
+  }
+}

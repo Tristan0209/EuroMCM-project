@@ -1,0 +1,7 @@
+datetime_utc,region,model_type,available_capacity,provenance
+2025-01-02T00:00:00.000000Z,DE,S,1,task3_assumed_static_initial
+2025-01-02T00:00:00.000000Z,DE,L,1,task3_assumed_static_initial
+2025-01-02T00:00:00.000000Z,FR,S,1,task3_assumed_static_initial
+2025-01-02T00:00:00.000000Z,FR,L,1,task3_assumed_static_initial
+2025-01-02T00:00:00.000000Z,ES,S,1,task3_assumed_static_initial
+2025-01-02T00:00:00.000000Z,ES,L,1,task3_assumed_static_initial

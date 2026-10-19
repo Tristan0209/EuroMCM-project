@@ -1,0 +1,18 @@
+{
+  "format": "tidy numeric statistics; one metric per row",
+  "rows": 5175,
+  "scenario_count": 4,
+  "independent_seeds_per_scenario": 3,
+  "aggregation": "Each row is per seed. Report summaries are arithmetic means of the three seed-level quantities, never pooled requests.",
+  "fraction_units": "Pass/violation/share/growth/relative savings stored as fractions. Reports multiply by 100 for % or percentage points.",
+  "changed_quality_metrics": "Denominator n_changed; absent changed requests produce NA, not quality 0.",
+  "material_drop": "q_after-q_before <= -0.10 absolute score; declared reporting convention, not clinical or calibrated quality standard.",
+  "lost_L_pass_due_to_new_S": "Before L, after S, q_L>=0.5 and q_S<0.5; subset of L_to_S.",
+  "all_l": "Offline paired quality reference. No All-L DES simulation or actual completion is implied.",
+  "operational_boundary": "total minus fixed idle = active_increment + network + controller",
+  "region_energy_share": "Share of active_increment electricity, not share of all facility electricity.",
+  "effective_active_intensity": "active_increment CO2e divided by active_increment kWh, not full-window unweighted regional carbon.",
+  "unique_prompt_groups": "Distinct normalized prompt groups; count is not a proof of statistical independence.",
+  "missing_values": "NA retained for an empty changed subset or absent statistic; never replaced by zero",
+  "no_new_DES": true
+}

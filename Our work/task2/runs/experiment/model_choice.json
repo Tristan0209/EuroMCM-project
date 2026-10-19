@@ -1,0 +1,7 @@
+{
+  "selected_on": "selection_partition_only",
+  "family": "Random_Forest",
+  "objective": "minimum historical model cost with each task select mean/pass loss <=0.01",
+  "fallback_rule": "confirm task mean loss>0.05 or pass loss>0.02 -> all L for that task; aggregate>0.02 -> all L",
+  "no_test_reselection": true
+}

@@ -1,0 +1,128 @@
+{
+  "config": {
+    "seed": 20261016,
+    "encoder": "minilm",
+    "embedding_batch_size": 64,
+    "torch_threads": 4,
+    "svd_dimensions": 96,
+    "tfidf_max_features": 20000,
+    "hidden_layers": [
+      256,
+      64
+    ],
+    "ensemble_seeds": [
+      20261016,
+      20261017,
+      20261018
+    ],
+    "learning_rate": 0.001,
+    "l2_alpha": 0.001,
+    "batch_size": 256,
+    "max_epochs": 80,
+    "patience": 10,
+    "min_validation_improvement": 1e-05,
+    "blas_threads": 2,
+    "quality_loss_tolerance": 0.02,
+    "pass_rate_loss_tolerance": 0.02,
+    "task_quality_loss_tolerance": 0.05,
+    "score_pass_threshold": 0.5,
+    "uncertainty_grid": [
+      0.0,
+      0.5,
+      1.0
+    ],
+    "cost_penalty_grid": [
+      0.0,
+      0.5,
+      1.0
+    ],
+    "threshold_quantiles": 21,
+    "post_threshold_grid": [
+      null,
+      0.25,
+      0.5,
+      0.75,
+      1.01
+    ],
+    "objective": "historical_model_call_cost_only",
+    "post_v": {
+      "n_estimators": 80,
+      "num_leaves": 15,
+      "min_child_samples": 50,
+      "reg_lambda": 1.0,
+      "folds": 3
+    },
+    "audit_rate": 0.1,
+    "feedback_batches": 10,
+    "online_update_epochs": 2,
+    "online_rehearsal_groups": 2000,
+    "random_baseline_repetitions": 10,
+    "paired_bootstrap_repetitions": 1000,
+    "extra_compute_enabled": false,
+    "overhead_sensitivity": {
+      "kind": "assumed_sensitivity_not_measured",
+      "router_seconds": [
+        0.01,
+        0.1,
+        1.0,
+        5.0
+      ],
+      "control_power_w": [
+        10.0,
+        30.0,
+        80.0
+      ]
+    },
+    "assumptions": {
+      "quality_target": "original heterogeneous benchmark Score, not a universal correctness measure",
+      "model_pair": "reuse preselected Mixtral-8x7B and GPT-4-1106; no test-based pair search",
+      "representation": "frozen English MiniLM; chunk means lose cross-chunk relations and may underperform on Chinese/code/math",
+      "hyperparameters": "research choices; no claim of theoretical optimality",
+      "feedback": "controlled random-order replay with immediately available audited benchmark scores after each batch",
+      "router_overhead_measured": false,
+      "server_resource_parameters_measured": false
+    }
+  },
+  "config_file_sha256": "51d4b9980a60afc6a833703e20ad9e515bc5f9c9b478c74d04ca773d8029fb33",
+  "source_document_sha256": "fde0f2d3c07942303d71c8671c32c24031fd440cb8d85ff7d12e7463fdee3735",
+  "data_source_sha256": "005e4c0103954cca03add7dbaffc22fff4879b548eaae5b28865c0030507e381",
+  "previous_split_sha256": "57d5a2a75ae3e5e1faaa2d4dffa469dab1034f2122490119e6953ba929d182e6",
+  "pre_provenance": null,
+  "first_question_formal_quality_connected": false,
+  "fitted_model_reuse": {
+    "previous_run": "D:\\EuroMCM\\EuroMCM-project\\task2_neural\\runs\\minilm_gain_20261016",
+    "model_bundle_sha256": "4a84a9393042070831c7ab8f2fdcc03f4459880cb41a42ba59919dc041975529",
+    "unchanged_feature_matrix_and_training_groups_verified": true
+  },
+  "feature_provider": "minilm",
+  "feature_sha256": "f1449b97fc09143956b81b20eb7783a2f1ad3dc09edabc726abc0962caead1ef",
+  "model_bundle_sha256": "a385af1c7bca90447f4b15c97f307b9658cef604109ab049b03243ea09ec682f",
+  "source_code_sha256": {
+    "data_protocol.py": "575d53d53bd60e90fe601d6ae406646da60141b7c3b8a2cdbdcc6279b4602c28",
+    "features.py": "0febee93f334433eaec784c6b0a1e5424701e79f63c09a352f993493effbda71",
+    "network.py": "d8a5a5f6199f5d27911da268779aef30815d34107df1ef97c4782963e750f930",
+    "policies.py": "5cc7aa1fd6334fc9810df9cc4dfba3e27626c1f5aed356e94e3fb24de25d5ffa",
+    "predict.py": "1d3966a004ad3bf501e7772daa3a4eedef11752bdbf9b2f76f6d2450bcc31668",
+    "report_neural.py": "106ade113aae2b2c695a9b265a00220b728972fc56849b12da6aa80dff6cd5c2",
+    "run.py": "aecafef52081ea6955d764c55682bddb7e78d6fa0338521c0c3cd0a9000499cd",
+    "software_tests.py": "14077aa90d3f2ffd3851143302778e41cda803fb42539064c1d36823cb4f6955",
+    "validation.py": "9f5c17b040a6967886e293785c42b310b04ba0824362dd5a22633e44cb218320"
+  },
+  "reused_quality_source_sha256": "578f8d9ff2534d4952a19bd7c633a5cb4da6c6234a04c629cb3d1c1755102f84",
+  "versions": {
+    "python": "3.9.13",
+    "numpy": "1.24.4",
+    "pandas": "2.3.3",
+    "sklearn": "1.6.1",
+    "lightgbm": "4.6.0"
+  },
+  "offline_wall_seconds": 27.6306106,
+  "random_budget_from_validation": 0.9041322314049587,
+  "no_observed_router_overhead": true,
+  "accounted_resources_missing_are_not_zero": true,
+  "post_kind": "retrained_V_compatible_baseline_not_original_checkpoint",
+  "extra_compute_enabled": false,
+  "environment_compatibility": "optional Dask temporarily hidden during LightGBM import for dense local training; installed packages unchanged",
+  "test_was_previously_reported_for_old_method": true,
+  "limitation": "current-round hyperparameters use validation only; reused research holdout is not an untouched final project holdout"
+}

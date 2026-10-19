@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "new_DES": 0,
+  "new_predictions": 0,
+  "new_training": 0,
+  "saved_executions_reused_read_only": 24,
+  "quality_archive_ids_checked": 7335,
+  "unique_flip_instances_across_seeds": 290,
+  "long_statistic_rows": 5175,
+  "pass_threshold": 0.5,
+  "material_drop_threshold": 0.1,
+  "source_hashes": {
+    "D:\\EuroMCM\\EuroMCM-project\\TASK 4\\simple_assessment\\Task4_Simple_Results.csv": "d8c75578dabf75940e8b1ea409a27eec216b19dc964208b51b3c08739dadd1aa",
+    "D:\\EuroMCM\\EuroMCM-project\\task2\\inputs\\paired\\outcomes.jsonl": "40f98ec080ab01a37a3221cc8182d3a6eb20d6c5fae7c9e1aa1cec384c171149"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "strategy_executions": 24,
+  "paired_worlds": 12,
+  "seeds_per_scenario": 3,
+  "C1_C8_executions": 0,
+  "training_executed": false,
+  "all_results_trace_to_actual_executions": true,
+  "deliverables": {
+    "D:\\EuroMCM\\EuroMCM-project\\TASK 4\\simple_assessment\\Task4_Simple_Results.csv": "d8c75578dabf75940e8b1ea409a27eec216b19dc964208b51b3c08739dadd1aa",
+    "D:\\EuroMCM\\EuroMCM-project\\TASK 4\\simple_assessment\\Task4_Simple_Report_ZH.md": "1f26452fc3e00f49f8398c790daf7fb65ed299951a8a2104ff6d345a7005bd71",
+    "D:\\EuroMCM\\EuroMCM-project\\TASK 4\\simple_assessment\\Task4_Paper_Outline_EN.md": "16ac15b8ceb33b05b1b8607c3b98218062e520e62bc0435e5cd655160828bc2a",
+    "D:\\EuroMCM\\EuroMCM-project\\TASK 4\\simple_assessment\\Task4_Simple_Validation.md": "5d72a4dead26faca07e051b611564a1d7607da0c41b0c33ea458b09b505382eb",
+    "D:\\EuroMCM\\EuroMCM-project\\TASK 4\\simple_assessment\\figures\\Figure1_Robustness.png": "315f33cd9f1080ed4a9814fa2a0f2b49198557d35969da7cb88257d1a7605a99",
+    "D:\\EuroMCM\\EuroMCM-project\\TASK 4\\simple_assessment\\figures\\Figure2_Carbon_Growth.png": "f65183431901b8373501fc4b79bf0e44286307340b252b7ac37787d7c6bb9792",
+    "D:\\EuroMCM\\EuroMCM-project\\TASK 4\\simple_assessment\\figures\\Figure3_Fairness.png": "625ef81cf130b1578257809d48a062c8ca6aedee545cc0a8ac772b07221085f3"
+  },
+  "old_task4_changes": [],
+  "upstream_changes": []
+}

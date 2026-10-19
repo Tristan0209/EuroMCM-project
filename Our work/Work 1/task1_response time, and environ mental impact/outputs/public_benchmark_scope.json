@@ -1,0 +1,29 @@
+{
+  "configuration_rows": 58,
+  "models": [
+    "Qwen/Qwen3-14B",
+    "Qwen/Qwen3-32B",
+    "Qwen/Qwen3-8B"
+  ],
+  "source_files": [
+    "D:\\project\\EuroMCM-project\\AI_datasets\\ML.ENERGY\\Qwen3-14B.JSON",
+    "D:\\project\\EuroMCM-project\\AI_datasets\\ML.ENERGY\\Qwen3-32B.JSON",
+    "D:\\project\\EuroMCM-project\\AI_datasets\\ML.ENERGY\\Qwen3-8B.JSON"
+  ],
+  "source_sha256": {
+    "D:\\project\\EuroMCM-project\\AI_datasets\\ML.ENERGY\\Qwen3-14B.JSON": "501a84ad61cc191720162d664a2f47cc442b1a669260e14ae15d9fbd1b4a000c",
+    "D:\\project\\EuroMCM-project\\AI_datasets\\ML.ENERGY\\Qwen3-32B.JSON": "4b89f3cd06ce79806edacb46021ae89110374d7e5fedafc94cf83f0e8d68e2bb",
+    "D:\\project\\EuroMCM-project\\AI_datasets\\ML.ENERGY\\Qwen3-8B.JSON": "b062010f5959870fbffd4423d39b73862723a717d6a73f4bf45d97cd9a714f78"
+  },
+  "observed_metrics": "ITL, throughput, GPU energy, reported average power",
+  "not_available_in_these_summaries": [
+    "per-request end-to-end duration",
+    "queue delay",
+    "TTFT",
+    "idle server power",
+    "CPU/RAM energy"
+  ],
+  "not_fitted": "No full-request service model or server power is fitted from these summaries",
+  "consistency_check": "E_per_token * throughput approximately equals GPU power for single-GPU records; not independent empirical validation",
+  "derived_carbon": "Published GPU kWh times EEA annual factor; no PUE or missing host energy is silently added"
+}

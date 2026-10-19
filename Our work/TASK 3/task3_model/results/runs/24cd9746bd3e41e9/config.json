@@ -1,0 +1,41 @@
+{
+  "strategy": "Fixed",
+  "n": 500,
+  "rep": 0,
+  "scenario": "normal",
+  "load": 1.0,
+  "delay_scale": 1.0,
+  "spread": 0.25,
+  "network_scale": 1.0,
+  "defer_fraction": 1.0,
+  "boundary": "lifecycle",
+  "model": {
+    "router_seconds": 0.01,
+    "solve_delay_seconds": 0.01,
+    "measured_wall_fraction": 0.0,
+    "service_guard": 1.35,
+    "horizon_seconds": 10800,
+    "reoptimization_seconds": 300,
+    "arrival_batch_seconds": 0.5,
+    "candidate_steps": 5,
+    "max_batch": 64,
+    "oracle_batch": 64,
+    "solver_time_limit": 0.2,
+    "forecast_method": "persistence",
+    "forecast_noise": 0.0,
+    "controller_w": 10,
+    "controller_region": "DE",
+    "observation_horizon_seconds": 43200,
+    "record_events": true,
+    "seed": 20261017
+  },
+  "implementation_sha256": {
+    "domain.py": "b8fcb169e05c57ca7eeef2dbdda5b1f7484ffa3bae6a207c306f1d502736cc53",
+    "carbon.py": "3f18b3abc81c6c6e8a00c085eac3a4e03bc441ded06f0ba7d2f950aade1bed5f",
+    "des.py": "45edc7f083cb9f826cd46ec02a4bc0ae908c3c9487fa546c3365c0b907362786",
+    "milp.py": "1b5a78da673da4b328bcac347f919f3592213e0741305fda710a52881ffa087e",
+    "accounting.py": "b959faa4c8c25f4c740b3f2aa252074eaa874fbc0925631b1b09c49a95256c0c",
+    "power.py": "97f02fee70ffc465ff6b06a1bff089fafea8490b364bf3910d74450a89a27e4c"
+  },
+  "inputs_sha256": "aa87f511ea1bbf649e504541611ec946391762acdb988804672cb56d724885ac"
+}

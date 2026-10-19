@@ -1,0 +1,12 @@
+{
+  "task2_directory": "task2",
+  "task2_run": "runs/experiment",
+  "frozen_strategy": "Selected_finite_sample_guard",
+  "phase": "test",
+  "rep": 0,
+  "power_scenario": "dgx_8gpu_one_host_per_region_model_pool",
+  "physical_hosts_per_pool": 1,
+  "serving_slots_per_pool": 1,
+  "legacy_archive": "archives/legacy_power_175_250_20261017",
+  "infrastructure_note": "Six permanently powered hosts; one S and one L host per region. Eight installed GPUs per host do not imply eight admitted serving slots."
+}

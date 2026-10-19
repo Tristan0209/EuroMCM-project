@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "figures": [
+    {
+      "figure": "Fig1_Scenario_Dashboard",
+      "png": "png/Fig1_Scenario_Dashboard.png",
+      "png_sha256": "7dbe4eb8565401df671dc7e58ecb75dc4acba913e36353651307a39561dbb8d0",
+      "pdf": "output/pdf/Fig1_Scenario_Dashboard.pdf",
+      "pdf_sha256": "7173e8b03646827a9b6e2c4d948b6c6f7593518a1a5f3e313aa78ef2874ba031",
+      "rendered_pdf": "tmp/pdfs/Fig1_Scenario_Dashboard.png",
+      "rendered_pdf_sha256": "ddf3680b0e22a553748fa0d4f7b5230112ba56e14fe2b6cdbb68d064f63c54bd"
+    },
+    {
+      "figure": "Fig2_Carbon_Accounting",
+      "png": "png/Fig2_Carbon_Accounting.png",
+      "png_sha256": "93b02c621556aa849256dfb5d2d65237a6f261336e05c2da23d0aadb8b01601f",
+      "pdf": "output/pdf/Fig2_Carbon_Accounting.pdf",
+      "pdf_sha256": "07fddd53d544d10baefd690d5a53d021cc704537a562bde8457b0d2ad0930fd4",
+      "rendered_pdf": "tmp/pdfs/Fig2_Carbon_Accounting.png",
+      "rendered_pdf_sha256": "1c21d6adf62be2ec700ef553fee5e144e5d3965a7d80f78c44de331ec0a228e1"
+    },
+    {
+      "figure": "Fig3_Group_Tradeoffs",
+      "png": "png/Fig3_Group_Tradeoffs.png",
+      "png_sha256": "3005ff81bd5547f206eba4060f4ac293a1241c22bbd32c1e5003940b0153f66c",
+      "pdf": "output/pdf/Fig3_Group_Tradeoffs.pdf",
+      "pdf_sha256": "14de47c921136da87050485e5f987e63108122471d74541a7c694b8fc8bc7a45",
+      "rendered_pdf": "tmp/pdfs/Fig3_Group_Tradeoffs.png",
+      "rendered_pdf_sha256": "3931b3739277ed090a4e0c034991fa62f9cba4ac169d2c5ebe7749a76cf7d9fe"
+    }
+  ],
+  "review": "Each latest 400dpi PNG and each vector-PDF render inspected individually. Neutral titles, clear palette, means/denominators, log-axis label, zero-based carbon axes, contrast labels in separate right-hand gutter, no label overlap or clipping; Code values clear of bottom spine."
+}

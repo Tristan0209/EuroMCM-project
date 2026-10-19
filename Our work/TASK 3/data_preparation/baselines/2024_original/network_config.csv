@@ -1,0 +1,10 @@
+origin_region,destination_region,latency_ms,transfer_energy_kwh,allowed,provenance,energy_scope
+DE,DE,5,1e-07,1,assumed,per_request_fixed_transfer_no_measured_payload
+DE,FR,20,1e-06,1,assumed,per_request_fixed_transfer_no_measured_payload
+DE,ES,40,1e-06,1,assumed,per_request_fixed_transfer_no_measured_payload
+FR,DE,20,1e-06,1,assumed,per_request_fixed_transfer_no_measured_payload
+FR,FR,5,1e-07,1,assumed,per_request_fixed_transfer_no_measured_payload
+FR,ES,25,1e-06,1,assumed,per_request_fixed_transfer_no_measured_payload
+ES,DE,40,1e-06,1,assumed,per_request_fixed_transfer_no_measured_payload
+ES,FR,25,1e-06,1,assumed,per_request_fixed_transfer_no_measured_payload
+ES,ES,5,1e-07,1,assumed,per_request_fixed_transfer_no_measured_payload

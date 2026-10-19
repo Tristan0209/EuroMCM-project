@@ -1,0 +1,22 @@
+{
+  "selection": "ample 30-second per-solve budget + same-environment triple execution; no reliable work budget available through installed interface",
+  "model_overrides": {
+    "solver_time_limit": 30.0,
+    "highs_options": {}
+  },
+  "node_limit_honored": false,
+  "random_seed_control": "not exposed/verified; no unsupported random_seed option passed",
+  "work_limit_caveat": "Node limits 0/1 were ineffective on the hard probe (4315 nodes); max_threads/min_threads caused native failure. No unsupported node/thread/seed option passed to production. BLAS/OpenMP environment is 1; native HiGHS thread count not independently verified. No cross-platform guarantee.",
+  "scope": "same setting for Oracle and MPC; objective/candidates unchanged; old budget untouched",
+  "pilot_cases": 3,
+  "core_source": {
+    "src\\domain.py": "b8fcb169e05c57ca7eeef2dbdda5b1f7484ffa3bae6a207c306f1d502736cc53",
+    "src\\accounting.py": "b959faa4c8c25f4c740b3f2aa252074eaa874fbc0925631b1b09c49a95256c0c",
+    "src\\carbon.py": "3f18b3abc81c6c6e8a00c085eac3a4e03bc441ded06f0ba7d2f950aade1bed5f",
+    "src\\power.py": "97f02fee70ffc465ff6b06a1bff089fafea8490b364bf3910d74450a89a27e4c",
+    "results\\robustness_v2\\task_a2\\v2\\des.py": "f5dc43b7685de01d257904e652a2cf318db54c7b819538cfc97fe4347bc41eb3",
+    "results\\robustness_v2\\task_a2\\v2\\milp.py": "8c0e48b897f3a6774d504d19668dd597a5a10c2700643d754c10a3534af7fdf1",
+    "results\\robustness_v2\\task_a2\\v2\\__init__.py": "5493a571e54643dab64ff29056921a439bc51a319005558804c41888a006ae52",
+    "results\\robustness_v2\\task_a2\\configs\\protocol.json": "c132daaa0334491ff81c653f3ca767c38b333f703d2e17e3abaae25cea8869fa"
+  }
+}

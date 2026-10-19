@@ -1,0 +1,15 @@
+{
+  "n_scenarios": 27,
+  "n_independent_arrival_replica_configurations": 9,
+  "checks_pass": true,
+  "max_energy_relative_error": 4.526168558276242e-15,
+  "max_cost_identity_absolute_error_eur": 0.0,
+  "hardware_cost_share_min": 0.7734037982357554,
+  "hardware_cost_share_max": 0.9535502539638614,
+  "correlation_warning": "Same nine configurations are repriced for three regions; pooled 27-row p-values are inappropriate. Formulas induce some correlations.",
+  "external_validation_status": "NOT AVAILABLE: No matched real DGX power/energy bills or same-request RouterBench API costs.",
+  "time_warning": "Azure 2024 arrivals scaled and mapped to 2026 electricity market: counterfactual, not historical co-observation.",
+  "spot_price_warning": "Day-ahead wholesale energy price is not final datacenter retail tariff.",
+  "equipment_warning": "Full physical DGX electricity is counted, but hardware depreciation is still allocated per GPU replica (unchanged); these are mismatched cost boundaries until CAPEX accounting is aligned.",
+  "sensitivity_warning": "CAPEX/depreciation/price are coefficient sensitivities; separate power_sensitivity.csv re-integrates time-varying electricity for shared/idle assumptions with unchanged queueing."
+}

@@ -1,0 +1,13 @@
+{
+  "estimated_energy_kwh": "incremental facility busy-over-idle energy only",
+  "increment_formula": "service_seconds*(p_busy_w-p_idle_w)*pue/3.6e6",
+  "idle_base_formula": "configured_capacity*p_idle_w*common_horizon_seconds*pue/3.6e6",
+  "facility_total": "idle_base + busy_increment + controller + network; each charged exactly once",
+  "equivalent_two_state_formula": "pue*(busy_w*busy_server_seconds+idle_w*(capacity*horizon-busy_server_seconds))/3.6e6",
+  "reference_service_already_scaled": true,
+  "regional_adjustment": "reference_service_seconds * pool_multiplier / reference_model_multiplier",
+  "forbidden": "do not multiply reference_service_seconds by the S/L multiplier again",
+  "unavailability_power": "unavailable does not mean powered_off; configured idle base unchanged unless a separate measured power-state model is explicitly introduced",
+  "high_load_capacity_reduction": "assumed external contention removes usable slots; no extra RouterBench arrivals or external-job energy is fabricated",
+  "scope": "arithmetic interface only; no DES integration or schedules implemented"
+}

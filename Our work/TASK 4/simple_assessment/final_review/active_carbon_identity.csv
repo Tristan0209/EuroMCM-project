@@ -1,0 +1,4 @@
+﻿scenario,seed,policy,task_type,active_carbon_change_g,energy_volume_term_g,execution_mix_intensity_term_g,identity_residual_g,same_actual_region_hour_carbon
+Demand Growth,2029101800,Spatial across demand,All,76.7231199455625,36.950615620437645,39.77250432512485,7.105427357601002e-15,True
+Demand Growth,2029101801,Spatial across demand,All,76.13081321472576,36.610146869352455,39.52066634537329,1.4210854715202004e-14,True
+Demand Growth,2029101802,Spatial across demand,All,74.56884271869318,36.435838519248684,38.13300419944449,0.0,True

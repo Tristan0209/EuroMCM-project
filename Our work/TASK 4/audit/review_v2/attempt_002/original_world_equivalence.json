@@ -1,0 +1,22 @@
+[
+  {
+    "policy": "Greedy",
+    "n": 1000,
+    "seed": 2027101800,
+    "status": "PASS",
+    "runtime_s": 0.28822109999999945,
+    "events": 7000,
+    "solver_calls": 0,
+    "comparison": "exact events/controls; shared record, ledger and non-wall metric fields atol=1e-8"
+  },
+  {
+    "policy": "Spatial_MILP",
+    "n": 1000,
+    "seed": 2027101800,
+    "status": "PASS",
+    "runtime_s": 0.5832978999999998,
+    "events": 7974,
+    "solver_calls": 938,
+    "comparison": "exact events/controls; shared record, ledger and non-wall metric fields atol=1e-8"
+  }
+]

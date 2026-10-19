@@ -1,0 +1,17 @@
+{
+  "route_wall_s": 0.05086880000000349,
+  "simulation_wall_s": 0.07027759999999716,
+  "execution_wall_s_before_final_manifest": 0.9000909000000021,
+  "solver_calls": 157,
+  "solver_wall_s": 0.0072853000000421275,
+  "sampled_peak_rss_bytes": 405524480,
+  "rss_baseline_bytes": 404291584,
+  "memory_samples": 23,
+  "memory_method": "20ms RSS sampling; process includes persistent input/model caches; not exact transient peak",
+  "artifact_bytes_before_manifest": 169133,
+  "world_bytes": 397979,
+  "requests": 160,
+  "policy": "Spatial_MILP",
+  "world_id": "926a08fc19cb3ac9cbc42b47ee6325b97ea650b326c4de94f21b7566e68c1a44",
+  "seed": 2028101992
+}

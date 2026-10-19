@@ -1,0 +1,81 @@
+{
+  "status": "PASS",
+  "data_exactly_equal_to_original": true,
+  "checked_traces": 61,
+  "new_experiments": 0,
+  "bottom_captions": false,
+  "figure2_split_preserved": true,
+  "exports": [
+    {
+      "figure": "Fig1_Scenario_Dashboard",
+      "files": {
+        "png": {
+          "path": "png\\Fig1_Scenario_Dashboard.png",
+          "sha256": "3008867a4eea28cdffc60fe610c0c9c8d9cf39a5dcf5b2df14a186e7ef4bf996"
+        },
+        "svg": {
+          "path": "svg\\Fig1_Scenario_Dashboard.svg",
+          "sha256": "ef94ef2e22bcae0191cc164c6ed86f36fed8d0449db1ba4a58efd2e5fb11000b"
+        },
+        "pdf": {
+          "path": "pdf\\Fig1_Scenario_Dashboard.pdf",
+          "sha256": "27b7d3f32f973b9007c85b904201a37a4a240d068a20b4399bc2883f12a13b76"
+        }
+      }
+    },
+    {
+      "figure": "Fig2ab_Facility_and_Operational",
+      "files": {
+        "png": {
+          "path": "png\\Fig2ab_Facility_and_Operational.png",
+          "sha256": "38f2ef8d80a07f231687481f64cd2baae1e79954dbe42d4a7853dde3754463b5"
+        },
+        "svg": {
+          "path": "svg\\Fig2ab_Facility_and_Operational.svg",
+          "sha256": "0ad44b9f1a681e2a81d39a7e760c16646b269dc49e6ada16f0eeeb9a0906ca59"
+        },
+        "pdf": {
+          "path": "pdf\\Fig2ab_Facility_and_Operational.pdf",
+          "sha256": "dd4e860601375d9cde0d22e1093eeb938cbaeb3a006ee7be830a1a48ab9d2d9f"
+        }
+      }
+    },
+    {
+      "figure": "Fig2c_Key_Carbon_Differences",
+      "files": {
+        "png": {
+          "path": "png\\Fig2c_Key_Carbon_Differences.png",
+          "sha256": "13cd8a03a1770614bea155c97ef9ec1984f4a520462a140ffbf03c468ae05009"
+        },
+        "svg": {
+          "path": "svg\\Fig2c_Key_Carbon_Differences.svg",
+          "sha256": "9f23fa1fad952026c1f68a5818aadb494100ea447e2d73089143cafb14b8f503"
+        },
+        "pdf": {
+          "path": "pdf\\Fig2c_Key_Carbon_Differences.pdf",
+          "sha256": "a55022eabbd0da35aa1e7b20288612b022ea561363e907030e46842bc3cb3ca1"
+        }
+      }
+    },
+    {
+      "figure": "Fig3_Group_Tradeoffs",
+      "files": {
+        "png": {
+          "path": "png\\Fig3_Group_Tradeoffs.png",
+          "sha256": "0157ef67a0d60c82d5f5dd3b3df11a4c7bcf40e402dbe846ae4c05e851cad057"
+        },
+        "svg": {
+          "path": "svg\\Fig3_Group_Tradeoffs.svg",
+          "sha256": "12a046e468a59779dca28cdb0cdb57e1a02548381f6b31ce800b96e10c0513d0"
+        },
+        "pdf": {
+          "path": "pdf\\Fig3_Group_Tradeoffs.pdf",
+          "sha256": "00a75b27a92f5a4214442dadb1152a68b8eda422b98b1739e5a0b286981fa55d"
+        }
+      }
+    }
+  ],
+  "format_checks": "PASS: PNG >=300dpi, editable vector SVG; PDF labels and comparisons checked",
+  "visual_QA": "PASS: all four PDF renders inspected; no overlapping labels or clipped content",
+  "rounding": "Display formatting from full precision means, never from previously rounded labels"
+}

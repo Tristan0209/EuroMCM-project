@@ -1,0 +1,1165 @@
+{
+  "family": "Random_Forest",
+  "fallback_tasks": [
+    "Code"
+  ],
+  "rules_for_all_families": {
+    "Pre_direct": {
+      "fallback_tasks": [
+        "Code"
+      ],
+      "confirm_metrics": {
+        "requests": 3645,
+        "repetitions": 1,
+        "quality_mean": 0.7845679012345679,
+        "quality_sd": 0.0,
+        "pass_rate": 0.8499314128943759,
+        "pass_rate_sd": 0.0,
+        "quality_loss": 0.005624142661179721,
+        "quality_loss_worst": 0.005624142661179721,
+        "pass_loss": 0.005212620027434833,
+        "pass_loss_worst": 0.005212620027434833,
+        "max_task_mean_loss_worst": 0.007457257184430688,
+        "max_task_pass_loss_worst": 0.006911604219716261,
+        "model_cost_usd_mean": 0.0030088541015089168,
+        "model_cost_usd_total": 10.967273200000001,
+        "cost_saving": 0.07612506159995613,
+        "cost_saving_sd": 0.0,
+        "large_call_rate": 0.9412894375857339,
+        "upgrade_rate": 0.0,
+        "calls_mean": 1.0,
+        "final_large_rate": 0.9412894375857339,
+        "final_constraints_all_reps_ok": true,
+        "failed_reps": 0
+      }
+    },
+    "Ridge": {
+      "fallback_tasks": [
+        "Code",
+        "Math"
+      ],
+      "confirm_metrics": {
+        "requests": 3645,
+        "repetitions": 1,
+        "quality_mean": 0.7848422496570645,
+        "quality_sd": 0.0,
+        "pass_rate": 0.8502057613168724,
+        "pass_rate_sd": 0.0,
+        "quality_loss": 0.005349794238683092,
+        "quality_loss_worst": 0.005349794238683092,
+        "pass_loss": 0.004938271604938316,
+        "pass_loss_worst": 0.004938271604938316,
+        "max_task_mean_loss_worst": 0.0070934885412877735,
+        "max_task_pass_loss_worst": 0.0065478355765732354,
+        "model_cost_usd_mean": 0.003027396433470508,
+        "model_cost_usd_total": 11.034860000000002,
+        "cost_saving": 0.0704315998298366,
+        "cost_saving_sd": 0.0,
+        "large_call_rate": 0.9415637860082304,
+        "upgrade_rate": 0.0,
+        "calls_mean": 1.0,
+        "final_large_rate": 0.9415637860082304,
+        "final_constraints_all_reps_ok": true,
+        "failed_reps": 0
+      }
+    },
+    "Bayesian_Ridge": {
+      "fallback_tasks": [
+        "Code",
+        "Math"
+      ],
+      "confirm_metrics": {
+        "requests": 3645,
+        "repetitions": 1,
+        "quality_mean": 0.785048010973937,
+        "quality_sd": 0.0,
+        "pass_rate": 0.850480109739369,
+        "pass_rate_sd": 0.0,
+        "quality_loss": 0.005144032921810648,
+        "quality_loss_worst": 0.005144032921810648,
+        "pass_loss": 0.004663923182441687,
+        "pass_loss_worst": 0.004663923182441687,
+        "max_task_mean_loss_worst": 0.0068206620589305045,
+        "max_task_pass_loss_worst": 0.006184066933430321,
+        "model_cost_usd_mean": 0.0030306105898491083,
+        "model_cost_usd_total": 11.0465756,
+        "cost_saving": 0.06944468639830848,
+        "cost_saving_sd": 0.0,
+        "large_call_rate": 0.943758573388203,
+        "upgrade_rate": 0.0,
+        "calls_mean": 1.0,
+        "final_large_rate": 0.943758573388203,
+        "final_constraints_all_reps_ok": true,
+        "failed_reps": 0
+      }
+    },
+    "Logistic_Regression": {
+      "fallback_tasks": [
+        "Code"
+      ],
+      "confirm_metrics": {
+        "requests": 3645,
+        "repetitions": 1,
+        "quality_mean": 0.783676268861454,
+        "quality_sd": 0.0,
+        "pass_rate": 0.8471879286694102,
+        "pass_rate_sd": 0.0,
+        "quality_loss": 0.006515775034293569,
+        "quality_loss_worst": 0.006515775034293569,
+        "pass_loss": 0.007956104252400564,
+        "pass_loss_worst": 0.007956104252400564,
+        "max_task_mean_loss_worst": 0.007457257184430688,
+        "max_task_pass_loss_worst": 0.011723329425556761,
+        "model_cost_usd_mean": 0.002964806090534979,
+        "model_cost_usd_total": 10.806718199999999,
+        "cost_saving": 0.08965009540095792,
+        "cost_saving_sd": 0.0,
+        "large_call_rate": 0.9352537722908093,
+        "upgrade_rate": 0.0,
+        "calls_mean": 1.0,
+        "final_large_rate": 0.9352537722908093,
+        "final_constraints_all_reps_ok": true,
+        "failed_reps": 0
+      }
+    },
+    "CART": {
+      "fallback_tasks": [
+        "Code"
+      ],
+      "confirm_metrics": {
+        "requests": 3645,
+        "repetitions": 1,
+        "quality_mean": 0.782235939643347,
+        "quality_sd": 0.0,
+        "pass_rate": 0.8463648834019204,
+        "pass_rate_sd": 0.0,
+        "quality_loss": 0.007956104252400564,
+        "quality_loss_worst": 0.007956104252400564,
+        "pass_loss": 0.008779149519890339,
+        "pass_loss_worst": 0.008779149519890339,
+        "max_task_mean_loss_worst": 0.009003273917788324,
+        "max_task_pass_loss_worst": 0.009378663540445475,
+        "model_cost_usd_mean": 0.0030067108367626888,
+        "model_cost_usd_total": 10.959461000000001,
+        "cost_saving": 0.07678315551830306,
+        "cost_saving_sd": 0.0,
+        "large_call_rate": 0.9410150891632373,
+        "upgrade_rate": 0.0,
+        "calls_mean": 1.0,
+        "final_large_rate": 0.9410150891632373,
+        "final_constraints_all_reps_ok": true,
+        "failed_reps": 0
+      }
+    },
+    "LightGBM": {
+      "fallback_tasks": [
+        "Code",
+        "Math"
+      ],
+      "confirm_metrics": {
+        "requests": 3645,
+        "repetitions": 1,
+        "quality_mean": 0.7842935528120714,
+        "quality_sd": 0.0,
+        "pass_rate": 0.8496570644718793,
+        "pass_rate_sd": 0.0,
+        "quality_loss": 0.005898491083676238,
+        "quality_loss_worst": 0.005898491083676238,
+        "pass_loss": 0.005486968449931462,
+        "pass_loss_worst": 0.005486968449931462,
+        "max_task_mean_loss_worst": 0.007821025827573713,
+        "max_task_pass_loss_worst": 0.007275372862859175,
+        "model_cost_usd_mean": 0.0030392258984910845,
+        "model_cost_usd_total": 11.077978400000003,
+        "cost_saving": 0.06679933787944503,
+        "cost_saving_sd": 0.0,
+        "large_call_rate": 0.9445816186556927,
+        "upgrade_rate": 0.0,
+        "calls_mean": 1.0,
+        "final_large_rate": 0.9445816186556927,
+        "final_constraints_all_reps_ok": true,
+        "failed_reps": 0
+      }
+    },
+    "MLP": {
+      "fallback_tasks": [
+        "Code"
+      ],
+      "confirm_metrics": {
+        "requests": 3645,
+        "repetitions": 1,
+        "quality_mean": 0.7785322359396434,
+        "quality_sd": 0.0,
+        "pass_rate": 0.8417009602194787,
+        "pass_rate_sd": 0.0,
+        "quality_loss": 0.011659807956104218,
+        "quality_loss_worst": 0.011659807956104218,
+        "pass_loss": 0.013443072702332026,
+        "pass_loss_worst": 0.013443072702332026,
+        "max_task_mean_loss_worst": 0.014186977082575547,
+        "max_task_pass_loss_worst": 0.014186977082575436,
+        "model_cost_usd_mean": 0.0030363687242798356,
+        "model_cost_usd_total": 11.067564,
+        "cost_saving": 0.06767663919062927,
+        "cost_saving_sd": 0.0,
+        "large_call_rate": 0.8957475994513031,
+        "upgrade_rate": 0.0,
+        "calls_mean": 1.0,
+        "final_large_rate": 0.8957475994513031,
+        "final_constraints_all_reps_ok": true,
+        "failed_reps": 0
+      }
+    },
+    "Random_Forest": {
+      "fallback_tasks": [
+        "Code"
+      ],
+      "confirm_metrics": {
+        "requests": 3645,
+        "repetitions": 1,
+        "quality_mean": 0.7789437585733882,
+        "quality_sd": 0.0,
+        "pass_rate": 0.842798353909465,
+        "pass_rate_sd": 0.0,
+        "quality_loss": 0.011248285322359441,
+        "quality_loss_worst": 0.011248285322359441,
+        "pass_loss": 0.012345679012345734,
+        "pass_loss_worst": 0.012345679012345734,
+        "max_task_mean_loss_worst": 0.013095671153146582,
+        "max_task_pass_loss_worst": 0.012731902510003557,
+        "model_cost_usd_mean": 0.0028854865843621403,
+        "model_cost_usd_total": 10.517598600000001,
+        "cost_saving": 0.11400531549707471,
+        "cost_saving_sd": 0.0,
+        "large_call_rate": 0.9141289437585733,
+        "upgrade_rate": 0.0,
+        "calls_mean": 1.0,
+        "final_large_rate": 0.9141289437585733,
+        "final_constraints_all_reps_ok": true,
+        "failed_reps": 0
+      }
+    },
+    "LinUCB": {
+      "fallback_tasks": [
+        "Code",
+        "Math"
+      ],
+      "confirm_metrics": {
+        "requests": 3645,
+        "repetitions": 1,
+        "quality_mean": 0.7848422496570645,
+        "quality_sd": 0.0,
+        "pass_rate": 0.8502057613168724,
+        "pass_rate_sd": 0.0,
+        "quality_loss": 0.005349794238683092,
+        "quality_loss_worst": 0.005349794238683092,
+        "pass_loss": 0.004938271604938316,
+        "pass_loss_worst": 0.004938271604938316,
+        "max_task_mean_loss_worst": 0.0070934885412877735,
+        "max_task_pass_loss_worst": 0.0065478355765732354,
+        "model_cost_usd_mean": 0.003027396433470508,
+        "model_cost_usd_total": 11.034860000000002,
+        "cost_saving": 0.0704315998298366,
+        "cost_saving_sd": 0.0,
+        "large_call_rate": 0.9415637860082304,
+        "upgrade_rate": 0.0,
+        "calls_mean": 1.0,
+        "final_large_rate": 0.9415637860082304,
+        "final_constraints_all_reps_ok": true,
+        "failed_reps": 0
+      }
+    },
+    "Thompson_Sampling": {
+      "fallback_tasks": [
+        "Code"
+      ],
+      "confirm_metrics": {
+        "requests": 3645,
+        "repetitions": 5,
+        "quality_mean": 0.7838820301783265,
+        "quality_sd": 0.0003879872599103176,
+        "pass_rate": 0.8482853223593965,
+        "pass_rate_sd": 0.0006256106584906163,
+        "quality_loss": 0.006310013717421103,
+        "quality_loss_worst": 0.006995884773662531,
+        "pass_loss": 0.0068587105624142945,
+        "pass_loss_worst": 0.007407407407407418,
+        "max_task_mean_loss_worst": 0.00836667879228814,
+        "max_task_pass_loss_worst": 0.011723329425556761,
+        "model_cost_usd_mean": 0.002972138008230453,
+        "model_cost_usd_total": 10.833443040000002,
+        "cost_saving": 0.0873988147536634,
+        "cost_saving_sd": 0.0017035270885966795,
+        "large_call_rate": 0.9361316872427984,
+        "upgrade_rate": 0.0,
+        "calls_mean": 1.0,
+        "final_large_rate": 0.9361316872427984,
+        "final_constraints_all_reps_ok": true,
+        "failed_reps": 0
+      }
+    }
+  },
+  "intervals_for_all_families": {
+    "Pre_direct": {
+      "raw": [
+        {
+          "task_type": "ALL",
+          "quality_loss_low": 0.0027442182801576225,
+          "quality_loss_high": 0.009388834893863498,
+          "pass_loss_low": 0.0021947873799725653,
+          "pass_loss_high": 0.009055982436882546,
+          "cost_saving_low": 0.07518493366876393,
+          "cost_saving_high": 0.09879511957887964,
+          "scope": "conditional_prompt_group_bootstrap_not_retraining_or_server_uncertainty"
+        },
+        {
+          "task_type": "Code",
+          "quality_loss_low": -0.046511627906976744,
+          "quality_loss_high": 0.13953488372093023,
+          "pass_loss_low": -0.046511627906976744,
+          "pass_loss_high": 0.13953488372093023,
+          "cost_saving_low": 0.18934604445171047,
+          "cost_saving_high": 0.44979811955185045,
+          "scope": "conditional_prompt_group_bootstrap_not_retraining_or_server_uncertainty"
+        },
+        {
+          "task_type": "General",
+          "quality_loss_low": 0.00335994043996633,
+          "quality_loss_high": 0.011826890748621362,
+          "pass_loss_low": 0.00254728396669849,
+          "pass_loss_high": 0.011632239516208981,
+          "cost_saving_low": 0.15177055924690785,
+          "cost_saving_high": 0.1997899710572327,
+          "scope": "conditional_prompt_group_bootstrap_not_retraining_or_server_uncertainty"
+        },
+        {
+          "task_type": "Math",
+          "quality_loss_low": 0.0,
+          "quality_loss_high": 0.0,
+          "pass_loss_low": 0.0,
+          "pass_loss_high": 0.0,
+          "cost_saving_low": 0.0,
+          "cost_saving_high": 0.015000859532617466,
+          "scope": "conditional_prompt_group_bootstrap_not_retraining_or_server_uncertainty"
+        }
+      ],
+      "protected": [
+        {
+          "task_type": "ALL",
+          "quality_loss_low": 0.0024005486968449933,
+          "quality_loss_high": 0.008571154357390894,
+          "pass_loss_low": 0.0019199122325836533,
+          "pass_loss_high": 0.00823271130625686,
+          "cost_saving_low": 0.0660806671309348,
+          "cost_saving_high": 0.08720457911534954,
+          "scope": "conditional_prompt_group_bootstrap_not_retraining_or_server_uncertainty"
+        },
+        {
+          "task_type": "Code",
+          "quality_loss_low": 0.0,
+          "quality_loss_high": 0.0,
+          "pass_loss_low": 0.0,
+          "pass_loss_high": 0.0,
+          "cost_saving_low": 0.0,
+          "cost_saving_high": 0.0,
+          "scope": "conditional_prompt_group_bootstrap_not_retraining_or_server_uncertainty"
+        },
+        {
+          "task_type": "General",
+          "quality_loss_low": 0.00335994043996633,
+          "quality_loss_high": 0.011826890748621362,
+          "pass_loss_low": 0.00254728396669849,
+          "pass_loss_high": 0.011632239516208981,
+          "cost_saving_low": 0.15177055924690785,
+          "cost_saving_high": 0.1997899710572327,
+          "scope": "conditional_prompt_group_bootstrap_not_retraining_or_server_uncertainty"
+        },
+        {
+          "task_type": "Math",
+          "quality_loss_low": 0.0,
+          "quality_loss_high": 0.0,
+          "pass_loss_low": 0.0,
+          "pass_loss_high": 0.0,
+          "cost_saving_low": 0.0,
+          "cost_saving_high": 0.015000859532617466,
+          "scope": "conditional_prompt_group_bootstrap_not_retraining_or_server_uncertainty"
+        }
+      ]
+    },
+    "Ridge": {
+      "raw": [
+        {
+          "task_type": "ALL",
+          "quality_loss_low": 0.0044552851176544615,
+          "quality_loss_high": 0.011807846183852133,
+          "pass_loss_low": 0.0060322727029194605,
+          "pass_loss_high": 0.01425438596491228,
+          "cost_saving_low": 0.10690223892228408,
+          "cost_saving_high": 0.1364885228251132,
+          "scope": "conditional_prompt_group_bootstrap_not_retraining_or_server_uncertainty"
+        },
+        {
+          "task_type": "Code",
+          "quality_loss_low": -0.023255813953488372,
+          "quality_loss_high": 0.20930232558139536,
+          "pass_loss_low": -0.023255813953488372,
+          "pass_loss_high": 0.20930232558139536,
+          "cost_saving_low": 0.421770223559154,
+          "cost_saving_high": 0.7461148077126581,
+          "scope": "conditional_prompt_group_bootstrap_not_retraining_or_server_uncertainty"
+        },
+        {
+          "task_type": "General",
+          "quality_loss_low": 0.002911208151382824,
+          "quality_loss_high": 0.011468491117516749,
+          "pass_loss_low": 0.002181818181818182,
+          "pass_loss_high": 0.010921004732435385,
+          "cost_saving_low": 0.14758164579727887,
+          "cost_saving_high": 0.19272979063080184,
+          "scope": "conditional_prompt_group_bootstrap_not_retraining_or_server_uncertainty"
+        },
+        {
+          "task_type": "Math",
+          "quality_loss_low": 0.0029308323563892145,
+          "quality_loss_high": 0.013188745603751465,
+          "pass_loss_low": 0.009378663540445486,
+          "pass_loss_high": 0.026963657678780773,
+          "cost_saving_low": 0.041203695499643145,
+          "cost_saving_high": 0.07607579264006932,
+          "scope": "conditional_prompt_group_bootstrap_not_retraining_or_server_uncertainty"
+        }
+      ],
+      "protected": [
+        {
+          "task_type": "ALL",
+          "quality_loss_low": 0.0019852119002442357,
+          "quality_loss_high": 0.008168588687534322,
+          "pass_loss_low": 0.0016374913330445167,
+          "pass_loss_high": 0.007956158835991742,
+          "cost_saving_low": 0.06073555823706564,
+          "cost_saving_high": 0.08141718947169099,
+          "scope": "conditional_prompt_group_bootstrap_not_retraining_or_server_uncertainty"
+        },
+        {
+          "task_type": "Code",
+          "quality_loss_low": 0.0,
+          "quality_loss_high": 0.0,
+          "pass_loss_low": 0.0,
+          "pass_loss_high": 0.0,
+          "cost_saving_low": 0.0,
+          "cost_saving_high": 0.0,
+          "scope": "conditional_prompt_group_bootstrap_not_retraining_or_server_uncertainty"
+        },
+        {
+          "task_type": "General",
+          "quality_loss_low": 0.002911208151382824,
+          "quality_loss_high": 0.011468491117516749,
+          "pass_loss_low": 0.002181818181818182,
+          "pass_loss_high": 0.010921004732435385,
+          "cost_saving_low": 0.14758164579727887,
+          "cost_saving_high": 0.19272979063080184,
+          "scope": "conditional_prompt_group_bootstrap_not_retraining_or_server_uncertainty"
+        },
+        {
+          "task_type": "Math",
+          "quality_loss_low": 0.0,
+          "quality_loss_high": 0.0,
+          "pass_loss_low": 0.0,
+          "pass_loss_high": 0.0,
+          "cost_saving_low": 0.0,
+          "cost_saving_high": 0.0,
+          "scope": "conditional_prompt_group_bootstrap_not_retraining_or_server_uncertainty"
+        }
+      ]
+    },
+    "Bayesian_Ridge": {
+      "raw": [
+        {
+          "task_type": "ALL",
+          "quality_loss_low": 0.004940847225817271,
+          "quality_loss_high": 0.012002908221302707,
+          "pass_loss_low": 0.007403345215245407,
+          "pass_loss_high": 0.016169145973911805,
+          "cost_saving_low": 0.1209525949043352,
+          "cost_saving_high": 0.15268492531525207,
+          "scope": "conditional_prompt_group_bootstrap_not_retraining_or_server_uncertainty"
+        },
+        {
+          "task_type": "Code",
+          "quality_loss_low": -0.046511627906976744,
+          "quality_loss_high": 0.18604651162790697,
+          "pass_loss_low": -0.046511627906976744,
+          "pass_loss_high": 0.18604651162790697,
+          "cost_saving_low": 0.42273613804846333,
+          "cost_saving_high": 0.7302220015971831,
+          "scope": "conditional_prompt_group_bootstrap_not_retraining_or_server_uncertainty"
+        },
+        {
+          "task_type": "General",
+          "quality_loss_low": 0.0026373226627864677,
+          "quality_loss_high": 0.011192025605398967,
+          "pass_loss_low": 0.0018188432157148053,
+          "pass_loss_high": 0.010561731386324082,
+          "cost_saving_low": 0.14422466518363194,
+          "cost_saving_high": 0.190334905085989,
+          "scope": "conditional_prompt_group_bootstrap_not_retraining_or_server_uncertainty"
+        },
+        {
+          "task_type": "Math",
+          "quality_loss_low": 0.005861664712778429,
+          "quality_loss_high": 0.017291910902696366,
+          "pass_loss_low": 0.016412661195779603,
+          "pass_loss_high": 0.03754396248534581,
+          "cost_saving_low": 0.06810341643500106,
+          "cost_saving_high": 0.11091172187916264,
+          "scope": "conditional_prompt_group_bootstrap_not_retraining_or_server_uncertainty"
+        }
+      ],
+      "protected": [
+        {
+          "task_type": "ALL",
+          "quality_loss_low": 0.0019182361396430669,
+          "quality_loss_high": 0.008096934930069707,
+          "pass_loss_low": 0.001371732706681204,
+          "pass_loss_high": 0.007681808531302372,
+          "cost_saving_low": 0.05964855941391357,
+          "cost_saving_high": 0.0803794986275605,
+          "scope": "conditional_prompt_group_bootstrap_not_retraining_or_server_uncertainty"
+        },
+        {
+          "task_type": "Code",
+          "quality_loss_low": 0.0,
+          "quality_loss_high": 0.0,
+          "pass_loss_low": 0.0,
+          "pass_loss_high": 0.0,
+          "cost_saving_low": 0.0,
+          "cost_saving_high": 0.0,
+          "scope": "conditional_prompt_group_bootstrap_not_retraining_or_server_uncertainty"
+        },
+        {
+          "task_type": "General",
+          "quality_loss_low": 0.0026373226627864677,
+          "quality_loss_high": 0.011192025605398967,
+          "pass_loss_low": 0.0018188432157148053,
+          "pass_loss_high": 0.010561731386324082,
+          "cost_saving_low": 0.14422466518363194,
+          "cost_saving_high": 0.190334905085989,
+          "scope": "conditional_prompt_group_bootstrap_not_retraining_or_server_uncertainty"
+        },
+        {
+          "task_type": "Math",
+          "quality_loss_low": 0.0,
+          "quality_loss_high": 0.0,
+          "pass_loss_low": 0.0,
+          "pass_loss_high": 0.0,
+          "cost_saving_low": 0.0,
+          "cost_saving_high": 0.0,
+          "scope": "conditional_prompt_group_bootstrap_not_retraining_or_server_uncertainty"
+        }
+      ]
+    },
+    "Logistic_Regression": {
+      "raw": [
+        {
+          "task_type": "ALL",
+          "quality_loss_low": 0.0032939658723269115,
+          "quality_loss_high": 0.010496851021832735,
+          "pass_loss_low": 0.004391954496435881,
+          "pass_loss_high": 0.012345763711021668,
+          "cost_saving_low": 0.08995669381998232,
+          "cost_saving_high": 0.11759169374667326,
+          "scope": "conditional_prompt_group_bootstrap_not_retraining_or_server_uncertainty"
+        },
+        {
+          "task_type": "Code",
+          "quality_loss_low": -0.06976744186046512,
+          "quality_loss_high": 0.16279069767441862,
+          "pass_loss_low": -0.06976744186046512,
+          "pass_loss_high": 0.16279069767441862,
+          "cost_saving_low": 0.28082049779342716,
+          "cost_saving_high": 0.5815313178830942,
+          "scope": "conditional_prompt_group_bootstrap_not_retraining_or_server_uncertainty"
+        },
+        {
+          "task_type": "General",
+          "quality_loss_low": 0.0032749307874532637,
+          "quality_loss_high": 0.011640702481198669,
+          "pass_loss_low": 0.0025453621179111377,
+          "pass_loss_high": 0.011272829789344886,
+          "cost_saving_low": 0.13945189479976897,
+          "cost_saving_high": 0.18417685942999626,
+          "scope": "conditional_prompt_group_bootstrap_not_retraining_or_server_uncertainty"
+        },
+        {
+          "task_type": "Math",
+          "quality_loss_low": 0.0005861664712778429,
+          "quality_loss_high": 0.007041324736225082,
+          "pass_loss_low": 0.004689331770222743,
+          "pass_loss_high": 0.01992966002344666,
+          "cost_saving_low": 0.02700517725241341,
+          "cost_saving_high": 0.05810434633353311,
+          "scope": "conditional_prompt_group_bootstrap_not_retraining_or_server_uncertainty"
+        }
+      ],
+      "protected": [
+        {
+          "task_type": "ALL",
+          "quality_loss_low": 0.0028822003752616496,
+          "quality_loss_high": 0.009460024697381454,
+          "pass_loss_low": 0.0038419055922206714,
+          "pass_loss_high": 0.011525874924256645,
+          "cost_saving_low": 0.0772728407766414,
+          "cost_saving_high": 0.10230295917568286,
+          "scope": "conditional_prompt_group_bootstrap_not_retraining_or_server_uncertainty"
+        },
+        {
+          "task_type": "Code",
+          "quality_loss_low": 0.0,
+          "quality_loss_high": 0.0,
+          "pass_loss_low": 0.0,
+          "pass_loss_high": 0.0,
+          "cost_saving_low": 0.0,
+          "cost_saving_high": 0.0,
+          "scope": "conditional_prompt_group_bootstrap_not_retraining_or_server_uncertainty"
+        },
+        {
+          "task_type": "General",
+          "quality_loss_low": 0.0032749307874532637,
+          "quality_loss_high": 0.011640702481198669,
+          "pass_loss_low": 0.0025453621179111377,
+          "pass_loss_high": 0.011272829789344886,
+          "cost_saving_low": 0.13945189479976897,
+          "cost_saving_high": 0.18417685942999626,
+          "scope": "conditional_prompt_group_bootstrap_not_retraining_or_server_uncertainty"
+        },
+        {
+          "task_type": "Math",
+          "quality_loss_low": 0.0005861664712778429,
+          "quality_loss_high": 0.007041324736225082,
+          "pass_loss_low": 0.004689331770222743,
+          "pass_loss_high": 0.01992966002344666,
+          "cost_saving_low": 0.02700517725241341,
+          "cost_saving_high": 0.05810434633353311,
+          "scope": "conditional_prompt_group_bootstrap_not_retraining_or_server_uncertainty"
+        }
+      ]
+    },
+    "CART": {
+      "raw": [
+        {
+          "task_type": "ALL",
+          "quality_loss_low": 0.004666419655185528,
+          "quality_loss_high": 0.011455682308138575,
+          "pass_loss_low": 0.005212584285388576,
+          "pass_loss_high": 0.012623490669593854,
+          "cost_saving_low": 0.06627679032453773,
+          "cost_saving_high": 0.0910304598111668,
+          "scope": "conditional_prompt_group_bootstrap_not_retraining_or_server_uncertainty"
+        },
+        {
+          "task_type": "Code",
+          "quality_loss_low": 0.0,
+          "quality_loss_high": 0.06976744186046512,
+          "pass_loss_low": 0.0,
+          "pass_loss_high": 0.06976744186046512,
+          "cost_saving_low": 0.0,
+          "cost_saving_high": 0.10434574769772643,
+          "scope": "conditional_prompt_group_bootstrap_not_retraining_or_server_uncertainty"
+        },
+        {
+          "task_type": "General",
+          "quality_loss_low": 0.004728354505756253,
+          "quality_loss_high": 0.013646412402255418,
+          "pass_loss_low": 0.004363636363636364,
+          "pass_loss_high": 0.01345943979628956,
+          "cost_saving_low": 0.13136875661866076,
+          "cost_saving_high": 0.1728438497175123,
+          "scope": "conditional_prompt_group_bootstrap_not_retraining_or_server_uncertainty"
+        },
+        {
+          "task_type": "Math",
+          "quality_loss_low": 0.0014654161781946073,
+          "quality_loss_high": 0.008792497069167644,
+          "pass_loss_low": 0.0035169988276670576,
+          "pass_loss_high": 0.016412661195779603,
+          "cost_saving_low": 0.013356064514366914,
+          "cost_saving_high": 0.03851130796157503,
+          "scope": "conditional_prompt_group_bootstrap_not_retraining_or_server_uncertainty"
+        }
+      ],
+      "protected": [
+        {
+          "task_type": "ALL",
+          "quality_loss_low": 0.004459385290889133,
+          "quality_loss_high": 0.011047040923068957,
+          "pass_loss_low": 0.00493959290428372,
+          "pass_loss_high": 0.01233916264875842,
+          "cost_saving_low": 0.06519329462221106,
+          "cost_saving_high": 0.08934712847729048,
+          "scope": "conditional_prompt_group_bootstrap_not_retraining_or_server_uncertainty"
+        },
+        {
+          "task_type": "Code",
+          "quality_loss_low": 0.0,
+          "quality_loss_high": 0.0,
+          "pass_loss_low": 0.0,
+          "pass_loss_high": 0.0,
+          "cost_saving_low": 0.0,
+          "cost_saving_high": 0.0,
+          "scope": "conditional_prompt_group_bootstrap_not_retraining_or_server_uncertainty"
+        },
+        {
+          "task_type": "General",
+          "quality_loss_low": 0.004728354505756253,
+          "quality_loss_high": 0.013646412402255418,
+          "pass_loss_low": 0.004363636363636364,
+          "pass_loss_high": 0.01345943979628956,
+          "cost_saving_low": 0.13136875661866076,
+          "cost_saving_high": 0.1728438497175123,
+          "scope": "conditional_prompt_group_bootstrap_not_retraining_or_server_uncertainty"
+        },
+        {
+          "task_type": "Math",
+          "quality_loss_low": 0.0014654161781946073,
+          "quality_loss_high": 0.008792497069167644,
+          "pass_loss_low": 0.0035169988276670576,
+          "pass_loss_high": 0.016412661195779603,
+          "cost_saving_low": 0.013356064514366914,
+          "cost_saving_high": 0.03851130796157503,
+          "scope": "conditional_prompt_group_bootstrap_not_retraining_or_server_uncertainty"
+        }
+      ]
+    },
+    "LightGBM": {
+      "raw": [
+        {
+          "task_type": "ALL",
+          "quality_loss_low": 0.0036343012185375626,
+          "quality_loss_high": 0.0104984220636663,
+          "pass_loss_low": 0.006033968511002739,
+          "pass_loss_high": 0.014250772722769724,
+          "cost_saving_low": 0.10051098458836431,
+          "cost_saving_high": 0.1282987226667718,
+          "scope": "conditional_prompt_group_bootstrap_not_retraining_or_server_uncertainty"
+        },
+        {
+          "task_type": "Code",
+          "quality_loss_low": -0.06976744186046512,
+          "quality_loss_high": 0.06976744186046512,
+          "pass_loss_low": -0.06976744186046512,
+          "pass_loss_high": 0.06976744186046512,
+          "cost_saving_low": 0.16656777468616457,
+          "cost_saving_high": 0.45306858367402736,
+          "scope": "conditional_prompt_group_bootstrap_not_retraining_or_server_uncertainty"
+        },
+        {
+          "task_type": "General",
+          "quality_loss_low": 0.003546957010954099,
+          "quality_loss_high": 0.012190795079348173,
+          "pass_loss_low": 0.002909090909090909,
+          "pass_loss_high": 0.011658063262344144,
+          "cost_saving_low": 0.1384811782662753,
+          "cost_saving_high": 0.1835286294546785,
+          "scope": "conditional_prompt_group_bootstrap_not_retraining_or_server_uncertainty"
+        },
+        {
+          "task_type": "Math",
+          "quality_loss_low": 0.0008792497069167644,
+          "quality_loss_high": 0.010550996483001172,
+          "pass_loss_low": 0.010550996483001172,
+          "pass_loss_high": 0.029308323563892145,
+          "cost_saving_low": 0.05177190582110533,
+          "cost_saving_high": 0.08380576253126727,
+          "scope": "conditional_prompt_group_bootstrap_not_retraining_or_server_uncertainty"
+        }
+      ],
+      "protected": [
+        {
+          "task_type": "ALL",
+          "quality_loss_low": 0.0026060252539116114,
+          "quality_loss_high": 0.00891638490240454,
+          "pass_loss_low": 0.00219417036763736,
+          "pass_loss_high": 0.008507135016465422,
+          "cost_saving_low": 0.05723674848387789,
+          "cost_saving_high": 0.07734870903471378,
+          "scope": "conditional_prompt_group_bootstrap_not_retraining_or_server_uncertainty"
+        },
+        {
+          "task_type": "Code",
+          "quality_loss_low": 0.0,
+          "quality_loss_high": 0.0,
+          "pass_loss_low": 0.0,
+          "pass_loss_high": 0.0,
+          "cost_saving_low": 0.0,
+          "cost_saving_high": 0.0,
+          "scope": "conditional_prompt_group_bootstrap_not_retraining_or_server_uncertainty"
+        },
+        {
+          "task_type": "General",
+          "quality_loss_low": 0.003546957010954099,
+          "quality_loss_high": 0.012190795079348173,
+          "pass_loss_low": 0.002909090909090909,
+          "pass_loss_high": 0.011658063262344144,
+          "cost_saving_low": 0.1384811782662753,
+          "cost_saving_high": 0.1835286294546785,
+          "scope": "conditional_prompt_group_bootstrap_not_retraining_or_server_uncertainty"
+        },
+        {
+          "task_type": "Math",
+          "quality_loss_low": 0.0,
+          "quality_loss_high": 0.0,
+          "pass_loss_low": 0.0,
+          "pass_loss_high": 0.0,
+          "cost_saving_low": 0.0,
+          "cost_saving_high": 0.0,
+          "scope": "conditional_prompt_group_bootstrap_not_retraining_or_server_uncertainty"
+        }
+      ]
+    },
+    "MLP": {
+      "raw": [
+        {
+          "task_type": "ALL",
+          "quality_loss_low": 0.007880369294564572,
+          "quality_loss_high": 0.01625068568294021,
+          "pass_loss_low": 0.009058406148899006,
+          "pass_loss_high": 0.018376302797586397,
+          "cost_saving_low": 0.07124323387731844,
+          "cost_saving_high": 0.09468233788796951,
+          "scope": "conditional_prompt_group_bootstrap_not_retraining_or_server_uncertainty"
+        },
+        {
+          "task_type": "Code",
+          "quality_loss_low": -0.06976744186046512,
+          "quality_loss_high": 0.13953488372093023,
+          "pass_loss_low": -0.06976744186046512,
+          "pass_loss_high": 0.13953488372093023,
+          "cost_saving_low": 0.32195134052359425,
+          "cost_saving_high": 0.629289436832265,
+          "scope": "conditional_prompt_group_bootstrap_not_retraining_or_server_uncertainty"
+        },
+        {
+          "task_type": "General",
+          "quality_loss_low": 0.009457984721716987,
+          "quality_loss_high": 0.01956440819520461,
+          "pass_loss_low": 0.00945781282086781,
+          "pass_loss_high": 0.019636363636363636,
+          "cost_saving_low": 0.09786579450257772,
+          "cost_saving_high": 0.12971307517321498,
+          "scope": "conditional_prompt_group_bootstrap_not_retraining_or_server_uncertainty"
+        },
+        {
+          "task_type": "Math",
+          "quality_loss_low": 0.0011723329425556857,
+          "quality_loss_high": 0.007334407971864003,
+          "pass_loss_low": 0.005861664712778429,
+          "pass_loss_high": 0.01992966002344666,
+          "cost_saving_low": 0.02361735820391451,
+          "cost_saving_high": 0.05065082177957952,
+          "scope": "conditional_prompt_group_bootstrap_not_retraining_or_server_uncertainty"
+        }
+      ],
+      "protected": [
+        {
+          "task_type": "ALL",
+          "quality_loss_low": 0.007885695272398194,
+          "quality_loss_high": 0.01577947162249422,
+          "pass_loss_low": 0.009051014810751509,
+          "pass_loss_high": 0.017827878720841076,
+          "cost_saving_low": 0.05767661039498799,
+          "cost_saving_high": 0.07792343351549426,
+          "scope": "conditional_prompt_group_bootstrap_not_retraining_or_server_uncertainty"
+        },
+        {
+          "task_type": "Code",
+          "quality_loss_low": 0.0,
+          "quality_loss_high": 0.0,
+          "pass_loss_low": 0.0,
+          "pass_loss_high": 0.0,
+          "cost_saving_low": 0.0,
+          "cost_saving_high": 0.0,
+          "scope": "conditional_prompt_group_bootstrap_not_retraining_or_server_uncertainty"
+        },
+        {
+          "task_type": "General",
+          "quality_loss_low": 0.009457984721716987,
+          "quality_loss_high": 0.01956440819520461,
+          "pass_loss_low": 0.00945781282086781,
+          "pass_loss_high": 0.019636363636363636,
+          "cost_saving_low": 0.09786579450257772,
+          "cost_saving_high": 0.12971307517321498,
+          "scope": "conditional_prompt_group_bootstrap_not_retraining_or_server_uncertainty"
+        },
+        {
+          "task_type": "Math",
+          "quality_loss_low": 0.0011723329425556857,
+          "quality_loss_high": 0.007334407971864003,
+          "pass_loss_low": 0.005861664712778429,
+          "pass_loss_high": 0.01992966002344666,
+          "cost_saving_low": 0.02361735820391451,
+          "cost_saving_high": 0.05065082177957952,
+          "scope": "conditional_prompt_group_bootstrap_not_retraining_or_server_uncertainty"
+        }
+      ]
+    },
+    "Random_Forest": {
+      "raw": [
+        {
+          "task_type": "ALL",
+          "quality_loss_low": 0.0076781437037813545,
+          "quality_loss_high": 0.015506654774972557,
+          "pass_loss_low": 0.00850480109739369,
+          "pass_loss_high": 0.01700960219478738,
+          "cost_saving_low": 0.10816866469312486,
+          "cost_saving_high": 0.13641995066985121,
+          "scope": "conditional_prompt_group_bootstrap_not_retraining_or_server_uncertainty"
+        },
+        {
+          "task_type": "Code",
+          "quality_loss_low": -0.046511627906976744,
+          "quality_loss_high": 0.09302325581395349,
+          "pass_loss_low": -0.046511627906976744,
+          "pass_loss_high": 0.09302325581395349,
+          "cost_saving_low": 0.11118150991128357,
+          "cost_saving_high": 0.36782217443173076,
+          "scope": "conditional_prompt_group_bootstrap_not_retraining_or_server_uncertainty"
+        },
+        {
+          "task_type": "General",
+          "quality_loss_low": 0.008088927696484142,
+          "quality_loss_high": 0.01828325083902649,
+          "pass_loss_low": 0.0076363636363636364,
+          "pass_loss_high": 0.01818198353120143,
+          "cost_saving_low": 0.18855017733760643,
+          "cost_saving_high": 0.23746340566213356,
+          "scope": "conditional_prompt_group_bootstrap_not_retraining_or_server_uncertainty"
+        },
+        {
+          "task_type": "Math",
+          "quality_loss_low": 0.002637749120750293,
+          "quality_loss_high": 0.00996483001172333,
+          "pass_loss_low": 0.005861664712778429,
+          "pass_loss_high": 0.01992966002344666,
+          "cost_saving_low": 0.031816392416995784,
+          "cost_saving_high": 0.062161801035497476,
+          "scope": "conditional_prompt_group_bootstrap_not_retraining_or_server_uncertainty"
+        }
+      ],
+      "protected": [
+        {
+          "task_type": "ALL",
+          "quality_loss_low": 0.007605349737834814,
+          "quality_loss_high": 0.015145700710251892,
+          "pass_loss_low": 0.00823045267489712,
+          "pass_loss_high": 0.016739961199515603,
+          "cost_saving_low": 0.10140236230074451,
+          "cost_saving_high": 0.12889346520654751,
+          "scope": "conditional_prompt_group_bootstrap_not_retraining_or_server_uncertainty"
+        },
+        {
+          "task_type": "Code",
+          "quality_loss_low": 0.0,
+          "quality_loss_high": 0.0,
+          "pass_loss_low": 0.0,
+          "pass_loss_high": 0.0,
+          "cost_saving_low": 0.0,
+          "cost_saving_high": 0.0,
+          "scope": "conditional_prompt_group_bootstrap_not_retraining_or_server_uncertainty"
+        },
+        {
+          "task_type": "General",
+          "quality_loss_low": 0.008088927696484142,
+          "quality_loss_high": 0.01828325083902649,
+          "pass_loss_low": 0.0076363636363636364,
+          "pass_loss_high": 0.01818198353120143,
+          "cost_saving_low": 0.18855017733760643,
+          "cost_saving_high": 0.23746340566213356,
+          "scope": "conditional_prompt_group_bootstrap_not_retraining_or_server_uncertainty"
+        },
+        {
+          "task_type": "Math",
+          "quality_loss_low": 0.002637749120750293,
+          "quality_loss_high": 0.00996483001172333,
+          "pass_loss_low": 0.005861664712778429,
+          "pass_loss_high": 0.01992966002344666,
+          "cost_saving_low": 0.031816392416995784,
+          "cost_saving_high": 0.062161801035497476,
+          "scope": "conditional_prompt_group_bootstrap_not_retraining_or_server_uncertainty"
+        }
+      ]
+    },
+    "LinUCB": {
+      "raw": [
+        {
+          "task_type": "ALL",
+          "quality_loss_low": 0.0044552851176544615,
+          "quality_loss_high": 0.011807846183852133,
+          "pass_loss_low": 0.0060322727029194605,
+          "pass_loss_high": 0.01425438596491228,
+          "cost_saving_low": 0.10690223892228408,
+          "cost_saving_high": 0.1364885228251132,
+          "scope": "conditional_prompt_group_bootstrap_not_retraining_or_server_uncertainty"
+        },
+        {
+          "task_type": "Code",
+          "quality_loss_low": -0.023255813953488372,
+          "quality_loss_high": 0.20930232558139536,
+          "pass_loss_low": -0.023255813953488372,
+          "pass_loss_high": 0.20930232558139536,
+          "cost_saving_low": 0.421770223559154,
+          "cost_saving_high": 0.7461148077126581,
+          "scope": "conditional_prompt_group_bootstrap_not_retraining_or_server_uncertainty"
+        },
+        {
+          "task_type": "General",
+          "quality_loss_low": 0.002911208151382824,
+          "quality_loss_high": 0.011468491117516749,
+          "pass_loss_low": 0.002181818181818182,
+          "pass_loss_high": 0.010921004732435385,
+          "cost_saving_low": 0.14758164579727887,
+          "cost_saving_high": 0.19272979063080184,
+          "scope": "conditional_prompt_group_bootstrap_not_retraining_or_server_uncertainty"
+        },
+        {
+          "task_type": "Math",
+          "quality_loss_low": 0.0029308323563892145,
+          "quality_loss_high": 0.013188745603751465,
+          "pass_loss_low": 0.009378663540445486,
+          "pass_loss_high": 0.026963657678780773,
+          "cost_saving_low": 0.041203695499643145,
+          "cost_saving_high": 0.07607579264006932,
+          "scope": "conditional_prompt_group_bootstrap_not_retraining_or_server_uncertainty"
+        }
+      ],
+      "protected": [
+        {
+          "task_type": "ALL",
+          "quality_loss_low": 0.0019852119002442357,
+          "quality_loss_high": 0.008168588687534322,
+          "pass_loss_low": 0.0016374913330445167,
+          "pass_loss_high": 0.007956158835991742,
+          "cost_saving_low": 0.06073555823706564,
+          "cost_saving_high": 0.08141718947169099,
+          "scope": "conditional_prompt_group_bootstrap_not_retraining_or_server_uncertainty"
+        },
+        {
+          "task_type": "Code",
+          "quality_loss_low": 0.0,
+          "quality_loss_high": 0.0,
+          "pass_loss_low": 0.0,
+          "pass_loss_high": 0.0,
+          "cost_saving_low": 0.0,
+          "cost_saving_high": 0.0,
+          "scope": "conditional_prompt_group_bootstrap_not_retraining_or_server_uncertainty"
+        },
+        {
+          "task_type": "General",
+          "quality_loss_low": 0.002911208151382824,
+          "quality_loss_high": 0.011468491117516749,
+          "pass_loss_low": 0.002181818181818182,
+          "pass_loss_high": 0.010921004732435385,
+          "cost_saving_low": 0.14758164579727887,
+          "cost_saving_high": 0.19272979063080184,
+          "scope": "conditional_prompt_group_bootstrap_not_retraining_or_server_uncertainty"
+        },
+        {
+          "task_type": "Math",
+          "quality_loss_low": 0.0,
+          "quality_loss_high": 0.0,
+          "pass_loss_low": 0.0,
+          "pass_loss_high": 0.0,
+          "cost_saving_low": 0.0,
+          "cost_saving_high": 0.0,
+          "scope": "conditional_prompt_group_bootstrap_not_retraining_or_server_uncertainty"
+        }
+      ]
+    },
+    "Thompson_Sampling": {
+      "raw": [
+        {
+          "task_type": "ALL",
+          "quality_loss_low": 0.003306462678375411,
+          "quality_loss_high": 0.008976804831183089,
+          "pass_loss_low": 0.0037321112772338806,
+          "pass_loss_high": 0.009813731071541992,
+          "cost_saving_low": 0.07754057523553647,
+          "cost_saving_high": 0.09805206070367382,
+          "scope": "conditional_prompt_group_bootstrap_not_retraining_or_server_uncertainty"
+        },
+        {
+          "task_type": "Code",
+          "quality_loss_low": 0.0,
+          "quality_loss_high": 0.01395348837209302,
+          "pass_loss_low": 0.0,
+          "pass_loss_high": 0.01395348837209302,
+          "cost_saving_low": 0.0,
+          "cost_saving_high": 0.025791708700591342,
+          "scope": "conditional_prompt_group_bootstrap_not_retraining_or_server_uncertainty"
+        },
+        {
+          "task_type": "General",
+          "quality_loss_low": 0.0031253115183204525,
+          "quality_loss_high": 0.011249999999999998,
+          "pass_loss_low": 0.0025409768673687197,
+          "pass_loss_high": 0.010909190118720857,
+          "cost_saving_low": 0.14619527174272462,
+          "cost_saving_high": 0.18864551324350196,
+          "scope": "conditional_prompt_group_bootstrap_not_retraining_or_server_uncertainty"
+        },
+        {
+          "task_type": "Math",
+          "quality_loss_low": 0.0018742672919109026,
+          "quality_loss_high": 0.006273446658851112,
+          "pass_loss_low": 0.004689331770222743,
+          "pass_loss_high": 0.011957796014067995,
+          "cost_saving_low": 0.02400620323443996,
+          "cost_saving_high": 0.04034428372704972,
+          "scope": "conditional_prompt_group_bootstrap_not_retraining_or_server_uncertainty"
+        }
+      ],
+      "protected": [
+        {
+          "task_type": "ALL",
+          "quality_loss_low": 0.003292719000661026,
+          "quality_loss_high": 0.008922186659798666,
+          "pass_loss_low": 0.0036782871259950587,
+          "pass_loss_high": 0.009758838825711111,
+          "cost_saving_low": 0.07697541264301688,
+          "cost_saving_high": 0.09781584300304279,
+          "scope": "conditional_prompt_group_bootstrap_not_retraining_or_server_uncertainty"
+        },
+        {
+          "task_type": "Code",
+          "quality_loss_low": 0.0,
+          "quality_loss_high": 0.0,
+          "pass_loss_low": 0.0,
+          "pass_loss_high": 0.0,
+          "cost_saving_low": -2.220446049250313e-16,
+          "cost_saving_high": 1.1102230246251565e-16,
+          "scope": "conditional_prompt_group_bootstrap_not_retraining_or_server_uncertainty"
+        },
+        {
+          "task_type": "General",
+          "quality_loss_low": 0.0031253115183204525,
+          "quality_loss_high": 0.011249999999999998,
+          "pass_loss_low": 0.0025409768673687197,
+          "pass_loss_high": 0.010909190118720857,
+          "cost_saving_low": 0.14619527174272462,
+          "cost_saving_high": 0.18864551324350196,
+          "scope": "conditional_prompt_group_bootstrap_not_retraining_or_server_uncertainty"
+        },
+        {
+          "task_type": "Math",
+          "quality_loss_low": 0.0018742672919109026,
+          "quality_loss_high": 0.006273446658851112,
+          "pass_loss_low": 0.004689331770222743,
+          "pass_loss_high": 0.011957796014067995,
+          "cost_saving_low": 0.02400620323443996,
+          "cost_saving_high": 0.04034428372704972,
+          "scope": "conditional_prompt_group_bootstrap_not_retraining_or_server_uncertainty"
+        }
+      ]
+    }
+  },
+  "uncertainty_scope": "conditional fixed policies; does not account for model selection, retraining, unseen drift or hardware error"
+}

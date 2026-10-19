@@ -1,0 +1,7 @@
+{
+  "cached_model": "D:\\project\\EuroMCM-project\\task2\\support\\rf_baseline\\trained_models.joblib",
+  "sha256": "eea888788864c6eca2a0dcfce2dc4da7279311d0ef3a0490e4987d06b3ce15e2",
+  "same_original_features_sha256": true,
+  "not_eligible_for_main_model_choice": true,
+  "reason": "Prior architecture selected in earlier research; descriptive matched ablation only"
+}

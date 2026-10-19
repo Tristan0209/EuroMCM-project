@@ -1,0 +1,45 @@
+{
+  "scope": "necessary_conditions_only",
+  "scenarios": [
+    {
+      "scenario": "normal",
+      "requests": 7335,
+      "individually_impossible_under_estimates": 0,
+      "sampled_capacity_bounds": 240,
+      "violated_capacity_bounds": 0,
+      "necessary_checks_satisfied": true,
+      "joint_feasibility": "not_established_no_scheduler_or_optimization_run",
+      "uncertainty": "deterministic prior estimates only; stochastic overruns not guaranteed",
+      "queue_wait_definition": "time from arrival+router+network_control+one_way_transfer until service starts",
+      "capacity_semantics": "positive capacity must persist through isolated nonpreemptive service; no assumption about actual in-flight cancellation",
+      "sample_scope": "all region subsets, sampled windows only; passing does not prove all capacity inequalities"
+    },
+    {
+      "scenario": "local_failure",
+      "requests": 7335,
+      "individually_impossible_under_estimates": 0,
+      "sampled_capacity_bounds": 240,
+      "violated_capacity_bounds": 0,
+      "necessary_checks_satisfied": true,
+      "joint_feasibility": "not_established_no_scheduler_or_optimization_run",
+      "uncertainty": "deterministic prior estimates only; stochastic overruns not guaranteed",
+      "queue_wait_definition": "time from arrival+router+network_control+one_way_transfer until service starts",
+      "capacity_semantics": "positive capacity must persist through isolated nonpreemptive service; no assumption about actual in-flight cancellation",
+      "sample_scope": "all region subsets, sampled windows only; passing does not prove all capacity inequalities"
+    },
+    {
+      "scenario": "high_load_capacity_reduction",
+      "requests": 7335,
+      "individually_impossible_under_estimates": 0,
+      "sampled_capacity_bounds": 240,
+      "violated_capacity_bounds": 0,
+      "necessary_checks_satisfied": true,
+      "joint_feasibility": "not_established_no_scheduler_or_optimization_run",
+      "uncertainty": "deterministic prior estimates only; stochastic overruns not guaranteed",
+      "queue_wait_definition": "time from arrival+router+network_control+one_way_transfer until service starts",
+      "capacity_semantics": "positive capacity must persist through isolated nonpreemptive service; no assumption about actual in-flight cancellation",
+      "sample_scope": "all region subsets, sampled windows only; passing does not prove all capacity inequalities"
+    }
+  ],
+  "no_MILP_MPC_DES_models_built": true
+}

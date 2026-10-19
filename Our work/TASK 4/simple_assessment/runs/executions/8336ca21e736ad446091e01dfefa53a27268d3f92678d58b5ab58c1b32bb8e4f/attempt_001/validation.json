@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "requests": 11002,
+  "checks": [
+    "IDs/terminals",
+    "H",
+    "admission/queue lifecycle",
+    "partial busy/controller",
+    "host/PUE/network",
+    "independent carbon quadrature",
+    "causal metadata",
+    "quality/causes"
+  ],
+  "world_id": "3d9b955d81b408e62cfbcebcdacc3c24d09c3dad4cd6fbff7732ee2413367769",
+  "scope": "software conservation; not empirical validity of assumptions"
+}

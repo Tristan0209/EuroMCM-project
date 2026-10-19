@@ -1,0 +1,40 @@
+{
+  "source": "D:\\EuroMCM\\EuroMCM-project\\AI_datasets\\RouterBench\\routerbench_0shot.csv",
+  "source_sha256": "005e4c0103954cca03add7dbaffc22fff4879b548eaae5b28865c0030507e381",
+  "raw_requests": 36497,
+  "eligible_requests": 36417,
+  "outcome_rows": 72834,
+  "excluded_requests": 80,
+  "exclusion_reasons": {
+    "multi_turn_response_outside_single_turn_scope": 80
+  },
+  "split_counts": {
+    "train": 21822,
+    "test": 7335,
+    "validation": 7260
+  },
+  "task_split_counts": {
+    "test": {
+      "Code": 86,
+      "General": 5539,
+      "Math": 1710
+    },
+    "train": {
+      "Code": 256,
+      "General": 16451,
+      "Math": 5115
+    },
+    "validation": {
+      "Code": 85,
+      "General": 5471,
+      "Math": 1704
+    }
+  },
+  "benchmarks": 83,
+  "duplicate_normalized_prompts": 16,
+  "split_sha256": "57d5a2a75ae3e5e1faaa2d4dffa469dab1034f2122490119e6953ba929d182e6",
+  "oracle_column_used": false,
+  "length_unit": "regex length proxy, not actual model token count",
+  "cost_unit": "historical dataset USD; not current API quotes",
+  "quality_scale": "original benchmark score in [0,1]; heterogeneous task meaning retained"
+}

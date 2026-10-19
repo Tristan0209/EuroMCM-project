@@ -1,0 +1,58 @@
+{
+  "traces": {
+    "azure_conversation": {
+      "source_file": "D:\\project\\EuroMCM-project\\AI_datasets\\Azure\\AzureLLMInferenceTrace_conv_1week.csv",
+      "source_file_bytes": 1135195393,
+      "source_physical_data_rows": 27303999,
+      "sha256": "a0cc9b969a9bbf0fd811802cbf4323edd3a209ace791e3799ad4f9207f213941",
+      "full_file_audit": "SHA256 and physical-line count; parsed validity is checked only for rows_read",
+      "raw_rows_read": 20000,
+      "simulation_eligible_rows": 20000,
+      "excluded_rows": 0,
+      "original_start_utc": "2024-05-12T00:00:00.001163+00:00",
+      "invalid_reason_counts_may_overlap": {
+        "invalid_timestamp": 0,
+        "invalid_input_length": 0,
+        "invalid_output_length": 0
+      },
+      "original_span_s": 778.424995,
+      "observed_prefix_rate_per_s": 25.691621066201762,
+      "duplicate_timestamps_retained": 0,
+      "has_measured_latency": false,
+      "has_measured_energy": false,
+      "sample_design": "contiguous prefix, not representative of a full week"
+    },
+    "azure_code": {
+      "source_file": "D:\\project\\EuroMCM-project\\AI_datasets\\Azure\\AzureLLMInferenceTrace_code_1week.csv",
+      "source_file_bytes": 691989454,
+      "source_physical_data_rows": 16803695,
+      "sha256": "71de5c55cbc35f8f1ed0b6b7806b4cd1e9764b0058469725a6aac98023a1448f",
+      "full_file_audit": "SHA256 and physical-line count; parsed validity is checked only for rows_read",
+      "raw_rows_read": 20000,
+      "simulation_eligible_rows": 20000,
+      "excluded_rows": 0,
+      "original_start_utc": "2024-05-10T00:00:00.009930+00:00",
+      "invalid_reason_counts_may_overlap": {
+        "invalid_timestamp": 0,
+        "invalid_input_length": 0,
+        "invalid_output_length": 0
+      },
+      "original_span_s": 857.084463,
+      "observed_prefix_rate_per_s": 23.333756313816178,
+      "duplicate_timestamps_retained": 0,
+      "has_measured_latency": false,
+      "has_measured_energy": false,
+      "sample_design": "contiguous prefix, not representative of a full week"
+    }
+  },
+  "warnings": [],
+  "neso": {
+    "source_file": "D:\\project\\EuroMCM-project\\AI_datasets\\NESO\\NESO.JSON",
+    "sha256": "57db2a5bc021f93718367321683885f3a1edebfc54fecfbbfe008101b7dbcd06",
+    "usable_intervals": 336,
+    "coverage_start_s": 0.0,
+    "coverage_end_s": 604800.0
+  },
+  "carbon_sources_are_not_interchangeable": "EEA CO2e, Ember lifecycle electricity CO2e and NESO operational CO2 have different boundaries",
+  "eea_country_file": "Not used: the existing export contains conflicting packed trailing columns"
+}

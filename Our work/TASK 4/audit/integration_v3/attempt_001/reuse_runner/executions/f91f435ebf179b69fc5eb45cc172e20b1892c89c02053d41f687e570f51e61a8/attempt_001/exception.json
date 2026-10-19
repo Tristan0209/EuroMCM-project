@@ -1,0 +1,6 @@
+{
+  "exception": "RuntimeError('intentional contract failure')",
+  "traceback": "Traceback (most recent call last):\n  File \"D:\\EuroMCM\\EuroMCM-project\\TASK 4\\task4_core\\runner.py\", line 146, in execute\n    summary, records, ledger = evaluate_window(sim)\n  File \"D:\\anaconda\\lib\\unittest\\mock.py\", line 1092, in __call__\n    return self._mock_call(*args, **kwargs)\n  File \"D:\\anaconda\\lib\\unittest\\mock.py\", line 1096, in _mock_call\n    return self._execute_mock_call(*args, **kwargs)\n  File \"D:\\anaconda\\lib\\unittest\\mock.py\", line 1151, in _execute_mock_call\n    raise effect\nRuntimeError: intentional contract failure\n",
+  "elapsed_s": 0.5679371000000089,
+  "metrics_missing_are_not_zero": true
+}

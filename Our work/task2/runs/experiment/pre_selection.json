@@ -1,0 +1,26 @@
+{
+  "selected_on": "selection_partition_only_S_L",
+  "winner": "A_Baseline",
+  "candidates": [
+    {
+      "variant": "A_Baseline",
+      "select_rmse": 0.3759009405690219,
+      "select_mae": 0.30444951073763815
+    },
+    {
+      "variant": "B_Ability",
+      "select_rmse": 0.37616483566550024,
+      "select_mae": 0.3054343326441584
+    },
+    {
+      "variant": "C_Difficulty",
+      "select_rmse": 0.3761139030483373,
+      "select_mae": 0.3056073035669143
+    },
+    {
+      "variant": "D_Full_MIRT",
+      "select_rmse": 0.37639063987306076,
+      "select_mae": 0.3042500648092817
+    }
+  ]
+}

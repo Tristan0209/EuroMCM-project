@@ -1,0 +1,17 @@
+{
+  "route_wall_s": 0.5113229000000032,
+  "simulation_wall_s": 0.0011937999999958038,
+  "execution_wall_s_before_final_manifest": 2.3442812999999987,
+  "solver_calls": 0,
+  "solver_wall_s": 0,
+  "sampled_peak_rss_bytes": 329953280,
+  "rss_baseline_bytes": 309944320,
+  "memory_samples": 64,
+  "memory_method": "20ms RSS sampling; process includes persistent input/model caches; not exact transient peak",
+  "artifact_bytes_before_manifest": 35779,
+  "world_bytes": 59165,
+  "requests": 1,
+  "policy": "Greedy",
+  "world_id": "99ee8e6d43511da64727a415f5754d38b1f6774ebf4ccb60e18d1b929f55b37b",
+  "seed": 2092101800
+}
