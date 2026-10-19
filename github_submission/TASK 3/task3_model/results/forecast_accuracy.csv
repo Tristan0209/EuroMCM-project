@@ -1,6 +1,0 @@
-method,evaluation_values,MAE_gco2e_kwh,RMSE_gco2e_kwh,scope
-persistence_0.0,321,33.95785046728972,63.43908781356193,post-hoc errors at preregistered 15min issuance grid and up to 6h future; actual never fed into predictions
-historical_hour_0.0,321,42.61165109034268,74.13604592434068,post-hoc errors at preregistered 15min issuance grid and up to 6h future; actual never fed into predictions
-persistence_0.3,321,50.50969322377274,77.11387160612934,post-hoc errors at preregistered 15min issuance grid and up to 6h future; actual never fed into predictions
-persistence_0.8,321,90.42868251950867,141.2594227482174,post-hoc errors at preregistered 15min issuance grid and up to 6h future; actual never fed into predictions
-perfect_future_actual_oracle,321,0.0,0.0,"oracle-only future actual, not a deployable predictor"

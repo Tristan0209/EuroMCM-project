@@ -1,9 +1,0 @@
-numpy>=1.23
-pandas>=1.5
-scipy>=1.9.1
-matplotlib>=3.5
-pytest>=7
-joblib
-lightgbm
-torch
-threadpoolctl
