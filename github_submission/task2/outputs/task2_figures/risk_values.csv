@@ -1,4 +1,0 @@
-task,prompt_groups,harmful_groups,score_loss_upper_bound,harmful_event_upper_bound,score_budget,event_budget
-General,2746,29,0.025963,0.019307,0.05,0.02
-Math,853,0,0.0219,0.008862,0.05,0.02
-Code,43,3,0.66889,0.286013,0.05,0.02

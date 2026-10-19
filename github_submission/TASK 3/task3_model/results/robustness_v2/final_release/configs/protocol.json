@@ -1,9 +1,0 @@
-{
-  "version":"numerical_recovery_release_v1",
-  "core":{"n":7335,"seeds_start":2027101800,"seed_count":24,"policies":["Greedy","Spatial_MILP","MPC","E-Spatial","E-Full"]},
-  "F":{"n":7335,"seed_count":6,"gamma":[1.2,1.35,1.5,1.75],"policies":["Greedy","E-Spatial","E-Full"],"risk_budgets":[0.01,0.005,0.001,0]},
-  "H":{"n":7335,"seed_count":6,"delay_scales":[0,0.5,1,2,5],"policies":["E-Spatial","E-Full"],"single_branch_scales":[1,5]},
-  "recovery":{"integer_and_full_solution_tolerance":0.00001,"lp_primal_tolerance":0.0000001,"lp_dual_tolerance":0.0000001,"method":"freeze rounded integers, solve remaining continuous LP, validate complete original model","budget":"remaining original per-subproblem wall budget; never reset budget"},
-  "preserved":{"hosts":6,"installed_gpus":48,"slots_per_host":1,"pue":1.2,"idle_host_w":2900,"busy_increment_per_gpu_w":585,"observation_s":43200,"anchor_utc":"2025-01-02T00:00:00Z","forecast":"persistence","gamma_baseline":1.35,"solver_time_limit_s":30,"holding_seconds":[0,30,120,240]},
-  "freeze_gate":"No correctness failures; all core 120 cases completed; differences explained; affected F/H rerun; all required logs/CSVs/hashes retained. Empirical SLA is not a zero-risk guarantee."
-}

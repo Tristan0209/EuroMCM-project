@@ -1,9 +1,0 @@
-{
-  "frozen_ID_model_quality_and_time_fields": true,
-  "train_only_service_proxy": true,
-  "saved_Pre_full_test_replay": 14670,
-  "no_route_retraining_or_threshold_change": true,
-  "new_energy_estimate_replayed": true,
-  "six_fixed_hosts_six_serving_slots": true,
-  "all_non_energy_request_fields_equal_legacy": true
-}

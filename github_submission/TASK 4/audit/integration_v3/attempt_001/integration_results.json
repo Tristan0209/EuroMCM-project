@@ -1,9 +1,0 @@
-{
-  "status": "PASS",
-  "tests_run": 10,
-  "failures": 0,
-  "errors": 0,
-  "wall_s": 69.3709393,
-  "formal_M1_M8_executions": 0,
-  "scope": "engineering contracts; injected failures retained; no performance certification"
-}

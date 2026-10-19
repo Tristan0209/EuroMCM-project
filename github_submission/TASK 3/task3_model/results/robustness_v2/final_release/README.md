@@ -1,1 +1,0 @@
-Spatial MILP 的最终求解器及汇总结果。第四问通过 task4_core/sources.py 加载此版本。原 freeze_manifest.json 保留原环境的冻结哈希；提交版使用 submission_source_manifest.json 核对清理后的源码。最终对照结果为 FINAL_COMPARISON.csv，汇总数据在 results/。完整上游 runs/ 与 audit/ 未重复收录。本目录中的历史流水线工具依赖原始运行环境；提交包的验证与复现入口见仓库根 README。

@@ -1,5 +1,0 @@
-{
-  "status": "BLOCKED_ENVIRONMENT",
-  "error": "ModuleNotFoundError(\"No module named 'numpy._core'\")",
-  "scope": "full frozen IntegratedRouter constructor; no compatibility patch or retraining attempted"
-}

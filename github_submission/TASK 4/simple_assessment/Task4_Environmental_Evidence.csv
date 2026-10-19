@@ -1,9 +1,0 @@
-﻿Evidence,Current support and assumptions,Missing evidence,Sources
-GPU实际功率,采用busy760W、idle175W；busy增量585W。来源合同注明ML.ENERGY特定Qwen/B200配置转用，不是Mixtral/GPT-4实测。,需要目标模型、精度、batch、并发及利用率下的NVML与整机墙插同步测量。,[ML.ENERGY研究](https://arxiv.org/abs/2505.06371)；冻结resource_accounting_contract.json
-物理host与idle,6台8GPU主机、每host1准入slot；共享1500W，全部安装GPU计idle；12h idle250.56kWh。,需要整机idle、共享部件功率、可关机/休眠能力和容量策略日志；不能假定未用GPU不耗电。,冻结physical_host_config.csv；[NVIDIA B200系统规格](https://docs.nvidia.com/dgx/dgxb200-user-guide/introduction-to-dgxb200.html)
-PUE与冷却,PUE=1.2为统一假设，IT只乘一次；network依既定独立边界不重复PUE。,需要逐站点、逐时段设施电表与IT电表，覆盖冷却/UPS损耗；厂商上限不能替代PUE。,[The Green Grid PUE定义](https://www.thegreengrid.org/node/372)
-DE/FR/ES逐小时碳,项目保留2025年每地8760小时消费侧生命周期CO2e，2026-02快照；本实验只用Jan2固定窗。提供者归属按格式推断。,需要来源/许可链、因子版本、修订记录及当时可用的预测vintage；当前回溯actual不能当2025已发布预测。,carbon_lifecycle.metadata.json；[Electricity Maps方法](https://www.electricitymaps.com/data/methodology)
-平均与边际排放,当前平均强度支持归属核算；路由改变负荷造成的真实系统减排是另一估计对象。,需要适用时间尺度的边际排放、跨区电力流与可识别反事实；不能将平均核算差直接称电网因果减排。,[NREL碳因子选择报告](https://www.nrel.gov/docs/fy24osti/86682.pdf)
-RouterBench与公共部门,历史benchmark可复现选模；任务混合/复制没有新答案，也没有真实公众群体属性。,需要代表性公共服务请求、语言/可及性分组、双模型独立评分和隐私合规数据。,[RouterBench原论文](https://arxiv.org/abs/2403.12031)
-DES与真实服务器,服务是train-only长度统计和固定参数代理，乘均值1 lognormal；到达/class/origin为构造环境。,需要真实arrival/queue/start/finish、TTFT/TPOT、并发和超时日志，独立留出校准；n=3仅条件描述。,冻结requests.csv、resource_accounting_contract.json和Task3论文
-系统边界与部署证据,本轮是条件仿真；controller10W、network电量为代理，未计训练/制造/硬件生命周期。,需要完整边界的设施遥测和公平服务证据；新增生命周期主张须另有制造/寿命数据，本轮不补造。,冻结能源合同、逐请求ledger和本轮验证报告

@@ -1,4 +1,0 @@
-variant,additional_calls,macro_mae,low_score_roc_auc,within_request_spearman,held_out_benchmarks,requests,oof_predictions_total
-V,0,0.3545,0.7935,0.5486,60,1800,19800
-VC2,1,0.2925,0.8604,0.58,60,1800,19800
-VC11,10,0.2023,,0.6005,60,1800,19800

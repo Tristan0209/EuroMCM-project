@@ -1,9 +1,0 @@
-datetime_utc,region,model_type,available_capacity,provenance
-2024-05-10T00:00:00Z,DE,S,1,task3_assumed_static_initial
-2024-05-10T00:00:00Z,DE,L,1,task3_assumed_static_initial
-2024-05-10T00:00:00Z,FR,S,1,task3_assumed_static_initial
-2024-05-10T00:00:00Z,FR,L,1,task3_assumed_static_initial
-2024-05-10T00:00:00Z,ES,S,1,task3_assumed_static_initial
-2024-05-10T00:00:00Z,ES,L,1,task3_assumed_static_initial
-2024-05-10T01:00:00+00:00,DE,L,0,task3_assumed_local_failure
-2024-05-10T01:30:00+00:00,DE,L,1,task3_assumed_local_failure

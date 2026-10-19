@@ -1,5 +1,0 @@
-policy,mean_score_loss,pass_rate_loss_fraction,score_budget,pass_budget,score_budget_ratio,pass_budget_ratio
-All S,0.232993,0.27335,0.02,0.02,11.64965,13.667499999999999
-Fixed cascade,0.037219,0.07757,0.02,0.02,1.86095,3.8785
-Random routing,0.01319,0.01543,0.02,0.02,0.6595,0.7715
-Pre + fallback,0.004499,0.003817,0.02,0.02,0.22495,0.19085

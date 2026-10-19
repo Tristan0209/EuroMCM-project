@@ -1,9 +1,0 @@
-{
-  "status": "PASS",
-  "tests_run": 2,
-  "failures": 0,
-  "errors": 0,
-  "wall_s": 33.3620703,
-  "formal_experiments": 0,
-  "scope": "distribution-only draws and one synthetic endpoint DES contract; not new pilot samples"
-}

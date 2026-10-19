@@ -1,7 +1,0 @@
-region,model_type,capacity,p_idle_w,p_busy_w,pue,service_time_multiplier,availability,parameter_source,capacity_unit
-DE,S,1,175.0,250.0,1.2,1,1.0,power/PUE/multipliers inherited_task2_assumed; regional capacity task3_assumed,independent_nonbatched_replicas
-DE,L,1,175.0,250.0,1.2,3,1.0,power/PUE/multipliers inherited_task2_assumed; regional capacity task3_assumed,independent_nonbatched_replicas
-FR,S,1,175.0,250.0,1.2,1,1.0,power/PUE/multipliers inherited_task2_assumed; regional capacity task3_assumed,independent_nonbatched_replicas
-FR,L,1,175.0,250.0,1.2,3,1.0,power/PUE/multipliers inherited_task2_assumed; regional capacity task3_assumed,independent_nonbatched_replicas
-ES,S,1,175.0,250.0,1.2,1,1.0,power/PUE/multipliers inherited_task2_assumed; regional capacity task3_assumed,independent_nonbatched_replicas
-ES,L,1,175.0,250.0,1.2,3,1.0,power/PUE/multipliers inherited_task2_assumed; regional capacity task3_assumed,independent_nonbatched_replicas

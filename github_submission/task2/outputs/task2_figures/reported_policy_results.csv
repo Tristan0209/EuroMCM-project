@@ -1,6 +1,0 @@
-policy,cost_usd_per_1000,mean_score,pass_rate_percent
-All L,3.22199,0.780641,84.199
-All S,0.13313,0.547648,56.864
-Fixed cascade,1.36053,0.743422,76.442
-Random routing,3.04476,0.767451,82.656
-Pre + fallback,2.98872,0.776142,83.817
