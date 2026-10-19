@@ -1,0 +1,38 @@
+% Integration snippets only. Reuse the full paper's existing graphicx package.
+% Copy the three vector PDFs into the paper's figures/ directory first.
+% Labels/counters are global; no hard-coded figure or section numbers.
+% Captions can be shortened using Figure_Captions_EN.md if space requires.
+
+\begin{figure}[tbp]
+  \centering
+  \includegraphics[width=\linewidth]{figures/Fig1_Scenario_Dashboard.pdf}
+  \caption{Scenario robustness dashboard. Markers are three paired seed means.
+  Panels (a,b) show shared historical quality as changes from baseline, with
+  absolute means annotated; threshold-pass uses Score $\geq0.5$ and all inputs.
+  Panels (c,d) show completed-request P95 and all-input service violation;
+  (d) uses a log axis. Math/Code 40\% changes task composition. Lines connect
+  means, not confidence intervals. Historical quality changes are not scheduling gains.}
+  \label{fig:task4-dashboard-20261019}
+\end{figure}
+
+\begin{figure}[tbp]
+  \centering
+  \includegraphics[width=\linewidth]{figures/Fig2_Carbon_Accounting.pdf}
+  \caption{Facility carbon and demand-growth contrasts, averaged over three
+  paired seeds. (a) Total emissions retain full-window idle; the axis starts at
+  zero. (b) Operational emissions above idle are not a facility saving rate.
+  (c) Spatial-minus-Greedy contrasts: two matched-demand comparisons and growth
+  Spatial versus original-demand Greedy. Imposed growth does not identify behavioral rebound.}
+  \label{fig:task4-carbon-20261019}
+\end{figure}
+
+\begin{figure}[tbp]
+  \centering
+  \includegraphics[width=\linewidth]{figures/Fig3_Group_Tradeoffs.pdf}
+  \caption{Task-category service trade-offs under demand growth. Points are
+  three paired seed means. Violation and valid delivered pass divide by all
+  category inputs; valid pass requires Score $\geq0.5$ and compliant delivery.
+  P95 uses completions only. Lines connect means, not confidence intervals.
+  Code has only 86 baseline instances and 85 distinct prompt groups.}
+  \label{fig:task4-groups-20261019}
+\end{figure}

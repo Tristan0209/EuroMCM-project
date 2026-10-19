@@ -1,0 +1,146 @@
+[
+  {
+    "case": 0,
+    "policy": "Greedy",
+    "status": "PASS",
+    "requests": 160,
+    "checks": [
+      "IDs/terminals",
+      "H",
+      "admission/queue lifecycle",
+      "partial busy/controller",
+      "host/PUE/network",
+      "independent carbon quadrature",
+      "causal metadata",
+      "quality/causes"
+    ],
+    "world_id": "f32dd39959c6074be2da6f7773b44b868a355fbd08b09e6b7bf3d65cb5561f9b",
+    "scope": "software conservation; not empirical validity of assumptions"
+  },
+  {
+    "case": 0,
+    "policy": "Spatial_MILP",
+    "status": "PASS",
+    "requests": 160,
+    "checks": [
+      "IDs/terminals",
+      "H",
+      "admission/queue lifecycle",
+      "partial busy/controller",
+      "host/PUE/network",
+      "independent carbon quadrature",
+      "causal metadata",
+      "quality/causes"
+    ],
+    "world_id": "f32dd39959c6074be2da6f7773b44b868a355fbd08b09e6b7bf3d65cb5561f9b",
+    "scope": "software conservation; not empirical validity of assumptions"
+  },
+  {
+    "case": 1,
+    "policy": "Greedy",
+    "status": "PASS",
+    "requests": 160,
+    "checks": [
+      "IDs/terminals",
+      "H",
+      "admission/queue lifecycle",
+      "partial busy/controller",
+      "host/PUE/network",
+      "independent carbon quadrature",
+      "causal metadata",
+      "quality/causes"
+    ],
+    "world_id": "926a08fc19cb3ac9cbc42b47ee6325b97ea650b326c4de94f21b7566e68c1a44",
+    "scope": "software conservation; not empirical validity of assumptions"
+  },
+  {
+    "case": 1,
+    "policy": "Spatial_MILP",
+    "status": "PASS",
+    "requests": 160,
+    "checks": [
+      "IDs/terminals",
+      "H",
+      "admission/queue lifecycle",
+      "partial busy/controller",
+      "host/PUE/network",
+      "independent carbon quadrature",
+      "causal metadata",
+      "quality/causes"
+    ],
+    "world_id": "926a08fc19cb3ac9cbc42b47ee6325b97ea650b326c4de94f21b7566e68c1a44",
+    "scope": "software conservation; not empirical validity of assumptions"
+  },
+  {
+    "case": 2,
+    "policy": "Greedy",
+    "status": "PASS",
+    "requests": 160,
+    "checks": [
+      "IDs/terminals",
+      "H",
+      "admission/queue lifecycle",
+      "partial busy/controller",
+      "host/PUE/network",
+      "independent carbon quadrature",
+      "causal metadata",
+      "quality/causes"
+    ],
+    "world_id": "3325bebb48b014a308bee127a0fbca3b896e000c007baa1c30ac6f08ce992e64",
+    "scope": "software conservation; not empirical validity of assumptions"
+  },
+  {
+    "case": 2,
+    "policy": "Spatial_MILP",
+    "status": "PASS",
+    "requests": 160,
+    "checks": [
+      "IDs/terminals",
+      "H",
+      "admission/queue lifecycle",
+      "partial busy/controller",
+      "host/PUE/network",
+      "independent carbon quadrature",
+      "causal metadata",
+      "quality/causes"
+    ],
+    "world_id": "3325bebb48b014a308bee127a0fbca3b896e000c007baa1c30ac6f08ce992e64",
+    "scope": "software conservation; not empirical validity of assumptions"
+  },
+  {
+    "case": 3,
+    "policy": "Greedy",
+    "status": "PASS",
+    "requests": 160,
+    "checks": [
+      "IDs/terminals",
+      "H",
+      "admission/queue lifecycle",
+      "partial busy/controller",
+      "host/PUE/network",
+      "independent carbon quadrature",
+      "causal metadata",
+      "quality/causes"
+    ],
+    "world_id": "088b622fe4b3355ac555525b7561956bcfc5372f53ec8a11cb586e0ad96b0257",
+    "scope": "software conservation; not empirical validity of assumptions"
+  },
+  {
+    "case": 3,
+    "policy": "Spatial_MILP",
+    "status": "PASS",
+    "requests": 160,
+    "checks": [
+      "IDs/terminals",
+      "H",
+      "admission/queue lifecycle",
+      "partial busy/controller",
+      "host/PUE/network",
+      "independent carbon quadrature",
+      "causal metadata",
+      "quality/causes"
+    ],
+    "world_id": "088b622fe4b3355ac555525b7561956bcfc5372f53ec8a11cb586e0ad96b0257",
+    "scope": "software conservation; not empirical validity of assumptions"
+  }
+]

@@ -1,0 +1,5 @@
+{
+  "status": "ENVIRONMENT_BLOCKED",
+  "error": "ModuleNotFoundError(\"No module named 'numpy._core'\")",
+  "alternative": "Task4 PreDirectRouter verified for all 7335 IDs; no upstream artifact conversion"
+}

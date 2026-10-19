@@ -1,0 +1,66 @@
+[
+  {
+    "groups": [
+      "task_type"
+    ],
+    "absolute_violation_gap": 0.003069146055244629,
+    "valid_rate_ratio": 0.9969308539447553,
+    "sparse_prompt_groups_below_30": 0,
+    "no_demographic_fairness_claim": true
+  },
+  {
+    "groups": [
+      "eval_name"
+    ],
+    "absolute_violation_gap": 0.2,
+    "valid_rate_ratio": 0.8,
+    "sparse_prompt_groups_below_30": 38,
+    "no_demographic_fairness_claim": true
+  },
+  {
+    "groups": [
+      "service_class"
+    ],
+    "absolute_violation_gap": 0.007498295841854124,
+    "valid_rate_ratio": 0.9925017041581459,
+    "sparse_prompt_groups_below_30": 0,
+    "no_demographic_fairness_claim": true
+  },
+  {
+    "groups": [
+      "origin_region"
+    ],
+    "absolute_violation_gap": 0.001602718620068123,
+    "valid_rate_ratio": 0.9983933675371477,
+    "sparse_prompt_groups_below_30": 0,
+    "no_demographic_fairness_claim": true
+  },
+  {
+    "groups": [
+      "length_bin_train_only"
+    ],
+    "absolute_violation_gap": 0.002571090113950837,
+    "valid_rate_ratio": 0.9974236713161349,
+    "sparse_prompt_groups_below_30": 0,
+    "no_demographic_fairness_claim": true
+  },
+  {
+    "groups": [
+      "difficulty_bin_train_only"
+    ],
+    "absolute_violation_gap": 0.0009668745540551255,
+    "valid_rate_ratio": 0.9990308251892739,
+    "sparse_prompt_groups_below_30": 0,
+    "no_demographic_fairness_claim": true
+  },
+  {
+    "groups": [
+      "task_type",
+      "service_class"
+    ],
+    "absolute_violation_gap": 0.007727272727272728,
+    "valid_rate_ratio": 0.9922727272727273,
+    "sparse_prompt_groups_below_30": 2,
+    "no_demographic_fairness_claim": true
+  }
+]

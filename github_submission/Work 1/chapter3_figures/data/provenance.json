@@ -1,0 +1,38 @@
+{
+  "quality": {
+    "source": "User pasted request, reported Chapter 3 aggregates",
+    "note": "Not independently retrained; missing VC11 ROC-AUC intentionally blank. Separate 3872-question validation excluded."
+  },
+  "cost": {
+    "source": "Work 1/outputs/cost_summary.csv",
+    "sha256": "5f08ea4acdb81ce1d3ed281c674313b588f83ff15cbb58f7995598d7cfa45659",
+    "transformation": "Existing 27-row local 760 W table rounded to six decimal places to match reported precision. No simulation rerun.",
+    "note": "Single-seed cost trajectory; not the five-repetition environmental experiment."
+  },
+  "environment": {
+    "source_directory": "Work 1/task1_response time, and environ mental impact/outputs",
+    "files": {
+      "simulation_summary.csv": "182412e783add9a414c5026a8544d5e95159a9dfe798b2c7cff981455f295e75",
+      "simulation_runs.csv": "5e76a7a4cf5ff64ade517cfe91730f6afa76b16f815ca81f932d83516b90829b",
+      "run_manifest.json": "b07f557e89b3c4246af534e81511a372550b7d7eb3b912a87a18ae9995bc45d1"
+    },
+    "note": "Byte-for-byte copies. The separate latency_environment/outputs version is excluded because it has a different energy boundary."
+  },
+  "accounting": {
+    "shared_w": 1500,
+    "gpu_idle_w": 175,
+    "gpu_busy_w": 760,
+    "installed_gpus": 8,
+    "pue": 1.2,
+    "whole_server_baseline_w": 2900,
+    "cost_hardware_whole_server": "reported hardware allocation * 8 / replicas",
+    "price_response": "Fixed execution trajectory, zero maintenance; C(a,b) = a D + b E; total change measured relative to reported total."
+  },
+  "source_manuscript": {
+    "path": "C:\\Users\\吴连杰\\Downloads\\EuroMCM.pdf",
+    "sha256": "ab7b59ceb9001ea7da3bd02194f33810f81e8b3e18047d0e032fe5890be48918",
+    "pdf_pages": 30,
+    "chapter3_pages": "6-14",
+    "note": "Read-only reference. User requested figures only; manuscript not modified."
+  }
+}

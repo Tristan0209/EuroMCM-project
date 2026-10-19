@@ -1,0 +1,9 @@
+{
+  "run": "task2/runs/experiment",
+  "paired_requests": "task2/inputs/paired/requests.jsonl",
+  "paired_outcomes": "task2/inputs/paired/outcomes.jsonl",
+  "routerbench": "AI_datasets/RouterBench/routerbench_0shot.csv",
+  "resource_config": "Work 1/task1_response time, and environ mental impact/config.json",
+  "resource_core": "Work 1/task1_response time, and environ mental impact/core.py",
+  "azure": "Work 1/task1_response time, and environ mental impact/data/processed/azure_code.csv"
+}

@@ -1,0 +1,52 @@
+[
+  {
+    "axis": "defer_fraction",
+    "sampled_transition_brackets": [],
+    "universal_threshold": false
+  },
+  {
+    "axis": "forecast_noise",
+    "sampled_transition_brackets": [
+      [
+        0.3,
+        0.8
+      ]
+    ],
+    "universal_threshold": false
+  },
+  {
+    "axis": "load",
+    "sampled_transition_brackets": [],
+    "universal_threshold": false
+  },
+  {
+    "axis": "network_scale",
+    "sampled_transition_brackets": [
+      [
+        1.0,
+        10.0
+      ]
+    ],
+    "universal_threshold": false
+  },
+  {
+    "axis": "solve_delay_seconds",
+    "sampled_transition_brackets": [
+      [
+        0.1,
+        1.0
+      ]
+    ],
+    "universal_threshold": false
+  },
+  {
+    "axis": "spread",
+    "sampled_transition_brackets": [
+      [
+        0.0,
+        0.25
+      ]
+    ],
+    "universal_threshold": false
+  }
+]

@@ -1,0 +1,111 @@
+{
+  "data_contract_checks_passed": true,
+  "ready_for_real_carbon_experiments": false,
+  "failed_checks": [],
+  "checks": {
+    "unique_request_ids": {
+      "status": "passed",
+      "details": "7335 unique IDs"
+    },
+    "source_partition_conserved": {
+      "status": "passed",
+      "details": "Exact frozen test ID set/count/task metadata, no train/select/confirm in request export"
+    },
+    "RouterBench_source_row_and_group_partitions": {
+      "status": "passed",
+      "details": {
+        "raw_rows": 36497,
+        "paired_rows": 36417,
+        "exported_test_rows": 7335,
+        "ID_and_benchmark_match_original_source_row": true,
+        "no_prompt_group_crosses_partition": true
+      }
+    },
+    "frozen_SL_routes": {
+      "status": "passed",
+      "details": "Exact Selected_finite_sample_guard rep0 routing; {'L': 6904, 'S': 431}"
+    },
+    "Code_Math_fallback": {
+      "status": "passed",
+      "details": "Code/Math all L"
+    },
+    "prediction_provenance_and_route_replay": {
+      "status": "passed",
+      "details": "Every cached S/L prediction matched; train provenance disjoint from test; all frozen decisions replayed; unknown fallback exercised"
+    },
+    "saved_Pre_model_full_test_replay": {
+      "status": "passed",
+      "details": "Saved Pre weights reproduced all 14670 quality predictions without fitting"
+    },
+    "arrival_deadline_classes_UTC": {
+      "status": "passed",
+      "details": {
+        "completion_deadlines": true,
+        "UTC": true,
+        "arrival_span_s": 15087.638224057462,
+        "service_class_by_task": {
+          "batch": {
+            "Code": 16,
+            "General": 1105,
+            "Math": 346
+          },
+          "bounded_delay": {
+            "Code": 43,
+            "General": 2234,
+            "Math": 657
+          },
+          "realtime": {
+            "Code": 27,
+            "General": 2200,
+            "Math": 707
+          }
+        },
+        "no_deadline_feasibility_claim": "Only validates time contract; queue/network/outage deadline feasibility not yet simulated"
+      }
+    },
+    "no_current_outcome_leakage_resource_replay": {
+      "status": "passed",
+      "details": "Train-only length aggregates and every service/energy estimate recomputed; current outcomes excluded; predictive accuracy on real hardware unverified"
+    },
+    "server_capacity_and_availability": {
+      "status": "passed",
+      "details": "Six valid pools; all availability events bounded by configured capacity; events persist until next event"
+    },
+    "network_and_allowed_service_regions": {
+      "status": "passed",
+      "details": "All 7335 requests have an allowed model pool available at arrival; no later deadline-feasibility claim"
+    },
+    "common_resources_randomness_and_artifact_hashes": {
+      "status": "passed",
+      "details": "Immutable common request/resource hashes and request-keyed mean-one shocks verified; no policy simulation has been executed"
+    },
+    "original_files_unchanged": {
+      "status": "passed",
+      "details": "282 protected Task1/Task2/raw source files unchanged since generation"
+    },
+    "interface_and_information_boundary_tests": {
+      "status": "passed",
+      "details": "8 interface tests passed, including future forecast issuance and nontrain-output perturbation"
+    },
+    "real_hourly_carbon": {
+      "status": "pending",
+      "details": "Missing D:\\EuroMCM\\EuroMCM-project\\TASK 3\\data_preparation\\output\\carbon_intensity.csv. No fabricated/annual/price proxy used; final carbon experiments blocked."
+    },
+    "decision_time_carbon_forecasts": {
+      "status": "pending",
+      "details": "No forecast data provided; issuance gating implemented and software-tested, forecast availability/accuracy not verified"
+    },
+    "physical_calibration_and_new_holdout": {
+      "status": "not_verified",
+      "details": "No matched hardware measurements/new independent holdout. Inherited test is previously inspected. No routing quality guarantee asserted."
+    }
+  },
+  "rows": {
+    "requests": 7335,
+    "server_config": 6,
+    "server_availability": 6,
+    "network_config": 9
+  },
+  "no_MILP_MPC_DES_models_built": true,
+  "report_source": "validate_task3_data.py; current saved files, not copied Task2 verification claims"
+}

@@ -1,0 +1,50 @@
+{
+  "upstream_tests": 21,
+  "model_tests": 25,
+  "model_test_failures": 0,
+  "protected_files": 563,
+  "protected_unchanged": true,
+  "completed_unique_runs_in_final_tables": 336,
+  "all_run_invariants_passed": true,
+  "actual_real_carbon_rows": 26280,
+  "source_carbon_estimated_hours": {
+    "DE": 12,
+    "FR": 5,
+    "ES": 27
+  },
+  "power_scenario": "six_fixed_8GPU_DGX_hosts_six_admitted_service_slots",
+  "idle_energy_kwh": 250.56000000000003,
+  "current_source_replay": {
+    "frozen_ID_model_quality_and_time_fields": true,
+    "train_only_service_proxy": true,
+    "saved_Pre_full_test_replay": 14670,
+    "no_route_retraining_or_threshold_change": true,
+    "new_energy_estimate_replayed": true,
+    "six_fixed_hosts_six_serving_slots": true,
+    "all_non_energy_request_fields_equal_legacy": true
+  },
+  "pending": [
+    "snapshot-specific GWP factor version and operational as-of revisions",
+    "matched hardware/power/network measurements",
+    "new independent quality holdout"
+  ],
+  "not_claimed": [
+    "unrestricted global MILP optimum",
+    "zero stochastic deadline violation",
+    "real deployed reduction",
+    "universal failure boundary"
+  ],
+  "solver": {
+    "completed_unique_runs_used": 336,
+    "solver_decisions": 130217,
+    "status_counts": {
+      "0": 130026,
+      "2": 188,
+      "1": 3
+    },
+    "max_variables": 1354,
+    "max_constraints": 2434,
+    "max_reported_relative_gap": 6.547364336001783e-07,
+    "restriction": "finite candidates; chronological offline Oracle batches; singleton enumeration separately logged"
+  }
+}

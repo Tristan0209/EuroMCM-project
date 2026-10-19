@@ -1,0 +1,91 @@
+{
+  "checks": {
+    "upstream_tests": {
+      "status": "passed",
+      "tests": 21
+    },
+    "upstream_contracts": {
+      "status": "passed",
+      "scope": "current DGX source replay; legacy full validator superseded",
+      "details": {
+        "frozen_ID_model_quality_and_time_fields": true,
+        "train_only_service_proxy": true,
+        "saved_Pre_full_test_replay": 14670,
+        "no_route_retraining_or_threshold_change": true,
+        "new_energy_estimate_replayed": true,
+        "six_fixed_hosts_six_serving_slots": true,
+        "all_non_energy_request_fields_equal_legacy": true
+      }
+    },
+    "real_carbon_numeric_timezone_coverage": {
+      "status": "passed",
+      "regions": [
+        {
+          "region": "DE",
+          "rows": 8760,
+          "first": "2025-01-01 00:00:00+00:00",
+          "last": "2025-12-31 23:00:00+00:00",
+          "duplicates": 0,
+          "provider_estimated_hours": 12,
+          "critical_nulls": 0,
+          "timezone_rule": "UTC declared by original Datetime (UTC) column"
+        },
+        {
+          "region": "FR",
+          "rows": 8760,
+          "first": "2025-01-01 00:00:00+00:00",
+          "last": "2025-12-31 23:00:00+00:00",
+          "duplicates": 0,
+          "provider_estimated_hours": 5,
+          "critical_nulls": 0,
+          "timezone_rule": "UTC declared by original Datetime (UTC) column"
+        },
+        {
+          "region": "ES",
+          "rows": 8760,
+          "first": "2025-01-01 00:00:00+00:00",
+          "last": "2025-12-31 23:00:00+00:00",
+          "duplicates": 0,
+          "provider_estimated_hours": 27,
+          "critical_nulls": 0,
+          "timezone_rule": "UTC declared by original Datetime (UTC) column"
+        }
+      ]
+    },
+    "frozen_routing_and_alignment": {
+      "status": "passed",
+      "requests": 7335,
+      "models": {
+        "L": 6904,
+        "S": 431
+      }
+    },
+    "provider_as_of_and_exact_GWP_version": {
+      "status": "not_verified",
+      "reason": "not encoded in historical CSV; preserve reported CO2e and document reforecast assumptions"
+    },
+    "prediction_pipeline": {
+      "status": "passed",
+      "meaning": "causal reforecast and nonanticipativity software tests; operational as-of history remains unverified"
+    },
+    "problem_pdf": {
+      "status": "missing",
+      "reason": "2026_Problem_Lambda.pdf absent; task statement supplied by user used"
+    },
+    "protected_files": {
+      "status": "passed",
+      "count": 563,
+      "unchanged": true
+    }
+  },
+  "runtime": {
+    "python": "3.9.13",
+    "scipy": "1.9.1"
+  },
+  "compatibility_issues": [
+    "legacy destination guard",
+    "naive strings explicitly labelled UTC",
+    "CO2e vs legacy gco2 alias",
+    "legacy loader requires nonembedded numerical GWP horizon; new adapter preserves provider reported CO2e without inventing horizon"
+  ]
+}

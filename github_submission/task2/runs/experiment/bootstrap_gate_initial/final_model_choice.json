@@ -1,0 +1,17 @@
+{
+  "family": "Random_Forest",
+  "selected_on": "selection_cost_after_validation_calibration_risk_gate",
+  "point_selection_partition": "select",
+  "risk_calibration_partition": "confirm",
+  "guard_method": "95pct paired prompt-group bootstrap interval upper endpoint; 800 fixed draws",
+  "point_and_interval_tolerances": {
+    "overall_mean": 0.02,
+    "overall_pass": 0.02,
+    "task_mean": 0.05,
+    "task_pass": 0.02
+  },
+  "model_weights_or_thresholds_changed": false,
+  "test_used_for_exact_family_or_threshold_selection": false,
+  "introduced_after_initial_test_diagnosis": true,
+  "not_an_independent_confirmation_or_simultaneous_coverage_guarantee": true
+}

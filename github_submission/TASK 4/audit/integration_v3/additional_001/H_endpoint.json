@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "dispatch_s": 43200.0,
+  "network_kwh": 1e-07,
+  "active_increment_kwh": 0.0,
+  "definition": "events at H processed; continuous power intersection [0,H)"
+}

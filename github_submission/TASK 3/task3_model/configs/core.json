@@ -1,0 +1,31 @@
+{
+  "seed": 20261017,
+  "repetitions": [0, 1, 2],
+  "strategies": ["Fixed", "Greedy", "Oracle", "MPC"],
+  "pilot_sizes": [100, 500, 1000, 7335],
+  "sensitivity_requests": 1000,
+  "boundary_requests": 500,
+  "model": {
+    "router_seconds": 0.01,
+    "solve_delay_seconds": 0.01,
+    "measured_wall_fraction": 0.0,
+    "service_guard": 1.35,
+    "horizon_seconds": 10800,
+    "reoptimization_seconds": 300,
+    "arrival_batch_seconds": 0.5,
+    "candidate_steps": 5,
+    "max_batch": 64,
+    "oracle_batch": 64,
+    "solver_time_limit": 0.2,
+    "forecast_method": "persistence",
+    "forecast_noise": 0.0,
+    "controller_w": 10,
+    "controller_region": "DE",
+    "observation_horizon_seconds": 43200,
+    "record_events": true
+  },
+  "observation_window": "fixed 12h from the common anchor across strategies AND all demand/delay/boundary scenarios; covers the preregistered load>=0.5 and delay_scale<=2 grid; fail if drain exceeds it",
+  "solver": {"interface": "scipy.optimize.milp 1.9.1", "backend": "HiGHS 1.2.2", "relative_gap_default": 0.0001, "optimality": "finite candidates and batches only"},
+  "forecast_assumption": "last completed hourly observation available after hour closes; retrospective revised-data reforecast, not archived operational forecasts",
+  "schema_units": {"carbon": "gCO2e/kWh", "time": "seconds from explicit UTC anchor", "energy": "kWh"}
+}

@@ -1,0 +1,12 @@
+{
+  "observed_utc": "2026-10-18T15:22:06.673165+00:00",
+  "path": "D:\\EuroMCM\\EuroMCM-project\\TASK 4",
+  "disk_total_bytes": 294972813312,
+  "disk_used_bytes": 258607259648,
+  "disk_free_bytes": 36365553664,
+  "disk_free_GiB": 33.86806106567383,
+  "ram_total_bytes": 16962281472,
+  "ram_available_bytes": 4479201280,
+  "logical_cpu_count": 16,
+  "status": "READ_ONLY_RESOURCE_SNAPSHOT_NOT_CAPACITY_GUARANTEE"
+}

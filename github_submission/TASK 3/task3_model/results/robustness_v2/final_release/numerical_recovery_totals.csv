@@ -1,0 +1,6 @@
+strategy,recovery_illegal_rounded_candidate_count,recovery_attempted_count,recovery_recovered_count,recovery_unrecoverable_count,status4_count,fallback_count,native_timeout_count,recovery_lp_wall_seconds,actual_native_milp_calls
+E-Full,14,14,0,14,14,29,0,0.0165905999998937,194496
+E-Spatial,14,14,0,14,14,46,0,0.018457699999963,194496
+Greedy,0,0,0,0,0,0,0,0.0,0
+MPC,0,0,0,0,0,24,0,0.0,48753
+Spatial_MILP,14,14,0,14,14,46,0,0.0178322999999037,48624

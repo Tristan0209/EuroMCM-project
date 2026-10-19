@@ -1,0 +1,184 @@
+﻿figure,panel,category,policy,metric,seed,value,unit,comparison
+1,a,Baseline,Shared routing,mean_historical_quality,2029101800,0.7761417859577369,Score,raw seed-level metric
+1,a,Baseline,Shared routing,mean_historical_quality,2029101801,0.7761417859577369,Score,raw seed-level metric
+1,a,Baseline,Shared routing,mean_historical_quality,2029101802,0.7761417859577369,Score,raw seed-level metric
+1,a,Baseline,Shared routing,mean_historical_quality_delta,2029101800,0.0,Score,same-seed scenario minus Baseline; shared model choices
+1,a,Baseline,Shared routing,mean_historical_quality_delta,2029101801,0.0,Score,same-seed scenario minus Baseline; shared model choices
+1,a,Baseline,Shared routing,mean_historical_quality_delta,2029101802,0.0,Score,same-seed scenario minus Baseline; shared model choices
+1,a,Difficult,Shared routing,mean_historical_quality,2029101800,0.7508520790729379,Score,raw seed-level metric
+1,a,Difficult,Shared routing,mean_historical_quality,2029101801,0.7475119291070211,Score,raw seed-level metric
+1,a,Difficult,Shared routing,mean_historical_quality,2029101802,0.7478186775732788,Score,raw seed-level metric
+1,a,Difficult,Shared routing,mean_historical_quality_delta,2029101800,-0.025289706884798924,Score,same-seed scenario minus Baseline; shared model choices
+1,a,Difficult,Shared routing,mean_historical_quality_delta,2029101801,-0.02862985685071573,Score,same-seed scenario minus Baseline; shared model choices
+1,a,Difficult,Shared routing,mean_historical_quality_delta,2029101802,-0.028323108384458062,Score,same-seed scenario minus Baseline; shared model choices
+1,a,Prediction Error,Shared routing,mean_historical_quality,2029101800,0.7758350374914792,Score,raw seed-level metric
+1,a,Prediction Error,Shared routing,mean_historical_quality,2029101801,0.7756305385139741,Score,raw seed-level metric
+1,a,Prediction Error,Shared routing,mean_historical_quality,2029101802,0.7764485344239945,Score,raw seed-level metric
+1,a,Prediction Error,Shared routing,mean_historical_quality_delta,2029101800,-0.00030674846625766694,Score,same-seed scenario minus Baseline; shared model choices
+1,a,Prediction Error,Shared routing,mean_historical_quality_delta,2029101801,-0.0005112474437627412,Score,same-seed scenario minus Baseline; shared model choices
+1,a,Prediction Error,Shared routing,mean_historical_quality_delta,2029101802,0.00030674846625766694,Score,same-seed scenario minus Baseline; shared model choices
+1,a,Demand Growth,Shared routing,mean_historical_quality,2029101800,0.777676786038902,Score,raw seed-level metric
+1,a,Demand Growth,Shared routing,mean_historical_quality,2029101801,0.7767451372477732,Score,raw seed-level metric
+1,a,Demand Growth,Shared routing,mean_historical_quality,2029101802,0.7753590256317033,Score,raw seed-level metric
+1,a,Demand Growth,Shared routing,mean_historical_quality_delta,2029101800,0.0015350000811651388,Score,same-seed scenario minus Baseline; shared model choices
+1,a,Demand Growth,Shared routing,mean_historical_quality_delta,2029101801,0.0006033512900363025,Score,same-seed scenario minus Baseline; shared model choices
+1,a,Demand Growth,Shared routing,mean_historical_quality_delta,2029101802,-0.000782760326033527,Score,same-seed scenario minus Baseline; shared model choices
+1,b,Baseline,Shared routing,answer_pass_rate,2029101800,83.8173142467621,% of all inputs,raw seed-level metric
+1,b,Baseline,Shared routing,answer_pass_rate,2029101801,83.8173142467621,% of all inputs,raw seed-level metric
+1,b,Baseline,Shared routing,answer_pass_rate,2029101802,83.8173142467621,% of all inputs,raw seed-level metric
+1,b,Baseline,Shared routing,answer_pass_rate_delta,2029101800,0.0,percentage points,same-seed scenario minus Baseline; shared model choices
+1,b,Baseline,Shared routing,answer_pass_rate_delta,2029101801,0.0,percentage points,same-seed scenario minus Baseline; shared model choices
+1,b,Baseline,Shared routing,answer_pass_rate_delta,2029101802,0.0,percentage points,same-seed scenario minus Baseline; shared model choices
+1,b,Difficult,Shared routing,answer_pass_rate,2029101800,85.01704158145877,% of all inputs,raw seed-level metric
+1,b,Difficult,Shared routing,answer_pass_rate,2029101801,84.68984321745057,% of all inputs,raw seed-level metric
+1,b,Difficult,Shared routing,answer_pass_rate,2029101802,84.9079754601227,% of all inputs,raw seed-level metric
+1,b,Difficult,Shared routing,answer_pass_rate_delta,2029101800,1.199727334696675,percentage points,same-seed scenario minus Baseline; shared model choices
+1,b,Difficult,Shared routing,answer_pass_rate_delta,2029101801,0.872528970688478,percentage points,same-seed scenario minus Baseline; shared model choices
+1,b,Difficult,Shared routing,answer_pass_rate_delta,2029101802,1.0906612133606046,percentage points,same-seed scenario minus Baseline; shared model choices
+1,b,Prediction Error,Shared routing,answer_pass_rate,2029101800,83.79004771642809,% of all inputs,raw seed-level metric
+1,b,Prediction Error,Shared routing,answer_pass_rate,2029101801,83.76278118609407,% of all inputs,raw seed-level metric
+1,b,Prediction Error,Shared routing,answer_pass_rate,2029101802,83.84458077709611,% of all inputs,raw seed-level metric
+1,b,Prediction Error,Shared routing,answer_pass_rate_delta,2029101800,-0.02726653033400339,percentage points,same-seed scenario minus Baseline; shared model choices
+1,b,Prediction Error,Shared routing,answer_pass_rate_delta,2029101801,-0.054533060668020994,percentage points,same-seed scenario minus Baseline; shared model choices
+1,b,Prediction Error,Shared routing,answer_pass_rate_delta,2029101802,0.027266530334017602,percentage points,same-seed scenario minus Baseline; shared model choices
+1,b,Demand Growth,Shared routing,answer_pass_rate,2029101800,83.98473004908199,% of all inputs,raw seed-level metric
+1,b,Demand Growth,Shared routing,answer_pass_rate,2029101801,83.81203417560444,% of all inputs,raw seed-level metric
+1,b,Demand Growth,Shared routing,answer_pass_rate,2029101802,83.60298127613162,% of all inputs,raw seed-level metric
+1,b,Demand Growth,Shared routing,answer_pass_rate_delta,2029101800,0.16741580231989417,percentage points,same-seed scenario minus Baseline; shared model choices
+1,b,Demand Growth,Shared routing,answer_pass_rate_delta,2029101801,-0.005280071157656607,percentage points,same-seed scenario minus Baseline; shared model choices
+1,b,Demand Growth,Shared routing,answer_pass_rate_delta,2029101802,-0.21433297063047974,percentage points,same-seed scenario minus Baseline; shared model choices
+1,c,Baseline,Greedy,p95_response_s,2029101800,4.838407295968905,s; completed requests,raw seed-level metric
+1,c,Baseline,Greedy,p95_response_s,2029101801,4.885058733796541,s; completed requests,raw seed-level metric
+1,c,Baseline,Greedy,p95_response_s,2029101802,4.821750076617627,s; completed requests,raw seed-level metric
+1,c,Baseline,Spatial_MILP,p95_response_s,2029101800,7.784704690306353,s; completed requests,raw seed-level metric
+1,c,Baseline,Spatial_MILP,p95_response_s,2029101801,7.828022106680679,s; completed requests,raw seed-level metric
+1,c,Baseline,Spatial_MILP,p95_response_s,2029101802,7.867163602642358,s; completed requests,raw seed-level metric
+1,c,Difficult,Greedy,p95_response_s,2029101800,6.6246874223157635,s; completed requests,raw seed-level metric
+1,c,Difficult,Greedy,p95_response_s,2029101801,6.932937674638285,s; completed requests,raw seed-level metric
+1,c,Difficult,Greedy,p95_response_s,2029101802,6.453068859122867,s; completed requests,raw seed-level metric
+1,c,Difficult,Spatial_MILP,p95_response_s,2029101800,12.165728197853774,s; completed requests,raw seed-level metric
+1,c,Difficult,Spatial_MILP,p95_response_s,2029101801,11.86631561642234,s; completed requests,raw seed-level metric
+1,c,Difficult,Spatial_MILP,p95_response_s,2029101802,11.86956989627451,s; completed requests,raw seed-level metric
+1,c,Prediction Error,Greedy,p95_response_s,2029101800,4.838407295968905,s; completed requests,raw seed-level metric
+1,c,Prediction Error,Greedy,p95_response_s,2029101801,4.885058733796541,s; completed requests,raw seed-level metric
+1,c,Prediction Error,Greedy,p95_response_s,2029101802,4.822814610228033,s; completed requests,raw seed-level metric
+1,c,Prediction Error,Spatial_MILP,p95_response_s,2029101800,7.806914700658575,s; completed requests,raw seed-level metric
+1,c,Prediction Error,Spatial_MILP,p95_response_s,2029101801,7.799358891682027,s; completed requests,raw seed-level metric
+1,c,Prediction Error,Spatial_MILP,p95_response_s,2029101802,7.850998007341188,s; completed requests,raw seed-level metric
+1,c,Demand Growth,Greedy,p95_response_s,2029101800,7.027459397337587,s; completed requests,raw seed-level metric
+1,c,Demand Growth,Greedy,p95_response_s,2029101801,6.861895716343964,s; completed requests,raw seed-level metric
+1,c,Demand Growth,Greedy,p95_response_s,2029101802,7.105045038357006,s; completed requests,raw seed-level metric
+1,c,Demand Growth,Spatial_MILP,p95_response_s,2029101800,11.873244035703557,s; completed requests,raw seed-level metric
+1,c,Demand Growth,Spatial_MILP,p95_response_s,2029101801,11.914860838985884,s; completed requests,raw seed-level metric
+1,c,Demand Growth,Spatial_MILP,p95_response_s,2029101802,11.868140325333345,s; completed requests,raw seed-level metric
+1,d,Baseline,Greedy,service_violation_rate,2029101800,0.2044989775051125,% of all inputs,raw seed-level metric
+1,d,Baseline,Greedy,service_violation_rate,2029101801,0.299931833674165,% of all inputs,raw seed-level metric
+1,d,Baseline,Greedy,service_violation_rate,2029101802,0.27266530334015,% of all inputs,raw seed-level metric
+1,d,Baseline,Spatial_MILP,service_violation_rate,2029101800,0.027266530334015,% of all inputs,raw seed-level metric
+1,d,Baseline,Spatial_MILP,service_violation_rate,2029101801,0.0136332651670075,% of all inputs,raw seed-level metric
+1,d,Baseline,Spatial_MILP,service_violation_rate,2029101802,0.0136332651670075,% of all inputs,raw seed-level metric
+1,d,Difficult,Greedy,service_violation_rate,2029101800,0.5725971370143149,% of all inputs,raw seed-level metric
+1,d,Difficult,Greedy,service_violation_rate,2029101801,0.5589638718473074,% of all inputs,raw seed-level metric
+1,d,Difficult,Greedy,service_violation_rate,2029101802,0.5453306066803,% of all inputs,raw seed-level metric
+1,d,Difficult,Spatial_MILP,service_violation_rate,2029101800,0.0136332651670075,% of all inputs,raw seed-level metric
+1,d,Difficult,Spatial_MILP,service_violation_rate,2029101801,0.0136332651670075,% of all inputs,raw seed-level metric
+1,d,Difficult,Spatial_MILP,service_violation_rate,2029101802,0.027266530334015,% of all inputs,raw seed-level metric
+1,d,Prediction Error,Greedy,service_violation_rate,2029101800,0.2044989775051125,% of all inputs,raw seed-level metric
+1,d,Prediction Error,Greedy,service_violation_rate,2029101801,0.299931833674165,% of all inputs,raw seed-level metric
+1,d,Prediction Error,Greedy,service_violation_rate,2029101802,0.27266530334015,% of all inputs,raw seed-level metric
+1,d,Prediction Error,Spatial_MILP,service_violation_rate,2029101800,0.027266530334015,% of all inputs,raw seed-level metric
+1,d,Prediction Error,Spatial_MILP,service_violation_rate,2029101801,0.0136332651670075,% of all inputs,raw seed-level metric
+1,d,Prediction Error,Spatial_MILP,service_violation_rate,2029101802,0.0136332651670075,% of all inputs,raw seed-level metric
+1,d,Demand Growth,Greedy,service_violation_rate,2029101800,1.717869478276677,% of all inputs,raw seed-level metric
+1,d,Demand Growth,Greedy,service_violation_rate,2029101801,1.7087802217778587,% of all inputs,raw seed-level metric
+1,d,Demand Growth,Greedy,service_violation_rate,2029101802,1.4542810398109434,% of all inputs,raw seed-level metric
+1,d,Demand Growth,Spatial_MILP,service_violation_rate,2029101800,0.16360661697873113,% of all inputs,raw seed-level metric
+1,d,Demand Growth,Spatial_MILP,service_violation_rate,2029101801,0.15451736047991274,% of all inputs,raw seed-level metric
+1,d,Demand Growth,Spatial_MILP,service_violation_rate,2029101802,0.19087438647518634,% of all inputs,raw seed-level metric
+2,a,Baseline,Greedy,co2e_g,2029101800,41.287463886843575,kgCO2e,raw seed-level metric
+2,a,Baseline,Greedy,co2e_g,2029101801,41.28760419811517,kgCO2e,raw seed-level metric
+2,a,Baseline,Greedy,co2e_g,2029101802,41.28946702071738,kgCO2e,raw seed-level metric
+2,a,Baseline,Spatial_MILP,co2e_g,2029101800,41.214133243700324,kgCO2e,raw seed-level metric
+2,a,Baseline,Spatial_MILP,co2e_g,2029101801,41.214640588149614,kgCO2e,raw seed-level metric
+2,a,Baseline,Spatial_MILP,co2e_g,2029101802,41.214894210200086,kgCO2e,raw seed-level metric
+2,a,Demand Growth,Greedy,co2e_g,2029101800,41.39274722773145,kgCO2e,raw seed-level metric
+2,a,Demand Growth,Greedy,co2e_g,2029101801,41.391066040703315,kgCO2e,raw seed-level metric
+2,a,Demand Growth,Greedy,co2e_g,2029101802,41.39253812037272,kgCO2e,raw seed-level metric
+2,a,Demand Growth,Spatial_MILP,co2e_g,2029101800,41.29116339682856,kgCO2e,raw seed-level metric
+2,a,Demand Growth,Spatial_MILP,co2e_g,2029101801,41.29108650154499,kgCO2e,raw seed-level metric
+2,a,Demand Growth,Spatial_MILP,co2e_g,2029101802,41.289772643956475,kgCO2e,raw seed-level metric
+2,b,Baseline,Greedy,incremental_co2e_g,2029101800,147.11268684357492,gCO2e,raw seed-level metric
+2,b,Baseline,Greedy,incremental_co2e_g,2029101801,147.25299811516743,gCO2e,raw seed-level metric
+2,b,Baseline,Greedy,incremental_co2e_g,2029101802,149.11582071738667,gCO2e,raw seed-level metric
+2,b,Baseline,Spatial_MILP,incremental_co2e_g,2029101800,73.78204370032472,gCO2e,raw seed-level metric
+2,b,Baseline,Spatial_MILP,incremental_co2e_g,2029101801,74.28938814961293,gCO2e,raw seed-level metric
+2,b,Baseline,Spatial_MILP,incremental_co2e_g,2029101802,74.54301020009007,gCO2e,raw seed-level metric
+2,b,Demand Growth,Greedy,incremental_co2e_g,2029101800,252.39602773144725,gCO2e,raw seed-level metric
+2,b,Demand Growth,Greedy,incremental_co2e_g,2029101801,250.71484070331644,gCO2e,raw seed-level metric
+2,b,Demand Growth,Greedy,incremental_co2e_g,2029101802,252.1869203727183,gCO2e,raw seed-level metric
+2,b,Demand Growth,Spatial_MILP,incremental_co2e_g,2029101800,150.81219682856317,gCO2e,raw seed-level metric
+2,b,Demand Growth,Spatial_MILP,incremental_co2e_g,2029101801,150.73530154499167,gCO2e,raw seed-level metric
+2,b,Demand Growth,Spatial_MILP,incremental_co2e_g,2029101802,149.42144395647483,gCO2e,raw seed-level metric
+2,c,Baseline matched,Spatial - Greedy,co2e_g_difference,2029101800,-73.3306431432502,gCO2e,same-demand Spatial minus Greedy
+2,c,Baseline matched,Spatial - Greedy,co2e_g_difference,2029101801,-72.9636099655545,gCO2e,same-demand Spatial minus Greedy
+2,c,Baseline matched,Spatial - Greedy,co2e_g_difference,2029101802,-74.5728105172966,gCO2e,same-demand Spatial minus Greedy
+2,c,Growth matched,Spatial - Greedy,co2e_g_difference,2029101800,-101.58383090288407,gCO2e,same-demand Spatial minus Greedy
+2,c,Growth matched,Spatial - Greedy,co2e_g_difference,2029101801,-99.97953915832477,gCO2e,same-demand Spatial minus Greedy
+2,c,Growth matched,Spatial - Greedy,co2e_g_difference,2029101802,-102.76547641624347,gCO2e,same-demand Spatial minus Greedy
+2,c,Growth vs original,Spatial - Greedy,co2e_g_difference,2029101800,3.6995099849882536,gCO2e,Growth Spatial minus Baseline Greedy
+2,c,Growth vs original,Spatial - Greedy,co2e_g_difference,2029101801,3.482303429824242,gCO2e,Growth Spatial minus Baseline Greedy
+2,c,Growth vs original,Spatial - Greedy,co2e_g_difference,2029101802,0.30562323908816325,gCO2e,Growth Spatial minus Baseline Greedy
+3,a,General,Greedy,violation_rate,2029101800,1.7357762777242043,% of task-category inputs,raw seed-level metric
+3,a,General,Greedy,violation_rate,2029101801,1.7079624729372145,% of task-category inputs,raw seed-level metric
+3,a,General,Greedy,violation_rate,2029101802,1.3336537306259761,% of task-category inputs,raw seed-level metric
+3,a,General,Spatial_MILP,violation_rate,2029101800,0.14464802314368372,% of task-category inputs,raw seed-level metric
+3,a,General,Spatial_MILP,violation_rate,2029101801,0.14433485686793363,% of task-category inputs,raw seed-level metric
+3,a,General,Spatial_MILP,violation_rate,2029101802,0.13216388321518682,% of task-category inputs,raw seed-level metric
+3,a,Math,Greedy,violation_rate,2029101800,1.6329704510108864,% of task-category inputs,raw seed-level metric
+3,a,Math,Greedy,violation_rate,2029101801,1.6796875,% of task-category inputs,raw seed-level metric
+3,a,Math,Greedy,violation_rate,2029101802,1.8934911242603552,% of task-category inputs,raw seed-level metric
+3,a,Math,Spatial_MILP,violation_rate,2029101800,0.23328149300155523,% of task-category inputs,raw seed-level metric
+3,a,Math,Spatial_MILP,violation_rate,2029101801,0.15625,% of task-category inputs,raw seed-level metric
+3,a,Math,Spatial_MILP,violation_rate,2029101802,0.35502958579881655,% of task-category inputs,raw seed-level metric
+3,a,Code,Greedy,violation_rate,2029101800,2.2388059701492535,% of task-category inputs,raw seed-level metric
+3,a,Code,Greedy,violation_rate,2029101801,2.34375,% of task-category inputs,raw seed-level metric
+3,a,Code,Greedy,violation_rate,2029101802,0.6944444444444444,% of task-category inputs,raw seed-level metric
+3,a,Code,Spatial_MILP,violation_rate,2029101800,0.0,% of task-category inputs,raw seed-level metric
+3,a,Code,Spatial_MILP,violation_rate,2029101801,0.78125,% of task-category inputs,raw seed-level metric
+3,a,Code,Spatial_MILP,violation_rate,2029101802,0.6944444444444444,% of task-category inputs,raw seed-level metric
+3,b,General,Greedy,completed_p95_s,2029101800,4.870439702206568,s; completed requests,raw seed-level metric
+3,b,General,Greedy,completed_p95_s,2029101801,4.874392249081382,s; completed requests,raw seed-level metric
+3,b,General,Greedy,completed_p95_s,2029101802,4.944456296406042,s; completed requests,raw seed-level metric
+3,b,General,Spatial_MILP,completed_p95_s,2029101800,10.327615927419899,s; completed requests,raw seed-level metric
+3,b,General,Spatial_MILP,completed_p95_s,2029101801,10.805997149132462,s; completed requests,raw seed-level metric
+3,b,General,Spatial_MILP,completed_p95_s,2029101802,10.373779848357206,s; completed requests,raw seed-level metric
+3,b,Math,Greedy,completed_p95_s,2029101800,8.583233487347297,s; completed requests,raw seed-level metric
+3,b,Math,Greedy,completed_p95_s,2029101801,8.442599934989994,s; completed requests,raw seed-level metric
+3,b,Math,Greedy,completed_p95_s,2029101802,8.45243858203703,s; completed requests,raw seed-level metric
+3,b,Math,Spatial_MILP,completed_p95_s,2029101800,14.047346138996488,s; completed requests,raw seed-level metric
+3,b,Math,Spatial_MILP,completed_p95_s,2029101801,13.879870999646075,s; completed requests,raw seed-level metric
+3,b,Math,Spatial_MILP,completed_p95_s,2029101802,13.90664917780032,s; completed requests,raw seed-level metric
+3,b,Code,Greedy,completed_p95_s,2029101800,11.451336743770526,s; completed requests,raw seed-level metric
+3,b,Code,Greedy,completed_p95_s,2029101801,12.153705283461203,s; completed requests,raw seed-level metric
+3,b,Code,Greedy,completed_p95_s,2029101802,13.028141058420717,s; completed requests,raw seed-level metric
+3,b,Code,Spatial_MILP,completed_p95_s,2029101800,17.31254924517412,s; completed requests,raw seed-level metric
+3,b,Code,Spatial_MILP,completed_p95_s,2029101801,19.706454819039077,s; completed requests,raw seed-level metric
+3,b,Code,Spatial_MILP,completed_p95_s,2029101802,17.968992267984554,s; completed requests,raw seed-level metric
+3,c,General,Greedy,valid_pass_rate,2029101800,80.33992285438765,% of task-category inputs,raw seed-level metric
+3,c,General,Greedy,valid_pass_rate,2029101801,80.09381765696416,% of task-category inputs,raw seed-level metric
+3,c,General,Greedy,valid_pass_rate,2029101802,80.30758140093717,% of task-category inputs,raw seed-level metric
+3,c,General,Spatial_MILP,valid_pass_rate,2029101800,81.59353905496624,% of task-category inputs,raw seed-level metric
+3,c,General,Spatial_MILP,valid_pass_rate,2029101801,81.40485927351455,% of task-category inputs,raw seed-level metric
+3,c,General,Spatial_MILP,valid_pass_rate,2029101802,81.31683287276222,% of task-category inputs,raw seed-level metric
+3,c,Math,Greedy,valid_pass_rate,2029101800,90.74650077760498,% of task-category inputs,raw seed-level metric
+3,c,Math,Greedy,valid_pass_rate,2029101801,90.4296875,% of task-category inputs,raw seed-level metric
+3,c,Math,Greedy,valid_pass_rate,2029101802,89.70414201183432,% of task-category inputs,raw seed-level metric
+3,c,Math,Spatial_MILP,valid_pass_rate,2029101800,92.02954898911354,% of task-category inputs,raw seed-level metric
+3,c,Math,Spatial_MILP,valid_pass_rate,2029101801,91.875,% of task-category inputs,raw seed-level metric
+3,c,Math,Spatial_MILP,valid_pass_rate,2029101802,91.20315581854044,% of task-category inputs,raw seed-level metric
+3,c,Code,Greedy,valid_pass_rate,2029101800,65.67164179104478,% of task-category inputs,raw seed-level metric
+3,c,Code,Greedy,valid_pass_rate,2029101801,67.1875,% of task-category inputs,raw seed-level metric
+3,c,Code,Greedy,valid_pass_rate,2029101802,69.44444444444444,% of task-category inputs,raw seed-level metric
+3,c,Code,Spatial_MILP,valid_pass_rate,2029101800,66.4179104477612,% of task-category inputs,raw seed-level metric
+3,c,Code,Spatial_MILP,valid_pass_rate,2029101801,68.75,% of task-category inputs,raw seed-level metric
+3,c,Code,Spatial_MILP,valid_pass_rate,2029101802,69.44444444444444,% of task-category inputs,raw seed-level metric

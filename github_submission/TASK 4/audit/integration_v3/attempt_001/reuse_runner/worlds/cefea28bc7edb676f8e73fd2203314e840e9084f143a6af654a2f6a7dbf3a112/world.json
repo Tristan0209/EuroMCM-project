@@ -1,0 +1,2393 @@
+{
+  "world_id": "cefea28bc7edb676f8e73fd2203314e840e9084f143a6af654a2f6a7dbf3a112",
+  "seed": 2028102000,
+  "parameters": {
+    "n": 40,
+    "hard_fraction": null,
+    "compression": 1.0,
+    "burst_factor": 1.0,
+    "burst_start": 3600.0,
+    "burst_duration": 900.0,
+    "growth": 0.0,
+    "gain_bias": 0.0,
+    "quality_bias_s": 0.0,
+    "quality_bias_l": 0.0,
+    "sigma_q": 0.0,
+    "rho_q": 0.5,
+    "sigma_carbon": 0.0,
+    "rho_carbon": 0.5,
+    "carbon_bias_de": 0.0,
+    "carbon_bias_fr": 0.0,
+    "carbon_bias_es": 0.0,
+    "sigma_service": 0.15,
+    "outage": "none",
+    "outage_start": 3600.0,
+    "outage_duration": 1800.0,
+    "reduced_fraction": 0.0,
+    "l_hosts": 1,
+    "slots_per_host": 1,
+    "shared_w": 1500.0,
+    "gpu_idle_w": 175.0,
+    "gpu_busy_w": 760.0,
+    "pue": 1.2,
+    "service_scale_s": 1.0,
+    "service_scale_l": 1.0,
+    "carbon_scale": 1.0,
+    "carbon_contrast": 1.0,
+    "network_delay_scale": 1.0,
+    "network_energy_scale": 1.0,
+    "controller_w": 10.0,
+    "router_seconds": 0.01,
+    "frozen_shock_seed": null
+  },
+  "anchor_utc": "2025-01-02T00:00:00+00:00",
+  "service_shocks": {
+    "grade-school-math.dev.356": 1.1058027264758972,
+    "hellaswag.val.1693": 1.0351611113280774,
+    "grade-school-math.dev.4319": 0.9558326924043498,
+    "arc-challenge.test.805": 0.9893005712549385,
+    "mmlu-security-studies.val.161": 1.1820291668481409,
+    "mmlu-moral-scenarios.val.466": 0.919474693667677,
+    "mmlu-high-school-world-history.val.206": 1.2289270952950135,
+    "grade-school-math.dev.4663": 1.0463111560348048,
+    "hellaswag.val.1860": 0.9049106209048683,
+    "chinese_idioms.dev.2": 0.847852564150609,
+    "mmlu-high-school-psychology.val.192": 0.9138124524548863,
+    "winogrande.dev.1091": 1.2163313984810111,
+    "mmlu-high-school-government-and-politics.val.191": 0.7299126447153597,
+    "grade-school-math.dev.7393": 0.84233317294026,
+    "grade-school-math.dev.4681": 0.8251389109636789,
+    "mmlu-marketing.val.175": 0.8492389167245566,
+    "hellaswag.val.6820": 0.9814884702982052,
+    "mmlu-human-aging.val.35": 1.0141937079655166,
+    "hellaswag.val.7214": 0.8874630423075754,
+    "mmlu-security-studies.val.158": 1.0319439323219517,
+    "hellaswag.val.7970": 0.832253375263589,
+    "hellaswag.val.8960": 0.935667507776434,
+    "hellaswag.val.8242": 0.9629960306125877,
+    "hellaswag.val.1604": 0.9251026489715825,
+    "mmlu-professional-law.val.289": 0.7925618631701709,
+    "grade-school-math.dev.255": 0.8184463586281852,
+    "grade-school-math.dev.4566": 0.8892325536518249,
+    "mmlu-prehistory.val.202": 0.8253455690336902,
+    "hellaswag.val.9684": 0.8572877957002466,
+    "mmlu-clinical-knowledge.val.227": 1.3008644598725367,
+    "mmlu-business-ethics.val.67": 0.7721789693710505,
+    "arc-challenge.test.945": 1.019587919949578,
+    "mmlu-nutrition.val.296": 1.0384153418657809,
+    "mmlu-marketing.val.161": 0.84206923900625,
+    "grade-school-math.dev.2534": 0.6881789320124685,
+    "grade-school-math.dev.2472": 1.174406278261331,
+    "grade-school-math.dev.6009": 0.847712794847048,
+    "hellaswag.val.9782": 0.9242673540133011,
+    "hellaswag.val.5959": 0.8884131974924747,
+    "hellaswag.val.1322": 1.2330846486517213
+  },
+  "availability_events": [
+    [
+      0.0,
+      "DE",
+      "L",
+      1
+    ],
+    [
+      0.0,
+      "DE",
+      "S",
+      1
+    ],
+    [
+      0.0,
+      "ES",
+      "L",
+      1
+    ],
+    [
+      0.0,
+      "ES",
+      "S",
+      1
+    ],
+    [
+      0.0,
+      "FR",
+      "L",
+      1
+    ],
+    [
+      0.0,
+      "FR",
+      "S",
+      1
+    ]
+  ],
+  "hosts": [
+    {
+      "host_id": "DE_S_DGX01",
+      "region": "DE",
+      "model": "S",
+      "gpus": 8,
+      "slots": 1,
+      "shared_w": 1500.0,
+      "gpu_idle_w": 175.0,
+      "gpu_busy_w": 760.0,
+      "pue": 1.2,
+      "server_max_w": 14300.0
+    },
+    {
+      "host_id": "DE_L_DGX01",
+      "region": "DE",
+      "model": "L",
+      "gpus": 8,
+      "slots": 1,
+      "shared_w": 1500.0,
+      "gpu_idle_w": 175.0,
+      "gpu_busy_w": 760.0,
+      "pue": 1.2,
+      "server_max_w": 14300.0
+    },
+    {
+      "host_id": "FR_S_DGX01",
+      "region": "FR",
+      "model": "S",
+      "gpus": 8,
+      "slots": 1,
+      "shared_w": 1500.0,
+      "gpu_idle_w": 175.0,
+      "gpu_busy_w": 760.0,
+      "pue": 1.2,
+      "server_max_w": 14300.0
+    },
+    {
+      "host_id": "FR_L_DGX01",
+      "region": "FR",
+      "model": "L",
+      "gpus": 8,
+      "slots": 1,
+      "shared_w": 1500.0,
+      "gpu_idle_w": 175.0,
+      "gpu_busy_w": 760.0,
+      "pue": 1.2,
+      "server_max_w": 14300.0
+    },
+    {
+      "host_id": "ES_S_DGX01",
+      "region": "ES",
+      "model": "S",
+      "gpus": 8,
+      "slots": 1,
+      "shared_w": 1500.0,
+      "gpu_idle_w": 175.0,
+      "gpu_busy_w": 760.0,
+      "pue": 1.2,
+      "server_max_w": 14300.0
+    },
+    {
+      "host_id": "ES_L_DGX01",
+      "region": "ES",
+      "model": "L",
+      "gpus": 8,
+      "slots": 1,
+      "shared_w": 1500.0,
+      "gpu_idle_w": 175.0,
+      "gpu_busy_w": 760.0,
+      "pue": 1.2,
+      "server_max_w": 14300.0
+    }
+  ],
+  "network_rows": [
+    {
+      "origin": "DE",
+      "destination": "DE",
+      "delay": 0.055,
+      "energy": 1e-07,
+      "allowed": true
+    },
+    {
+      "origin": "DE",
+      "destination": "FR",
+      "delay": 0.07,
+      "energy": 1e-06,
+      "allowed": true
+    },
+    {
+      "origin": "DE",
+      "destination": "ES",
+      "delay": 0.09,
+      "energy": 1e-06,
+      "allowed": true
+    },
+    {
+      "origin": "FR",
+      "destination": "DE",
+      "delay": 0.07,
+      "energy": 1e-06,
+      "allowed": true
+    },
+    {
+      "origin": "FR",
+      "destination": "FR",
+      "delay": 0.055,
+      "energy": 1e-07,
+      "allowed": true
+    },
+    {
+      "origin": "FR",
+      "destination": "ES",
+      "delay": 0.07500000000000001,
+      "energy": 1e-06,
+      "allowed": true
+    },
+    {
+      "origin": "ES",
+      "destination": "DE",
+      "delay": 0.09,
+      "energy": 1e-06,
+      "allowed": true
+    },
+    {
+      "origin": "ES",
+      "destination": "FR",
+      "delay": 0.07500000000000001,
+      "energy": 1e-06,
+      "allowed": true
+    },
+    {
+      "origin": "ES",
+      "destination": "ES",
+      "delay": 0.055,
+      "energy": 1e-07,
+      "allowed": true
+    }
+  ],
+  "carbon_metadata": {
+    "data_kind": "actual",
+    "emissions_species": "CO2e",
+    "unit": "gCO2e/kWh",
+    "value_column": "carbon_intensity_gco2e_kwh",
+    "resolution": "hourly",
+    "timezone": "UTC",
+    "source": "User-provided snapshots dated 2026-02-10; Electricity Maps-style export; provenance inferred from format and provider fields",
+    "raw_files": {
+      "DE": {
+        "path": "TASK 3\\data_preparation\\Carbon Intensity\\snapshots_2026-02-10_DE-2025-hourly.csv",
+        "sha256": "84249277a7be79021f646db2e4ce37b0548a3c73a12178ae242fc74d628b738c"
+      },
+      "FR": {
+        "path": "TASK 3\\data_preparation\\Carbon Intensity\\snapshots_2026-02-10_FR-2025-hourly.csv",
+        "sha256": "9944d53c572864201943a22a3f942b5695ea06f872fbb921ceb899ab39fc065c"
+      },
+      "ES": {
+        "path": "TASK 3\\data_preparation\\Carbon Intensity\\snapshots_2026-02-10_ES-2025-hourly.csv",
+        "sha256": "93b4b01a70744bee0caffcb4ed0babd69cce958ab86a2aee46adb633a5d1f248"
+      }
+    },
+    "boundary": "lifecycle",
+    "accounting_basis": "consumption_based_provider_methodology",
+    "methodology_url": "https://www.electricitymaps.com/data/methodology",
+    "GWP_reference": "Provider-reported CO2eq preserved, no gas conversion; precise snapshot-specific GWP factors not embedded in CSV and not independently reconstructed",
+    "methodology_verification": "column labels verified; source attribution inferred, historical export factor versions unverified",
+    "revision_warning": "retrospective 2026 snapshot; exact 2025 as-of publication values unavailable",
+    "hypothetical_transform": false
+  },
+  "source_hashes": {
+    "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\data_preparation\\config.json": "98f10c49a4d8eb9415601322577569ddf600ed2e9927b12823f6d80c796452ae",
+    "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\configs\\core.json": "7a712fae2df8c23fb830715dc9ae3b70e70161dcf887453c397498f2f2005cd6",
+    "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\results\\data\\alignment.json": "ddb0958d104d4a709d0798bc36f72d27ff3425e91d09f6ad0f7d67d646f66edb",
+    "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\results\\data\\carbon_direct.csv": "22d20a9e3b3b402c6bf9c2536f0538acc0377575c1a22bac3aa4e704fa3d523b",
+    "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\results\\data\\carbon_direct.metadata.json": "efaef5f0a1d434829312586c307b39e080f8d711086c9271fee006476f3a319e",
+    "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\results\\data\\carbon_intensity.csv": "3aa8e989d0c4ecfcda35ed766a2552224dc9e98ec82b03aa435930931a8843b6",
+    "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\results\\data\\carbon_intensity.metadata.json": "969bc19cb9756ad0d878c144bdfe3ac56af9149a48f292bd14237ee838efae21",
+    "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\results\\data\\carbon_lifecycle.csv": "cde99c5d8de932ef3b06ecfb13d43d34c610c5e34bbe5509fdb7a609b40c3648",
+    "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\results\\data\\carbon_lifecycle.metadata.json": "b9de2f7df841633d0f7be9ae4946485b26403ec7239388cf744ba092c6b4d4fa",
+    "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\results\\data\\evaluation_only_historical_quality.csv": "9f56735c61c10e8465189970cde13a848a418b8262fd82d28c97c9113bce54c4",
+    "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\results\\data\\feasibility_capacity_high_load_capacity_reduction.csv": "bb6cfa3ec122f15860671d371f41bc1cbb15dbe5eae695eba91e5e5751211ccd",
+    "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\results\\data\\feasibility_capacity_local_failure.csv": "a85d0f82eef66b73ccf81361070ad13f87273af0490d5fddbdbc8b94dd48041a",
+    "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\results\\data\\feasibility_capacity_normal.csv": "5db1699e71d1db8e930b9195ec2690b1ebcf8792824f14c613ebe2b1db6f6d84",
+    "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\results\\data\\feasibility_individual_high_load_capacity_reduction.csv": "c4ac19890470ce39f0190eb08c71f89c3d9993a05e48a9a97822ba5483425643",
+    "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\results\\data\\feasibility_individual_local_failure.csv": "d9a97703f5b70c23375f121a4b1c59f36405028b8d3aaf5bce035cce5531669c",
+    "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\results\\data\\feasibility_individual_normal.csv": "f3422e55d6883a5cd10025da8a8d20a1b832ee2e4354da8fb6977887e3ad4149",
+    "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\results\\data\\feasibility_prechecks.json": "27680fa6ba6d6d9e97c8b6c687acad5f9ef2bd5ec132bce3c5ced7f8589ec175",
+    "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\results\\data\\manifest.json": "45bff7de1590f595cb833374e820996aa7b08f25d65b1d63cf58fa8a5980c8ab",
+    "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\results\\data\\network_config.csv": "f376dca6e29f11ec69e9c9495aa7a1c8682535b58d16bc9c17f7e308fcc771c9",
+    "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\results\\data\\persistence_forecast.metadata.json": "452352aa286715c4c90907ccd0b4bff1bafae160e7864cbea616669a6e34effd",
+    "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\results\\data\\physical_host_config.csv": "b66c7c2168621a874f7bfbcb3c08318414b219e0b16f22b3d084211d91f074d3",
+    "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\results\\data\\request_timing_constraints.csv": "3e37e0487f31047b9c8b01425a3cfffe83abcbf542e30ba012a5903bde35a083",
+    "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\results\\data\\requests.csv": "ff8c67c380e9cfb6f5e34dd3813928af4ad21fa5019f3f47525cfee3f6d9f654",
+    "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\results\\data\\resource_accounting_contract.json": "cdaa40da2a215128e20bf274acd66192f4016f0572f52a904a774f28c0737748",
+    "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\results\\data\\resource_parameters.json": "4f490c938a0b6ce7420dfe8158a4883309f526359fdf67011ccdf894d6046ee2",
+    "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\results\\data\\server_availability.csv": "37957a7ef79891a47af77c05a42e6e181e48c52486a75eb52a470856077bef94",
+    "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\results\\data\\server_availability_high_load_capacity_reduction.csv": "9c6be8205b6f92e2ef77ec4e6d207f0555ece1cbe01acd5cef0d29b4707cec0d",
+    "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\results\\data\\server_availability_local_failure.csv": "c55b496518def4db41b0a88f6a7cd8db3a1ef26dbe937c12054a463b5f62e8da",
+    "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\results\\data\\server_availability_normal.csv": "37957a7ef79891a47af77c05a42e6e181e48c52486a75eb52a470856077bef94",
+    "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\results\\data\\server_config.csv": "46fec369f41de3422026a9c56eee64b976815320ad677503ba19a31118e53764",
+    "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\results\\data\\service_random_conditions.csv": "aaf10651e2d6f74459b736cac4ee341f05103833c027c881ac83aa0e28d81e1a",
+    "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\results\\data\\upstream_source_manifest.json": "e5e594ca33e5f8b456f46ab61fcd30665ce3d214a5cf783cbf049736092dd34c",
+    "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\results\\robustness_v2\\final_release\\affected_request_audit.py": "51240fb129064fec696f969be8bd8479c8ab55248de420a9d4162271d237ac6f",
+    "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\results\\robustness_v2\\final_release\\analyze_release.py": "e08a06c0bad10ff59dfa1bf7abcbe2b61e7e68daaccb28958ed6193e04f3262b",
+    "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\results\\robustness_v2\\final_release\\bootstrap.py": "2c6c658379cf5fee361e1dc5e2624d9a99b5b23b4a5a0cf7045ec97819776b97",
+    "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\results\\robustness_v2\\final_release\\build_runner.py": "55dff883106db8031e2fb71899e53f78ee2ada558e56a4d9122c50664c6374f6",
+    "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\results\\robustness_v2\\final_release\\compare_events.py": "e36d8c216b841facd025b3ac4f15406f8f1ddfe97cc48af230368d24d0e229aa",
+    "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\results\\robustness_v2\\final_release\\context.py": "3e0514729b50ee45c85a71ff56d78f16bc866bddbc12f9c4cd1cbd3add67bec3",
+    "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\results\\robustness_v2\\final_release\\core_worker.py": "98087c082625950abbb1f2c8faf09babb0cf3f4ec6a25b1c54a918bd19dcb0b7",
+    "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\results\\robustness_v2\\final_release\\experiments.py": "411673bfc60d22ba5712927e806494e03dc729f7a3f1e6ffa5f8fb6ae7580ad9",
+    "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\results\\robustness_v2\\final_release\\finish_checks.py": "9c03ad6971dcd70fa17644570d5460d2357a2dbd802874a6c7edf6dbc9b81821",
+    "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\results\\robustness_v2\\final_release\\freeze.py": "450a50534352ee74646cb0bae289a40a3a0a47a15045a94d2b458d73ad2e15c2",
+    "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\results\\robustness_v2\\final_release\\make_additional_figures.py": "da82b85ec0ac53d00ba9793a871955cbaaf5ae7d58974a772988c7ed985aa052",
+    "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\results\\robustness_v2\\final_release\\normalize_tables.py": "472eba29cdefce67992978f0780e16d506bfa6a4d9833eeda1dc04b4e1f3a1ac",
+    "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\results\\robustness_v2\\final_release\\pipeline.py": "3a12d4738bea58acbf3aaea933bf179e07d62bb584a397786d4a26d6986233bc",
+    "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\results\\robustness_v2\\final_release\\policies.py": "d7887a1afe17f26df3d55d30c7aba7cd824a23e3a571523f604cf4f729c293ca",
+    "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\results\\robustness_v2\\final_release\\preflight.py": "007f0fccea0bbfba55833d1cebd21f98a1176aeb5b9cc356945aa8c65dbf5c94",
+    "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\results\\robustness_v2\\final_release\\queue_milp.py": "6df8037e5ba58f02bfc03645d13b13eb8f66fead25530cf78a18c62b6118cb97",
+    "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\results\\robustness_v2\\final_release\\recovery.py": "ad12204178db883517ae4d724cb13c22f09d9499058f6e2270d0198922a0ee31",
+    "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\results\\robustness_v2\\final_release\\repeat_stability.py": "dccf091c6e35144e2464cc616128155ee183ec2b06ca2d83c75ccb8626ab6121",
+    "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\results\\robustness_v2\\final_release\\reports_release.py": "4b3278512cb5f5d6d9d612c43d2b9496936cceccc4b4bdfb699e0afe0e608a08",
+    "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\results\\robustness_v2\\final_release\\resume_after_workers.py": "879c2887d0541dfd5aa0181e929785c212a852e2392ee32afbba511d3e3d7663",
+    "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\results\\robustness_v2\\final_release\\run_all.py": "8878e57a7939efd5a2499fc5cd7683a69e1bd16ed458ce9ae09fac3b91dee6a2",
+    "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\results\\robustness_v2\\final_release\\run_tests.py": "41081fdfc519d646eea8f9d64948a13d8cc340fffe35cfbf99ea9eacf8993d1b",
+    "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\results\\robustness_v2\\final_release\\spatial.py": "c466eddff95417e79c0b5e35c27807a74a36862a2a7a535375971be60802abde",
+    "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\results\\robustness_v2\\final_release\\v2\\__init__.py": "5493a571e54643dab64ff29056921a439bc51a319005558804c41888a006ae52",
+    "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\results\\robustness_v2\\final_release\\v2\\des.py": "f5dc43b7685de01d257904e652a2cf318db54c7b819538cfc97fe4347bc41eb3",
+    "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\results\\robustness_v2\\final_release\\v2\\milp.py": "1aea9cbe12f0190f5d726f64eb5f73d147f2ebecbb47b11fdf3bec25641b08ee",
+    "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\results\\robustness_v2\\final_release\\validate_release.py": "275e591b63019ad08ad5ab2315fbadbdc3a38e238b2647abb91891e4c0fd0f26",
+    "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\results\\robustness_v2\\task_a2\\configs\\solver_protocol_frozen.json": "3e16a437acb1c8c85b17a5efe63a979523fa573307077e9b8e73f517712bc714",
+    "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\src\\__init__.py": "286b1dbcdabb0c33e2dce7461ac4ed65975fe38f36423c5046d7dcdfb648ee5f",
+    "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\src\\accounting.py": "b959faa4c8c25f4c740b3f2aa252074eaa874fbc0925631b1b09c49a95256c0c",
+    "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\src\\carbon.py": "3f18b3abc81c6c6e8a00c085eac3a4e03bc441ded06f0ba7d2f950aade1bed5f",
+    "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\src\\des.py": "45edc7f083cb9f826cd46ec02a4bc0ae908c3c9487fa546c3365c0b907362786",
+    "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\src\\domain.py": "b8fcb169e05c57ca7eeef2dbdda5b1f7484ffa3bae6a207c306f1d502736cc53",
+    "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\src\\experiments.py": "7018b29641611f977234f09771787b7e686e9098aaacc95cd59577ed4cb8fbf1",
+    "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\src\\migration_report.py": "b89878b41a890fbfd6aeb7fe246a74a9ceeec408734f86b96baab2d7cb8a3c13",
+    "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\src\\milp.py": "1b5a78da673da4b328bcac347f919f3592213e0741305fda710a52881ffa087e",
+    "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\src\\phase0.py": "acf8b672943fcbb2e863d6cfb84c24001726251433b877e27f808e69d86a7cf1",
+    "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\src\\power.py": "97f02fee70ffc465ff6b06a1bff089fafea8490b364bf3910d74450a89a27e4c",
+    "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\src\\reporting.py": "4b799f22ff3d1eb72a21e936647917654d21820c8d4f796e9ed186f18e2f2843",
+    "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\src\\util.py": "0bf37be518d2ec036837b74fc6a47816f6db4c1961aa927ed1b680c1cab80390",
+    "D:\\EuroMCM\\EuroMCM-project\\task2\\calibrate_risk.py": "c8aee7fde5f7d56f35848ba222a1d0e65228f0b4adf66b58771406135da017d6",
+    "D:\\EuroMCM\\EuroMCM-project\\task2\\evaluate.py": "147abd82d514fa7467153e7d3e72c5e428fa05b1a1e8db8978cb1312667d9ce8",
+    "D:\\EuroMCM\\EuroMCM-project\\task2\\final_artifacts.py": "2db45f692e67f7296cc0adaa42f23b3bf508970e10c488338d42b6bd77e70143",
+    "D:\\EuroMCM\\EuroMCM-project\\task2\\finalize_risk.py": "065742fec1ba7dc9c566845e3766141db90949ba144920ca34dfd30b312c6889",
+    "D:\\EuroMCM\\EuroMCM-project\\task2\\fit_routers.py": "6913920e0f1e798773e6a1dbf8df95f8b2d416089fe5604640fb05f6b50a4631",
+    "D:\\EuroMCM\\EuroMCM-project\\task2\\input_paths.py": "3deb233f5343c439618fd0720325742556e04a8d0e06753473626af5154dfb35",
+    "D:\\EuroMCM\\EuroMCM-project\\task2\\inputs\\paired\\outcomes.jsonl": "40f98ec080ab01a37a3221cc8182d3a6eb20d6c5fae7c9e1aa1cec384c171149",
+    "D:\\EuroMCM\\EuroMCM-project\\task2\\inputs\\paired\\requests.jsonl": "9457ecfc0d1b8a859391a9bdf406db6eb2f1655ec036c7a026f6f3329582b588",
+    "D:\\EuroMCM\\EuroMCM-project\\task2\\integrated_api.py": "5a81254c1835dc7117814242cf250a01ae73083187001c3707fa4c2e5e0a9c56",
+    "D:\\EuroMCM\\EuroMCM-project\\task2\\neural_adapter.py": "515fa3609e75560bbb99bb0c55d3c8e64c78510f686caa9537c85d983abaaf9c",
+    "D:\\EuroMCM\\EuroMCM-project\\task2\\predict.py": "3b2e28fb0d9145919c0c3372d3a91f86885b5883eb04f022708944f89c8945f1",
+    "D:\\EuroMCM\\EuroMCM-project\\task2\\prepare.py": "96d200a8bfa21c6c40027d1ea2c1aff8381de8a704527537bc17369acbef9cd6",
+    "D:\\EuroMCM\\EuroMCM-project\\task2\\q1_adapter.py": "f4a1ada02bc7e2b58210eaaf566a4d5795c7f97b699c9c1e427d9ec2b88c84a9",
+    "D:\\EuroMCM\\EuroMCM-project\\task2\\resource_scenarios.py": "4ac77a4a7e56cffdb15e1a33051efa40f596383a9f10dbb8d596f62a7ea5c445",
+    "D:\\EuroMCM\\EuroMCM-project\\task2\\risk_bounds.py": "adda431b26bc11872463dbafbc086fb18fbf509edbeb721c83d63daf2fcc630c",
+    "D:\\EuroMCM\\EuroMCM-project\\task2\\routing.py": "be602cde2a3ee713fa1c16057389323bafae2fee2a5998a0957d438705eb8c0a",
+    "D:\\EuroMCM\\EuroMCM-project\\task2\\run_all.py": "daaa5b949f308059b3890c144ffabaf0f8daa0c6b635b6d36c564055c1186817",
+    "D:\\EuroMCM\\EuroMCM-project\\task2\\runs\\experiment\\cost_predictor.json": "d864ce422694ed003621085c210562b6a8647bce6f2daea2afd5f2f44fb6ae9e",
+    "D:\\EuroMCM\\EuroMCM-project\\task2\\runs\\experiment\\final_model_choice.json": "9d85f4dbe214bbe4047b2715a5bfa15817df677e956e0156473fc6912aa5adc6",
+    "D:\\EuroMCM\\EuroMCM-project\\task2\\runs\\experiment\\final_safety_calibration.json": "915d71a125f9595caab38a5e1dfc7541d728ab1edfb9d6237b861ae6211eae82",
+    "D:\\EuroMCM\\EuroMCM-project\\task2\\runs\\experiment\\pre_full_train.joblib": "851c2bb1ea9944f22bf4018b4c96cbfb1e30a5eee4ac96b7321010458966d301",
+    "D:\\EuroMCM\\EuroMCM-project\\task2\\runs\\experiment\\pre_selection.json": "853e0a251516caa6ba97d34aa33318b9fd46365ed2cd28fb3f5946b9ee5a26c1",
+    "D:\\EuroMCM\\EuroMCM-project\\task2\\runs\\experiment\\selected_parameters.json": "ddcb893450f2c7225ac0cc7d442d69febd7e20b2044815fd31bd5459e9815e80",
+    "D:\\EuroMCM\\EuroMCM-project\\task2\\runs\\experiment\\splits.csv": "53bc03d690b7f8a30444f2382f1071ec0da5697c66872e52d2c3808b2a2c34f5",
+    "D:\\EuroMCM\\EuroMCM-project\\task2\\test_complete.py": "efb9572763179bf3f835c3928d658117e72e158418e67e5520677102141079a1",
+    "D:\\EuroMCM\\EuroMCM-project\\task2\\train_size_learning_curve.py": "7e09623703eb8592645922a1cea579e8fd7fd07e3c04feb7296baeb0b074f412",
+    "D:\\EuroMCM\\EuroMCM-project\\task2\\verify.py": "f6771d8e0ae19b13a9aa748becd7902fac066e6488bc621d7171d8ad76fd622f",
+    "D:\\EuroMCM\\EuroMCM-project\\task2\\write_report.py": "0b072673c914b4d832ae5e585fb3989d8fea894b67aff0a9cbaeba84f4385971",
+    "D:\\EuroMCM\\EuroMCM-project\\task2\\runs\\experiment\\pre_predictions.csv.gz": "e4ff85be243cbe37318f7b59faf16bb7ebb5d46c0c1924dd5f2d3545a9d54448"
+  },
+  "generation_audit": {
+    "task_counts": {
+      "General": 30,
+      "Math": 10
+    },
+    "n": 40,
+    "unique_base_ids": 40,
+    "unique_prompt_groups": 40,
+    "cloned_quality_is_not_independent": true,
+    "quality_labels_read_by_generator": false,
+    "carbon_transform_clip_fraction": 0.0,
+    "length_cuts_train_only": [
+      448.0,
+      1058.0
+    ],
+    "difficulty_cuts_train_only": [
+      0.4655492028475195,
+      0.5530345569426556
+    ],
+    "streams": "SHA256(seed|stream); PCG64; no policy or invocation time in keys",
+    "burst_before_compression": true,
+    "source_service_estimates": "frozen train-only S/L estimates, already includes L x3"
+  },
+  "instances": [
+    {
+      "instance_id": "grade-school-math.dev.356",
+      "base_request_id": "grade-school-math.dev.356",
+      "prompt_group": "ab594a574ed8ee78a8014e54d7db0e5bd84480a75445ffb79ec3f03c50e368b2",
+      "prompt": "TASK: Solve the following grade school math problem and provide a numerical answer.\nThe following are examples of grade school math problems and answers:\nQuestion: There are 15 trees in the grove. Grove workers will plant trees in the grove today. After they are done, there will be 21 trees. How many trees did the grove workers plant today? \nAnswer: 6\n\nQuestion: If there are 3 cars in the parking lot and 2 more cars arrive, how many cars are in the parking lot? \nAnswer: 5\n\nQuestion: Leah had 32 chocolates and her sister had 42. If they ate 35, how many pieces do they have left in total? \nAnswer: 39\n\nQuestion: Jason had 20 lollipops. He gave Denny some lollipops. Now Jason has 12 lollipops. How many lollipops did Jason give to Denny?\nAnswer: 8\n\nQuestion: Shawn has five toys. For Christmas, he got two toys each from his mom and dad. How many toys does he have now? \nAnswer: 9\n\n\n\nStudents at Highridge High earn 2 points for each correct answer during a quiz bowl If a student correctly answers all the questions in a round, the student is awarded an additional 4 point bonus. They played a total of five rounds each consisting of five questions. If James only missed one question, how many points did he get?",
+      "eval_name": "grade-school-math",
+      "task_type": "Math",
+      "origin_region": "ES",
+      "service_class": "realtime",
+      "arrival_s": 0.0,
+      "budget_s": 30.0,
+      "wait_s": 5.0,
+      "priority": 3,
+      "service_s": 1.04134117,
+      "service_l": 3.87090651,
+      "length_bin_train_only": 2,
+      "difficulty_bin_train_only": 1,
+      "source_phase": "test"
+    },
+    {
+      "instance_id": "hellaswag.val.1693",
+      "base_request_id": "hellaswag.val.1693",
+      "prompt_group": "6f9ce552120ad3b6ed070c2cb1ac20cd045ca24fe8497eaca5b6031398d11d27",
+      "prompt": "Young men play basketball in an indoor court and \"how to do a spin move in basketball\" overlays the video. \"power dribble\" overlays video of the players demonstrating the steps of doing it. a recap of the steps\nA) involved in dribble on basketball.\nB) include the use of the dribbling cell phone, and the process of receiving battery spares and credits.\nC) is shown in a smaller window.\nD) to practice basketball are shown.\nPrint only a single choice  from \"A\" or \"B\" or \"C\" or \"D\" without explanation.\nAnswer:",
+      "eval_name": "hellaswag",
+      "task_type": "General",
+      "origin_region": "ES",
+      "service_class": "realtime",
+      "arrival_s": 0.36894,
+      "budget_s": 30.0,
+      "wait_s": 5.0,
+      "priority": 3,
+      "service_s": 0.10538128,
+      "service_l": 0.31614384,
+      "length_bin_train_only": 1,
+      "difficulty_bin_train_only": 1,
+      "source_phase": "test"
+    },
+    {
+      "instance_id": "grade-school-math.dev.4319",
+      "base_request_id": "grade-school-math.dev.4319",
+      "prompt_group": "b226ed48d0b523ca58693b6481e75c781d747989f5c121e102fc3347d77ed52f",
+      "prompt": "TASK: Solve the following grade school math problem and provide a numerical answer.\nThe following are examples of grade school math problems and answers:\nQuestion: There are 15 trees in the grove. Grove workers will plant trees in the grove today. After they are done, there will be 21 trees. How many trees did the grove workers plant today? \nAnswer: 6\n\nQuestion: If there are 3 cars in the parking lot and 2 more cars arrive, how many cars are in the parking lot? \nAnswer: 5\n\nQuestion: Leah had 32 chocolates and her sister had 42. If they ate 35, how many pieces do they have left in total? \nAnswer: 39\n\nQuestion: Jason had 20 lollipops. He gave Denny some lollipops. Now Jason has 12 lollipops. How many lollipops did Jason give to Denny?\nAnswer: 8\n\nQuestion: Shawn has five toys. For Christmas, he got two toys each from his mom and dad. How many toys does he have now? \nAnswer: 9\n\n\n\nTammy has 10 orange trees from which she can pick 12 oranges each day. Tammy sells 6-packs of oranges for $2. How much money will Tammy have earned after 3 weeks if she sells all her oranges?",
+      "eval_name": "grade-school-math",
+      "task_type": "Math",
+      "origin_region": "ES",
+      "service_class": "bounded_delay",
+      "arrival_s": 3.715961,
+      "budget_s": 300.0,
+      "wait_s": 120.0,
+      "priority": 2,
+      "service_s": 1.03679194,
+      "service_l": 3.85706352,
+      "length_bin_train_only": 2,
+      "difficulty_bin_train_only": 1,
+      "source_phase": "test"
+    },
+    {
+      "instance_id": "arc-challenge.test.805",
+      "base_request_id": "arc-challenge.test.805",
+      "prompt_group": "c708618cbd089d7120f3d358d89575613c072b70178d2391078b0c1ac6015e65",
+      "prompt": "In what order are the Sun, Moon, and Earth during a total lunar eclipse?\nA) Earth-Moon-Sun\nB) Moon-Earth-Sun\nC) Moon-Sun-Earth\nD) Earth-Sun-Moon\nPrint only a single choice  from \"A\" or \"B\" or \"C\" or \"D\" without explanation.\nAnswer:",
+      "eval_name": "arc-challenge",
+      "task_type": "General",
+      "origin_region": "FR",
+      "service_class": "bounded_delay",
+      "arrival_s": 16.493759,
+      "budget_s": 300.0,
+      "wait_s": 120.0,
+      "priority": 2,
+      "service_s": 0.09627913,
+      "service_l": 0.28883739,
+      "length_bin_train_only": 0,
+      "difficulty_bin_train_only": 2,
+      "source_phase": "test"
+    },
+    {
+      "instance_id": "mmlu-security-studies.val.161",
+      "base_request_id": "mmlu-security-studies.val.161",
+      "prompt_group": "f630247561ed32c1e861a3625d5ccae81b2795f727e12ef232a1263fc4e79d6c",
+      "prompt": "Please answer with the letter of the correct answer.\n\nIn what ways might international measures be employed? Are they a help or a hindrance?\nA) Multi-partner initiatives to support the reforms necessary for the prevention of terrorism have proved ineffective. Sanctions against countries that provide a territorial base for terrorism may be misplaced, having negligible effects on the terrorist organizations themselves.\nB) Diplomacy cannot achieve agreements among small groups of nations where global agreements have failed. Global endorsement is required to legitimize the process, providing greater cooperation, agreements and great power backing. Failure to attain global consensus on what terrorism is will result in disparities between states' counterterrorism methods which will severely reduce the scope of employing multi-level measures in a consistent and cohesive fashion, and may afford some terrorist groups the opportunity to seek refuge in states whose domestic laws are weaker.\nC) Intelligence agencies are highly centralized, organized structures that operate at a maximum functional level within their domestic context. There is no reason to presume that collaboration would enhance their ability to contribute to the prevention of terrorism. The multi-agency approach would also broaden the scope for potential errors, miscommunication, and intelligence failures.\nD) A great deal of international diplomacy has involved attempts to define terrorism so that all countries could take steps to eradicate it. However, these efforts have largely faltered: countries often support or sympathize with dissidents who use violence against repressive governments; governments in developing countries have wanted to avoid anti-colonial struggles being labelled as terrorism; and countries want to retain a degree of flexibility regarding extradition and punishment of political dissidents.\nPrint only a single choice  from \"A\" or \"B\" or \"C\" or \"D\" without explanation. Answer:",
+      "eval_name": "mmlu-security-studies",
+      "task_type": "General",
+      "origin_region": "ES",
+      "service_class": "bounded_delay",
+      "arrival_s": 24.909938,
+      "budget_s": 300.0,
+      "wait_s": 120.0,
+      "priority": 2,
+      "service_s": 0.14942833,
+      "service_l": 0.44828499,
+      "length_bin_train_only": 2,
+      "difficulty_bin_train_only": 2,
+      "source_phase": "test"
+    },
+    {
+      "instance_id": "mmlu-moral-scenarios.val.466",
+      "base_request_id": "mmlu-moral-scenarios.val.466",
+      "prompt_group": "27b5dba9f9776184258e2cfb8591e60a4e68b4ca84d9175bc38b52b4a1dae630",
+      "prompt": "Please answer with the letter of the correct answer.\n\nFor which of these two scenarios does the main character (who uses I/me/my) do something clearly morally wrong, according to ordinary moral standards in the US as of 2020? Scenario 1 | I consider friendly fire to be a serious hobby. Scenario 2 | I gave the students an F for the semester for answering the questions correctly.\nA) Wrong, Wrong\nB) Not wrong, Wrong\nC) Not wrong, Not wrong\nD) Wrong, Not wrong\nPrint only a single choice  from \"A\" or \"B\" or \"C\" or \"D\" without explanation. Answer:",
+      "eval_name": "mmlu-moral-scenarios",
+      "task_type": "General",
+      "origin_region": "DE",
+      "service_class": "batch",
+      "arrival_s": 31.176596,
+      "budget_s": 3600.0,
+      "wait_s": 1800.0,
+      "priority": 1,
+      "service_s": 0.10781536,
+      "service_l": 0.3234460799999999,
+      "length_bin_train_only": 1,
+      "difficulty_bin_train_only": 0,
+      "source_phase": "test"
+    },
+    {
+      "instance_id": "mmlu-high-school-world-history.val.206",
+      "base_request_id": "mmlu-high-school-world-history.val.206",
+      "prompt_group": "b35cc306e53f92ec75587427ea414a952ccaa6b4fa34e66305ad317bf8dc6406",
+      "prompt": "Please answer with the letter of the correct answer.\n\nThis question refers to the following information.\nOh, shame on you, poor Winter King!\nWhat's this that you have done?\nIs 't not a very naughty thing\nTo snatch the kaiser's crown?\nNow you will have to stay away\nAlike from Rhine and Prague,\nAnd more than that-shame and dismay\nYour days and nights will plague.\nRight well you knew, and all the world,\nRight well they know this thing,\nThat Ferdinand alone can be\nBohemia's lawful king.\nSo come, dear Fritz, rouse up and go\nTo Ferdinand, your king,\nAnd beg him graciously to show\nFull pardon for your sin.\n\"Poor Winter King,\" seventeenth-century song\nWhich of the following best explains why the narrator mentions \"Rhine and Prague\"?\nA) These are lands that the Winter King lost in battle.\nB) They are significant military posts within the borders of the Holy Roman Empire.\nC) Because these were strongholds of the Holy Roman Empire, the narrator warns the Winter King to stay away.\nD) They are destinations for the Winter King's planned pilgrimage.\nPrint only a single choice  from \"A\" or \"B\" or \"C\" or \"D\" without explanation. Answer:",
+      "eval_name": "mmlu-high-school-world-history",
+      "task_type": "General",
+      "origin_region": "DE",
+      "service_class": "realtime",
+      "arrival_s": 62.574707,
+      "budget_s": 29.999999999999993,
+      "wait_s": 5.0,
+      "priority": 3,
+      "service_s": 0.13354708,
+      "service_l": 0.40064124,
+      "length_bin_train_only": 2,
+      "difficulty_bin_train_only": 2,
+      "source_phase": "test"
+    },
+    {
+      "instance_id": "grade-school-math.dev.4663",
+      "base_request_id": "grade-school-math.dev.4663",
+      "prompt_group": "27d4fccc24558564d8e8787f84a00dc3f4288b49f78734a5c92580cd437662a7",
+      "prompt": "TASK: Solve the following grade school math problem and provide a numerical answer.\nThe following are examples of grade school math problems and answers:\nQuestion: There are 15 trees in the grove. Grove workers will plant trees in the grove today. After they are done, there will be 21 trees. How many trees did the grove workers plant today? \nAnswer: 6\n\nQuestion: If there are 3 cars in the parking lot and 2 more cars arrive, how many cars are in the parking lot? \nAnswer: 5\n\nQuestion: Leah had 32 chocolates and her sister had 42. If they ate 35, how many pieces do they have left in total? \nAnswer: 39\n\nQuestion: Jason had 20 lollipops. He gave Denny some lollipops. Now Jason has 12 lollipops. How many lollipops did Jason give to Denny?\nAnswer: 8\n\nQuestion: Shawn has five toys. For Christmas, he got two toys each from his mom and dad. How many toys does he have now? \nAnswer: 9\n\n\n\nThe news announced a $0.4 oil price rollback this Friday. Mr. Deane decided to only fill his gas tank with 10 liters of gas today and then another 25 liters on Friday. If the cost per liter of gas is $1.4 today, how much will Mr. Deane spend for his 35 liters of gas?",
+      "eval_name": "grade-school-math",
+      "task_type": "Math",
+      "origin_region": "DE",
+      "service_class": "batch",
+      "arrival_s": 124.99277,
+      "budget_s": 3600.0,
+      "wait_s": 1800.0,
+      "priority": 1,
+      "service_s": 1.04177489,
+      "service_l": 3.87222627,
+      "length_bin_train_only": 2,
+      "difficulty_bin_train_only": 1,
+      "source_phase": "test"
+    },
+    {
+      "instance_id": "hellaswag.val.1860",
+      "base_request_id": "hellaswag.val.1860",
+      "prompt_group": "8823e94e66c9466fc73be09abec56204ffe4a7862f6a1cb3f7189e69cef19cd4",
+      "prompt": "A woman is show in several different location lifting weights above her head and jumping her legs out. the woman\nA) continues to run up and down the trainer's world and ends by dropping keys and jumping back down.\nB) continues going up as various discs are thrown up and throughout her body while the camera follows.\nC) ends with her also jumping her legs down.\nD) continues lifting up the weights over her head while various text instruments pan across the screen.\nPrint only a single choice  from \"A\" or \"B\" or \"C\" or \"D\" without explanation.\nAnswer:",
+      "eval_name": "hellaswag",
+      "task_type": "General",
+      "origin_region": "FR",
+      "service_class": "realtime",
+      "arrival_s": 1426.050805,
+      "budget_s": 30.0,
+      "wait_s": 5.0,
+      "priority": 3,
+      "service_s": 0.10619232,
+      "service_l": 0.31857696,
+      "length_bin_train_only": 1,
+      "difficulty_bin_train_only": 1,
+      "source_phase": "test"
+    },
+    {
+      "instance_id": "chinese_idioms.dev.2",
+      "base_request_id": "chinese_idioms.dev.2",
+      "prompt_group": "a44519d6d6e0274364890b9031c93972f9e9d22d44150f94ee5dff7b18c20c54",
+      "prompt": "请解释下面词语的意思,请使用英文回答。\n---\n改开党/特色党",
+      "eval_name": "chinese_idioms",
+      "task_type": "General",
+      "origin_region": "DE",
+      "service_class": "bounded_delay",
+      "arrival_s": 1582.430626,
+      "budget_s": 300.0,
+      "wait_s": 120.0,
+      "priority": 2,
+      "service_s": 0.08782033,
+      "service_l": 0.26346099,
+      "length_bin_train_only": 0,
+      "difficulty_bin_train_only": 0,
+      "source_phase": "test"
+    },
+    {
+      "instance_id": "mmlu-high-school-psychology.val.192",
+      "base_request_id": "mmlu-high-school-psychology.val.192",
+      "prompt_group": "75dee9122432a39cc56ef2452f16d026f3ffdbd5d00cc6c428731417abf9b4bc",
+      "prompt": "Please answer with the letter of the correct answer.\n\nAntonia has a cat. The first time she sees a rabbit, she calls it a cat. Her mistake is due to the process of\nA) generalization.\nB) assimilation.\nC) accommodation.\nD) discrimination.\nPrint only a single choice  from \"A\" or \"B\" or \"C\" or \"D\" without explanation. Answer:",
+      "eval_name": "mmlu-high-school-psychology",
+      "task_type": "General",
+      "origin_region": "DE",
+      "service_class": "batch",
+      "arrival_s": 2691.358825,
+      "budget_s": 3599.9999999999995,
+      "wait_s": 1800.0,
+      "priority": 1,
+      "service_s": 0.09789433,
+      "service_l": 0.29368299,
+      "length_bin_train_only": 0,
+      "difficulty_bin_train_only": 2,
+      "source_phase": "test"
+    },
+    {
+      "instance_id": "winogrande.dev.1091",
+      "base_request_id": "winogrande.dev.1091",
+      "prompt_group": "20ed2fc706553422eae164d8c7b6ae86f5e2f60a5ac74f55025292316db5aa2e",
+      "prompt": "Felicia experienced a tummy ache while Tanya did not because _ had not eaten any food.\nA) Felicia\nB) Tanya\nPrint only a single choice  from \"A\" or \"B\" without explanation. Answer:",
+      "eval_name": "winogrande",
+      "task_type": "General",
+      "origin_region": "FR",
+      "service_class": "realtime",
+      "arrival_s": 2878.687352,
+      "budget_s": 30.0,
+      "wait_s": 5.0,
+      "priority": 3,
+      "service_s": 0.09023353,
+      "service_l": 0.27070059,
+      "length_bin_train_only": 0,
+      "difficulty_bin_train_only": 1,
+      "source_phase": "test"
+    },
+    {
+      "instance_id": "mmlu-high-school-government-and-politics.val.191",
+      "base_request_id": "mmlu-high-school-government-and-politics.val.191",
+      "prompt_group": "d27b9c2b3d2fdd3dd82deeb33a402a8ae3e986d69161e8d6cf25be7dd5654732",
+      "prompt": "Please answer with the letter of the correct answer.\n\nThe attorney general is the head of which of the following entities?\nA) The Department of State\nB) The Senate Judiciary Committee\nC) The Judge Advocate General's Corps\nD) The Department of Justice\nPrint only a single choice  from \"A\" or \"B\" or \"C\" or \"D\" without explanation. Answer:",
+      "eval_name": "mmlu-high-school-government-and-politics",
+      "task_type": "General",
+      "origin_region": "ES",
+      "service_class": "bounded_delay",
+      "arrival_s": 2995.976564,
+      "budget_s": 300.0,
+      "wait_s": 120.0,
+      "priority": 2,
+      "service_s": 0.09728848,
+      "service_l": 0.29186544,
+      "length_bin_train_only": 0,
+      "difficulty_bin_train_only": 2,
+      "source_phase": "test"
+    },
+    {
+      "instance_id": "grade-school-math.dev.7393",
+      "base_request_id": "grade-school-math.dev.7393",
+      "prompt_group": "1df630d17c0d40fb9886c20e6a55d18980fd781fca72175d5a69dab50c681865",
+      "prompt": "TASK: Solve the following grade school math problem and provide a numerical answer.\nThe following are examples of grade school math problems and answers:\nQuestion: There are 15 trees in the grove. Grove workers will plant trees in the grove today. After they are done, there will be 21 trees. How many trees did the grove workers plant today? \nAnswer: 6\n\nQuestion: If there are 3 cars in the parking lot and 2 more cars arrive, how many cars are in the parking lot? \nAnswer: 5\n\nQuestion: Leah had 32 chocolates and her sister had 42. If they ate 35, how many pieces do they have left in total? \nAnswer: 39\n\nQuestion: Jason had 20 lollipops. He gave Denny some lollipops. Now Jason has 12 lollipops. How many lollipops did Jason give to Denny?\nAnswer: 8\n\nQuestion: Shawn has five toys. For Christmas, he got two toys each from his mom and dad. How many toys does he have now? \nAnswer: 9\n\n\n\nThere are 70 cookies in a jar. If there are only 28 cookies left after a week, and Paul took out the same amount each day, how many cookies did he take out in four days?",
+      "eval_name": "grade-school-math",
+      "task_type": "Math",
+      "origin_region": "DE",
+      "service_class": "bounded_delay",
+      "arrival_s": 4491.400797,
+      "budget_s": 300.0,
+      "wait_s": 120.0,
+      "priority": 2,
+      "service_s": 1.03614277,
+      "service_l": 3.85508811,
+      "length_bin_train_only": 2,
+      "difficulty_bin_train_only": 1,
+      "source_phase": "test"
+    },
+    {
+      "instance_id": "grade-school-math.dev.4681",
+      "base_request_id": "grade-school-math.dev.4681",
+      "prompt_group": "fc6499b453727691603e80b5bef5b6cdea340b3b6425b536f76f07b85a0d500d",
+      "prompt": "TASK: Solve the following grade school math problem and provide a numerical answer.\nThe following are examples of grade school math problems and answers:\nQuestion: There are 15 trees in the grove. Grove workers will plant trees in the grove today. After they are done, there will be 21 trees. How many trees did the grove workers plant today? \nAnswer: 6\n\nQuestion: If there are 3 cars in the parking lot and 2 more cars arrive, how many cars are in the parking lot? \nAnswer: 5\n\nQuestion: Leah had 32 chocolates and her sister had 42. If they ate 35, how many pieces do they have left in total? \nAnswer: 39\n\nQuestion: Jason had 20 lollipops. He gave Denny some lollipops. Now Jason has 12 lollipops. How many lollipops did Jason give to Denny?\nAnswer: 8\n\nQuestion: Shawn has five toys. For Christmas, he got two toys each from his mom and dad. How many toys does he have now? \nAnswer: 9\n\n\n\nCoby went on a road trip. He is traveling from Washington to Nevada but he needs to stop in Idaho which is 640 miles away from Washington and 550 miles away from Nevada to pick up some friends.  If Coby is traveling at a speed of 80 miles per hour going to Idaho and at a speed of 50 miles per hour from Idaho to Nevada, how many hours did it take for him to arrive at the destination?",
+      "eval_name": "grade-school-math",
+      "task_type": "Math",
+      "origin_region": "DE",
+      "service_class": "realtime",
+      "arrival_s": 4672.608597,
+      "budget_s": 30.0,
+      "wait_s": 5.0,
+      "priority": 3,
+      "service_s": 1.04546474,
+      "service_l": 3.88345392,
+      "length_bin_train_only": 2,
+      "difficulty_bin_train_only": 0,
+      "source_phase": "test"
+    },
+    {
+      "instance_id": "mmlu-marketing.val.175",
+      "base_request_id": "mmlu-marketing.val.175",
+      "prompt_group": "61d66a10ed34a31edf9c77d01d6adab54e2b5e34441357fdbdd2e0496fc35b0a",
+      "prompt": "Please answer with the letter of the correct answer.\n\n____________________ are those who address the same target market but provide a different offering to satisfy the market need, for example Spotify, Sony, and Apple's iPod.\nA) Direct suppliers.\nB) Indirect distributors.\nC) Indirect competitions.\nD) Direct competitions.\nPrint only a single choice  from \"A\" or \"B\" or \"C\" or \"D\" without explanation. Answer:",
+      "eval_name": "mmlu-marketing",
+      "task_type": "General",
+      "origin_region": "DE",
+      "service_class": "bounded_delay",
+      "arrival_s": 4733.857062,
+      "budget_s": 300.0,
+      "wait_s": 120.0,
+      "priority": 2,
+      "service_s": 0.09971296,
+      "service_l": 0.29913888,
+      "length_bin_train_only": 0,
+      "difficulty_bin_train_only": 2,
+      "source_phase": "test"
+    },
+    {
+      "instance_id": "hellaswag.val.6820",
+      "base_request_id": "hellaswag.val.6820",
+      "prompt_group": "899ec1223938c8948b11e0518e6be35e631e276f3d9e4a6e32c2bca8b07d1f1a",
+      "prompt": "[header] How to look cute [title] Wear cute clothes. [step] Wearing cute clothes is the key to being cute. You don't have to change everything in your wardrobe to be cute--instead, just work on acquiring a few cute items that tie all of your clothes together in a cute way.\nA) Ditch the drab and wrinkled feel when looking for cute items, get creative. [substeps] Dresses, skirts, crop tops, and fishnet dresses are all cute clothing.\nB) If you constantly berate yourself, you're actually trying to look cute. You're just using this as a way to show off your cute traits, no matter what others think.\nC) [substeps] Wear a cute top with leggings or shorts or a cute dress. Leave your t-shirt off the equation if you have to wear a shirt with cute slogans (such as \" cool \" or \" happy.\nD) Here are some ways to wear cute clothes : [substeps] Wear skirts and dresses instead of pants or shorts when you can. Cardigans, knit sweaters and vests, boot-cut jeans, and t-shirts with cute patterns like hearts or polka-dots, are cute forms of clothing.\nPrint only a single choice  from \"A\" or \"B\" or \"C\" or \"D\" without explanation.\nAnswer:",
+      "eval_name": "hellaswag",
+      "task_type": "General",
+      "origin_region": "ES",
+      "service_class": "realtime",
+      "arrival_s": 4796.029049,
+      "budget_s": 30.0,
+      "wait_s": 5.0,
+      "priority": 3,
+      "service_s": 0.13683732,
+      "service_l": 0.41051196,
+      "length_bin_train_only": 2,
+      "difficulty_bin_train_only": 0,
+      "source_phase": "test"
+    },
+    {
+      "instance_id": "mmlu-human-aging.val.35",
+      "base_request_id": "mmlu-human-aging.val.35",
+      "prompt_group": "64546bdc974449f52abbb704f31c3bb53d5100716d834a00470b2b42c3533fd4",
+      "prompt": "Please answer with the letter of the correct answer.\n\nLoss of smell for adults 80 and older is\nA) Frequent (close to 50%)\nB) Infrequent (less than 40%)\nC) Very infrequent (less than 15%)\nD) Very frequent (more than 75%)\nPrint only a single choice  from \"A\" or \"B\" or \"C\" or \"D\" without explanation. Answer:",
+      "eval_name": "mmlu-human-aging",
+      "task_type": "General",
+      "origin_region": "ES",
+      "service_class": "batch",
+      "arrival_s": 6272.369514,
+      "budget_s": 3600.0,
+      "wait_s": 1800.0,
+      "priority": 1,
+      "service_s": 0.09870241,
+      "service_l": 0.29610723,
+      "length_bin_train_only": 0,
+      "difficulty_bin_train_only": 2,
+      "source_phase": "test"
+    },
+    {
+      "instance_id": "hellaswag.val.7214",
+      "base_request_id": "hellaswag.val.7214",
+      "prompt_group": "2ba8c73f4bd4483f3b1d50778c1215a1dc63a5f90bd9c388303b34a273fdd121",
+      "prompt": "[header] How to deal with the death of a grandmother [title] Feel your emotions. [step] You will go through the process much more easily if you do not try to fight or hold in what you're feeling. There is no right or wrong way to grieve.\nA) The only way you can do that is to let your feelings out. This means talking to a doctor or counselor.\nB) There is no time-frame in which grief ends. Try to open yourself up to the anger, sadness, confusion, or abandonment feelings that come over you.\nC) You can simply use the body parts you need for grief. Each loved one has their own emotional identity.\nD) Because dying can be difficult, what you feel is not important. [substeps] One possibility is to go with the same mentality: \" grandma has passed on.\nPrint only a single choice  from \"A\" or \"B\" or \"C\" or \"D\" without explanation.\nAnswer:",
+      "eval_name": "hellaswag",
+      "task_type": "General",
+      "origin_region": "ES",
+      "service_class": "realtime",
+      "arrival_s": 6372.057697,
+      "budget_s": 30.0,
+      "wait_s": 5.0,
+      "priority": 3,
+      "service_s": 0.12227593,
+      "service_l": 0.36682779,
+      "length_bin_train_only": 1,
+      "difficulty_bin_train_only": 0,
+      "source_phase": "test"
+    },
+    {
+      "instance_id": "mmlu-security-studies.val.158",
+      "base_request_id": "mmlu-security-studies.val.158",
+      "prompt_group": "97cf4966c810b0b7926348b3761390898a97335a70d431a072cce3665bfc3731",
+      "prompt": "Please answer with the letter of the correct answer.\n\nWhich of these is an effective way of securing against cyber threats?\nA) Ensure that the severity of cyber war as a threat is recognised, and that instances of cyber warfare are identified, publicised, and acted upon immediately.\nB) All of these options.\nC) Complete eradication of threats.\nD) Acceptance that there can be no absolute security, instead design resilient IT systems and build international cooperation and information exchange in order to reduce threat and increase resilience.\nPrint only a single choice  from \"A\" or \"B\" or \"C\" or \"D\" without explanation. Answer:",
+      "eval_name": "mmlu-security-studies",
+      "task_type": "General",
+      "origin_region": "ES",
+      "service_class": "bounded_delay",
+      "arrival_s": 6377.901008,
+      "budget_s": 300.0,
+      "wait_s": 120.0,
+      "priority": 2,
+      "service_s": 0.10740948,
+      "service_l": 0.3222284399999999,
+      "length_bin_train_only": 1,
+      "difficulty_bin_train_only": 2,
+      "source_phase": "test"
+    },
+    {
+      "instance_id": "hellaswag.val.7970",
+      "base_request_id": "hellaswag.val.7970",
+      "prompt_group": "7d99d7025d986d66e09e9d99e4678a1b2e72d356b6df07640b56416111937db1",
+      "prompt": "[header] How to discuss finances together in a marriage [title] Broach the subject casually with your spouse. [step] The time to start talking about merging your finances is before the wedding, but at least 40% of couples avoid doing so. [substeps] Start the conversation with your action items first.\nA) For example, if you're trying to add a certain amount of money to the prenuptial agreement, talk it over before you talk about how you're going to divide the funds. At the same time, try not to bring up the financial aspects of separation or child support.\nB) This could mean starting off by talking to your spouse about your desire to look at your own credit score as you prepare to buy a house and suggest that he or she does the same. Say something like \" have you checked your credit report lately? I've been wanting to get a good picture of my financial standing.\nC) For example, you could say something like, \" do you want to pay off the mortgage on your car if we live really close? \" depending on your situation, you might want to explain why you might want to split joint accounts. You could say, \" i think separating accounts would be a good idea.\nD) For example, you could bring up your future plans with your spouse in anticipation of the wedding, or you could say something like, \" i have been thinking about retiring to san francisco and am looking for an apartment right now. I thought you'd be able to help me out.\nPrint only a single choice  from \"A\" or \"B\" or \"C\" or \"D\" without explanation.\nAnswer:",
+      "eval_name": "hellaswag",
+      "task_type": "General",
+      "origin_region": "FR",
+      "service_class": "realtime",
+      "arrival_s": 7753.916003,
+      "budget_s": 30.0,
+      "wait_s": 5.0,
+      "priority": 3,
+      "service_s": 0.15025657,
+      "service_l": 0.4507697100000001,
+      "length_bin_train_only": 2,
+      "difficulty_bin_train_only": 0,
+      "source_phase": "test"
+    },
+    {
+      "instance_id": "hellaswag.val.8960",
+      "base_request_id": "hellaswag.val.8960",
+      "prompt_group": "e09d9e89f2fe8a848d9064c4fa19f37b08836d840de542a4cffe90493d66b124",
+      "prompt": "[header] How to run a laundromat [title] Clean the laundromat. [step] Some light cleaning may be necessary, such as emptying lint from lint screens in the dryers, emptying trash cans and washing tables used by customers to fold laundry. If your laundromat has a lavatory, you will also need to keep that in good order.\nA) [substeps] Resetting the toilet by setting it in the appropriate position and then running water over it. If you also wish to move the wash table back to their normal position and remove the blind fold, wash that.\nB) [substeps] Wash all pre-washed and re-washed clothing according to season or day. Wash dirty clothing according to what season or the purpose of your laundromat.\nC) [title] Perform regular maintenance on washers and dryers. [step] You will have to maintain the washer and dryer according to the type of machine.\nD) [title] Go to the laundromat's waste disposal. [step] You can use the common household sink relocation system to clean especially dirty laundry.\nPrint only a single choice  from \"A\" or \"B\" or \"C\" or \"D\" without explanation.\nAnswer:",
+      "eval_name": "hellaswag",
+      "task_type": "General",
+      "origin_region": "ES",
+      "service_class": "bounded_delay",
+      "arrival_s": 7760.344885,
+      "budget_s": 300.0,
+      "wait_s": 120.0,
+      "priority": 2,
+      "service_s": 0.13005681,
+      "service_l": 0.3901704299999999,
+      "length_bin_train_only": 2,
+      "difficulty_bin_train_only": 0,
+      "source_phase": "test"
+    },
+    {
+      "instance_id": "hellaswag.val.8242",
+      "base_request_id": "hellaswag.val.8242",
+      "prompt_group": "d63d360aaea48ad368d354d614ff92cbd31ee637b0e94a86fa5bdd13851dc6db",
+      "prompt": "[header] How to make a hat [title] Sew a fleece beanie or a fleece hat. [step] Polar fleece, aka vegan wool, makes for a very toasty hat during the cold winter months. [title] Sew baby hats.\nA) [step] Baby hats are an important part of a baby's wardrobe, to ensure warmth and comfort. Some ideas to try include : [substeps] Sew a baby hat, complete with cute ears.\nB) [step] Choose the type that comes down best on toddlers. It would be best for infants, so take your infant to the same store you bought the fleece hat.\nC) [step] Babies decide how big the head piece of wool is; about 6 \"-12 \" (15 cm) sizes are common but you can make them as big or as small as you want (1/5 \"). [title] Sew tiny tabs around the outside of the hat.\nD) [step] Newborn hats are the ideal choice for puling snow away from the face, especially if it isn't raining. [title] Make a hat that shares your yarn.\nPrint only a single choice  from \"A\" or \"B\" or \"C\" or \"D\" without explanation.\nAnswer:",
+      "eval_name": "hellaswag",
+      "task_type": "General",
+      "origin_region": "DE",
+      "service_class": "realtime",
+      "arrival_s": 9087.805311,
+      "budget_s": 30.0,
+      "wait_s": 5.0,
+      "priority": 3,
+      "service_s": 0.13354708,
+      "service_l": 0.40064124,
+      "length_bin_train_only": 1,
+      "difficulty_bin_train_only": 0,
+      "source_phase": "test"
+    },
+    {
+      "instance_id": "hellaswag.val.1604",
+      "base_request_id": "hellaswag.val.1604",
+      "prompt_group": "49722d91d0357cca1c8f6d830c6c08731a5053fc5d9e080020d7bf7246e3ae17",
+      "prompt": "Two girls check their wrists while one speaks to the camera and several shots of a wristband are shown. more people\nA) are interviewed while wearing the wrist bands and show how they work while many run around.\nB) speak to the camera and the girls stand in front of a mirror speaking to the camera.\nC) are shown in public, talking, and laughing as they grab and leave a building.\nD) are being interviewed as well as a car is pulled into frame as an interview is shown with a women speaking while demonstrating karate.\nPrint only a single choice  from \"A\" or \"B\" or \"C\" or \"D\" without explanation.\nAnswer:",
+      "eval_name": "hellaswag",
+      "task_type": "General",
+      "origin_region": "FR",
+      "service_class": "batch",
+      "arrival_s": 9218.6956,
+      "budget_s": 3600.0,
+      "wait_s": 1800.0,
+      "priority": 1,
+      "service_s": 0.10883041,
+      "service_l": 0.32649123,
+      "length_bin_train_only": 1,
+      "difficulty_bin_train_only": 1,
+      "source_phase": "test"
+    },
+    {
+      "instance_id": "mmlu-professional-law.val.289",
+      "base_request_id": "mmlu-professional-law.val.289",
+      "prompt_group": "6d7f21df09c8c91703b0a99fec837bd720d453fa558035cc5c537dca19172a75",
+      "prompt": "Please answer with the letter of the correct answer.\n\nA plaintiff sued a defendant for injuries suffered in an automobile accident that occurred six months ago. The plaintiff claimed that the defendant drove through a red light and hit her as she was crossing the street. The posted speed limit at the scene of the accident was 25 m. p. h. In his case-in-chief, the defendant testified that the traffic light was green and he was driving carefully at 20 m. p. h. The plaintiff's attorney did not cross-examine the defendant. Rather, she called a police officer who testified that the defendant told him immediately after the accident that he was going 30 m. p. h. The police officer's testimony is\nA) hearsay, but admissible as a prior inconsistent statement for any purpose.\nB) a prior inconsistent statement and, therefore, admissible to impeach.\nC) inadmissible, because the accident report is the best evidence of what the defendant told the police officer.\nD) admissible, as offered against the defendant.\nPrint only a single choice  from \"A\" or \"B\" or \"C\" or \"D\" without explanation. Answer:",
+      "eval_name": "mmlu-professional-law",
+      "task_type": "General",
+      "origin_region": "FR",
+      "service_class": "bounded_delay",
+      "arrival_s": 9597.184553,
+      "budget_s": 300.0,
+      "wait_s": 120.0,
+      "priority": 2,
+      "service_s": 0.12903136,
+      "service_l": 0.38709408,
+      "length_bin_train_only": 2,
+      "difficulty_bin_train_only": 1,
+      "source_phase": "test"
+    },
+    {
+      "instance_id": "grade-school-math.dev.255",
+      "base_request_id": "grade-school-math.dev.255",
+      "prompt_group": "7f76a86f7115345319bd918ceb1dd65a3bd6736ad5ec25a9f17a86b769b3a19d",
+      "prompt": "TASK: Solve the following grade school math problem and provide a numerical answer.\nThe following are examples of grade school math problems and answers:\nQuestion: There are 15 trees in the grove. Grove workers will plant trees in the grove today. After they are done, there will be 21 trees. How many trees did the grove workers plant today? \nAnswer: 6\n\nQuestion: If there are 3 cars in the parking lot and 2 more cars arrive, how many cars are in the parking lot? \nAnswer: 5\n\nQuestion: Leah had 32 chocolates and her sister had 42. If they ate 35, how many pieces do they have left in total? \nAnswer: 39\n\nQuestion: Jason had 20 lollipops. He gave Denny some lollipops. Now Jason has 12 lollipops. How many lollipops did Jason give to Denny?\nAnswer: 8\n\nQuestion: Shawn has five toys. For Christmas, he got two toys each from his mom and dad. How many toys does he have now? \nAnswer: 9\n\n\n\nBush and Matt are brothers. Bush is younger than Matt by 3 years. This year Bush will be 12 years old. What will be Matt's age 10 years from now?",
+      "eval_name": "grade-school-math",
+      "task_type": "Math",
+      "origin_region": "DE",
+      "service_class": "bounded_delay",
+      "arrival_s": 9735.324362,
+      "budget_s": 300.0,
+      "wait_s": 120.0,
+      "priority": 2,
+      "service_s": 1.03527749,
+      "service_l": 3.85245507,
+      "length_bin_train_only": 1,
+      "difficulty_bin_train_only": 2,
+      "source_phase": "test"
+    },
+    {
+      "instance_id": "grade-school-math.dev.4566",
+      "base_request_id": "grade-school-math.dev.4566",
+      "prompt_group": "498c3afbd1726798e0c22bd8970499167b56efbd45c711e13b1d8424de38f7be",
+      "prompt": "TASK: Solve the following grade school math problem and provide a numerical answer.\nThe following are examples of grade school math problems and answers:\nQuestion: There are 15 trees in the grove. Grove workers will plant trees in the grove today. After they are done, there will be 21 trees. How many trees did the grove workers plant today? \nAnswer: 6\n\nQuestion: If there are 3 cars in the parking lot and 2 more cars arrive, how many cars are in the parking lot? \nAnswer: 5\n\nQuestion: Leah had 32 chocolates and her sister had 42. If they ate 35, how many pieces do they have left in total? \nAnswer: 39\n\nQuestion: Jason had 20 lollipops. He gave Denny some lollipops. Now Jason has 12 lollipops. How many lollipops did Jason give to Denny?\nAnswer: 8\n\nQuestion: Shawn has five toys. For Christmas, he got two toys each from his mom and dad. How many toys does he have now? \nAnswer: 9\n\n\n\nZion is 8 years old and his dad is 3 more than 4 times his age. In 10 years, how many years older is Zion's dad than him?",
+      "eval_name": "grade-school-math",
+      "task_type": "Math",
+      "origin_region": "ES",
+      "service_class": "realtime",
+      "arrival_s": 9753.468265,
+      "budget_s": 30.0,
+      "wait_s": 5.0,
+      "priority": 3,
+      "service_s": 1.03462874,
+      "service_l": 3.85048092,
+      "length_bin_train_only": 1,
+      "difficulty_bin_train_only": 2,
+      "source_phase": "test"
+    },
+    {
+      "instance_id": "mmlu-prehistory.val.202",
+      "base_request_id": "mmlu-prehistory.val.202",
+      "prompt_group": "67f9312b8225d1467574f3adf075ccc002d54c4c956c0362a4f76945f17ed3f5",
+      "prompt": "Please answer with the letter of the correct answer.\n\nIn Randall White's view, what do items of personal adornment imply during the Upper Paleolithic period?\nA) increasing awareness and importance of individual identity\nB) a hobby done around the campfire at night\nC) a willingness to travel great distances\nD) greater intelligence and willingness to cooperate\nPrint only a single choice  from \"A\" or \"B\" or \"C\" or \"D\" without explanation. Answer:",
+      "eval_name": "mmlu-prehistory",
+      "task_type": "General",
+      "origin_region": "DE",
+      "service_class": "realtime",
+      "arrival_s": 10794.179931,
+      "budget_s": 30.0,
+      "wait_s": 5.0,
+      "priority": 3,
+      "service_s": 0.1003195299999999,
+      "service_l": 0.30095859,
+      "length_bin_train_only": 0,
+      "difficulty_bin_train_only": 2,
+      "source_phase": "test"
+    },
+    {
+      "instance_id": "hellaswag.val.9684",
+      "base_request_id": "hellaswag.val.9684",
+      "prompt_group": "a741d939beed34174de97e0be66fea0d6b2de8886668c9b849a6dcc835999cca",
+      "prompt": "[header] How to become an architect in canada [title] Study architecture at a college (or university) and obtain a bachelor's degree or master's degree. [step] Education is an important factor for becoming an architect. Make sure your chosen program of study has been approved under the canadian architectural certification board (cacb) before you enroll.\nA) [substeps] Complete the syllabus program offered by the royal architectural institute of canada (raic) as an alternative way to become an architect. [title] Gain 5 , 600 hours of work experience.\nB) [title] Complete a degree at your school of choice. [step] The schools that you are admitted into, in countries like canada, in the european half of the world, are accredited for help in finding a college of your choice.\nC) [substeps] If you do not already have a bachelor's degree, you can find a colleges or universities near you by searching online. Alternatively, contact your college or university's architectural admin to see if there are any accredited degree programs near you.\nD) You can also register at a college or college to test your knowledge. [substeps] Architecture university offers courses on subjects you're already familiarizing yourself with.\nPrint only a single choice  from \"A\" or \"B\" or \"C\" or \"D\" without explanation.\nAnswer:",
+      "eval_name": "hellaswag",
+      "task_type": "General",
+      "origin_region": "DE",
+      "service_class": "bounded_delay",
+      "arrival_s": 11023.710522,
+      "budget_s": 300.0,
+      "wait_s": 120.0,
+      "priority": 2,
+      "service_s": 0.13766068,
+      "service_l": 0.41298204,
+      "length_bin_train_only": 2,
+      "difficulty_bin_train_only": 0,
+      "source_phase": "test"
+    },
+    {
+      "instance_id": "mmlu-clinical-knowledge.val.227",
+      "base_request_id": "mmlu-clinical-knowledge.val.227",
+      "prompt_group": "c2346454661ef84714438e003190a171295c450805d15b6342fd4b4cb2447432",
+      "prompt": "Please answer with the letter of the correct answer.\n\nWhich potential complication of IV therapy is described thus: 'Leakage of vesicant (irritant) medication or fluid into surrounding tissues, causing tissue damage'?\nA) Extravasation.\nB) Phlebitis.\nC) Infiltration.\nD) Inflammation.\nPrint only a single choice  from \"A\" or \"B\" or \"C\" or \"D\" without explanation. Answer:",
+      "eval_name": "mmlu-clinical-knowledge",
+      "task_type": "General",
+      "origin_region": "FR",
+      "service_class": "batch",
+      "arrival_s": 12185.845777,
+      "budget_s": 3600.0,
+      "wait_s": 1800.0,
+      "priority": 1,
+      "service_s": 0.09829833,
+      "service_l": 0.29489499,
+      "length_bin_train_only": 0,
+      "difficulty_bin_train_only": 2,
+      "source_phase": "test"
+    },
+    {
+      "instance_id": "mmlu-business-ethics.val.67",
+      "base_request_id": "mmlu-business-ethics.val.67",
+      "prompt_group": "256b8e3027dd667482a3056eb3f5715e4557692c8dd31acb8a571a9abb092434",
+      "prompt": "Please answer with the letter of the correct answer.\n\nThe ISO 26000 standard on ________ is emblematic of a number of trends emerging within the shared global governance space. Specifically, these trends concern, more deliberation and ________, greater focus on the _______ rather than outcomes and more _______ rather than specific norms.\nA) Social responsibility, Collaboration, Process, Frameworks\nB) Social responsibility, Individualism, Process, Legislation\nC) Environmental responsibility, Individualism, Inputs, Frameworks\nD) Environmental responsibility, Collaboration, Inputs, Legislation\nPrint only a single choice  from \"A\" or \"B\" or \"C\" or \"D\" without explanation. Answer:",
+      "eval_name": "mmlu-business-ethics",
+      "task_type": "General",
+      "origin_region": "DE",
+      "service_class": "realtime",
+      "arrival_s": 12287.824181,
+      "budget_s": 30.0,
+      "wait_s": 5.0,
+      "priority": 3,
+      "service_s": 0.10700368,
+      "service_l": 0.32101104,
+      "length_bin_train_only": 1,
+      "difficulty_bin_train_only": 2,
+      "source_phase": "test"
+    },
+    {
+      "instance_id": "arc-challenge.test.945",
+      "base_request_id": "arc-challenge.test.945",
+      "prompt_group": "63d3401952559655333e52bbfb5d5b7214cf2714c1e34bd7f67d572f430741af",
+      "prompt": "In 1995, a private bus company in Washington, D.C., introduced a program to run all its tour buses with fuel obtained from soybeans. The buses are powered by\nA) biogas.\nB) nuclear fuel.\nC) diesel fuel.\nD) coal gas.\nPrint only a single choice  from \"A\" or \"B\" or \"C\" or \"D\" without explanation.\nAnswer:",
+      "eval_name": "arc-challenge",
+      "task_type": "General",
+      "origin_region": "DE",
+      "service_class": "bounded_delay",
+      "arrival_s": 12380.698249,
+      "budget_s": 300.0,
+      "wait_s": 120.0,
+      "priority": 2,
+      "service_s": 0.09809632,
+      "service_l": 0.29428896,
+      "length_bin_train_only": 0,
+      "difficulty_bin_train_only": 2,
+      "source_phase": "test"
+    },
+    {
+      "instance_id": "mmlu-nutrition.val.296",
+      "base_request_id": "mmlu-nutrition.val.296",
+      "prompt_group": "a05a974e01885152b433842edface9f8f8de437a8d173d97551c48d9b91ebc48",
+      "prompt": "Please answer with the letter of the correct answer.\n\nWhat endogenous substrate source provides the most energy during moderate to high intensity exercise?\n\nA) Muscle glycogen\nB) Adipose tissue lipid\nC) Intramuscular lipid\nD) Liver glycogen\nPrint only a single choice  from \"A\" or \"B\" or \"C\" or \"D\" without explanation. Answer:",
+      "eval_name": "mmlu-nutrition",
+      "task_type": "General",
+      "origin_region": "FR",
+      "service_class": "realtime",
+      "arrival_s": 13546.894092,
+      "budget_s": 30.0,
+      "wait_s": 5.0,
+      "priority": 3,
+      "service_s": 0.09567376,
+      "service_l": 0.28702128,
+      "length_bin_train_only": 0,
+      "difficulty_bin_train_only": 2,
+      "source_phase": "test"
+    },
+    {
+      "instance_id": "mmlu-marketing.val.161",
+      "base_request_id": "mmlu-marketing.val.161",
+      "prompt_group": "d0e348082e1b743139a4e7ca1971efe1a90ec64b7d4215b669c8aebd6dbfa2cf",
+      "prompt": "Please answer with the letter of the correct answer.\n\nThese are non-durable goods or services, often bought with little pre-purchase thought or consideration:\nA) Manufacturer products.\nB) Impulse products.\nC) Convenience products.\nD) Luxury products.\nPrint only a single choice  from \"A\" or \"B\" or \"C\" or \"D\" without explanation. Answer:",
+      "eval_name": "mmlu-marketing",
+      "task_type": "General",
+      "origin_region": "ES",
+      "service_class": "bounded_delay",
+      "arrival_s": 13732.441141,
+      "budget_s": 300.0,
+      "wait_s": 120.0,
+      "priority": 2,
+      "service_s": 0.09728848,
+      "service_l": 0.29186544,
+      "length_bin_train_only": 0,
+      "difficulty_bin_train_only": 2,
+      "source_phase": "test"
+    },
+    {
+      "instance_id": "grade-school-math.dev.2534",
+      "base_request_id": "grade-school-math.dev.2534",
+      "prompt_group": "576480bcb5c58e93b8fa19f7ca4691644e7dec62b8ff4d1537053a681f9aec22",
+      "prompt": "TASK: Solve the following grade school math problem and provide a numerical answer.\nThe following are examples of grade school math problems and answers:\nQuestion: There are 15 trees in the grove. Grove workers will plant trees in the grove today. After they are done, there will be 21 trees. How many trees did the grove workers plant today? \nAnswer: 6\n\nQuestion: If there are 3 cars in the parking lot and 2 more cars arrive, how many cars are in the parking lot? \nAnswer: 5\n\nQuestion: Leah had 32 chocolates and her sister had 42. If they ate 35, how many pieces do they have left in total? \nAnswer: 39\n\nQuestion: Jason had 20 lollipops. He gave Denny some lollipops. Now Jason has 12 lollipops. How many lollipops did Jason give to Denny?\nAnswer: 8\n\nQuestion: Shawn has five toys. For Christmas, he got two toys each from his mom and dad. How many toys does he have now? \nAnswer: 9\n\n\n\nRebecca bought 2 pies for the holiday weekend.  Each pie was sliced into 8 slices.  Rebecca ate 1 slice of each pie.  Her family and friends ate 50% of the remaining pies over the weekend.  On Sunday evening Rebecca and her husband each had another slice of pie.  How many slices are remaining?",
+      "eval_name": "grade-school-math",
+      "task_type": "Math",
+      "origin_region": "FR",
+      "service_class": "realtime",
+      "arrival_s": 15034.665387,
+      "budget_s": 30.0,
+      "wait_s": 5.0,
+      "priority": 3,
+      "service_s": 1.04047397,
+      "service_l": 3.86826771,
+      "length_bin_train_only": 2,
+      "difficulty_bin_train_only": 1,
+      "source_phase": "test"
+    },
+    {
+      "instance_id": "grade-school-math.dev.2472",
+      "base_request_id": "grade-school-math.dev.2472",
+      "prompt_group": "6ee852f6d7a9b0d5120bb1b61e0c4386ae7244235d087edf527ace915e78d1e3",
+      "prompt": "TASK: Solve the following grade school math problem and provide a numerical answer.\nThe following are examples of grade school math problems and answers:\nQuestion: There are 15 trees in the grove. Grove workers will plant trees in the grove today. After they are done, there will be 21 trees. How many trees did the grove workers plant today? \nAnswer: 6\n\nQuestion: If there are 3 cars in the parking lot and 2 more cars arrive, how many cars are in the parking lot? \nAnswer: 5\n\nQuestion: Leah had 32 chocolates and her sister had 42. If they ate 35, how many pieces do they have left in total? \nAnswer: 39\n\nQuestion: Jason had 20 lollipops. He gave Denny some lollipops. Now Jason has 12 lollipops. How many lollipops did Jason give to Denny?\nAnswer: 8\n\nQuestion: Shawn has five toys. For Christmas, he got two toys each from his mom and dad. How many toys does he have now? \nAnswer: 9\n\n\n\nKaren packs peanut butter sandwiches in her daughter's lunch 2 randomly chosen days of the week. The other 3 school days, she packs a ham sandwich. She packs a piece of cake on one randomly chosen day and cookies the other four days. What is the probability, expressed as a percentage, that Karen packs a ham sandwich and cake on the same day?",
+      "eval_name": "grade-school-math",
+      "task_type": "Math",
+      "origin_region": "DE",
+      "service_class": "batch",
+      "arrival_s": 15037.983311,
+      "budget_s": 3600.0,
+      "wait_s": 1800.0,
+      "priority": 1,
+      "service_s": 1.04307653,
+      "service_l": 3.87618699,
+      "length_bin_train_only": 2,
+      "difficulty_bin_train_only": 1,
+      "source_phase": "test"
+    },
+    {
+      "instance_id": "grade-school-math.dev.6009",
+      "base_request_id": "grade-school-math.dev.6009",
+      "prompt_group": "e69b2e2859a7c2fc33b55079a855bb313bfca8dc6380054503012d4b3900752f",
+      "prompt": "TASK: Solve the following grade school math problem and provide a numerical answer.\nThe following are examples of grade school math problems and answers:\nQuestion: There are 15 trees in the grove. Grove workers will plant trees in the grove today. After they are done, there will be 21 trees. How many trees did the grove workers plant today? \nAnswer: 6\n\nQuestion: If there are 3 cars in the parking lot and 2 more cars arrive, how many cars are in the parking lot? \nAnswer: 5\n\nQuestion: Leah had 32 chocolates and her sister had 42. If they ate 35, how many pieces do they have left in total? \nAnswer: 39\n\nQuestion: Jason had 20 lollipops. He gave Denny some lollipops. Now Jason has 12 lollipops. How many lollipops did Jason give to Denny?\nAnswer: 8\n\nQuestion: Shawn has five toys. For Christmas, he got two toys each from his mom and dad. How many toys does he have now? \nAnswer: 9\n\n\n\nIn the park, the first rose bush has 12 red flowers.  The second rose bush has 18 pink flowers.  The third rose bush has 20 yellow flowers.  The fourth rose bush has 8 orange flowers.  For her vase, Lorelei picks 50% of the red roses, 50% pink roses, 25% of the yellow roses, and 25% orange roses. How many roses are in her vase?",
+      "eval_name": "grade-school-math",
+      "task_type": "Math",
+      "origin_region": "DE",
+      "service_class": "bounded_delay",
+      "arrival_s": 15062.902168,
+      "budget_s": 300.0,
+      "wait_s": 120.0,
+      "priority": 2,
+      "service_s": 1.0445960200000002,
+      "service_l": 3.88081056,
+      "length_bin_train_only": 2,
+      "difficulty_bin_train_only": 1,
+      "source_phase": "test"
+    },
+    {
+      "instance_id": "hellaswag.val.9782",
+      "base_request_id": "hellaswag.val.9782",
+      "prompt_group": "515619336d8227d2dddd49dd015f5e75827323927a0caff74c9bba3ff6e99980",
+      "prompt": "[header] How to remove engine oil stains [title] Scrape off extra grease or oil. [step] Before acting to clean an oil stain, you need to remove any extra grease or oil. By removing extra grease or oil, you'll ensure that the stain does not spread and you'll make it easier for the cleaning products you use to fight the stain.\nA) It will also make it easier for you to reshape and repair the stain. [substeps] Start at the top of the oil stain and scrape away any excess grease.\nB) [substeps] Instead of using scouring pads or food scraps, use a vinyl wire brush to lift off excess grease. [title] Use a stain remover formulated for grease.\nC) [substeps] Take a razor blade or another thin object and slide it between the oil and the object you're cleaning. If you're cleaning a fabric, you may want to substitute the razor for a thin piece of plastic or a thin piece of cardboard.\nD) [substeps] Most oil stains can be removed with hot soap or water, but you might notice an ingrained oil smell. You can use a paper towel or paper plate to try to work it off, but be careful not to create wet streaks.\nPrint only a single choice  from \"A\" or \"B\" or \"C\" or \"D\" without explanation.\nAnswer:",
+      "eval_name": "hellaswag",
+      "task_type": "General",
+      "origin_region": "FR",
+      "service_class": "realtime",
+      "arrival_s": 15065.604776,
+      "budget_s": 30.0,
+      "wait_s": 5.0,
+      "priority": 3,
+      "service_s": 0.13848436,
+      "service_l": 0.41545308,
+      "length_bin_train_only": 2,
+      "difficulty_bin_train_only": 0,
+      "source_phase": "test"
+    },
+    {
+      "instance_id": "hellaswag.val.5959",
+      "base_request_id": "hellaswag.val.5959",
+      "prompt_group": "7c9306bbe6225df09204aed6896644b936b4019cc0a8c12747046e5868982f56",
+      "prompt": "[header] How to prevent kidney stones from recurring [title] Determine which kind of kidney stone you have had. [step] Ask your doctor to identify your particular kind. It is important to know which particular type you have had, so you can work on specific ways to prevent it from recurring.\nA) [title] Ask your doctor to study your kidney stones. [step] Your doctor will dissect your kidney stones and perform a simple exam to determine what type of kidney stone you have.\nB) For example, there is a more specific type of kidney stone commonly known as chronic kidney stones. The most common type of kidney stones are a cystine kidney stone.\nC) [title] Think about who will be doing the surgery. [step] You will have to decide what type of surgery is most appropriate for you.\nD) Ensure your doctor checks your parathyroid to rule it out as a factor in the formation of kidney stones. [substeps] Calcium stones are caused by unused calcium not flushed out in urine and is collected in the kidneys.\nPrint only a single choice  from \"A\" or \"B\" or \"C\" or \"D\" without explanation.\nAnswer:",
+      "eval_name": "hellaswag",
+      "task_type": "General",
+      "origin_region": "FR",
+      "service_class": "batch",
+      "arrival_s": 15078.564628,
+      "budget_s": 3600.0,
+      "wait_s": 1800.0,
+      "priority": 1,
+      "service_s": 0.12964657,
+      "service_l": 0.38893971,
+      "length_bin_train_only": 2,
+      "difficulty_bin_train_only": 0,
+      "source_phase": "test"
+    },
+    {
+      "instance_id": "hellaswag.val.1322",
+      "base_request_id": "hellaswag.val.1322",
+      "prompt_group": "60c8660a68d91c89a2a168c54d41bccfb1b3c07890124c92877ad86d2156662f",
+      "prompt": "A coach is standing talking to a small group of girls who are playing basket ball. The coach gets the ball passed to her. the girls\nA) are practicing their layups together and shooting the ball into the net.\nB) take off and do some more baskets.\nC) are then presented the basket and start hitting the ball back and forth to each other.\nD) then begin scoring baskets.\nPrint only a single choice  from \"A\" or \"B\" or \"C\" or \"D\" without explanation.\nAnswer:",
+      "eval_name": "hellaswag",
+      "task_type": "General",
+      "origin_region": "FR",
+      "service_class": "bounded_delay",
+      "arrival_s": 15087.638224,
+      "budget_s": 300.0,
+      "wait_s": 120.0,
+      "priority": 2,
+      "service_s": 0.10315257,
+      "service_l": 0.30945771,
+      "length_bin_train_only": 1,
+      "difficulty_bin_train_only": 1,
+      "source_phase": "test"
+    }
+  ],
+  "pre_errors": [
+    {
+      "instance_id": "grade-school-math.dev.356",
+      "prompt_group": "ab594a574ed8ee78a8014e54d7db0e5bd84480a75445ffb79ec3f03c50e368b2",
+      "error_s": 0.0,
+      "error_l": 0.0
+    },
+    {
+      "instance_id": "hellaswag.val.1693",
+      "prompt_group": "6f9ce552120ad3b6ed070c2cb1ac20cd045ca24fe8497eaca5b6031398d11d27",
+      "error_s": 0.0,
+      "error_l": 0.0
+    },
+    {
+      "instance_id": "grade-school-math.dev.4319",
+      "prompt_group": "b226ed48d0b523ca58693b6481e75c781d747989f5c121e102fc3347d77ed52f",
+      "error_s": 0.0,
+      "error_l": 0.0
+    },
+    {
+      "instance_id": "arc-challenge.test.805",
+      "prompt_group": "c708618cbd089d7120f3d358d89575613c072b70178d2391078b0c1ac6015e65",
+      "error_s": 0.0,
+      "error_l": 0.0
+    },
+    {
+      "instance_id": "mmlu-security-studies.val.161",
+      "prompt_group": "f630247561ed32c1e861a3625d5ccae81b2795f727e12ef232a1263fc4e79d6c",
+      "error_s": 0.0,
+      "error_l": 0.0
+    },
+    {
+      "instance_id": "mmlu-moral-scenarios.val.466",
+      "prompt_group": "27b5dba9f9776184258e2cfb8591e60a4e68b4ca84d9175bc38b52b4a1dae630",
+      "error_s": 0.0,
+      "error_l": 0.0
+    },
+    {
+      "instance_id": "mmlu-high-school-world-history.val.206",
+      "prompt_group": "b35cc306e53f92ec75587427ea414a952ccaa6b4fa34e66305ad317bf8dc6406",
+      "error_s": 0.0,
+      "error_l": 0.0
+    },
+    {
+      "instance_id": "grade-school-math.dev.4663",
+      "prompt_group": "27d4fccc24558564d8e8787f84a00dc3f4288b49f78734a5c92580cd437662a7",
+      "error_s": 0.0,
+      "error_l": 0.0
+    },
+    {
+      "instance_id": "hellaswag.val.1860",
+      "prompt_group": "8823e94e66c9466fc73be09abec56204ffe4a7862f6a1cb3f7189e69cef19cd4",
+      "error_s": 0.0,
+      "error_l": 0.0
+    },
+    {
+      "instance_id": "chinese_idioms.dev.2",
+      "prompt_group": "a44519d6d6e0274364890b9031c93972f9e9d22d44150f94ee5dff7b18c20c54",
+      "error_s": 0.0,
+      "error_l": 0.0
+    },
+    {
+      "instance_id": "mmlu-high-school-psychology.val.192",
+      "prompt_group": "75dee9122432a39cc56ef2452f16d026f3ffdbd5d00cc6c428731417abf9b4bc",
+      "error_s": 0.0,
+      "error_l": 0.0
+    },
+    {
+      "instance_id": "winogrande.dev.1091",
+      "prompt_group": "20ed2fc706553422eae164d8c7b6ae86f5e2f60a5ac74f55025292316db5aa2e",
+      "error_s": 0.0,
+      "error_l": 0.0
+    },
+    {
+      "instance_id": "mmlu-high-school-government-and-politics.val.191",
+      "prompt_group": "d27b9c2b3d2fdd3dd82deeb33a402a8ae3e986d69161e8d6cf25be7dd5654732",
+      "error_s": 0.0,
+      "error_l": 0.0
+    },
+    {
+      "instance_id": "grade-school-math.dev.7393",
+      "prompt_group": "1df630d17c0d40fb9886c20e6a55d18980fd781fca72175d5a69dab50c681865",
+      "error_s": 0.0,
+      "error_l": 0.0
+    },
+    {
+      "instance_id": "grade-school-math.dev.4681",
+      "prompt_group": "fc6499b453727691603e80b5bef5b6cdea340b3b6425b536f76f07b85a0d500d",
+      "error_s": 0.0,
+      "error_l": 0.0
+    },
+    {
+      "instance_id": "mmlu-marketing.val.175",
+      "prompt_group": "61d66a10ed34a31edf9c77d01d6adab54e2b5e34441357fdbdd2e0496fc35b0a",
+      "error_s": 0.0,
+      "error_l": 0.0
+    },
+    {
+      "instance_id": "hellaswag.val.6820",
+      "prompt_group": "899ec1223938c8948b11e0518e6be35e631e276f3d9e4a6e32c2bca8b07d1f1a",
+      "error_s": 0.0,
+      "error_l": 0.0
+    },
+    {
+      "instance_id": "mmlu-human-aging.val.35",
+      "prompt_group": "64546bdc974449f52abbb704f31c3bb53d5100716d834a00470b2b42c3533fd4",
+      "error_s": 0.0,
+      "error_l": 0.0
+    },
+    {
+      "instance_id": "hellaswag.val.7214",
+      "prompt_group": "2ba8c73f4bd4483f3b1d50778c1215a1dc63a5f90bd9c388303b34a273fdd121",
+      "error_s": 0.0,
+      "error_l": 0.0
+    },
+    {
+      "instance_id": "mmlu-security-studies.val.158",
+      "prompt_group": "97cf4966c810b0b7926348b3761390898a97335a70d431a072cce3665bfc3731",
+      "error_s": 0.0,
+      "error_l": 0.0
+    },
+    {
+      "instance_id": "hellaswag.val.7970",
+      "prompt_group": "7d99d7025d986d66e09e9d99e4678a1b2e72d356b6df07640b56416111937db1",
+      "error_s": 0.0,
+      "error_l": 0.0
+    },
+    {
+      "instance_id": "hellaswag.val.8960",
+      "prompt_group": "e09d9e89f2fe8a848d9064c4fa19f37b08836d840de542a4cffe90493d66b124",
+      "error_s": 0.0,
+      "error_l": 0.0
+    },
+    {
+      "instance_id": "hellaswag.val.8242",
+      "prompt_group": "d63d360aaea48ad368d354d614ff92cbd31ee637b0e94a86fa5bdd13851dc6db",
+      "error_s": 0.0,
+      "error_l": 0.0
+    },
+    {
+      "instance_id": "hellaswag.val.1604",
+      "prompt_group": "49722d91d0357cca1c8f6d830c6c08731a5053fc5d9e080020d7bf7246e3ae17",
+      "error_s": 0.0,
+      "error_l": 0.0
+    },
+    {
+      "instance_id": "mmlu-professional-law.val.289",
+      "prompt_group": "6d7f21df09c8c91703b0a99fec837bd720d453fa558035cc5c537dca19172a75",
+      "error_s": 0.0,
+      "error_l": 0.0
+    },
+    {
+      "instance_id": "grade-school-math.dev.255",
+      "prompt_group": "7f76a86f7115345319bd918ceb1dd65a3bd6736ad5ec25a9f17a86b769b3a19d",
+      "error_s": 0.0,
+      "error_l": 0.0
+    },
+    {
+      "instance_id": "grade-school-math.dev.4566",
+      "prompt_group": "498c3afbd1726798e0c22bd8970499167b56efbd45c711e13b1d8424de38f7be",
+      "error_s": 0.0,
+      "error_l": 0.0
+    },
+    {
+      "instance_id": "mmlu-prehistory.val.202",
+      "prompt_group": "67f9312b8225d1467574f3adf075ccc002d54c4c956c0362a4f76945f17ed3f5",
+      "error_s": 0.0,
+      "error_l": 0.0
+    },
+    {
+      "instance_id": "hellaswag.val.9684",
+      "prompt_group": "a741d939beed34174de97e0be66fea0d6b2de8886668c9b849a6dcc835999cca",
+      "error_s": 0.0,
+      "error_l": 0.0
+    },
+    {
+      "instance_id": "mmlu-clinical-knowledge.val.227",
+      "prompt_group": "c2346454661ef84714438e003190a171295c450805d15b6342fd4b4cb2447432",
+      "error_s": 0.0,
+      "error_l": 0.0
+    },
+    {
+      "instance_id": "mmlu-business-ethics.val.67",
+      "prompt_group": "256b8e3027dd667482a3056eb3f5715e4557692c8dd31acb8a571a9abb092434",
+      "error_s": 0.0,
+      "error_l": 0.0
+    },
+    {
+      "instance_id": "arc-challenge.test.945",
+      "prompt_group": "63d3401952559655333e52bbfb5d5b7214cf2714c1e34bd7f67d572f430741af",
+      "error_s": 0.0,
+      "error_l": 0.0
+    },
+    {
+      "instance_id": "mmlu-nutrition.val.296",
+      "prompt_group": "a05a974e01885152b433842edface9f8f8de437a8d173d97551c48d9b91ebc48",
+      "error_s": 0.0,
+      "error_l": 0.0
+    },
+    {
+      "instance_id": "mmlu-marketing.val.161",
+      "prompt_group": "d0e348082e1b743139a4e7ca1971efe1a90ec64b7d4215b669c8aebd6dbfa2cf",
+      "error_s": 0.0,
+      "error_l": 0.0
+    },
+    {
+      "instance_id": "grade-school-math.dev.2534",
+      "prompt_group": "576480bcb5c58e93b8fa19f7ca4691644e7dec62b8ff4d1537053a681f9aec22",
+      "error_s": 0.0,
+      "error_l": 0.0
+    },
+    {
+      "instance_id": "grade-school-math.dev.2472",
+      "prompt_group": "6ee852f6d7a9b0d5120bb1b61e0c4386ae7244235d087edf527ace915e78d1e3",
+      "error_s": 0.0,
+      "error_l": 0.0
+    },
+    {
+      "instance_id": "grade-school-math.dev.6009",
+      "prompt_group": "e69b2e2859a7c2fc33b55079a855bb313bfca8dc6380054503012d4b3900752f",
+      "error_s": 0.0,
+      "error_l": 0.0
+    },
+    {
+      "instance_id": "hellaswag.val.9782",
+      "prompt_group": "515619336d8227d2dddd49dd015f5e75827323927a0caff74c9bba3ff6e99980",
+      "error_s": 0.0,
+      "error_l": 0.0
+    },
+    {
+      "instance_id": "hellaswag.val.5959",
+      "prompt_group": "7c9306bbe6225df09204aed6896644b936b4019cc0a8c12747046e5868982f56",
+      "error_s": 0.0,
+      "error_l": 0.0
+    },
+    {
+      "instance_id": "hellaswag.val.1322",
+      "prompt_group": "60c8660a68d91c89a2a168c54d41bccfb1b3c07890124c92877ad86d2156662f",
+      "error_s": 0.0,
+      "error_l": 0.0
+    }
+  ],
+  "forecast_field": [
+    {
+      "grid_hour": 0,
+      "DE": 1.0,
+      "FR": 1.0,
+      "ES": 1.0
+    },
+    {
+      "grid_hour": 1,
+      "DE": 1.0,
+      "FR": 1.0,
+      "ES": 1.0
+    },
+    {
+      "grid_hour": 2,
+      "DE": 1.0,
+      "FR": 1.0,
+      "ES": 1.0
+    },
+    {
+      "grid_hour": 3,
+      "DE": 1.0,
+      "FR": 1.0,
+      "ES": 1.0
+    },
+    {
+      "grid_hour": 4,
+      "DE": 1.0,
+      "FR": 1.0,
+      "ES": 1.0
+    },
+    {
+      "grid_hour": 5,
+      "DE": 1.0,
+      "FR": 1.0,
+      "ES": 1.0
+    },
+    {
+      "grid_hour": 6,
+      "DE": 1.0,
+      "FR": 1.0,
+      "ES": 1.0
+    },
+    {
+      "grid_hour": 7,
+      "DE": 1.0,
+      "FR": 1.0,
+      "ES": 1.0
+    },
+    {
+      "grid_hour": 8,
+      "DE": 1.0,
+      "FR": 1.0,
+      "ES": 1.0
+    },
+    {
+      "grid_hour": 9,
+      "DE": 1.0,
+      "FR": 1.0,
+      "ES": 1.0
+    },
+    {
+      "grid_hour": 10,
+      "DE": 1.0,
+      "FR": 1.0,
+      "ES": 1.0
+    },
+    {
+      "grid_hour": 11,
+      "DE": 1.0,
+      "FR": 1.0,
+      "ES": 1.0
+    },
+    {
+      "grid_hour": 12,
+      "DE": 1.0,
+      "FR": 1.0,
+      "ES": 1.0
+    }
+  ],
+  "carbon_frame": [
+    {
+      "datetime_utc": "2025-01-01T00:00:00+00:00",
+      "region": "DE",
+      "carbon_intensity_gco2e_kwh": 214.95,
+      "provider_estimated": false,
+      "provider_data_source": "entsoe.eu",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-01T00:00:00+00:00",
+      "region": "ES",
+      "carbon_intensity_gco2e_kwh": 225.08,
+      "provider_estimated": false,
+      "provider_data_source": "entsoe.eu",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-01T00:00:00+00:00",
+      "region": "FR",
+      "carbon_intensity_gco2e_kwh": 29.89,
+      "provider_estimated": false,
+      "provider_data_source": "opendata.reseaux-energies.fr",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-01T01:00:00+00:00",
+      "region": "DE",
+      "carbon_intensity_gco2e_kwh": 204.87,
+      "provider_estimated": false,
+      "provider_data_source": "entsoe.eu",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-01T01:00:00+00:00",
+      "region": "ES",
+      "carbon_intensity_gco2e_kwh": 209.02,
+      "provider_estimated": false,
+      "provider_data_source": "entsoe.eu",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-01T01:00:00+00:00",
+      "region": "FR",
+      "carbon_intensity_gco2e_kwh": 29.289999999999992,
+      "provider_estimated": false,
+      "provider_data_source": "opendata.reseaux-energies.fr",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-01T02:00:00+00:00",
+      "region": "DE",
+      "carbon_intensity_gco2e_kwh": 207.62,
+      "provider_estimated": false,
+      "provider_data_source": "entsoe.eu",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-01T02:00:00+00:00",
+      "region": "ES",
+      "carbon_intensity_gco2e_kwh": 200.38,
+      "provider_estimated": false,
+      "provider_data_source": "entsoe.eu",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-01T02:00:00+00:00",
+      "region": "FR",
+      "carbon_intensity_gco2e_kwh": 29.299999999999997,
+      "provider_estimated": false,
+      "provider_data_source": "opendata.reseaux-energies.fr",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-01T03:00:00+00:00",
+      "region": "DE",
+      "carbon_intensity_gco2e_kwh": 205.85,
+      "provider_estimated": false,
+      "provider_data_source": "entsoe.eu",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-01T03:00:00+00:00",
+      "region": "ES",
+      "carbon_intensity_gco2e_kwh": 194.2,
+      "provider_estimated": false,
+      "provider_data_source": "entsoe.eu",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-01T03:00:00+00:00",
+      "region": "FR",
+      "carbon_intensity_gco2e_kwh": 29.64,
+      "provider_estimated": false,
+      "provider_data_source": "opendata.reseaux-energies.fr",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-01T04:00:00+00:00",
+      "region": "DE",
+      "carbon_intensity_gco2e_kwh": 202.21,
+      "provider_estimated": false,
+      "provider_data_source": "entsoe.eu",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-01T04:00:00+00:00",
+      "region": "ES",
+      "carbon_intensity_gco2e_kwh": 189.55,
+      "provider_estimated": false,
+      "provider_data_source": "entsoe.eu",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-01T04:00:00+00:00",
+      "region": "FR",
+      "carbon_intensity_gco2e_kwh": 29.409999999999997,
+      "provider_estimated": false,
+      "provider_data_source": "opendata.reseaux-energies.fr",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-01T05:00:00+00:00",
+      "region": "DE",
+      "carbon_intensity_gco2e_kwh": 195.13,
+      "provider_estimated": false,
+      "provider_data_source": "entsoe.eu",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-01T05:00:00+00:00",
+      "region": "ES",
+      "carbon_intensity_gco2e_kwh": 189.24,
+      "provider_estimated": false,
+      "provider_data_source": "entsoe.eu",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-01T05:00:00+00:00",
+      "region": "FR",
+      "carbon_intensity_gco2e_kwh": 29.239999999999995,
+      "provider_estimated": false,
+      "provider_data_source": "opendata.reseaux-energies.fr",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-01T06:00:00+00:00",
+      "region": "DE",
+      "carbon_intensity_gco2e_kwh": 188.43,
+      "provider_estimated": false,
+      "provider_data_source": "entsoe.eu",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-01T06:00:00+00:00",
+      "region": "ES",
+      "carbon_intensity_gco2e_kwh": 192.58,
+      "provider_estimated": false,
+      "provider_data_source": "entsoe.eu",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-01T06:00:00+00:00",
+      "region": "FR",
+      "carbon_intensity_gco2e_kwh": 30.47,
+      "provider_estimated": false,
+      "provider_data_source": "opendata.reseaux-energies.fr",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-01T07:00:00+00:00",
+      "region": "DE",
+      "carbon_intensity_gco2e_kwh": 181.31,
+      "provider_estimated": false,
+      "provider_data_source": "entsoe.eu",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-01T07:00:00+00:00",
+      "region": "ES",
+      "carbon_intensity_gco2e_kwh": 189.33,
+      "provider_estimated": false,
+      "provider_data_source": "entsoe.eu",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-01T07:00:00+00:00",
+      "region": "FR",
+      "carbon_intensity_gco2e_kwh": 29.620000000000005,
+      "provider_estimated": false,
+      "provider_data_source": "opendata.reseaux-energies.fr",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-01T08:00:00+00:00",
+      "region": "DE",
+      "carbon_intensity_gco2e_kwh": 174.29,
+      "provider_estimated": false,
+      "provider_data_source": "entsoe.eu",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-01T08:00:00+00:00",
+      "region": "ES",
+      "carbon_intensity_gco2e_kwh": 166.99,
+      "provider_estimated": false,
+      "provider_data_source": "entsoe.eu",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-01T08:00:00+00:00",
+      "region": "FR",
+      "carbon_intensity_gco2e_kwh": 28.200000000000003,
+      "provider_estimated": false,
+      "provider_data_source": "opendata.reseaux-energies.fr",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-01T09:00:00+00:00",
+      "region": "DE",
+      "carbon_intensity_gco2e_kwh": 163.87,
+      "provider_estimated": false,
+      "provider_data_source": "entsoe.eu",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-01T09:00:00+00:00",
+      "region": "ES",
+      "carbon_intensity_gco2e_kwh": 116.78,
+      "provider_estimated": false,
+      "provider_data_source": "entsoe.eu",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-01T09:00:00+00:00",
+      "region": "FR",
+      "carbon_intensity_gco2e_kwh": 27.340000000000003,
+      "provider_estimated": false,
+      "provider_data_source": "opendata.reseaux-energies.fr",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-01T10:00:00+00:00",
+      "region": "DE",
+      "carbon_intensity_gco2e_kwh": 158.44,
+      "provider_estimated": false,
+      "provider_data_source": "entsoe.eu",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-01T10:00:00+00:00",
+      "region": "ES",
+      "carbon_intensity_gco2e_kwh": 87.69,
+      "provider_estimated": false,
+      "provider_data_source": "entsoe.eu",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-01T10:00:00+00:00",
+      "region": "FR",
+      "carbon_intensity_gco2e_kwh": 26.39999999999999,
+      "provider_estimated": false,
+      "provider_data_source": "opendata.reseaux-energies.fr",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-01T11:00:00+00:00",
+      "region": "DE",
+      "carbon_intensity_gco2e_kwh": 153.69,
+      "provider_estimated": false,
+      "provider_data_source": "entsoe.eu",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-01T11:00:00+00:00",
+      "region": "ES",
+      "carbon_intensity_gco2e_kwh": 82.83,
+      "provider_estimated": false,
+      "provider_data_source": "entsoe.eu",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-01T11:00:00+00:00",
+      "region": "FR",
+      "carbon_intensity_gco2e_kwh": 26.129999999999995,
+      "provider_estimated": false,
+      "provider_data_source": "opendata.reseaux-energies.fr",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-01T12:00:00+00:00",
+      "region": "DE",
+      "carbon_intensity_gco2e_kwh": 152.08,
+      "provider_estimated": false,
+      "provider_data_source": "entsoe.eu",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-01T12:00:00+00:00",
+      "region": "ES",
+      "carbon_intensity_gco2e_kwh": 90.01,
+      "provider_estimated": false,
+      "provider_data_source": "entsoe.eu",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-01T12:00:00+00:00",
+      "region": "FR",
+      "carbon_intensity_gco2e_kwh": 26.129999999999995,
+      "provider_estimated": false,
+      "provider_data_source": "opendata.reseaux-energies.fr",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-01T13:00:00+00:00",
+      "region": "DE",
+      "carbon_intensity_gco2e_kwh": 154.11,
+      "provider_estimated": false,
+      "provider_data_source": "entsoe.eu",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-01T13:00:00+00:00",
+      "region": "ES",
+      "carbon_intensity_gco2e_kwh": 92.5,
+      "provider_estimated": false,
+      "provider_data_source": "entsoe.eu",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-01T13:00:00+00:00",
+      "region": "FR",
+      "carbon_intensity_gco2e_kwh": 26.019999999999996,
+      "provider_estimated": false,
+      "provider_data_source": "opendata.reseaux-energies.fr",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-01T14:00:00+00:00",
+      "region": "DE",
+      "carbon_intensity_gco2e_kwh": 154.88,
+      "provider_estimated": false,
+      "provider_data_source": "entsoe.eu",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-01T14:00:00+00:00",
+      "region": "ES",
+      "carbon_intensity_gco2e_kwh": 90.31,
+      "provider_estimated": false,
+      "provider_data_source": "entsoe.eu",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-01T14:00:00+00:00",
+      "region": "FR",
+      "carbon_intensity_gco2e_kwh": 26.319999999999993,
+      "provider_estimated": false,
+      "provider_data_source": "opendata.reseaux-energies.fr",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-01T15:00:00+00:00",
+      "region": "DE",
+      "carbon_intensity_gco2e_kwh": 160.49,
+      "provider_estimated": false,
+      "provider_data_source": "entsoe.eu",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-01T15:00:00+00:00",
+      "region": "ES",
+      "carbon_intensity_gco2e_kwh": 99.98,
+      "provider_estimated": false,
+      "provider_data_source": "entsoe.eu",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-01T15:00:00+00:00",
+      "region": "FR",
+      "carbon_intensity_gco2e_kwh": 26.10000000000001,
+      "provider_estimated": false,
+      "provider_data_source": "opendata.reseaux-energies.fr",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-01T16:00:00+00:00",
+      "region": "DE",
+      "carbon_intensity_gco2e_kwh": 161.8,
+      "provider_estimated": false,
+      "provider_data_source": "entsoe.eu",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-01T16:00:00+00:00",
+      "region": "ES",
+      "carbon_intensity_gco2e_kwh": 144.86,
+      "provider_estimated": false,
+      "provider_data_source": "entsoe.eu",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-01T16:00:00+00:00",
+      "region": "FR",
+      "carbon_intensity_gco2e_kwh": 26.39999999999999,
+      "provider_estimated": false,
+      "provider_data_source": "opendata.reseaux-energies.fr",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-01T17:00:00+00:00",
+      "region": "DE",
+      "carbon_intensity_gco2e_kwh": 168.34,
+      "provider_estimated": false,
+      "provider_data_source": "entsoe.eu",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-01T17:00:00+00:00",
+      "region": "ES",
+      "carbon_intensity_gco2e_kwh": 173.65,
+      "provider_estimated": false,
+      "provider_data_source": "entsoe.eu",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-01T17:00:00+00:00",
+      "region": "FR",
+      "carbon_intensity_gco2e_kwh": 25.730000000000004,
+      "provider_estimated": false,
+      "provider_data_source": "opendata.reseaux-energies.fr",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-01T18:00:00+00:00",
+      "region": "DE",
+      "carbon_intensity_gco2e_kwh": 173.44,
+      "provider_estimated": false,
+      "provider_data_source": "entsoe.eu",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-01T18:00:00+00:00",
+      "region": "ES",
+      "carbon_intensity_gco2e_kwh": 176.35,
+      "provider_estimated": false,
+      "provider_data_source": "entsoe.eu",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-01T18:00:00+00:00",
+      "region": "FR",
+      "carbon_intensity_gco2e_kwh": 27.17,
+      "provider_estimated": false,
+      "provider_data_source": "opendata.reseaux-energies.fr",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-01T19:00:00+00:00",
+      "region": "DE",
+      "carbon_intensity_gco2e_kwh": 173.47,
+      "provider_estimated": false,
+      "provider_data_source": "entsoe.eu",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-01T19:00:00+00:00",
+      "region": "ES",
+      "carbon_intensity_gco2e_kwh": 174.25,
+      "provider_estimated": false,
+      "provider_data_source": "entsoe.eu",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-01T19:00:00+00:00",
+      "region": "FR",
+      "carbon_intensity_gco2e_kwh": 27.159999999999997,
+      "provider_estimated": false,
+      "provider_data_source": "opendata.reseaux-energies.fr",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-01T20:00:00+00:00",
+      "region": "DE",
+      "carbon_intensity_gco2e_kwh": 178.0,
+      "provider_estimated": false,
+      "provider_data_source": "entsoe.eu",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-01T20:00:00+00:00",
+      "region": "ES",
+      "carbon_intensity_gco2e_kwh": 174.63,
+      "provider_estimated": false,
+      "provider_data_source": "entsoe.eu",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-01T20:00:00+00:00",
+      "region": "FR",
+      "carbon_intensity_gco2e_kwh": 26.120000000000005,
+      "provider_estimated": false,
+      "provider_data_source": "opendata.reseaux-energies.fr",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-01T21:00:00+00:00",
+      "region": "DE",
+      "carbon_intensity_gco2e_kwh": 186.14,
+      "provider_estimated": false,
+      "provider_data_source": "entsoe.eu",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-01T21:00:00+00:00",
+      "region": "ES",
+      "carbon_intensity_gco2e_kwh": 176.25,
+      "provider_estimated": false,
+      "provider_data_source": "entsoe.eu",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-01T21:00:00+00:00",
+      "region": "FR",
+      "carbon_intensity_gco2e_kwh": 28.319999999999993,
+      "provider_estimated": false,
+      "provider_data_source": "opendata.reseaux-energies.fr",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-01T22:00:00+00:00",
+      "region": "DE",
+      "carbon_intensity_gco2e_kwh": 187.0,
+      "provider_estimated": false,
+      "provider_data_source": "entsoe.eu",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-01T22:00:00+00:00",
+      "region": "ES",
+      "carbon_intensity_gco2e_kwh": 177.91,
+      "provider_estimated": false,
+      "provider_data_source": "entsoe.eu",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-01T22:00:00+00:00",
+      "region": "FR",
+      "carbon_intensity_gco2e_kwh": 30.189999999999998,
+      "provider_estimated": false,
+      "provider_data_source": "opendata.reseaux-energies.fr",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-01T23:00:00+00:00",
+      "region": "DE",
+      "carbon_intensity_gco2e_kwh": 198.69,
+      "provider_estimated": false,
+      "provider_data_source": "entsoe.eu",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-01T23:00:00+00:00",
+      "region": "ES",
+      "carbon_intensity_gco2e_kwh": 182.41,
+      "provider_estimated": false,
+      "provider_data_source": "entsoe.eu",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-01T23:00:00+00:00",
+      "region": "FR",
+      "carbon_intensity_gco2e_kwh": 29.460000000000008,
+      "provider_estimated": false,
+      "provider_data_source": "opendata.reseaux-energies.fr",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-02T00:00:00+00:00",
+      "region": "DE",
+      "carbon_intensity_gco2e_kwh": 201.43,
+      "provider_estimated": false,
+      "provider_data_source": "entsoe.eu",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-02T00:00:00+00:00",
+      "region": "ES",
+      "carbon_intensity_gco2e_kwh": 174.34,
+      "provider_estimated": false,
+      "provider_data_source": "entsoe.eu",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-02T00:00:00+00:00",
+      "region": "FR",
+      "carbon_intensity_gco2e_kwh": 27.840000000000003,
+      "provider_estimated": false,
+      "provider_data_source": "opendata.reseaux-energies.fr",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-02T01:00:00+00:00",
+      "region": "DE",
+      "carbon_intensity_gco2e_kwh": 201.36,
+      "provider_estimated": false,
+      "provider_data_source": "entsoe.eu",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-02T01:00:00+00:00",
+      "region": "ES",
+      "carbon_intensity_gco2e_kwh": 173.67,
+      "provider_estimated": false,
+      "provider_data_source": "entsoe.eu",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-02T01:00:00+00:00",
+      "region": "FR",
+      "carbon_intensity_gco2e_kwh": 27.61,
+      "provider_estimated": false,
+      "provider_data_source": "opendata.reseaux-energies.fr",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-02T02:00:00+00:00",
+      "region": "DE",
+      "carbon_intensity_gco2e_kwh": 203.88,
+      "provider_estimated": false,
+      "provider_data_source": "entsoe.eu",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-02T02:00:00+00:00",
+      "region": "ES",
+      "carbon_intensity_gco2e_kwh": 168.85,
+      "provider_estimated": false,
+      "provider_data_source": "entsoe.eu",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-02T02:00:00+00:00",
+      "region": "FR",
+      "carbon_intensity_gco2e_kwh": 26.879999999999995,
+      "provider_estimated": false,
+      "provider_data_source": "opendata.reseaux-energies.fr",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-02T03:00:00+00:00",
+      "region": "DE",
+      "carbon_intensity_gco2e_kwh": 225.2,
+      "provider_estimated": false,
+      "provider_data_source": "entsoe.eu",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-02T03:00:00+00:00",
+      "region": "ES",
+      "carbon_intensity_gco2e_kwh": 165.0,
+      "provider_estimated": false,
+      "provider_data_source": "entsoe.eu",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-02T03:00:00+00:00",
+      "region": "FR",
+      "carbon_intensity_gco2e_kwh": 26.379999999999995,
+      "provider_estimated": false,
+      "provider_data_source": "opendata.reseaux-energies.fr",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-02T04:00:00+00:00",
+      "region": "DE",
+      "carbon_intensity_gco2e_kwh": 243.44,
+      "provider_estimated": false,
+      "provider_data_source": "entsoe.eu",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-02T04:00:00+00:00",
+      "region": "ES",
+      "carbon_intensity_gco2e_kwh": 164.07,
+      "provider_estimated": false,
+      "provider_data_source": "entsoe.eu",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-02T04:00:00+00:00",
+      "region": "FR",
+      "carbon_intensity_gco2e_kwh": 25.75,
+      "provider_estimated": false,
+      "provider_data_source": "opendata.reseaux-energies.fr",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-02T05:00:00+00:00",
+      "region": "DE",
+      "carbon_intensity_gco2e_kwh": 278.1,
+      "provider_estimated": false,
+      "provider_data_source": "entsoe.eu",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-02T05:00:00+00:00",
+      "region": "ES",
+      "carbon_intensity_gco2e_kwh": 163.09,
+      "provider_estimated": false,
+      "provider_data_source": "entsoe.eu",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-02T05:00:00+00:00",
+      "region": "FR",
+      "carbon_intensity_gco2e_kwh": 26.620000000000005,
+      "provider_estimated": false,
+      "provider_data_source": "opendata.reseaux-energies.fr",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-02T06:00:00+00:00",
+      "region": "DE",
+      "carbon_intensity_gco2e_kwh": 326.76,
+      "provider_estimated": false,
+      "provider_data_source": "entsoe.eu",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-02T06:00:00+00:00",
+      "region": "ES",
+      "carbon_intensity_gco2e_kwh": 165.18,
+      "provider_estimated": false,
+      "provider_data_source": "entsoe.eu",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-02T06:00:00+00:00",
+      "region": "FR",
+      "carbon_intensity_gco2e_kwh": 28.349999999999994,
+      "provider_estimated": false,
+      "provider_data_source": "opendata.reseaux-energies.fr",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-02T07:00:00+00:00",
+      "region": "DE",
+      "carbon_intensity_gco2e_kwh": 365.96,
+      "provider_estimated": false,
+      "provider_data_source": "entsoe.eu",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-02T07:00:00+00:00",
+      "region": "ES",
+      "carbon_intensity_gco2e_kwh": 165.25,
+      "provider_estimated": false,
+      "provider_data_source": "entsoe.eu",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-02T07:00:00+00:00",
+      "region": "FR",
+      "carbon_intensity_gco2e_kwh": 32.53999999999999,
+      "provider_estimated": false,
+      "provider_data_source": "opendata.reseaux-energies.fr",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-02T08:00:00+00:00",
+      "region": "DE",
+      "carbon_intensity_gco2e_kwh": 388.55,
+      "provider_estimated": false,
+      "provider_data_source": "entsoe.eu",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-02T08:00:00+00:00",
+      "region": "ES",
+      "carbon_intensity_gco2e_kwh": 163.0,
+      "provider_estimated": false,
+      "provider_data_source": "entsoe.eu",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-02T08:00:00+00:00",
+      "region": "FR",
+      "carbon_intensity_gco2e_kwh": 37.25999999999999,
+      "provider_estimated": false,
+      "provider_data_source": "opendata.reseaux-energies.fr",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-02T09:00:00+00:00",
+      "region": "DE",
+      "carbon_intensity_gco2e_kwh": 405.92,
+      "provider_estimated": false,
+      "provider_data_source": "entsoe.eu",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-02T09:00:00+00:00",
+      "region": "ES",
+      "carbon_intensity_gco2e_kwh": 132.76,
+      "provider_estimated": false,
+      "provider_data_source": "entsoe.eu",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-02T09:00:00+00:00",
+      "region": "FR",
+      "carbon_intensity_gco2e_kwh": 40.25999999999999,
+      "provider_estimated": false,
+      "provider_data_source": "opendata.reseaux-energies.fr",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-02T10:00:00+00:00",
+      "region": "DE",
+      "carbon_intensity_gco2e_kwh": 406.85,
+      "provider_estimated": false,
+      "provider_data_source": "entsoe.eu",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-02T10:00:00+00:00",
+      "region": "ES",
+      "carbon_intensity_gco2e_kwh": 118.01,
+      "provider_estimated": false,
+      "provider_data_source": "entsoe.eu",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-02T10:00:00+00:00",
+      "region": "FR",
+      "carbon_intensity_gco2e_kwh": 42.95000000000002,
+      "provider_estimated": false,
+      "provider_data_source": "opendata.reseaux-energies.fr",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-02T11:00:00+00:00",
+      "region": "DE",
+      "carbon_intensity_gco2e_kwh": 404.04,
+      "provider_estimated": false,
+      "provider_data_source": "entsoe.eu",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-02T11:00:00+00:00",
+      "region": "ES",
+      "carbon_intensity_gco2e_kwh": 119.04,
+      "provider_estimated": false,
+      "provider_data_source": "entsoe.eu",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-02T11:00:00+00:00",
+      "region": "FR",
+      "carbon_intensity_gco2e_kwh": 44.78,
+      "provider_estimated": false,
+      "provider_data_source": "opendata.reseaux-energies.fr",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-02T12:00:00+00:00",
+      "region": "DE",
+      "carbon_intensity_gco2e_kwh": 403.05,
+      "provider_estimated": false,
+      "provider_data_source": "entsoe.eu",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-02T12:00:00+00:00",
+      "region": "ES",
+      "carbon_intensity_gco2e_kwh": 113.22,
+      "provider_estimated": false,
+      "provider_data_source": "entsoe.eu",
+      "provider_estimation_method": null
+    },
+    {
+      "datetime_utc": "2025-01-02T12:00:00+00:00",
+      "region": "FR",
+      "carbon_intensity_gco2e_kwh": 43.859999999999985,
+      "provider_estimated": false,
+      "provider_data_source": "opendata.reseaux-energies.fr",
+      "provider_estimation_method": null
+    }
+  ]
+}

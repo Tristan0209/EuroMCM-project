@@ -1,0 +1,83 @@
+{
+  "status": "PASS",
+  "dry_run": true,
+  "rows": [
+    {
+      "scenario": "Baseline",
+      "seed": 2029101799,
+      "policy": "Greedy",
+      "world_id": "2bf538aa7d9dd0cc3bf7a2a4c65db83b31020799dc6f0e61febe3f1cf45cfd8c",
+      "record": "D:\\EuroMCM\\EuroMCM-project\\TASK 4\\simple_assessment\\dry_run\\executions\\9542a4d56df1a2027d5929384a94361e68556dd52ca6134caf2722776736077d\\attempt_001\\record.json",
+      "status": "COMPLETE_VALIDATED",
+      "reused": false
+    },
+    {
+      "scenario": "Baseline",
+      "seed": 2029101799,
+      "policy": "Spatial_MILP",
+      "world_id": "2bf538aa7d9dd0cc3bf7a2a4c65db83b31020799dc6f0e61febe3f1cf45cfd8c",
+      "record": "D:\\EuroMCM\\EuroMCM-project\\TASK 4\\simple_assessment\\dry_run\\executions\\8cf4d6b8aa8c977e5149b43e153a6291d155e4fbb2a9529ab7ef38f2c0ff028f\\attempt_001\\record.json",
+      "status": "COMPLETE_VALIDATED",
+      "reused": false
+    },
+    {
+      "scenario": "Difficult",
+      "seed": 2029101799,
+      "policy": "Greedy",
+      "world_id": "1a97726bb9389ec6e84f76bce21e3055dc946ccaf877129b4cbc9076cc015288",
+      "record": "D:\\EuroMCM\\EuroMCM-project\\TASK 4\\simple_assessment\\dry_run\\executions\\bfbaf645faac25451ee45eba409c97a5883d9de560751b12a8c8d505871fa91d\\attempt_001\\record.json",
+      "status": "COMPLETE_VALIDATED",
+      "reused": false
+    },
+    {
+      "scenario": "Difficult",
+      "seed": 2029101799,
+      "policy": "Spatial_MILP",
+      "world_id": "1a97726bb9389ec6e84f76bce21e3055dc946ccaf877129b4cbc9076cc015288",
+      "record": "D:\\EuroMCM\\EuroMCM-project\\TASK 4\\simple_assessment\\dry_run\\executions\\56641640cc2997890b0922c15a9b232c5b78d45f99a92721584baea5db3d1877\\attempt_001\\record.json",
+      "status": "COMPLETE_VALIDATED",
+      "reused": false
+    },
+    {
+      "scenario": "Prediction Error",
+      "seed": 2029101799,
+      "policy": "Greedy",
+      "world_id": "5908bd132d7b7924881421cdee507152b133ff2cedf7f12473fc75ad390966ab",
+      "record": "D:\\EuroMCM\\EuroMCM-project\\TASK 4\\simple_assessment\\dry_run\\executions\\2d19efcd84c949bd117b072bb6c6c88cc749ffa2af3f3856165ff5e2a35f2900\\attempt_001\\record.json",
+      "status": "COMPLETE_VALIDATED",
+      "reused": false
+    },
+    {
+      "scenario": "Prediction Error",
+      "seed": 2029101799,
+      "policy": "Spatial_MILP",
+      "world_id": "5908bd132d7b7924881421cdee507152b133ff2cedf7f12473fc75ad390966ab",
+      "record": "D:\\EuroMCM\\EuroMCM-project\\TASK 4\\simple_assessment\\dry_run\\executions\\b0d594f1ec54fb2cf1769d2f99545aa4ebbcce2b5a5f1bb66f315bf94fd18c20\\attempt_001\\record.json",
+      "status": "COMPLETE_VALIDATED",
+      "reused": false
+    },
+    {
+      "scenario": "Demand Growth",
+      "seed": 2029101799,
+      "policy": "Greedy",
+      "world_id": "d9420dc06472d8ff455a83ad604d94f7d97bff76c580c2ad2de5a17f6b056d11",
+      "record": "D:\\EuroMCM\\EuroMCM-project\\TASK 4\\simple_assessment\\dry_run\\executions\\307b87c1a3d42025b04fb6ce940fa15020ad4b65f85e4157a0e48ccd67b8c8f9\\attempt_001\\record.json",
+      "status": "COMPLETE_VALIDATED",
+      "reused": false
+    },
+    {
+      "scenario": "Demand Growth",
+      "seed": 2029101799,
+      "policy": "Spatial_MILP",
+      "world_id": "d9420dc06472d8ff455a83ad604d94f7d97bff76c580c2ad2de5a17f6b056d11",
+      "record": "D:\\EuroMCM\\EuroMCM-project\\TASK 4\\simple_assessment\\dry_run\\executions\\0bb107b5b29d3127b8a8c56713b6ab1d3bad5c92b1f06f7ed4a91f504cdcfef8\\attempt_001\\record.json",
+      "status": "COMPLETE_VALIDATED",
+      "reused": false
+    }
+  ],
+  "source_changes": [],
+  "C1_C8_executions": 0,
+  "simple_new_executions": 8,
+  "unique_worlds": 4,
+  "upstream_training": 0
+}

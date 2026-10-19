@@ -1,0 +1,2559 @@
+[
+  {
+    "path": "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\results\\robustness_v2\\final_release\\affected_request_audit.py",
+    "sha256": "51240fb129064fec696f969be8bd8479c8ab55248de420a9d4162271d237ac6f",
+    "bytes": 3273,
+    "scope": "full UTF-8/AST read; semantic audit focuses on routing, simulation, accounting and analysis interfaces",
+    "symbols": [
+      {
+        "name": "records",
+        "line": 8,
+        "signature": "def records(path):return pd.read_csv(Path(path)/'requests.csv.gz').set_index('request_id')"
+      },
+      {
+        "name": "main",
+        "line": 10,
+        "signature": "def main():"
+      }
+    ]
+  },
+  {
+    "path": "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\results\\robustness_v2\\final_release\\analyze_release.py",
+    "sha256": "e08a06c0bad10ff59dfa1bf7abcbe2b61e7e68daaccb28958ed6193e04f3262b",
+    "bytes": 13608,
+    "scope": "full UTF-8/AST read; semantic audit focuses on routing, simulation, accounting and analysis interfaces",
+    "symbols": [
+      {
+        "name": "locate",
+        "line": 11,
+        "signature": "def locate(value):"
+      },
+      {
+        "name": "logs",
+        "line": 20,
+        "signature": "def logs(folder):"
+      },
+      {
+        "name": "equal",
+        "line": 24,
+        "signature": "def equal(x,y):"
+      },
+      {
+        "name": "before_after",
+        "line": 30,
+        "signature": "def before_after(f,old,target):"
+      },
+      {
+        "name": "numerical",
+        "line": 82,
+        "signature": "def numerical(f,target):"
+      },
+      {
+        "name": "core",
+        "line": 108,
+        "signature": "def core():"
+      },
+      {
+        "name": "sensitivity",
+        "line": 156,
+        "signature": "def sensitivity(phase):"
+      },
+      {
+        "name": "differs",
+        "line": 45,
+        "signature": "def differs(col):"
+      }
+    ]
+  },
+  {
+    "path": "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\results\\robustness_v2\\final_release\\bootstrap.py",
+    "sha256": "2c6c658379cf5fee361e1dc5e2624d9a99b5b23b4a5a0cf7045ec97819776b97",
+    "bytes": 1668,
+    "scope": "full UTF-8/AST read; semantic audit focuses on routing, simulation, accounting and analysis interfaces",
+    "symbols": [
+      {
+        "name": "main",
+        "line": 4,
+        "signature": "def main():"
+      }
+    ]
+  },
+  {
+    "path": "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\results\\robustness_v2\\final_release\\build_runner.py",
+    "sha256": "55dff883106db8031e2fb71899e53f78ee2ada558e56a4d9122c50664c6374f6",
+    "bytes": 3983,
+    "scope": "full UTF-8/AST read; semantic audit focuses on routing, simulation, accounting and analysis interfaces",
+    "symbols": [
+      {
+        "name": "main",
+        "line": 3,
+        "signature": "def main():"
+      }
+    ]
+  },
+  {
+    "path": "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\results\\robustness_v2\\final_release\\compare_events.py",
+    "sha256": "e36d8c216b841facd025b3ac4f15406f8f1ddfe97cc48af230368d24d0e229aa",
+    "bytes": 2747,
+    "scope": "full UTF-8/AST read; semantic audit focuses on routing, simulation, accounting and analysis interfaces",
+    "symbols": [
+      {
+        "name": "main",
+        "line": 8,
+        "signature": "def main():"
+      }
+    ]
+  },
+  {
+    "path": "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\results\\robustness_v2\\final_release\\context.py",
+    "sha256": "3e0514729b50ee45c85a71ff56d78f16bc866bddbc12f9c4cd1cbd3add67bec3",
+    "bytes": 1067,
+    "scope": "full UTF-8/AST read; semantic audit focuses on routing, simulation, accounting and analysis interfaces",
+    "symbols": [
+      {
+        "name": "digest",
+        "line": 11,
+        "signature": "def digest(x):return hashlib.sha256(json.dumps(x,sort_keys=True,default=str).encode()).hexdigest()"
+      },
+      {
+        "name": "out",
+        "line": 12,
+        "signature": "def out(name):"
+      },
+      {
+        "name": "signature",
+        "line": 14,
+        "signature": "def signature():"
+      }
+    ]
+  },
+  {
+    "path": "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\results\\robustness_v2\\final_release\\core_worker.py",
+    "sha256": "98087c082625950abbb1f2c8faf09babb0cf3f4ec6a25b1c54a918bd19dcb0b7",
+    "bytes": 746,
+    "scope": "full UTF-8/AST read; semantic audit focuses on routing, simulation, accounting and analysis interfaces",
+    "symbols": [
+      {
+        "name": "main",
+        "line": 5,
+        "signature": "def main():"
+      }
+    ]
+  },
+  {
+    "path": "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\results\\robustness_v2\\final_release\\experiments.py",
+    "sha256": "411673bfc60d22ba5712927e806494e03dc729f7a3f1e6ffa5f8fb6ae7580ad9",
+    "bytes": 9041,
+    "scope": "full UTF-8/AST read; semantic audit focuses on routing, simulation, accounting and analysis interfaces",
+    "symbols": [
+      {
+        "name": "inputs",
+        "line": 16,
+        "signature": "def inputs(n):return load_inputs(n)"
+      },
+      {
+        "name": "carbon",
+        "line": 18,
+        "signature": "def carbon():"
+      },
+      {
+        "name": "NormalAvailability",
+        "line": 23,
+        "signature": "class NormalAvailability:"
+      },
+      {
+        "name": "run_case",
+        "line": 27,
+        "signature": "def run_case(policy,seed,n=7335,gamma=1.35,delay_scale=0.):"
+      },
+      {
+        "name": "group",
+        "line": 99,
+        "signature": "def group(phase,cases,previous=None):"
+      },
+      {
+        "name": "main",
+        "line": 107,
+        "signature": "def main():"
+      },
+      {
+        "name": "__init__",
+        "line": 24,
+        "signature": "def __init__(self,servers):self.servers=servers;self.events=[(0.,r,m,int(p['capacity'])) for (r,m),p in servers.items()]"
+      },
+      {
+        "name": "at",
+        "line": 25,
+        "signature": "def at(self,r,m,t):return self.servers[(r,m)]['capacity']"
+      }
+    ]
+  },
+  {
+    "path": "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\results\\robustness_v2\\final_release\\finish_checks.py",
+    "sha256": "9c03ad6971dcd70fa17644570d5460d2357a2dbd802874a6c7edf6dbc9b81821",
+    "bytes": 1041,
+    "scope": "full UTF-8/AST read; semantic audit focuses on routing, simulation, accounting and analysis interfaces",
+    "symbols": [
+      {
+        "name": "main",
+        "line": 4,
+        "signature": "def main():"
+      }
+    ]
+  },
+  {
+    "path": "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\results\\robustness_v2\\final_release\\freeze.py",
+    "sha256": "450a50534352ee74646cb0bae289a40a3a0a47a15045a94d2b458d73ad2e15c2",
+    "bytes": 2598,
+    "scope": "full UTF-8/AST read; semantic audit focuses on routing, simulation, accounting and analysis interfaces",
+    "symbols": [
+      {
+        "name": "main",
+        "line": 4,
+        "signature": "def main():"
+      }
+    ]
+  },
+  {
+    "path": "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\results\\robustness_v2\\final_release\\make_additional_figures.py",
+    "sha256": "da82b85ec0ac53d00ba9793a871955cbaaf5ae7d58974a772988c7ed985aa052",
+    "bytes": 2907,
+    "scope": "full UTF-8/AST read; semantic audit focuses on routing, simulation, accounting and analysis interfaces",
+    "symbols": [
+      {
+        "name": "main",
+        "line": 6,
+        "signature": "def main():"
+      }
+    ]
+  },
+  {
+    "path": "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\results\\robustness_v2\\final_release\\normalize_tables.py",
+    "sha256": "472eba29cdefce67992978f0780e16d506bfa6a4d9833eeda1dc04b4e1f3a1ac",
+    "bytes": 688,
+    "scope": "full UTF-8/AST read; semantic audit focuses on routing, simulation, accounting and analysis interfaces",
+    "symbols": [
+      {
+        "name": "main",
+        "line": 4,
+        "signature": "def main():"
+      }
+    ]
+  },
+  {
+    "path": "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\results\\robustness_v2\\final_release\\pipeline.py",
+    "sha256": "3a12d4738bea58acbf3aaea933bf179e07d62bb584a397786d4a26d6986233bc",
+    "bytes": 1336,
+    "scope": "full UTF-8/AST read; semantic audit focuses on routing, simulation, accounting and analysis interfaces",
+    "symbols": [
+      {
+        "name": "execute",
+        "line": 5,
+        "signature": "def execute(script,*args):"
+      },
+      {
+        "name": "main",
+        "line": 10,
+        "signature": "def main():"
+      }
+    ]
+  },
+  {
+    "path": "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\results\\robustness_v2\\final_release\\policies.py",
+    "sha256": "d7887a1afe17f26df3d55d30c7aba7cd824a23e3a571523f604cf4f729c293ca",
+    "bytes": 5549,
+    "scope": "full UTF-8/AST read; semantic audit focuses on routing, simulation, accounting and analysis interfaces",
+    "symbols": [
+      {
+        "name": "objective",
+        "line": 12,
+        "signature": "def objective(plans,jobs):"
+      },
+      {
+        "name": "nested_solve",
+        "line": 16,
+        "signature": "def nested_solve(jobs,now,servers,network,booked,observed,view,cfg,full):"
+      },
+      {
+        "name": "shift_and_validate",
+        "line": 49,
+        "signature": "def shift_and_validate(plans,jobs,network,cfg,extra):"
+      },
+      {
+        "name": "NestedSimulation",
+        "line": 66,
+        "signature": "class NestedSimulation(Simulation):"
+      },
+      {
+        "name": "__init__",
+        "line": 67,
+        "signature": "def __init__(self,*args,policy='E-Spatial',delay_scale=0.,**kwargs):"
+      },
+      {
+        "name": "optimize",
+        "line": 69,
+        "signature": "def optimize(self):"
+      },
+      {
+        "name": "run",
+        "line": 86,
+        "signature": "def run(self):"
+      }
+    ]
+  },
+  {
+    "path": "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\results\\robustness_v2\\final_release\\preflight.py",
+    "sha256": "007f0fccea0bbfba55833d1cebd21f98a1176aeb5b9cc356945aa8c65dbf5c94",
+    "bytes": 1813,
+    "scope": "full UTF-8/AST read; semantic audit focuses on routing, simulation, accounting and analysis interfaces",
+    "symbols": [
+      {
+        "name": "main",
+        "line": 4,
+        "signature": "def main():"
+      }
+    ]
+  },
+  {
+    "path": "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\results\\robustness_v2\\final_release\\queue_milp.py",
+    "sha256": "6df8037e5ba58f02bfc03645d13b13eb8f66fead25530cf78a18c62b6118cb97",
+    "bytes": 6828,
+    "scope": "full UTF-8/AST read; semantic audit focuses on routing, simulation, accounting and analysis interfaces",
+    "symbols": [
+      {
+        "name": "spatial_solve",
+        "line": 16,
+        "signature": "def spatial_solve(jobs,now,servers,network,booked,observed,view,cfg):"
+      },
+      {
+        "name": "plan",
+        "line": 37,
+        "signature": "def plan(c,predicted):"
+      },
+      {
+        "name": "add",
+        "line": 45,
+        "signature": "def add(items,lb=-np.inf,ub=np.inf):"
+      }
+    ]
+  },
+  {
+    "path": "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\results\\robustness_v2\\final_release\\recovery.py",
+    "sha256": "ad12204178db883517ae4d724cb13c22f09d9499058f6e2270d0198922a0ee31",
+    "bytes": 4665,
+    "scope": "full UTF-8/AST read; semantic audit focuses on routing, simulation, accounting and analysis interfaces",
+    "symbols": [
+      {
+        "name": "violations",
+        "line": 8,
+        "signature": "def violations(x,A,lower,upper,lb,ub,integer):"
+      },
+      {
+        "name": "restore",
+        "line": 18,
+        "signature": "def restore(raw,A,lower,upper,lb,ub,integer,costs,budget_seconds):"
+      },
+      {
+        "name": "maximum",
+        "line": 12,
+        "signature": "def maximum(v):return max(0.,float(np.max(v))) if len(v) else 0."
+      }
+    ]
+  },
+  {
+    "path": "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\results\\robustness_v2\\final_release\\repeat_stability.py",
+    "sha256": "dccf091c6e35144e2464cc616128155ee183ec2b06ca2d83c75ccb8626ab6121",
+    "bytes": 778,
+    "scope": "full UTF-8/AST read; semantic audit focuses on routing, simulation, accounting and analysis interfaces",
+    "symbols": [
+      {
+        "name": "main",
+        "line": 6,
+        "signature": "def main():"
+      },
+      {
+        "name": "overlay",
+        "line": 9,
+        "signature": "def overlay(path):"
+      }
+    ]
+  },
+  {
+    "path": "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\results\\robustness_v2\\final_release\\reports_release.py",
+    "sha256": "4b3278512cb5f5d6d9d612c43d2b9496936cceccc4b4bdfb699e0afe0e608a08",
+    "bytes": 27352,
+    "scope": "full UTF-8/AST read; semantic audit focuses on routing, simulation, accounting and analysis interfaces",
+    "symbols": [
+      {
+        "name": "table",
+        "line": 7,
+        "signature": "def table(f):"
+      },
+      {
+        "name": "write",
+        "line": 11,
+        "signature": "def write(name,text):(ROOT/name).write_text(text,encoding='utf-8')"
+      },
+      {
+        "name": "safe_csv",
+        "line": 12,
+        "signature": "def safe_csv(path):"
+      },
+      {
+        "name": "main",
+        "line": 15,
+        "signature": "def main():"
+      },
+      {
+        "name": "pair",
+        "line": 23,
+        "signature": "def pair(a,b):return pairs[(pairs.baseline==a)&(pairs.proposed==b)&(pairs.metric=='co2e_g')].iloc[0]"
+      },
+      {
+        "name": "sentence",
+        "line": 24,
+        "signature": "def sentence(p):return '%.9f g，95%%配对区间 [%.9f, %.9f]，正收益种子比例 %.2f%%'%(p['mean'],p.ci95_lower,p.ci95_upper,100*p.positive_fraction)"
+      },
+      {
+        "name": "check",
+        "line": 51,
+        "signature": "def check(name,status,evidence):flags.append({'item':name,'status':status,'evidence':evidence})"
+      }
+    ]
+  },
+  {
+    "path": "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\results\\robustness_v2\\final_release\\resume_after_workers.py",
+    "sha256": "879c2887d0541dfd5aa0181e929785c212a852e2392ee32afbba511d3e3d7663",
+    "bytes": 1739,
+    "scope": "full UTF-8/AST read; semantic audit focuses on routing, simulation, accounting and analysis interfaces",
+    "symbols": [
+      {
+        "name": "main",
+        "line": 4,
+        "signature": "def main():"
+      }
+    ]
+  },
+  {
+    "path": "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\results\\robustness_v2\\final_release\\run_all.py",
+    "sha256": "8878e57a7939efd5a2499fc5cd7683a69e1bd16ed458ce9ae09fac3b91dee6a2",
+    "bytes": 2359,
+    "scope": "full UTF-8/AST read; semantic audit focuses on routing, simulation, accounting and analysis interfaces",
+    "symbols": [
+      {
+        "name": "main",
+        "line": 4,
+        "signature": "def main():"
+      }
+    ]
+  },
+  {
+    "path": "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\results\\robustness_v2\\final_release\\run_tests.py",
+    "sha256": "41081fdfc519d646eea8f9d64948a13d8cc340fffe35cfbf99ea9eacf8993d1b",
+    "bytes": 1380,
+    "scope": "full UTF-8/AST read; semantic audit focuses on routing, simulation, accounting and analysis interfaces",
+    "symbols": [
+      {
+        "name": "redirected",
+        "line": 11,
+        "signature": "def redirected():"
+      },
+      {
+        "name": "Plugin",
+        "line": 18,
+        "signature": "class Plugin:"
+      },
+      {
+        "name": "pytest_pycollect_makemodule",
+        "line": 19,
+        "signature": "def pytest_pycollect_makemodule(self,module_path,parent):"
+      },
+      {
+        "name": "ExistingModule",
+        "line": 21,
+        "signature": "class ExistingModule(pytest.Module):"
+      },
+      {
+        "name": "_getobj",
+        "line": 22,
+        "signature": "def _getobj(self):return module"
+      }
+    ]
+  },
+  {
+    "path": "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\results\\robustness_v2\\final_release\\spatial.py",
+    "sha256": "c466eddff95417e79c0b5e35c27807a74a36862a2a7a535375971be60802abde",
+    "bytes": 1596,
+    "scope": "full UTF-8/AST read; semantic audit focuses on routing, simulation, accounting and analysis interfaces",
+    "symbols": [
+      {
+        "name": "SpatialSimulation",
+        "line": 4,
+        "signature": "class SpatialSimulation(FullSimulation):"
+      },
+      {
+        "name": "__init__",
+        "line": 5,
+        "signature": "def __init__(self,*args,**kwargs):"
+      },
+      {
+        "name": "optimize",
+        "line": 9,
+        "signature": "def optimize(self):"
+      },
+      {
+        "name": "run",
+        "line": 23,
+        "signature": "def run(self):"
+      }
+    ]
+  },
+  {
+    "path": "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\results\\robustness_v2\\final_release\\tests\\test_recovery.py",
+    "sha256": "bfe4ae45e39c8ac8b5eb297bc153839beb82df30729eacfe98672fcf3ca4e800",
+    "bytes": 3130,
+    "scope": "full UTF-8/AST read; semantic audit focuses on routing, simulation, accounting and analysis interfaces",
+    "symbols": [
+      {
+        "name": "counterexample",
+        "line": 6,
+        "signature": "def counterexample():"
+      },
+      {
+        "name": "test_saved_real_counterexample_is_unrecoverable_and_rejected",
+        "line": 9,
+        "signature": "def test_saved_real_counterexample_is_unrecoverable_and_rejected():"
+      },
+      {
+        "name": "simple",
+        "line": 22,
+        "signature": "def simple(raw,budget=10.):"
+      },
+      {
+        "name": "test_valid_unchanged",
+        "line": 27,
+        "signature": "def test_valid_unchanged():"
+      },
+      {
+        "name": "test_switch_repair",
+        "line": 31,
+        "signature": "def test_switch_repair():"
+      },
+      {
+        "name": "test_budget_exhaustion_rejects",
+        "line": 34,
+        "signature": "def test_budget_exhaustion_rejects():"
+      },
+      {
+        "name": "test_fractionality_rejects_without_lp",
+        "line": 37,
+        "signature": "def test_fractionality_rejects_without_lp():"
+      },
+      {
+        "name": "test_nonfinite_rejected",
+        "line": 40,
+        "signature": "def test_nonfinite_rejected():"
+      },
+      {
+        "name": "test_fixed_integer_infeasible_never_changes_assignment",
+        "line": 43,
+        "signature": "def test_fixed_integer_infeasible_never_changes_assignment():"
+      },
+      {
+        "name": "test_pure_binary_no_continuous_repair",
+        "line": 47,
+        "signature": "def test_pure_binary_no_continuous_repair():"
+      },
+      {
+        "name": "test_lp_timeout_rejected",
+        "line": 51,
+        "signature": "def test_lp_timeout_rejected(monkeypatch):"
+      },
+      {
+        "name": "test_invalid_lp_solution_rejected",
+        "line": 56,
+        "signature": "def test_invalid_lp_solution_rejected(monkeypatch):"
+      },
+      {
+        "name": "test_lower_bound_and_equality_recovered",
+        "line": 61,
+        "signature": "def test_lower_bound_and_equality_recovered():"
+      },
+      {
+        "name": "test_a2_des_byte_identical",
+        "line": 66,
+        "signature": "def test_a2_des_byte_identical():"
+      },
+      {
+        "name": "test_original_tolerance_preserved",
+        "line": 69,
+        "signature": "def test_original_tolerance_preserved():assert TOL==1e-5"
+      }
+    ]
+  },
+  {
+    "path": "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\results\\robustness_v2\\final_release\\v2\\__init__.py",
+    "sha256": "5493a571e54643dab64ff29056921a439bc51a319005558804c41888a006ae52",
+    "bytes": 69,
+    "scope": "full UTF-8/AST read; semantic audit focuses on routing, simulation, accounting and analysis interfaces",
+    "symbols": []
+  },
+  {
+    "path": "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\results\\robustness_v2\\final_release\\v2\\des.py",
+    "sha256": "f5dc43b7685de01d257904e652a2cf318db54c7b819538cfc97fe4347bc41eb3",
+    "bytes": 20280,
+    "scope": "full UTF-8/AST read; semantic audit focuses on routing, simulation, accounting and analysis interfaces",
+    "symbols": [
+      {
+        "name": "Simulation",
+        "line": 18,
+        "signature": "class Simulation:"
+      },
+      {
+        "name": "__init__",
+        "line": 22,
+        "signature": "def __init__(self,requests,servers,network,availability,carbon,shocks,strategy,cfg=None):"
+      },
+      {
+        "name": "emit",
+        "line": 47,
+        "signature": "def emit(self,kind,rid=None,**extra):"
+      },
+      {
+        "name": "push",
+        "line": 50,
+        "signature": "def push(self,t,kind,payload=None):"
+      },
+      {
+        "name": "link",
+        "line": 54,
+        "signature": "def link(self,q,r):return self.network[(q.origin,r)]"
+      },
+      {
+        "name": "allowed",
+        "line": 56,
+        "signature": "def allowed(self,q):return [r for r,m in self.servers if m==q.model and self.link(q,r)['allowed']]"
+      },
+      {
+        "name": "forecast",
+        "line": 58,
+        "signature": "def forecast(self,t):"
+      },
+      {
+        "name": "reservations",
+        "line": 64,
+        "signature": "def reservations(self):"
+      },
+      {
+        "name": "latest_dispatch",
+        "line": 86,
+        "signature": "def latest_dispatch(self,q):"
+      },
+      {
+        "name": "fail",
+        "line": 90,
+        "signature": "def fail(self,rid,reason):"
+      },
+      {
+        "name": "dispatch",
+        "line": 96,
+        "signature": "def dispatch(self,rid,r,replica=None):"
+      },
+      {
+        "name": "drain",
+        "line": 106,
+        "signature": "def drain(self,r,m):"
+      },
+      {
+        "name": "_admit",
+        "line": 115,
+        "signature": "def _admit(self,r,m):"
+      },
+      {
+        "name": "greedy_region",
+        "line": 140,
+        "signature": "def greedy_region(self,q,earliest=False):"
+      },
+      {
+        "name": "fallback",
+        "line": 163,
+        "signature": "def fallback(self,rid,reason):"
+      },
+      {
+        "name": "request_optimization",
+        "line": 169,
+        "signature": "def request_optimization(self,t):"
+      },
+      {
+        "name": "optimize",
+        "line": 175,
+        "signature": "def optimize(self):"
+      },
+      {
+        "name": "prepare_oracle",
+        "line": 191,
+        "signature": "def prepare_oracle(self):"
+      },
+      {
+        "name": "run",
+        "line": 214,
+        "signature": "def run(self):"
+      }
+    ]
+  },
+  {
+    "path": "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\results\\robustness_v2\\final_release\\v2\\milp.py",
+    "sha256": "1aea9cbe12f0190f5d726f64eb5f73d147f2ebecbb47b11fdf3bec25641b08ee",
+    "bytes": 8177,
+    "scope": "full UTF-8/AST read; semantic audit focuses on routing, simulation, accounting and analysis interfaces",
+    "symbols": [
+      {
+        "name": "IntervalBook",
+        "line": 12,
+        "signature": "class IntervalBook:"
+      },
+      {
+        "name": "gap_start",
+        "line": 22,
+        "signature": "def gap_start(start,duration,intervals):"
+      },
+      {
+        "name": "solve",
+        "line": 31,
+        "signature": "def solve(requests,now,servers,network,reservations,capacity_at,forecast,cfg,extra_candidates=()):"
+      },
+      {
+        "name": "__init__",
+        "line": 13,
+        "signature": "def __init__(self,intervals):"
+      }
+    ]
+  },
+  {
+    "path": "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\results\\robustness_v2\\final_release\\validate_release.py",
+    "sha256": "275e591b63019ad08ad5ab2315fbadbdc3a38e238b2647abb91891e4c0fd0f26",
+    "bytes": 9595,
+    "scope": "full UTF-8/AST read; semantic audit focuses on routing, simulation, accounting and analysis interfaces",
+    "symbols": [
+      {
+        "name": "main",
+        "line": 7,
+        "signature": "def main():"
+      }
+    ]
+  },
+  {
+    "path": "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\src\\__init__.py",
+    "sha256": "286b1dbcdabb0c33e2dce7461ac4ed65975fe38f36423c5046d7dcdfb648ee5f",
+    "bytes": 58,
+    "scope": "full UTF-8/AST read; semantic audit focuses on routing, simulation, accounting and analysis interfaces",
+    "symbols": []
+  },
+  {
+    "path": "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\src\\accounting.py",
+    "sha256": "b959faa4c8c25f4c740b3f2aa252074eaa874fbc0925631b1b09c49a95256c0c",
+    "bytes": 5082,
+    "scope": "full UTF-8/AST read; semantic audit focuses on routing, simulation, accounting and analysis interfaces",
+    "symbols": [
+      {
+        "name": "evaluate",
+        "line": 7,
+        "signature": "def evaluate(sim,horizon,quality=None):"
+      },
+      {
+        "name": "add",
+        "line": 10,
+        "signature": "def add(component,region,start,end,watts=None,kwh=None,carbon_g=None,rid=None):"
+      },
+      {
+        "name": "quantile",
+        "line": 42,
+        "signature": "def quantile(q):return float(response.quantile(q)) if len(response) else None"
+      }
+    ]
+  },
+  {
+    "path": "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\src\\carbon.py",
+    "sha256": "3f18b3abc81c6c6e8a00c085eac3a4e03bc441ded06f0ba7d2f950aade1bed5f",
+    "bytes": 5410,
+    "scope": "full UTF-8/AST read; semantic audit focuses on routing, simulation, accounting and analysis interfaces",
+    "symbols": [
+      {
+        "name": "Carbon",
+        "line": 10,
+        "signature": "class Carbon:"
+      },
+      {
+        "name": "ForecastView",
+        "line": 60,
+        "signature": "class ForecastView:"
+      },
+      {
+        "name": "OracleView",
+        "line": 100,
+        "signature": "class OracleView:"
+      },
+      {
+        "name": "__init__",
+        "line": 11,
+        "signature": "def __init__(self,frame,anchor,metadata=None):"
+      },
+      {
+        "name": "load",
+        "line": 25,
+        "signature": "def load(cls,anchor,boundary='lifecycle',spread=1.):"
+      },
+      {
+        "name": "index",
+        "line": 36,
+        "signature": "def index(self,t):"
+      },
+      {
+        "name": "at",
+        "line": 41,
+        "signature": "def at(self,t,region):return float(self.values[self.index(t),REGIONS.index(region)])"
+      },
+      {
+        "name": "integral",
+        "line": 43,
+        "signature": "def integral(self,start,end,region):"
+      },
+      {
+        "name": "observation_history",
+        "line": 53,
+        "signature": "def observation_history(self,issued):"
+      },
+      {
+        "name": "__init__",
+        "line": 62,
+        "signature": "def __init__(self,actual,issued,horizon,method='persistence',noise=0.,seed=20261017):"
+      },
+      {
+        "name": "at",
+        "line": 81,
+        "signature": "def at(self,t,r):"
+      },
+      {
+        "name": "integral",
+        "line": 85,
+        "signature": "def integral(self,start,end,r):"
+      },
+      {
+        "name": "records",
+        "line": 92,
+        "signature": "def records(self):"
+      },
+      {
+        "name": "__init__",
+        "line": 102,
+        "signature": "def __init__(self,actual):self._actual=actual;self.origin=actual.origin"
+      },
+      {
+        "name": "at",
+        "line": 103,
+        "signature": "def at(self,t,r):return self._actual.at(t,r)"
+      },
+      {
+        "name": "integral",
+        "line": 104,
+        "signature": "def integral(self,a,b,r):return self._actual.integral(a,b,r)"
+      }
+    ]
+  },
+  {
+    "path": "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\src\\des.py",
+    "sha256": "45edc7f083cb9f826cd46ec02a4bc0ae908c3c9487fa546c3365c0b907362786",
+    "bytes": 18822,
+    "scope": "full UTF-8/AST read; semantic audit focuses on routing, simulation, accounting and analysis interfaces",
+    "symbols": [
+      {
+        "name": "Simulation",
+        "line": 18,
+        "signature": "class Simulation:"
+      },
+      {
+        "name": "__init__",
+        "line": 22,
+        "signature": "def __init__(self,requests,servers,network,availability,carbon,shocks,strategy,cfg=None):"
+      },
+      {
+        "name": "emit",
+        "line": 40,
+        "signature": "def emit(self,kind,rid=None,**extra):"
+      },
+      {
+        "name": "push",
+        "line": 43,
+        "signature": "def push(self,t,kind,payload=None):"
+      },
+      {
+        "name": "link",
+        "line": 47,
+        "signature": "def link(self,q,r):return self.network[(q.origin,r)]"
+      },
+      {
+        "name": "allowed",
+        "line": 49,
+        "signature": "def allowed(self,q):return [r for r,m in self.servers if m==q.model and self.link(q,r)['allowed']]"
+      },
+      {
+        "name": "forecast",
+        "line": 51,
+        "signature": "def forecast(self,t):"
+      },
+      {
+        "name": "reservations",
+        "line": 57,
+        "signature": "def reservations(self):"
+      },
+      {
+        "name": "latest_dispatch",
+        "line": 79,
+        "signature": "def latest_dispatch(self,q):"
+      },
+      {
+        "name": "fail",
+        "line": 83,
+        "signature": "def fail(self,rid,reason):"
+      },
+      {
+        "name": "dispatch",
+        "line": 89,
+        "signature": "def dispatch(self,rid,r,replica=None):"
+      },
+      {
+        "name": "drain",
+        "line": 99,
+        "signature": "def drain(self,r,m):"
+      },
+      {
+        "name": "greedy_region",
+        "line": 124,
+        "signature": "def greedy_region(self,q,earliest=False):"
+      },
+      {
+        "name": "fallback",
+        "line": 147,
+        "signature": "def fallback(self,rid,reason):"
+      },
+      {
+        "name": "request_optimization",
+        "line": 153,
+        "signature": "def request_optimization(self,t):"
+      },
+      {
+        "name": "optimize",
+        "line": 159,
+        "signature": "def optimize(self):"
+      },
+      {
+        "name": "prepare_oracle",
+        "line": 175,
+        "signature": "def prepare_oracle(self):"
+      },
+      {
+        "name": "run",
+        "line": 198,
+        "signature": "def run(self):"
+      }
+    ]
+  },
+  {
+    "path": "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\src\\domain.py",
+    "sha256": "b8fcb169e05c57ca7eeef2dbdda5b1f7484ffa3bae6a207c306f1d502736cc53",
+    "bytes": 4387,
+    "scope": "full UTF-8/AST read; semantic audit focuses on routing, simulation, accounting and analysis interfaces",
+    "symbols": [
+      {
+        "name": "Request",
+        "line": 10,
+        "signature": "class Request:"
+      },
+      {
+        "name": "load_inputs",
+        "line": 23,
+        "signature": "def load_inputs(n=None,load=1.,delay_scale=1.,defer_fraction=1.,network_scale=1.):"
+      },
+      {
+        "name": "Availability",
+        "line": 67,
+        "signature": "class Availability:"
+      },
+      {
+        "name": "shocks_for",
+        "line": 83,
+        "signature": "def shocks_for(rep,ids):"
+      },
+      {
+        "name": "__init__",
+        "line": 68,
+        "signature": "def __init__(self,scenario,anchor):"
+      },
+      {
+        "name": "at",
+        "line": 74,
+        "signature": "def at(self,region,model,t):"
+      }
+    ]
+  },
+  {
+    "path": "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\src\\experiments.py",
+    "sha256": "7018b29641611f977234f09771787b7e686e9098aaacc95cd59577ed4cb8fbf1",
+    "bytes": 9354,
+    "scope": "full UTF-8/AST read; semantic audit focuses on routing, simulation, accounting and analysis interfaces",
+    "symbols": [
+      {
+        "name": "audit_run",
+        "line": 16,
+        "signature": "def audit_run(sim,records):"
+      },
+      {
+        "name": "run_one",
+        "line": 40,
+        "signature": "def run_one(strategy,n=7335,rep=0,scenario='normal',load=1.,delay_scale=1.,spread=1.,network_scale=1.,defer_fraction=1.,boundary='lifecycle',model=None):"
+      },
+      {
+        "name": "record_group",
+        "line": 84,
+        "signature": "def record_group(name,cases):"
+      },
+      {
+        "name": "scale",
+        "line": 92,
+        "signature": "def scale(sizes):"
+      },
+      {
+        "name": "suite",
+        "line": 102,
+        "signature": "def suite():"
+      },
+      {
+        "name": "full_stress",
+        "line": 139,
+        "signature": "def full_stress():"
+      }
+    ]
+  },
+  {
+    "path": "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\src\\migration_report.py",
+    "sha256": "b89878b41a890fbfd6aeb7fe246a74a9ceeec408734f86b96baab2d7cb8a3c13",
+    "bytes": 12346,
+    "scope": "full UTF-8/AST read; semantic audit focuses on routing, simulation, accounting and analysis interfaces",
+    "symbols": [
+      {
+        "name": "table",
+        "line": 8,
+        "signature": "def table(frame):"
+      },
+      {
+        "name": "run",
+        "line": 13,
+        "signature": "def run():"
+      }
+    ]
+  },
+  {
+    "path": "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\src\\milp.py",
+    "sha256": "1b5a78da673da4b328bcac347f919f3592213e0741305fda710a52881ffa087e",
+    "bytes": 6898,
+    "scope": "full UTF-8/AST read; semantic audit focuses on routing, simulation, accounting and analysis interfaces",
+    "symbols": [
+      {
+        "name": "IntervalBook",
+        "line": 10,
+        "signature": "class IntervalBook:"
+      },
+      {
+        "name": "gap_start",
+        "line": 20,
+        "signature": "def gap_start(start,duration,intervals):"
+      },
+      {
+        "name": "solve",
+        "line": 29,
+        "signature": "def solve(requests,now,servers,network,reservations,capacity_at,forecast,cfg,extra_candidates=()):"
+      },
+      {
+        "name": "__init__",
+        "line": 11,
+        "signature": "def __init__(self,intervals):"
+      }
+    ]
+  },
+  {
+    "path": "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\src\\phase0.py",
+    "sha256": "acf8b672943fcbb2e863d6cfb84c24001726251433b877e27f808e69d86a7cf1",
+    "bytes": 16378,
+    "scope": "full UTF-8/AST read; semantic audit focuses on routing, simulation, accounting and analysis interfaces",
+    "symbols": [
+      {
+        "name": "upstream_tests",
+        "line": 19,
+        "signature": "def upstream_tests():"
+      },
+      {
+        "name": "normalize_carbon",
+        "line": 42,
+        "signature": "def normalize_carbon():"
+      },
+      {
+        "name": "align_inputs",
+        "line": 85,
+        "signature": "def align_inputs():"
+      },
+      {
+        "name": "verify_current_sources",
+        "line": 124,
+        "signature": "def verify_current_sources(f):"
+      },
+      {
+        "name": "run",
+        "line": 195,
+        "signature": "def run():"
+      },
+      {
+        "name": "redirected",
+        "line": 26,
+        "signature": "def redirected(*args,**kwargs):"
+      }
+    ]
+  },
+  {
+    "path": "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\src\\power.py",
+    "sha256": "97f02fee70ffc465ff6b06a1bff089fafea8490b364bf3910d74450a89a27e4c",
+    "bytes": 6414,
+    "scope": "full UTF-8/AST read; semantic audit focuses on routing, simulation, accounting and analysis interfaces",
+    "symbols": [
+      {
+        "name": "upstream_paths",
+        "line": 7,
+        "signature": "def upstream_paths():"
+      },
+      {
+        "name": "profile",
+        "line": 20,
+        "signature": "def profile():"
+      },
+      {
+        "name": "idle_base_w",
+        "line": 37,
+        "signature": "def idle_base_w(pool):"
+      },
+      {
+        "name": "incremental_w",
+        "line": 43,
+        "signature": "def incremental_w(pool):"
+      },
+      {
+        "name": "migrate_power",
+        "line": 49,
+        "signature": "def migrate_power(requests):"
+      }
+    ]
+  },
+  {
+    "path": "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\src\\reporting.py",
+    "sha256": "4b799f22ff3d1eb72a21e936647917654d21820c8d4f796e9ed186f18e2f2843",
+    "bytes": 36042,
+    "scope": "full UTF-8/AST read; semantic audit focuses on routing, simulation, accounting and analysis interfaces",
+    "symbols": [
+      {
+        "name": "finish",
+        "line": 22,
+        "signature": "def finish(fig,name):"
+      },
+      {
+        "name": "markdown_table",
+        "line": 29,
+        "signature": "def markdown_table(frame):"
+      },
+      {
+        "name": "load_results",
+        "line": 35,
+        "signature": "def load_results():"
+      },
+      {
+        "name": "paired",
+        "line": 58,
+        "signature": "def paired(frame,baseline='Greedy'):"
+      },
+      {
+        "name": "figures",
+        "line": 73,
+        "signature": "def figures(tables):"
+      },
+      {
+        "name": "forecast_accuracy",
+        "line": 183,
+        "signature": "def forecast_accuracy():"
+      },
+      {
+        "name": "run",
+        "line": 204,
+        "signature": "def run():"
+      },
+      {
+        "name": "compact",
+        "line": 235,
+        "signature": "def compact(frame,group_columns):"
+      }
+    ]
+  },
+  {
+    "path": "C:\\Users\\吴连杰\\.codex\\worktrees\\47e1\\EuroMCM-project\\TASK 3\\task3_model\\src\\util.py",
+    "sha256": "0bf37be518d2ec036837b74fc6a47816f6db4c1961aa927ed1b680c1cab80390",
+    "bytes": 2919,
+    "scope": "full UTF-8/AST read; semantic audit focuses on routing, simulation, accounting and analysis interfaces",
+    "symbols": [
+      {
+        "name": "sha",
+        "line": 13,
+        "signature": "def sha(path):"
+      },
+      {
+        "name": "read",
+        "line": 21,
+        "signature": "def read(path):"
+      },
+      {
+        "name": "save",
+        "line": 25,
+        "signature": "def save(path,value):"
+      },
+      {
+        "name": "snapshot",
+        "line": 38,
+        "signature": "def snapshot():"
+      },
+      {
+        "name": "signature_for_files",
+        "line": 51,
+        "signature": "def signature_for_files(paths):"
+      },
+      {
+        "name": "input_signature",
+        "line": 57,
+        "signature": "def input_signature():"
+      },
+      {
+        "name": "clean",
+        "line": 26,
+        "signature": "def clean(v):"
+      }
+    ]
+  },
+  {
+    "path": "D:\\EuroMCM\\EuroMCM-project\\TASK 3\\data_preparation\\align_time.py",
+    "sha256": "43b3275779ad0054b7c560446f6e3b7732291414a914521c7a8d5d2d2ae7138c",
+    "bytes": 7575,
+    "scope": "full UTF-8/AST read; semantic audit focuses on routing, simulation, accounting and analysis interfaces",
+    "symbols": [
+      {
+        "name": "alignment_delta",
+        "line": 17,
+        "signature": "def alignment_delta(requests, carbon, target_start_utc=None):"
+      },
+      {
+        "name": "shift_times",
+        "line": 34,
+        "signature": "def shift_times(frame, delta, columns):"
+      },
+      {
+        "name": "align_dataset",
+        "line": 41,
+        "signature": "def align_dataset(carbon_path, metadata_path=None, target_start=None, destination=None):"
+      }
+    ]
+  },
+  {
+    "path": "D:\\EuroMCM\\EuroMCM-project\\TASK 3\\data_preparation\\carbon_loader.py",
+    "sha256": "fa4ba57e0e857f8021937d2962405fbbc009890f46c8478552e3dd065041a6f9",
+    "bytes": 8112,
+    "scope": "full UTF-8/AST read; semantic audit focuses on routing, simulation, accounting and analysis interfaces",
+    "symbols": [
+      {
+        "name": "validate_carbon_metadata",
+        "line": 15,
+        "signature": "def validate_carbon_metadata(meta):"
+      },
+      {
+        "name": "assert_compatible_carbon",
+        "line": 37,
+        "signature": "def assert_compatible_carbon(actual, forecast):"
+      },
+      {
+        "name": "utc_column",
+        "line": 47,
+        "signature": "def utc_column(series, name):"
+      },
+      {
+        "name": "load_carbon",
+        "line": 57,
+        "signature": "def load_carbon(path, metadata_path=None, required_start=None, required_end=None,"
+      },
+      {
+        "name": "carbon_for_decision",
+        "line": 119,
+        "signature": "def carbon_for_decision(frame, decision_time_utc, target_times_utc):"
+      }
+    ]
+  },
+  {
+    "path": "D:\\EuroMCM\\EuroMCM-project\\TASK 3\\data_preparation\\common.py",
+    "sha256": "a692bfd359945132eeff1768d6b7b5f60b6c9e97b4f0cf656c37c43d67f546aa",
+    "bytes": 4548,
+    "scope": "full UTF-8/AST read; semantic audit focuses on routing, simulation, accounting and analysis interfaces",
+    "symbols": [
+      {
+        "name": "read_json",
+        "line": 16,
+        "signature": "def read_json(path):"
+      },
+      {
+        "name": "save_json",
+        "line": 20,
+        "signature": "def save_json(path, value):"
+      },
+      {
+        "name": "digest",
+        "line": 24,
+        "signature": "def digest(path):"
+      },
+      {
+        "name": "paths",
+        "line": 32,
+        "signature": "def paths():"
+      },
+      {
+        "name": "requests_source",
+        "line": 36,
+        "signature": "def requests_source():"
+      },
+      {
+        "name": "decisions_source",
+        "line": 42,
+        "signature": "def decisions_source():"
+      },
+      {
+        "name": "training_lengths",
+        "line": 49,
+        "signature": "def training_lengths(requests):"
+      },
+      {
+        "name": "service_estimates",
+        "line": 72,
+        "signature": "def service_estimates(requests, stats, cfg, profile):"
+      },
+      {
+        "name": "frozen_route",
+        "line": 89,
+        "signature": "def frozen_route(task, benchmark, q_s, q_l, prompt_chars, registry, cost, params, fallback):"
+      },
+      {
+        "name": "utc_strings",
+        "line": 98,
+        "signature": "def utc_strings(values):"
+      }
+    ]
+  },
+  {
+    "path": "D:\\EuroMCM\\EuroMCM-project\\TASK 3\\data_preparation\\data_extensions.py",
+    "sha256": "d0c27c06553ad89c5faa9f1a23ec5c26a841bf1ec5795b34bb5a2dca6462ee8f",
+    "bytes": 3007,
+    "scope": "full UTF-8/AST read; semantic audit focuses on routing, simulation, accounting and analysis interfaces",
+    "symbols": [
+      {
+        "name": "build_extensions",
+        "line": 8,
+        "signature": "def build_extensions(output, requests, servers, network, cfg):"
+      }
+    ]
+  },
+  {
+    "path": "D:\\EuroMCM\\EuroMCM-project\\TASK 3\\data_preparation\\feasibility_precheck.py",
+    "sha256": "baf044774195ef931d27b8e180915af970db043c2fa18bcfcf5044072c8f98e5",
+    "bytes": 9330,
+    "scope": "full UTF-8/AST read; semantic audit focuses on routing, simulation, accounting and analysis interfaces",
+    "symbols": [
+      {
+        "name": "capacity_intervals",
+        "line": 12,
+        "signature": "def capacity_intervals(availability, servers, start, end):"
+      },
+      {
+        "name": "isolated_earliest_start",
+        "line": 40,
+        "signature": "def isolated_earliest_start(intervals, ready, latest_start, service):"
+      },
+      {
+        "name": "integral_capacity",
+        "line": 58,
+        "signature": "def integral_capacity(intervals, start, end):"
+      },
+      {
+        "name": "precheck",
+        "line": 62,
+        "signature": "def precheck(requests, servers, network, availability, cfg, scenario):"
+      },
+      {
+        "name": "write_prechecks",
+        "line": 151,
+        "signature": "def write_prechecks(output, requests, servers, network, cfg, scenarios):"
+      }
+    ]
+  },
+  {
+    "path": "D:\\EuroMCM\\EuroMCM-project\\TASK 3\\data_preparation\\prepare_task3_data.py",
+    "sha256": "e09780d12330224f8a5cf9c6c7101c3d74d7d86f7a688b57c93d35f2d926d8a9",
+    "bytes": 19067,
+    "scope": "full UTF-8/AST read; semantic audit focuses on routing, simulation, accounting and analysis interfaces",
+    "symbols": [
+      {
+        "name": "main",
+        "line": 13,
+        "signature": "def main():"
+      }
+    ]
+  },
+  {
+    "path": "D:\\EuroMCM\\EuroMCM-project\\TASK 3\\data_preparation\\resource_contracts.py",
+    "sha256": "21d65c2833e2c2be0174bea3b5674fee422aa684e20d41c27c6e4f3518a2b309",
+    "bytes": 1601,
+    "scope": "full UTF-8/AST read; semantic audit focuses on routing, simulation, accounting and analysis interfaces",
+    "symbols": [
+      {
+        "name": "service_at_pool",
+        "line": 5,
+        "signature": "def service_at_pool(reference_seconds, reference_multiplier, pool_multiplier):"
+      },
+      {
+        "name": "incremental_energy_kwh",
+        "line": 14,
+        "signature": "def incremental_energy_kwh(service_seconds, idle_w, busy_w, pue):"
+      },
+      {
+        "name": "facility_energy_components",
+        "line": 22,
+        "signature": "def facility_energy_components(horizon_seconds, capacity, busy_server_seconds, idle_w, busy_w, pue):"
+      }
+    ]
+  },
+  {
+    "path": "D:\\EuroMCM\\EuroMCM-project\\TASK 3\\data_preparation\\test_data_contracts.py",
+    "sha256": "4ffac18ccdb98c9b3adb7dd32658785cfab223e1309883b29c4b82ee5a4056e4",
+    "bytes": 16452,
+    "scope": "full UTF-8/AST read; semantic audit focuses on routing, simulation, accounting and analysis interfaces",
+    "symbols": [
+      {
+        "name": "CarbonContracts",
+        "line": 16,
+        "signature": "class CarbonContracts(unittest.TestCase):"
+      },
+      {
+        "name": "ResourceContracts",
+        "line": 118,
+        "signature": "class ResourceContracts(unittest.TestCase):"
+      },
+      {
+        "name": "AlignmentPipeline",
+        "line": 134,
+        "signature": "class AlignmentPipeline(unittest.TestCase):"
+      },
+      {
+        "name": "FeasibilityContracts",
+        "line": 170,
+        "signature": "class FeasibilityContracts(unittest.TestCase):"
+      },
+      {
+        "name": "InformationBoundary",
+        "line": 245,
+        "signature": "class InformationBoundary(unittest.TestCase):"
+      },
+      {
+        "name": "setUp",
+        "line": 17,
+        "signature": "def setUp(self):"
+      },
+      {
+        "name": "tearDown",
+        "line": 28,
+        "signature": "def tearDown(self):"
+      },
+      {
+        "name": "load",
+        "line": 31,
+        "signature": "def load(self,frame=None,metadata=None,allow=True,**kwargs):"
+      },
+      {
+        "name": "test_valid_interface_and_actual_rejected_for_decision",
+        "line": 36,
+        "signature": "def test_valid_interface_and_actual_rejected_for_decision(self):"
+      },
+      {
+        "name": "test_no_synthetic_in_real_experiments",
+        "line": 42,
+        "signature": "def test_no_synthetic_in_real_experiments(self):"
+      },
+      {
+        "name": "test_missing_file_clear",
+        "line": 46,
+        "signature": "def test_missing_file_clear(self):"
+      },
+      {
+        "name": "test_malformed_records_rejected",
+        "line": 50,
+        "signature": "def test_malformed_records_rejected(self):"
+      },
+      {
+        "name": "test_bad_units_and_coverage_rejected",
+        "line": 63,
+        "signature": "def test_bad_units_and_coverage_rejected(self):"
+      },
+      {
+        "name": "test_only_past_issued_forecasts_available",
+        "line": 70,
+        "signature": "def test_only_past_issued_forecasts_available(self):"
+      },
+      {
+        "name": "test_CO2e_requires_matching_column_unit_and_GWP_method",
+        "line": 81,
+        "signature": "def test_CO2e_requires_matching_column_unit_and_GWP_method(self):"
+      },
+      {
+        "name": "test_methodology_required_for_CO2_too",
+        "line": 95,
+        "signature": "def test_methodology_required_for_CO2_too(self):"
+      },
+      {
+        "name": "test_alignment_translates_only_times_and_checks_coverage",
+        "line": 100,
+        "signature": "def test_alignment_translates_only_times_and_checks_coverage(self):"
+      },
+      {
+        "name": "test_busy_idle_decomposition_matches_two_state_total",
+        "line": 119,
+        "signature": "def test_busy_idle_decomposition_matches_two_state_total(self):"
+      },
+      {
+        "name": "test_L_multiplier_is_not_applied_twice",
+        "line": 126,
+        "signature": "def test_L_multiplier_is_not_applied_twice(self):"
+      },
+      {
+        "name": "test_full_translation_preserves_baseline_and_all_scenario_offsets",
+        "line": 135,
+        "signature": "def test_full_translation_preserves_baseline_and_all_scenario_offsets(self):"
+      },
+      {
+        "name": "setUp",
+        "line": 171,
+        "signature": "def setUp(self):"
+      },
+      {
+        "name": "run_check",
+        "line": 184,
+        "signature": "def run_check(self):"
+      },
+      {
+        "name": "test_available_on_arrival_does_not_imply_completion",
+        "line": 187,
+        "signature": "def test_available_on_arrival_does_not_imply_completion(self):"
+      },
+      {
+        "name": "test_temporary_zero_capacity_can_wait_for_recovery",
+        "line": 193,
+        "signature": "def test_temporary_zero_capacity_can_wait_for_recovery(self):"
+      },
+      {
+        "name": "test_capacity_conflict_detected_even_if_each_request_can_finish",
+        "line": 203,
+        "signature": "def test_capacity_conflict_detected_even_if_each_request_can_finish(self):"
+      },
+      {
+        "name": "test_network_overhead_can_make_deadline_impossible",
+        "line": 213,
+        "signature": "def test_network_overhead_can_make_deadline_impossible(self):"
+      },
+      {
+        "name": "test_nonpreemptive_capacity_interval_must_fit_service",
+        "line": 218,
+        "signature": "def test_nonpreemptive_capacity_interval_must_fit_service(self):"
+      },
+      {
+        "name": "test_invalid_availability_capacity_rejected",
+        "line": 222,
+        "signature": "def test_invalid_availability_capacity_rejected(self):"
+      },
+      {
+        "name": "test_scenarios_are_independent_and_normal_unchanged",
+        "line": 227,
+        "signature": "def test_scenarios_are_independent_and_normal_unchanged(self):"
+      },
+      {
+        "name": "test_unknown_and_risk_tasks_always_L",
+        "line": 246,
+        "signature": "def test_unknown_and_risk_tasks_always_L(self):"
+      },
+      {
+        "name": "test_nontrain_output_cannot_affect_length_estimate",
+        "line": 252,
+        "signature": "def test_nontrain_output_cannot_affect_length_estimate(self):"
+      },
+      {
+        "name": "write",
+        "line": 260,
+        "signature": "def write(current_length):"
+      }
+    ]
+  },
+  {
+    "path": "D:\\EuroMCM\\EuroMCM-project\\TASK 3\\data_preparation\\validate_task3_data.py",
+    "sha256": "0f649133c54d6439e6ddad22e23ce34bdff179d8bee1a8f4ae38a406e1b9f356",
+    "bytes": 25116,
+    "scope": "full UTF-8/AST read; semantic audit focuses on routing, simulation, accounting and analysis interfaces",
+    "symbols": [
+      {
+        "name": "validate",
+        "line": 18,
+        "signature": "def validate(require_carbon=False, data_dir=None):"
+      },
+      {
+        "name": "check",
+        "line": 26,
+        "signature": "def check(name, fn):"
+      },
+      {
+        "name": "ensure",
+        "line": 33,
+        "signature": "def ensure(condition, detail):"
+      },
+      {
+        "name": "raw_source",
+        "line": 53,
+        "signature": "def raw_source():"
+      },
+      {
+        "name": "quality_and_route",
+        "line": 70,
+        "signature": "def quality_and_route():"
+      },
+      {
+        "name": "saved_model",
+        "line": 94,
+        "signature": "def saved_model():"
+      },
+      {
+        "name": "timing",
+        "line": 108,
+        "signature": "def timing():"
+      },
+      {
+        "name": "leakage_and_estimates",
+        "line": 143,
+        "signature": "def leakage_and_estimates():"
+      },
+      {
+        "name": "capacities",
+        "line": 171,
+        "signature": "def capacities():"
+      },
+      {
+        "name": "allowed_regions",
+        "line": 196,
+        "signature": "def allowed_regions():"
+      },
+      {
+        "name": "energy_contract",
+        "line": 209,
+        "signature": "def energy_contract():"
+      },
+      {
+        "name": "scenarios_and_prechecks",
+        "line": 227,
+        "signature": "def scenarios_and_prechecks():"
+      },
+      {
+        "name": "alignment",
+        "line": 260,
+        "signature": "def alignment():"
+      },
+      {
+        "name": "reproducible",
+        "line": 276,
+        "signature": "def reproducible():"
+      },
+      {
+        "name": "unchanged",
+        "line": 295,
+        "signature": "def unchanged():"
+      },
+      {
+        "name": "carbon",
+        "line": 310,
+        "signature": "def carbon():"
+      },
+      {
+        "name": "forecasts",
+        "line": 325,
+        "signature": "def forecasts():"
+      }
+    ]
+  },
+  {
+    "path": "D:\\EuroMCM\\EuroMCM-project\\TASK 3\\task3_model\\task3_final_paper\\Task3_Equations.md",
+    "sha256": "b507f3d7369982a62e6e63450a5b8a625476d519f7b0e4ef59b28acdac7d9636",
+    "bytes": 24716,
+    "scope": "full UTF-8/AST read; semantic audit focuses on routing, simulation, accounting and analysis interfaces",
+    "symbols": []
+  },
+  {
+    "path": "D:\\EuroMCM\\EuroMCM-project\\TASK 3\\task3_model\\task3_final_paper\\Task3_Paper_EN.md",
+    "sha256": "d99c9257ffa296e3fc98e14a55432856b92072a4a499af0dc6a38ea276931850",
+    "bytes": 49636,
+    "scope": "full UTF-8/AST read; semantic audit focuses on routing, simulation, accounting and analysis interfaces",
+    "symbols": []
+  },
+  {
+    "path": "D:\\EuroMCM\\EuroMCM-project\\TASK 3\\task3_model\\task3_final_paper\\Task3_Source_Audit.md",
+    "sha256": "d02480cf822b6bf52cdee409a669984632ef08e9aa7be809889c635211e7d748",
+    "bytes": 14470,
+    "scope": "full UTF-8/AST read; semantic audit focuses on routing, simulation, accounting and analysis interfaces",
+    "symbols": []
+  },
+  {
+    "path": "D:\\EuroMCM\\EuroMCM-project\\TASK 3\\task3_model\\task3_final_paper\\Task3_Unresolved_Issues.md",
+    "sha256": "15bee45102e545067226c9691f30acf65191acd321f3b4725348a9c59526f284",
+    "bytes": 5306,
+    "scope": "full UTF-8/AST read; semantic audit focuses on routing, simulation, accounting and analysis interfaces",
+    "symbols": []
+  },
+  {
+    "path": "D:\\EuroMCM\\EuroMCM-project\\task2\\calibrate_risk.py",
+    "sha256": "c8aee7fde5f7d56f35848ba222a1d0e65228f0b4adf66b58771406135da017d6",
+    "bytes": 7518,
+    "scope": "full UTF-8/AST read; semantic audit focuses on routing, simulation, accounting and analysis interfaces",
+    "symbols": [
+      {
+        "name": "main",
+        "line": 22,
+        "signature": "def main():"
+      }
+    ]
+  },
+  {
+    "path": "D:\\EuroMCM\\EuroMCM-project\\task2\\evaluate.py",
+    "sha256": "147abd82d514fa7467153e7d3e72c5e428fa05b1a1e8db8978cb1312667d9ce8",
+    "bytes": 15413,
+    "scope": "full UTF-8/AST read; semantic audit focuses on routing, simulation, accounting and analysis interfaces",
+    "symbols": [
+      {
+        "name": "task_metrics",
+        "line": 20,
+        "signature": "def task_metrics(frame, values, strategy, phase):"
+      },
+      {
+        "name": "safety_gate",
+        "line": 29,
+        "signature": "def safety_gate(frame, values):"
+      },
+      {
+        "name": "paired_ci",
+        "line": 40,
+        "signature": "def paired_ci(frame, values, repetitions=800):"
+      },
+      {
+        "name": "feedback_pilot",
+        "line": 65,
+        "signature": "def feedback_pilot(frame, prediction, selected, fallback, learn, rep):"
+      },
+      {
+        "name": "main",
+        "line": 102,
+        "signature": "def main():"
+      }
+    ]
+  },
+  {
+    "path": "D:\\EuroMCM\\EuroMCM-project\\task2\\final_artifacts.py",
+    "sha256": "2db45f692e67f7296cc0adaa42f23b3bf508970e10c488338d42b6bd77e70143",
+    "bytes": 3422,
+    "scope": "full UTF-8/AST read; semantic audit focuses on routing, simulation, accounting and analysis interfaces",
+    "symbols": [
+      {
+        "name": "main",
+        "line": 17,
+        "signature": "def main():"
+      }
+    ]
+  },
+  {
+    "path": "D:\\EuroMCM\\EuroMCM-project\\task2\\finalize_risk.py",
+    "sha256": "065742fec1ba7dc9c566845e3766141db90949ba144920ca34dfd30b312c6889",
+    "bytes": 8790,
+    "scope": "full UTF-8/AST read; semantic audit focuses on routing, simulation, accounting and analysis interfaces",
+    "symbols": [
+      {
+        "name": "main",
+        "line": 21,
+        "signature": "def main():"
+      }
+    ]
+  },
+  {
+    "path": "D:\\EuroMCM\\EuroMCM-project\\task2\\fit_routers.py",
+    "sha256": "6913920e0f1e798773e6a1dbf8df95f8b2d416089fe5604640fb05f6b50a4631",
+    "bytes": 7615,
+    "scope": "full UTF-8/AST read; semantic audit focuses on routing, simulation, accounting and analysis interfaces",
+    "symbols": [
+      {
+        "name": "fit_one",
+        "line": 30,
+        "signature": "def fit_one(name, x, frame):"
+      },
+      {
+        "name": "main",
+        "line": 77,
+        "signature": "def main():"
+      }
+    ]
+  },
+  {
+    "path": "D:\\EuroMCM\\EuroMCM-project\\task2\\input_paths.py",
+    "sha256": "3deb233f5343c439618fd0720325742556e04a8d0e06753473626af5154dfb35",
+    "bytes": 495,
+    "scope": "full UTF-8/AST read; semantic audit focuses on routing, simulation, accounting and analysis interfaces",
+    "symbols": [
+      {
+        "name": "paired_data",
+        "line": 5,
+        "signature": "def paired_data(project):"
+      },
+      {
+        "name": "frozen_features",
+        "line": 11,
+        "signature": "def frozen_features(project):"
+      }
+    ]
+  },
+  {
+    "path": "D:\\EuroMCM\\EuroMCM-project\\task2\\integrated_api.py",
+    "sha256": "5a81254c1835dc7117814242cf250a01ae73083187001c3707fa4c2e5e0a9c56",
+    "bytes": 8753,
+    "scope": "full UTF-8/AST read; semantic audit focuses on routing, simulation, accounting and analysis interfaces",
+    "symbols": [
+      {
+        "name": "task_of",
+        "line": 19,
+        "signature": "def task_of(name):"
+      },
+      {
+        "name": "IntegratedRouter",
+        "line": 26,
+        "signature": "class IntegratedRouter:"
+      },
+      {
+        "name": "main",
+        "line": 127,
+        "signature": "def main():"
+      },
+      {
+        "name": "__init__",
+        "line": 27,
+        "signature": "def __init__(self,out):"
+      },
+      {
+        "name": "route",
+        "line": 42,
+        "signature": "def route(self,prompt,benchmark,seed=SEED):"
+      },
+      {
+        "name": "diagnostics",
+        "line": 89,
+        "signature": "def diagnostics(self,prompt,response,benchmark):"
+      },
+      {
+        "name": "check_small",
+        "line": 93,
+        "signature": "def check_small(self,prompt,response,benchmark):"
+      },
+      {
+        "name": "choose_after_upgrade",
+        "line": 108,
+        "signature": "def choose_after_upgrade(self,prompt,small_response,large_response,benchmark):"
+      }
+    ]
+  },
+  {
+    "path": "D:\\EuroMCM\\EuroMCM-project\\task2\\neural_adapter.py",
+    "sha256": "515fa3609e75560bbb99bb0c55d3c8e64c78510f686caa9537c85d983abaaf9c",
+    "bytes": 378,
+    "scope": "full UTF-8/AST read; semantic audit focuses on routing, simulation, accounting and analysis interfaces",
+    "symbols": []
+  },
+  {
+    "path": "D:\\EuroMCM\\EuroMCM-project\\task2\\predict.py",
+    "sha256": "3b2e28fb0d9145919c0c3372d3a91f86885b5883eb04f022708944f89c8945f1",
+    "bytes": 173,
+    "scope": "full UTF-8/AST read; semantic audit focuses on routing, simulation, accounting and analysis interfaces",
+    "symbols": []
+  },
+  {
+    "path": "D:\\EuroMCM\\EuroMCM-project\\task2\\prepare.py",
+    "sha256": "96d200a8bfa21c6c40027d1ea2c1aff8381de8a704527537bc17369acbef9cd6",
+    "bytes": 6823,
+    "scope": "full UTF-8/AST read; semantic audit focuses on routing, simulation, accounting and analysis interfaces",
+    "symbols": [
+      {
+        "name": "save",
+        "line": 22,
+        "signature": "def save(path, value):"
+      },
+      {
+        "name": "main",
+        "line": 38,
+        "signature": "def main():"
+      },
+      {
+        "name": "clean",
+        "line": 23,
+        "signature": "def clean(item):"
+      }
+    ]
+  },
+  {
+    "path": "D:\\EuroMCM\\EuroMCM-project\\task2\\q1_adapter.py",
+    "sha256": "f4a1ada02bc7e2b58210eaaf566a4d5795c7f97b699c9c1e427d9ec2b88c84a9",
+    "bytes": 14750,
+    "scope": "full UTF-8/AST read; semantic audit focuses on routing, simulation, accounting and analysis interfaces",
+    "symbols": [
+      {
+        "name": "digest",
+        "line": 39,
+        "signature": "def digest(path):"
+      },
+      {
+        "name": "lgbm",
+        "line": 47,
+        "signature": "def lgbm(**kwargs):"
+      },
+      {
+        "name": "definitions",
+        "line": 52,
+        "signature": "def definitions(path, names, namespace):"
+      },
+      {
+        "name": "load_pre_source",
+        "line": 60,
+        "signature": "def load_pre_source(work, model_names):"
+      },
+      {
+        "name": "load_post_source",
+        "line": 69,
+        "signature": "def load_post_source(work):"
+      },
+      {
+        "name": "load_cohort",
+        "line": 78,
+        "signature": "def load_cohort(project, old_run):"
+      },
+      {
+        "name": "validation_partition",
+        "line": 113,
+        "signature": "def validation_partition(frame):"
+      },
+      {
+        "name": "PreModel",
+        "line": 126,
+        "signature": "class PreModel:"
+      },
+      {
+        "name": "mirt_fit",
+        "line": 160,
+        "signature": "def mirt_fit(fit, model_names, benchmark_names, ns):"
+      },
+      {
+        "name": "fit_pre_pipeline",
+        "line": 177,
+        "signature": "def fit_pre_pipeline(train, model_names, ns, label):"
+      },
+      {
+        "name": "pre_crossfit",
+        "line": 199,
+        "signature": "def pre_crossfit(frame, long, model_names, work, out):"
+      },
+      {
+        "name": "post_crossfit",
+        "line": 228,
+        "signature": "def post_crossfit(frame, raw, model_names, work, out):"
+      },
+      {
+        "name": "__init__",
+        "line": 127,
+        "signature": "def __init__(self, model_names, benchmark_names):"
+      },
+      {
+        "name": "basic",
+        "line": 130,
+        "signature": "def basic(self, frame):"
+      },
+      {
+        "name": "augmented",
+        "line": 136,
+        "signature": "def augmented(self, frame):"
+      },
+      {
+        "name": "dimension",
+        "line": 149,
+        "signature": "def dimension(name):"
+      },
+      {
+        "name": "predict",
+        "line": 155,
+        "signature": "def predict(self, frame, variant):"
+      }
+    ]
+  },
+  {
+    "path": "D:\\EuroMCM\\EuroMCM-project\\task2\\resource_scenarios.py",
+    "sha256": "4ac77a4a7e56cffdb15e1a33051efa40f596383a9f10dbb8d596f62a7ea5c445",
+    "bytes": 15965,
+    "scope": "full UTF-8/AST read; semantic audit focuses on routing, simulation, accounting and analysis interfaces",
+    "symbols": [
+      {
+        "name": "load_module",
+        "line": 24,
+        "signature": "def load_module(path,name):"
+      },
+      {
+        "name": "simulate",
+        "line": 31,
+        "signature": "def simulate(frame,path,arrivals,first,service,replicas,router_delay,check_delay,post_tasks,vc2_tasks,network):"
+      },
+      {
+        "name": "energy",
+        "line": 67,
+        "signature": "def energy(core, jobs, horizon, replicas, profile, intensity):"
+      },
+      {
+        "name": "main",
+        "line": 117,
+        "signature": "def main():"
+      }
+    ]
+  },
+  {
+    "path": "D:\\EuroMCM\\EuroMCM-project\\task2\\risk_bounds.py",
+    "sha256": "adda431b26bc11872463dbafbc086fb18fbf509edbeb721c83d63daf2fcc630c",
+    "bytes": 2827,
+    "scope": "full UTF-8/AST read; semantic audit focuses on routing, simulation, accounting and analysis interfaces",
+    "symbols": [
+      {
+        "name": "binomial_upper",
+        "line": 14,
+        "signature": "def binomial_upper(events,n,alpha):"
+      },
+      {
+        "name": "bernstein_upper",
+        "line": 19,
+        "signature": "def bernstein_upper(values,alpha):"
+      },
+      {
+        "name": "task_bounds",
+        "line": 28,
+        "signature": "def task_bounds(frame,values,alpha,duplicate_allowance):"
+      },
+      {
+        "name": "allowed_fallbacks",
+        "line": 45,
+        "signature": "def allowed_fallbacks(bounds,mixtures):"
+      }
+    ]
+  },
+  {
+    "path": "D:\\EuroMCM\\EuroMCM-project\\task2\\routing.py",
+    "sha256": "be602cde2a3ee713fa1c16057389323bafae2fee2a5998a0957d438705eb8c0a",
+    "bytes": 8922,
+    "scope": "full UTF-8/AST read; semantic audit focuses on routing, simulation, accounting and analysis interfaces",
+    "symbols": [
+      {
+        "name": "fit_cost",
+        "line": 22,
+        "signature": "def fit_cost(frame):"
+      },
+      {
+        "name": "execute",
+        "line": 36,
+        "signature": "def execute(frame, score, params):"
+      },
+      {
+        "name": "metrics",
+        "line": 68,
+        "signature": "def metrics(frame, values):"
+      },
+      {
+        "name": "slice_prediction",
+        "line": 95,
+        "signature": "def slice_prediction(prediction, mask):"
+      },
+      {
+        "name": "tune_task",
+        "line": 100,
+        "signature": "def tune_task(frame, prediction, no_post=False, fixed_cascade=False):"
+      },
+      {
+        "name": "tune",
+        "line": 130,
+        "signature": "def tune(frame, prediction, no_post=False, fixed_cascade=False):"
+      },
+      {
+        "name": "apply",
+        "line": 140,
+        "signature": "def apply(frame, prediction, selected, fallback_tasks=()):"
+      },
+      {
+        "name": "ledger",
+        "line": 157,
+        "signature": "def ledger(frame, values, strategy, phase):"
+      },
+      {
+        "name": "baseline",
+        "line": 167,
+        "signature": "def baseline(frame, use_large):"
+      }
+    ]
+  },
+  {
+    "path": "D:\\EuroMCM\\EuroMCM-project\\task2\\run_all.py",
+    "sha256": "daaa5b949f308059b3890c144ffabaf0f8daa0c6b635b6d36c564055c1186817",
+    "bytes": 1711,
+    "scope": "full UTF-8/AST read; semantic audit focuses on routing, simulation, accounting and analysis interfaces",
+    "symbols": [
+      {
+        "name": "main",
+        "line": 10,
+        "signature": "def main():"
+      },
+      {
+        "name": "run",
+        "line": 26,
+        "signature": "def run(script,*extra):"
+      }
+    ]
+  },
+  {
+    "path": "D:\\EuroMCM\\EuroMCM-project\\task2\\support\\comparison_models.py",
+    "sha256": "3f5947b8787351c61fbddd2c1aa9835f1cef0135796cd660b23f217d385123d3",
+    "bytes": 6826,
+    "scope": "full UTF-8/AST read; semantic audit focuses on routing, simulation, accounting and analysis interfaces",
+    "symbols": [
+      {
+        "name": "DiscreteGainLogistic",
+        "line": 14,
+        "signature": "class DiscreteGainLogistic:"
+      },
+      {
+        "name": "LinearArms",
+        "line": 30,
+        "signature": "class LinearArms:"
+      },
+      {
+        "name": "fit_additional",
+        "line": 86,
+        "signature": "def fit_additional(x, frame, seed):"
+      },
+      {
+        "name": "__init__",
+        "line": 16,
+        "signature": "def __init__(self, c):"
+      },
+      {
+        "name": "fit",
+        "line": 19,
+        "signature": "def fit(self, x, y):"
+      },
+      {
+        "name": "predict",
+        "line": 26,
+        "signature": "def predict(self, x):"
+      },
+      {
+        "name": "__init__",
+        "line": 36,
+        "signature": "def __init__(self, ridge):"
+      },
+      {
+        "name": "augment",
+        "line": 40,
+        "signature": "def augment(x):"
+      },
+      {
+        "name": "fit",
+        "line": 43,
+        "signature": "def fit(self, x, rewards):"
+      },
+      {
+        "name": "refresh",
+        "line": 53,
+        "signature": "def refresh(self):"
+      },
+      {
+        "name": "moments",
+        "line": 57,
+        "signature": "def moments(self, x):"
+      },
+      {
+        "name": "score",
+        "line": 63,
+        "signature": "def score(self, x, kind, rng=None):"
+      },
+      {
+        "name": "update",
+        "line": 76,
+        "signature": "def update(self, x, selected_actions, observed_rewards):"
+      }
+    ]
+  },
+  {
+    "path": "D:\\EuroMCM\\EuroMCM-project\\task2\\support\\features.py",
+    "sha256": "317fbed52416738f25aabd9c82bf76988bd87286f43e7e34b6a4a52f21e6e078",
+    "bytes": 9361,
+    "scope": "full UTF-8/AST read; semantic audit focuses on routing, simulation, accounting and analysis interfaces",
+    "symbols": [
+      {
+        "name": "statistics",
+        "line": 22,
+        "signature": "def statistics(texts):"
+      },
+      {
+        "name": "local_minilm_path",
+        "line": 35,
+        "signature": "def local_minilm_path():"
+      },
+      {
+        "name": "load_encoder",
+        "line": 44,
+        "signature": "def load_encoder(path, threads):"
+      },
+      {
+        "name": "chunk_embeddings",
+        "line": 55,
+        "signature": "def chunk_embeddings(texts, model, batch_size):"
+      },
+      {
+        "name": "TextFeatures",
+        "line": 98,
+        "signature": "class TextFeatures:"
+      },
+      {
+        "name": "digest_bytes",
+        "line": 169,
+        "signature": "def digest_bytes(value):"
+      },
+      {
+        "name": "__init__",
+        "line": 99,
+        "signature": "def __init__(self, config, model_path=None):"
+      },
+      {
+        "name": "fit_transform",
+        "line": 104,
+        "signature": "def fit_transform(self, frame, cache):"
+      },
+      {
+        "name": "combine",
+        "line": 151,
+        "signature": "def combine(self, frame, semantic):"
+      },
+      {
+        "name": "transform",
+        "line": 159,
+        "signature": "def transform(self, frame):"
+      }
+    ]
+  },
+  {
+    "path": "D:\\EuroMCM\\EuroMCM-project\\task2\\support\\network.py",
+    "sha256": "d8a5a5f6199f5d27911da268779aef30815d34107df1ef97c4782963e750f930",
+    "bytes": 7813,
+    "scope": "full UTF-8/AST read; semantic audit focuses on routing, simulation, accounting and analysis interfaces",
+    "symbols": [
+      {
+        "name": "GainEnsemble",
+        "line": 29,
+        "signature": "class GainEnsemble:"
+      },
+      {
+        "name": "fit_baselines",
+        "line": 79,
+        "signature": "def fit_baselines(x, frame, config):"
+      },
+      {
+        "name": "v_features",
+        "line": 100,
+        "signature": "def v_features(request, response, action):"
+      },
+      {
+        "name": "RetrainedV",
+        "line": 105,
+        "signature": "class RetrainedV:"
+      },
+      {
+        "name": "__init__",
+        "line": 30,
+        "signature": "def __init__(self, config):"
+      },
+      {
+        "name": "fit",
+        "line": 34,
+        "signature": "def fit(self, x_train, y_train, x_val, y_val):"
+      },
+      {
+        "name": "predict_members",
+        "line": 61,
+        "signature": "def predict_members(self, x):"
+      },
+      {
+        "name": "predict",
+        "line": 65,
+        "signature": "def predict(self, x):"
+      },
+      {
+        "name": "update",
+        "line": 69,
+        "signature": "def update(self, x, y, seed):"
+      },
+      {
+        "name": "__init__",
+        "line": 111,
+        "signature": "def __init__(self, config):"
+      },
+      {
+        "name": "make_model",
+        "line": 114,
+        "signature": "def make_model(self, seed):"
+      },
+      {
+        "name": "fit_predict_oof",
+        "line": 120,
+        "signature": "def fit_predict_oof(self, frame):"
+      }
+    ]
+  },
+  {
+    "path": "D:\\EuroMCM\\EuroMCM-project\\task2\\test_complete.py",
+    "sha256": "efb9572763179bf3f835c3928d658117e72e158418e67e5520677102141079a1",
+    "bytes": 3731,
+    "scope": "full UTF-8/AST read; semantic audit focuses on routing, simulation, accounting and analysis interfaces",
+    "symbols": [
+      {
+        "name": "CompleteBoundaries",
+        "line": 13,
+        "signature": "class CompleteBoundaries(unittest.TestCase):"
+      },
+      {
+        "name": "frame",
+        "line": 14,
+        "signature": "def frame(self):"
+      },
+      {
+        "name": "params",
+        "line": 21,
+        "signature": "def params(self,**kwargs):"
+      },
+      {
+        "name": "test_direct_large_does_not_need_unexecuted_small_or_peer",
+        "line": 24,
+        "signature": "def test_direct_large_does_not_need_unexecuted_small_or_peer(self):"
+      },
+      {
+        "name": "test_peer_can_change_answer_only_after_both_calls",
+        "line": 30,
+        "signature": "def test_peer_can_change_answer_only_after_both_calls(self):"
+      },
+      {
+        "name": "test_no_peer_needed_if_small_passes_check",
+        "line": 39,
+        "signature": "def test_no_peer_needed_if_small_passes_check(self):"
+      },
+      {
+        "name": "test_missing_applicable_v_rejected",
+        "line": 44,
+        "signature": "def test_missing_applicable_v_rejected(self):"
+      },
+      {
+        "name": "test_missing_executed_peer_rejected",
+        "line": 48,
+        "signature": "def test_missing_executed_peer_rejected(self):"
+      },
+      {
+        "name": "test_non_mc_diagnostics_can_trigger_without_fake_quality",
+        "line": 52,
+        "signature": "def test_non_mc_diagnostics_can_trigger_without_fake_quality(self):"
+      },
+      {
+        "name": "test_safety_gate_and_mean_pass_are_distinct",
+        "line": 57,
+        "signature": "def test_safety_gate_and_mean_pass_are_distinct(self):"
+      },
+      {
+        "name": "test_upgrade_joins_large_queue_at_actual_small_completion",
+        "line": 62,
+        "signature": "def test_upgrade_joins_large_queue_at_actual_small_completion(self):"
+      },
+      {
+        "name": "test_zero_events_does_not_certify_zero_rare_task_risk",
+        "line": 71,
+        "signature": "def test_zero_events_does_not_certify_zero_rare_task_risk(self):"
+      }
+    ]
+  },
+  {
+    "path": "D:\\EuroMCM\\EuroMCM-project\\task2\\train_size_learning_curve.py",
+    "sha256": "7e09623703eb8592645922a1cea579e8fd7fd07e3c04feb7296baeb0b074f412",
+    "bytes": 10757,
+    "scope": "full UTF-8/AST read; semantic audit focuses on routing, simulation, accounting and analysis interfaces",
+    "symbols": [
+      {
+        "name": "load",
+        "line": 18,
+        "signature": "def load(path):"
+      },
+      {
+        "name": "fit_model",
+        "line": 37,
+        "signature": "def fit_model(train,seed):"
+      },
+      {
+        "name": "predict",
+        "line": 49,
+        "signature": "def predict(model,data):"
+      },
+      {
+        "name": "feat",
+        "line": 57,
+        "signature": "def feat(row):"
+      },
+      {
+        "name": "Calibrator",
+        "line": 60,
+        "signature": "class Calibrator:"
+      },
+      {
+        "name": "sequence_by_group",
+        "line": 74,
+        "signature": "def sequence_by_group(test,seed):"
+      },
+      {
+        "name": "evaluate",
+        "line": 80,
+        "signature": "def evaluate(stream,method,seed,audit_prob,audit_usd,alpha,ridge,shift_drop,shift_at,checkpoints,ratio):"
+      },
+      {
+        "name": "main",
+        "line": 114,
+        "signature": "def main():"
+      },
+      {
+        "name": "__init__",
+        "line": 61,
+        "signature": "def __init__(self,ridge,alpha):"
+      },
+      {
+        "name": "adjust",
+        "line": 65,
+        "signature": "def adjust(self,row,a):"
+      },
+      {
+        "name": "update",
+        "line": 69,
+        "signature": "def update(self,row,a,score):"
+      }
+    ]
+  },
+  {
+    "path": "D:\\EuroMCM\\EuroMCM-project\\task2\\verify.py",
+    "sha256": "f6771d8e0ae19b13a9aa748becd7902fac066e6488bc621d7171d8ad76fd622f",
+    "bytes": 13623,
+    "scope": "full UTF-8/AST read; semantic audit focuses on routing, simulation, accounting and analysis interfaces",
+    "symbols": [
+      {
+        "name": "main",
+        "line": 23,
+        "signature": "def main():"
+      },
+      {
+        "name": "check",
+        "line": 29,
+        "signature": "def check(name,fn):"
+      },
+      {
+        "name": "source",
+        "line": 44,
+        "signature": "def source():"
+      },
+      {
+        "name": "oof",
+        "line": 64,
+        "signature": "def oof():"
+      },
+      {
+        "name": "features_and_models",
+        "line": 79,
+        "signature": "def features_and_models():"
+      },
+      {
+        "name": "post_models",
+        "line": 100,
+        "signature": "def post_models():"
+      },
+      {
+        "name": "ledger_check",
+        "line": 116,
+        "signature": "def ledger_check():"
+      },
+      {
+        "name": "feedback",
+        "line": 138,
+        "signature": "def feedback():"
+      },
+      {
+        "name": "resources",
+        "line": 150,
+        "signature": "def resources():"
+      },
+      {
+        "name": "inference",
+        "line": 169,
+        "signature": "def inference():"
+      }
+    ]
+  },
+  {
+    "path": "D:\\EuroMCM\\EuroMCM-project\\task2\\write_report.py",
+    "sha256": "0b072673c914b4d832ae5e585fb3989d8fea894b67aff0a9cbaeba84f4385971",
+    "bytes": 42028,
+    "scope": "full UTF-8/AST read; semantic audit focuses on routing, simulation, accounting and analysis interfaces",
+    "symbols": [
+      {
+        "name": "name",
+        "line": 17,
+        "signature": "def name(value):return NAMES.get(value,value)"
+      },
+      {
+        "name": "table",
+        "line": 20,
+        "signature": "def table(headers,rows):"
+      },
+      {
+        "name": "plots",
+        "line": 25,
+        "signature": "def plots(out,cost,risk,resources,primary):"
+      },
+      {
+        "name": "main",
+        "line": 57,
+        "signature": "def main():"
+      }
+    ]
+  }
+]

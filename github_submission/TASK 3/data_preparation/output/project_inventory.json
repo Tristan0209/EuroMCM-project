@@ -1,0 +1,1495 @@
+{
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 197
+    },
+    {
+      "path": "main",
+      "bytes": 2
+    },
+    {
+      "path": "README.md",
+      "bytes": 1010
+    },
+    {
+      "path": ".idea\\.gitignore",
+      "bytes": 50
+    },
+    {
+      "path": ".idea\\EuroMCM-project.iml",
+      "bytes": 325
+    },
+    {
+      "path": ".idea\\misc.xml",
+      "bytes": 296
+    },
+    {
+      "path": ".idea\\modules.xml",
+      "bytes": 289
+    },
+    {
+      "path": ".idea\\vcs.xml",
+      "bytes": 167
+    },
+    {
+      "path": ".idea\\workspace.xml",
+      "bytes": 7327
+    },
+    {
+      "path": ".idea\\inspectionProfiles\\profiles_settings.xml",
+      "bytes": 174
+    },
+    {
+      "path": ".idea\\shelf\\_2026_10_15_22_51____.xml",
+      "bytes": 417
+    },
+    {
+      "path": ".idea\\shelf\\在进行更新之前于_2026_10_15_22_51_取消提交了更改_[更改]\\shelved.patch",
+      "bytes": 8070127
+    },
+    {
+      "path": "AI_datasets\\AI Energy Score\\oct_2025_models.csv",
+      "bytes": 6007
+    },
+    {
+      "path": "AI_datasets\\Azure\\AzureLLMInferenceTrace_code_1week.csv",
+      "bytes": 691989454
+    },
+    {
+      "path": "AI_datasets\\Azure\\AzureLLMInferenceTrace_conv_1week.csv",
+      "bytes": 1135195393
+    },
+    {
+      "path": "AI_datasets\\EEA Greenhouse Gas Intensity of Electricity Generation（欧洲环境署：发电温室气体排放强度）\\greenhouse_gas_emission_intensity_of_electricity_generation,_country_level.csv",
+      "bytes": 8866
+    },
+    {
+      "path": "AI_datasets\\EEA Greenhouse Gas Intensity of Electricity Generation（欧洲环境署：发电温室气体排放强度）\\greenhouse_gas_emission_intensity_of_electricity_generation.csv",
+      "bytes": 1940
+    },
+    {
+      "path": "AI_datasets\\Ember\\release_generation_yearly_lower.csv",
+      "bytes": 4084865
+    },
+    {
+      "path": "AI_datasets\\Euroenergycost\\energy-charts_Electricity_production_and_spot_prices_in_all_available_countries_in_2026.csv",
+      "bytes": 10398181
+    },
+    {
+      "path": "AI_datasets\\FrugalGPT\\FrugalGPT How to Use Large Language Models While Reducing Cost and Improving Performance.pdf",
+      "bytes": 1171365
+    },
+    {
+      "path": "AI_datasets\\FrugalGPT\\HEADLINES.sqlite",
+      "bytes": 284962816
+    },
+    {
+      "path": "AI_datasets\\FrugalGPT\\qa_cache.sqlite",
+      "bytes": 69632
+    },
+    {
+      "path": "AI_datasets\\FrugalGPT\\COQA\\test.csv",
+      "bytes": 6357720
+    },
+    {
+      "path": "AI_datasets\\FrugalGPT\\COQA\\train.csv",
+      "bytes": 6379526
+    },
+    {
+      "path": "AI_datasets\\FrugalGPT\\HEADLINES\\test.csv",
+      "bytes": 349165
+    },
+    {
+      "path": "AI_datasets\\FrugalGPT\\HEADLINES\\train.csv",
+      "bytes": 348922
+    },
+    {
+      "path": "AI_datasets\\IEA Energy and AI\\Data_annex_Energy_and_AI.xlsx",
+      "bytes": 21661
+    },
+    {
+      "path": "AI_datasets\\ML.ENERGY\\Qwen3-14B.JSON",
+      "bytes": 47188
+    },
+    {
+      "path": "AI_datasets\\ML.ENERGY\\Qwen3-32B.JSON",
+      "bytes": 60527
+    },
+    {
+      "path": "AI_datasets\\ML.ENERGY\\Qwen3-8B.JSON",
+      "bytes": 52562
+    },
+    {
+      "path": "AI_datasets\\NESO\\NESO.JSON",
+      "bytes": 38076
+    },
+    {
+      "path": "AI_datasets\\RouteLLM\\gpt4_dataset\\train.jsonl",
+      "bytes": 289790211
+    },
+    {
+      "path": "AI_datasets\\RouteLLM\\gpt4_dataset\\valid.jsonl",
+      "bytes": 26716111
+    },
+    {
+      "path": "AI_datasets\\RouteLLM\\mmlu_battles\\train-00000-of-00001.parquet",
+      "bytes": 868156
+    },
+    {
+      "path": "AI_datasets\\RouteLLM\\mmlu_battles_embeddings\\train-00000-of-00001.parquet",
+      "bytes": 10584701
+    },
+    {
+      "path": "AI_datasets\\RouterBench\\routerbench_0shot.csv",
+      "bytes": 100423914
+    },
+    {
+      "path": "AI_datasets\\RouterBench\\routerbench_0shot.pkl",
+      "bytes": 99567659
+    },
+    {
+      "path": "latency_environment\\.gitignore",
+      "bytes": 59
+    },
+    {
+      "path": "latency_environment\\analyze_benchmarks.py",
+      "bytes": 4928
+    },
+    {
+      "path": "latency_environment\\ASSUMPTIONS_AUDIT_zh.md",
+      "bytes": 26660
+    },
+    {
+      "path": "latency_environment\\common.py",
+      "bytes": 396
+    },
+    {
+      "path": "latency_environment\\config.json",
+      "bytes": 1141
+    },
+    {
+      "path": "latency_environment\\core.py",
+      "bytes": 9401
+    },
+    {
+      "path": "latency_environment\\DATA_SOURCES.md",
+      "bytes": 7827
+    },
+    {
+      "path": "latency_environment\\prepare_data.py",
+      "bytes": 9870
+    },
+    {
+      "path": "latency_environment\\README_zh.md",
+      "bytes": 16362
+    },
+    {
+      "path": "latency_environment\\requirements.txt",
+      "bytes": 63
+    },
+    {
+      "path": "latency_environment\\run_all.py",
+      "bytes": 958
+    },
+    {
+      "path": "latency_environment\\run_experiments.py",
+      "bytes": 11397
+    },
+    {
+      "path": "latency_environment\\SOLUTION_zh.md",
+      "bytes": 21830
+    },
+    {
+      "path": "latency_environment\\validate.py",
+      "bytes": 1763
+    },
+    {
+      "path": "latency_environment\\validate_data.py",
+      "bytes": 11079
+    },
+    {
+      "path": "latency_environment\\validate_results.py",
+      "bytes": 7473
+    },
+    {
+      "path": "latency_environment\\validate_system.py",
+      "bytes": 4444
+    },
+    {
+      "path": "latency_environment\\write_report.py",
+      "bytes": 6250
+    },
+    {
+      "path": "latency_environment\\data\\processed\\annual_carbon_factors.csv",
+      "bytes": 13609
+    },
+    {
+      "path": "latency_environment\\data\\processed\\azure_code.csv",
+      "bytes": 1147796
+    },
+    {
+      "path": "latency_environment\\data\\processed\\azure_conversation.csv",
+      "bytes": 1155011
+    },
+    {
+      "path": "latency_environment\\data\\processed\\data_audit.json",
+      "bytes": 2644
+    },
+    {
+      "path": "latency_environment\\data\\processed\\gb_carbon_intervals.csv",
+      "bytes": 53299
+    },
+    {
+      "path": "latency_environment\\outputs\\cleanup_manifest.json",
+      "bytes": 3003
+    },
+    {
+      "path": "latency_environment\\outputs\\data_validation.json",
+      "bytes": 1874
+    },
+    {
+      "path": "latency_environment\\outputs\\example_power_timeline.csv",
+      "bytes": 751060
+    },
+    {
+      "path": "latency_environment\\outputs\\example_request_schedule.csv",
+      "bytes": 920831
+    },
+    {
+      "path": "latency_environment\\outputs\\implementation_validation.json",
+      "bytes": 384
+    },
+    {
+      "path": "latency_environment\\outputs\\latency_carbon_tradeoff.png",
+      "bytes": 68427
+    },
+    {
+      "path": "latency_environment\\outputs\\latency_vs_load.png",
+      "bytes": 98590
+    },
+    {
+      "path": "latency_environment\\outputs\\public_benchmark_scope.json",
+      "bytes": 1439
+    },
+    {
+      "path": "latency_environment\\outputs\\public_measured_benchmarks.csv",
+      "bytes": 22799
+    },
+    {
+      "path": "latency_environment\\outputs\\public_measured_itl_energy.png",
+      "bytes": 116132
+    },
+    {
+      "path": "latency_environment\\outputs\\RESULTS_zh.md",
+      "bytes": 3433
+    },
+    {
+      "path": "latency_environment\\outputs\\result_validation.json",
+      "bytes": 727
+    },
+    {
+      "path": "latency_environment\\outputs\\run_manifest.json",
+      "bytes": 3644
+    },
+    {
+      "path": "latency_environment\\outputs\\simulation_runs.csv",
+      "bytes": 255698
+    },
+    {
+      "path": "latency_environment\\outputs\\simulation_summary.csv",
+      "bytes": 65386
+    },
+    {
+      "path": "latency_environment\\tests\\test_models.py",
+      "bytes": 6768
+    },
+    {
+      "path": "TASK 3\\data_preparation.zip",
+      "bytes": 868599
+    },
+    {
+      "path": "task2_complete\\.gitignore",
+      "bytes": 19
+    },
+    {
+      "path": "task2_complete\\calibrate_risk.py",
+      "bytes": 7518
+    },
+    {
+      "path": "task2_complete\\cleanup_final_20261017.json",
+      "bytes": 5761
+    },
+    {
+      "path": "task2_complete\\cleanup_original_20261017.json",
+      "bytes": 3092
+    },
+    {
+      "path": "task2_complete\\evaluate.py",
+      "bytes": 15413
+    },
+    {
+      "path": "task2_complete\\finalize_risk.py",
+      "bytes": 8790
+    },
+    {
+      "path": "task2_complete\\final_artifacts.py",
+      "bytes": 3422
+    },
+    {
+      "path": "task2_complete\\fit_routers.py",
+      "bytes": 7615
+    },
+    {
+      "path": "task2_complete\\input_paths.py",
+      "bytes": 513
+    },
+    {
+      "path": "task2_complete\\integrated_api.py",
+      "bytes": 8753
+    },
+    {
+      "path": "task2_complete\\neural_adapter.py",
+      "bytes": 378
+    },
+    {
+      "path": "task2_complete\\predict.py",
+      "bytes": 173
+    },
+    {
+      "path": "task2_complete\\prepare.py",
+      "bytes": 6823
+    },
+    {
+      "path": "task2_complete\\q1_adapter.py",
+      "bytes": 14750
+    },
+    {
+      "path": "task2_complete\\README_zh.md",
+      "bytes": 2793
+    },
+    {
+      "path": "task2_complete\\requirements.txt",
+      "bytes": 234
+    },
+    {
+      "path": "task2_complete\\resource_scenarios.py",
+      "bytes": 14406
+    },
+    {
+      "path": "task2_complete\\risk_bounds.py",
+      "bytes": 2827
+    },
+    {
+      "path": "task2_complete\\routing.py",
+      "bytes": 8922
+    },
+    {
+      "path": "task2_complete\\run_all.py",
+      "bytes": 1579
+    },
+    {
+      "path": "task2_complete\\sync_original_project.ps1",
+      "bytes": 4137
+    },
+    {
+      "path": "task2_complete\\test_complete.py",
+      "bytes": 3731
+    },
+    {
+      "path": "task2_complete\\verify.py",
+      "bytes": 13623
+    },
+    {
+      "path": "task2_complete\\write_report.py",
+      "bytes": 42135
+    },
+    {
+      "path": "task2_complete\\docs\\question_page2.png",
+      "bytes": 315993
+    },
+    {
+      "path": "task2_complete\\inputs\\frozen_features\\features.npy",
+      "bytes": 57101984
+    },
+    {
+      "path": "task2_complete\\inputs\\frozen_features\\gain_predictions.csv",
+      "bytes": 7612004
+    },
+    {
+      "path": "task2_complete\\inputs\\frozen_features\\manifest.json",
+      "bytes": 5002
+    },
+    {
+      "path": "task2_complete\\inputs\\paired\\audit.json",
+      "bytes": 1183
+    },
+    {
+      "path": "task2_complete\\inputs\\paired\\excluded.csv",
+      "bytes": 5730
+    },
+    {
+      "path": "task2_complete\\inputs\\paired\\outcomes.jsonl",
+      "bytes": 25481336
+    },
+    {
+      "path": "task2_complete\\inputs\\paired\\requests.jsonl",
+      "bytes": 39234370
+    },
+    {
+      "path": "task2_complete\\inputs\\paired\\request_splits.csv",
+      "bytes": 5463920
+    },
+    {
+      "path": "task2_complete\\paper_pre_lightgbm\\build_evidence.py",
+      "bytes": 12399
+    },
+    {
+      "path": "task2_complete\\paper_pre_lightgbm\\format_readable.py",
+      "bytes": 6483
+    },
+    {
+      "path": "task2_complete\\paper_pre_lightgbm\\format_verification.json",
+      "bytes": 177
+    },
+    {
+      "path": "task2_complete\\paper_pre_lightgbm\\manuscript_verification.json",
+      "bytes": 621
+    },
+    {
+      "path": "task2_complete\\paper_pre_lightgbm\\paper_evidence.json",
+      "bytes": 5005
+    },
+    {
+      "path": "task2_complete\\paper_pre_lightgbm\\reading_style.css",
+      "bytes": 1213
+    },
+    {
+      "path": "task2_complete\\paper_pre_lightgbm\\README.md",
+      "bytes": 4342
+    },
+    {
+      "path": "task2_complete\\paper_pre_lightgbm\\verify_manuscript.py",
+      "bytes": 5006
+    },
+    {
+      "path": "task2_complete\\paper_pre_lightgbm\\问题二_Pre-LightGBM论文正文.md",
+      "bytes": 37289
+    },
+    {
+      "path": "task2_complete\\paper_pre_lightgbm\\问题二_Pre-LightGBM论文正文_公式源稿.md",
+      "bytes": 36102
+    },
+    {
+      "path": "task2_complete\\paper_pre_lightgbm\\问题二_Pre-LightGBM论文阅读版.html",
+      "bytes": 1294289
+    },
+    {
+      "path": "task2_complete\\paper_pre_lightgbm\\问题二_逐步讲解.md",
+      "bytes": 8939
+    },
+    {
+      "path": "task2_complete\\paper_pre_lightgbm\\figures\\oof_example.png",
+      "bytes": 192479
+    },
+    {
+      "path": "task2_complete\\paper_pre_lightgbm\\figures\\oof_example.svg",
+      "bytes": 5272
+    },
+    {
+      "path": "task2_complete\\paper_pre_lightgbm\\figures\\real_routing_examples.png",
+      "bytes": 344868
+    },
+    {
+      "path": "task2_complete\\paper_pre_lightgbm\\figures\\real_routing_examples.svg",
+      "bytes": 15493
+    },
+    {
+      "path": "task2_complete\\paper_pre_lightgbm\\figures\\risk_calibration.png",
+      "bytes": 156843
+    },
+    {
+      "path": "task2_complete\\paper_pre_lightgbm\\figures\\risk_calibration.svg",
+      "bytes": 18207
+    },
+    {
+      "path": "task2_complete\\paper_pre_lightgbm\\figures\\validation_comparison.png",
+      "bytes": 215291
+    },
+    {
+      "path": "task2_complete\\paper_pre_lightgbm\\figures\\validation_comparison.svg",
+      "bytes": 25667
+    },
+    {
+      "path": "task2_complete\\paper_pre_lightgbm\\tables\\assumed_resource_primary.csv",
+      "bytes": 2535
+    },
+    {
+      "path": "task2_complete\\paper_pre_lightgbm\\tables\\feedback_mean.csv",
+      "bytes": 272
+    },
+    {
+      "path": "task2_complete\\paper_pre_lightgbm\\tables\\pre_risk_calibration.csv",
+      "bytes": 474
+    },
+    {
+      "path": "task2_complete\\paper_pre_lightgbm\\tables\\real_routing_examples.csv",
+      "bytes": 899
+    },
+    {
+      "path": "task2_complete\\paper_pre_lightgbm\\tables\\test_all_models.csv",
+      "bytes": 3043
+    },
+    {
+      "path": "task2_complete\\paper_pre_lightgbm\\tables\\test_baselines.csv",
+      "bytes": 1762
+    },
+    {
+      "path": "task2_complete\\paper_pre_lightgbm\\tables\\test_by_task.csv",
+      "bytes": 1055
+    },
+    {
+      "path": "task2_complete\\paper_pre_lightgbm\\tables\\validation_all_models.csv",
+      "bytes": 3383
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\break_even.json",
+      "bytes": 179
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\by_task.csv",
+      "bytes": 26055
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\completion.json",
+      "bytes": 770
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\control_energy_sensitivity.csv",
+      "bytes": 1387
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\cost_predictor.json",
+      "bytes": 325
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\decisions.csv.gz",
+      "bytes": 19822319
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\evaluation_complete.json",
+      "bytes": 380
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\features.npy",
+      "bytes": 57538988
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\feedback_audit.json",
+      "bytes": 589993
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\feedback_comparison.csv",
+      "bytes": 6295
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\feedback_decisions.csv.gz",
+      "bytes": 6123836
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\final_confidence_intervals.csv",
+      "bytes": 727
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\final_model_choice.json",
+      "bytes": 1614
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\final_random_budget.json",
+      "bytes": 183
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\final_safety_calibration.json",
+      "bytes": 294
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\finite_sample_calibration.json",
+      "bytes": 14989
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\finite_sample_family_comparison.csv",
+      "bytes": 3548
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\fixed_cascade_parameters.json",
+      "bytes": 3867
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\frame.joblib",
+      "bytes": 15296387
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\inference_check.json",
+      "bytes": 2812
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\model_choice.json",
+      "bytes": 313
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\model_selection.csv",
+      "bytes": 3570
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\post_accuracy.csv",
+      "bytes": 473
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\post_frame.joblib",
+      "bytes": 83457
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\post_models.joblib",
+      "bytes": 141941
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\post_predictions.csv.gz",
+      "bytes": 15032124
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\post_provenance.json",
+      "bytes": 7231655
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\prepared.json",
+      "bytes": 752
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\pre_accuracy.csv",
+      "bytes": 950
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\pre_feature_scaler.joblib",
+      "bytes": 1007
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\pre_full_train.joblib",
+      "bytes": 1049958
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\pre_outer_0.joblib",
+      "bytes": 1045015
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\pre_outer_1.joblib",
+      "bytes": 1038499
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\pre_outer_2.joblib",
+      "bytes": 1012091
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\pre_predictions.csv.gz",
+      "bytes": 23588204
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\pre_provenance.json",
+      "bytes": 4908236
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\pre_selection.json",
+      "bytes": 627
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\primary_call_schedule.csv.gz",
+      "bytes": 2825983
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\primary_power_timeline.csv.gz",
+      "bytes": 3609620
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\q1_source_audit.json",
+      "bytes": 6688
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\quality_cost_comparison.csv",
+      "bytes": 9851
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\resource_assumptions.json",
+      "bytes": 3021
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\resource_scenarios.csv",
+      "bytes": 91323
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\resource_summary.csv",
+      "bytes": 39060
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\RESULTS_zh.md",
+      "bytes": 31162
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\rf_ablation_source.json",
+      "bytes": 418
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\rf_without_pre_parameters.json",
+      "bytes": 3764
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\ridge_vs_pre_diagnostic.json",
+      "bytes": 740
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\router_accuracy.csv",
+      "bytes": 2319
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\router_fit_log.json",
+      "bytes": 2398
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\router_fit_signature.json",
+      "bytes": 460
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\router_predictions.joblib",
+      "bytes": 5237469
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\router_selection_metrics.csv",
+      "bytes": 765
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\routing_state.joblib",
+      "bytes": 20841482
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\safety_calibration.json",
+      "bytes": 1852
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\selected_by_benchmark.csv",
+      "bytes": 7700
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\selected_confidence_intervals.csv",
+      "bytes": 827
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\selected_parameters.json",
+      "bytes": 40375
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\selection_Bayesian_Ridge.json",
+      "bytes": 3762
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\selection_CART.json",
+      "bytes": 3611
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\selection_LightGBM.json",
+      "bytes": 3758
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\selection_LinUCB.json",
+      "bytes": 3792
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\selection_Logistic_Regression.json",
+      "bytes": 3798
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\selection_MLP.json",
+      "bytes": 3775
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\selection_Pre_direct.json",
+      "bytes": 3751
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\selection_Random_Forest.json",
+      "bytes": 3764
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\selection_Ridge.json",
+      "bytes": 3790
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\selection_Thompson_Sampling.json",
+      "bytes": 3842
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\software_tests.json",
+      "bytes": 288
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\source_manifest.json",
+      "bytes": 1605
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\splits.csv",
+      "bytes": 4697503
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\uncertainty_family_comparison.csv",
+      "bytes": 3589
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\verification.json",
+      "bytes": 2567
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\figures\\quality_cost.png",
+      "bytes": 100934
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\figures\\resource_scenario.png",
+      "bytes": 87283
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\grids\\Bayesian_Ridge.csv.gz",
+      "bytes": 80923
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\grids\\CART.csv.gz",
+      "bytes": 58740
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\grids\\fixed_cascade.csv.gz",
+      "bytes": 1192
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\grids\\LightGBM.csv.gz",
+      "bytes": 78746
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\grids\\LinUCB.csv.gz",
+      "bytes": 82674
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\grids\\Logistic_Regression.csv.gz",
+      "bytes": 83524
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\grids\\MLP.csv.gz",
+      "bytes": 251371
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\grids\\Pre_direct.csv.gz",
+      "bytes": 73358
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\grids\\Random_Forest.csv.gz",
+      "bytes": 235562
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\grids\\RF_without_Pre.csv.gz",
+      "bytes": 242323
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\grids\\Ridge.csv.gz",
+      "bytes": 82670
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\grids\\Thompson_Sampling.csv.gz",
+      "bytes": 119594
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\routers\\Bayesian_Ridge.joblib",
+      "bytes": 844666
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\routers\\CART.joblib",
+      "bytes": 33725
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\routers\\LightGBM.joblib",
+      "bytes": 603770
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\routers\\linear_arms.joblib",
+      "bytes": 4787789
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\routers\\Logistic_Regression.joblib",
+      "bytes": 582914
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\routers\\MLP.joblib",
+      "bytes": 2204747
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\routers\\Random_Forest.joblib",
+      "bytes": 3472006
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\routers\\Ridge.joblib",
+      "bytes": 264516
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\source\\calibrate_risk.py",
+      "bytes": 7518
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\source\\evaluate.py",
+      "bytes": 15413
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\source\\finalize_risk.py",
+      "bytes": 8790
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\source\\final_artifacts.py",
+      "bytes": 3422
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\source\\fit_routers.py",
+      "bytes": 7615
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\source\\input_paths.py",
+      "bytes": 513
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\source\\integrated_api.py",
+      "bytes": 8753
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\source\\neural_adapter.py",
+      "bytes": 378
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\source\\predict.py",
+      "bytes": 173
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\source\\prepare.py",
+      "bytes": 6823
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\source\\q1_adapter.py",
+      "bytes": 14750
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\source\\README_zh.md",
+      "bytes": 2784
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\source\\requirements.txt",
+      "bytes": 234
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\source\\resource_scenarios.py",
+      "bytes": 14406
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\source\\risk_bounds.py",
+      "bytes": 2827
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\source\\routing.py",
+      "bytes": 8922
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\source\\run_all.py",
+      "bytes": 1579
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\source\\test_complete.py",
+      "bytes": 3731
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\source\\verify.py",
+      "bytes": 13623
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\source\\write_report.py",
+      "bytes": 42135
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\work1_source\\new.py",
+      "bytes": 137
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\work1_source\\task1_cost.py",
+      "bytes": 23394
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\work1_source\\outputs\\cost_summary.json",
+      "bytes": 1502
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\work1_source\\task1_quality_pre\\Quality(sub-model lightGBM basline).py",
+      "bytes": 1577
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\work1_source\\task1_quality_pre\\Quality(sub-model lightGBM+IRT.py",
+      "bytes": 2786
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\work1_source\\task1_quality_pre\\Quality(sub-model lightGBM+mirt).py",
+      "bytes": 9579
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\work1_source\\task1_quality_pre\\Quality(sub-model XGboost).py",
+      "bytes": 4079
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\work1_source\\task1_response time, and environ mental impact\\analyze_benchmarks.py",
+      "bytes": 4928
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\work1_source\\task1_response time, and environ mental impact\\common.py",
+      "bytes": 550
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\work1_source\\task1_response time, and environ mental impact\\config.json",
+      "bytes": 1142
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\work1_source\\task1_response time, and environ mental impact\\core.py",
+      "bytes": 9401
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\work1_source\\task1_response time, and environ mental impact\\prepare_data.py",
+      "bytes": 9870
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\work1_source\\task1_response time, and environ mental impact\\run_all.py",
+      "bytes": 958
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\work1_source\\task1_response time, and environ mental impact\\run_experiments.py",
+      "bytes": 11407
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\work1_source\\task1_response time, and environ mental impact\\test_models.py",
+      "bytes": 6768
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\work1_source\\task1_response time, and environ mental impact\\validate.py",
+      "bytes": 1787
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\work1_source\\task1_response time, and environ mental impact\\validate_data.py",
+      "bytes": 11079
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\work1_source\\task1_response time, and environ mental impact\\validate_results.py",
+      "bytes": 7473
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\work1_source\\task1_response time, and environ mental impact\\validate_system.py",
+      "bytes": 4444
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\work1_source\\task1_response time, and environ mental impact\\write_report.py",
+      "bytes": 6250
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\work1_source\\task1_response time, and environ mental impact\\data\\processed\\data_audit.json",
+      "bytes": 2644
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\work1_source\\task_1_quality_post\\plot TACVA comparation.py",
+      "bytes": 3747
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\work1_source\\task_1_quality_post\\Quality(sub-model assessment_export_assessor).py",
+      "bytes": 4178
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\work1_source\\task_1_quality_post\\quality(sub-model_assessment_aware_ablation).py",
+      "bytes": 14874
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\work1_source\\task_1_quality_post\\Quality(sub-model_assessment_TACVA).py",
+      "bytes": 12685
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\work1_source\\task_1_quality_post\\task2_quality_api.py",
+      "bytes": 8098
+    },
+    {
+      "path": "task2_complete\\runs\\work1_integrated_20261016\\work1_source\\task_1_quality_post\\saved_models\\metadata.json",
+      "bytes": 937
+    },
+    {
+      "path": "task2_complete\\support\\comparison_models.py",
+      "bytes": 6826
+    },
+    {
+      "path": "task2_complete\\support\\features.py",
+      "bytes": 9361
+    },
+    {
+      "path": "task2_complete\\support\\feature_encoder.joblib",
+      "bytes": 19538
+    },
+    {
+      "path": "task2_complete\\support\\network.py",
+      "bytes": 7813
+    },
+    {
+      "path": "task2_complete\\support\\rf_baseline\\experiment.json",
+      "bytes": 2334
+    },
+    {
+      "path": "task2_complete\\support\\rf_baseline\\trained_models.joblib",
+      "bytes": 11814716
+    },
+    {
+      "path": "task2_complete\\__pycache__\\evaluate.cpython-39.pyc",
+      "bytes": 12100
+    },
+    {
+      "path": "task2_complete\\__pycache__\\prepare.cpython-39.pyc",
+      "bytes": 5794
+    },
+    {
+      "path": "task2_complete\\__pycache__\\q1_adapter.cpython-39.pyc",
+      "bytes": 14147
+    },
+    {
+      "path": "task2_complete\\__pycache__\\routing.cpython-39.pyc",
+      "bytes": 7664
+    },
+    {
+      "path": "tmp\\chatgpt_share_1.html",
+      "bytes": 557888
+    },
+    {
+      "path": "tmp\\chatgpt_share_1_messages.json",
+      "bytes": 66813
+    },
+    {
+      "path": "tmp\\chatgpt_share_1_messages.md",
+      "bytes": 64620
+    },
+    {
+      "path": "tmp\\chatgpt_share_1_script_3.txt",
+      "bytes": 481281
+    },
+    {
+      "path": "tmp\\chatgpt_share_1_script_8.txt",
+      "bytes": 56058
+    },
+    {
+      "path": "tmp\\chatgpt_share_1_visible.txt",
+      "bytes": 89
+    },
+    {
+      "path": "tmp\\chatgpt_share_2.html",
+      "bytes": 5913816
+    },
+    {
+      "path": "tmp\\chatgpt_share_2_messages.json",
+      "bytes": 2071261
+    },
+    {
+      "path": "tmp\\chatgpt_share_2_messages.md",
+      "bytes": 1959362
+    },
+    {
+      "path": "tmp\\chatgpt_share_2_script_3.txt",
+      "bytes": 479056
+    },
+    {
+      "path": "tmp\\chatgpt_share_2_script_8.txt",
+      "bytes": 5413921
+    },
+    {
+      "path": "tmp\\chatgpt_share_2_visible.txt",
+      "bytes": 81
+    },
+    {
+      "path": "tmp\\task1_quality_messages.json",
+      "bytes": 1035632
+    },
+    {
+      "path": "tmp\\pdfs\\lambda-page2.png",
+      "bytes": 315993
+    },
+    {
+      "path": "Work 1\\new.py",
+      "bytes": 137
+    },
+    {
+      "path": "Work 1\\task1_cost.py",
+      "bytes": 23394
+    },
+    {
+      "path": "Work 1\\outputs\\cost_summary.csv",
+      "bytes": 4813
+    },
+    {
+      "path": "Work 1\\outputs\\cost_summary.json",
+      "bytes": 1502
+    },
+    {
+      "path": "Work 1\\outputs\\validation_checks.csv",
+      "bytes": 4310
+    },
+    {
+      "path": "Work 1\\outputs\\validation_correlations.csv",
+      "bytes": 2889
+    },
+    {
+      "path": "Work 1\\outputs\\validation_report.json",
+      "bytes": 1095
+    },
+    {
+      "path": "Work 1\\outputs\\validation_sensitivity.csv",
+      "bytes": 29322
+    },
+    {
+      "path": "Work 1\\outputs\\validation_figures\\baseline_cost_by_region.png",
+      "bytes": 62810
+    },
+    {
+      "path": "Work 1\\outputs\\validation_figures\\DE_LU_cost_latency.png",
+      "bytes": 48687
+    },
+    {
+      "path": "Work 1\\outputs\\validation_figures\\FR_cost_latency.png",
+      "bytes": 48402
+    },
+    {
+      "path": "Work 1\\outputs\\validation_figures\\PL_cost_latency.png",
+      "bytes": 48342
+    },
+    {
+      "path": "Work 1\\task1_quality_pre\\Quality(sub-model lightGBM basline).py",
+      "bytes": 1577
+    },
+    {
+      "path": "Work 1\\task1_quality_pre\\Quality(sub-model lightGBM+IRT.py",
+      "bytes": 2786
+    },
+    {
+      "path": "Work 1\\task1_quality_pre\\Quality(sub-model lightGBM+mirt).py",
+      "bytes": 9579
+    },
+    {
+      "path": "Work 1\\task1_quality_pre\\Quality(sub-model XGboost).py",
+      "bytes": 4079
+    },
+    {
+      "path": "Work 1\\task1_response time, and environ mental impact\\analyze_benchmarks.py",
+      "bytes": 4928
+    },
+    {
+      "path": "Work 1\\task1_response time, and environ mental impact\\common.py",
+      "bytes": 550
+    },
+    {
+      "path": "Work 1\\task1_response time, and environ mental impact\\config.json",
+      "bytes": 1142
+    },
+    {
+      "path": "Work 1\\task1_response time, and environ mental impact\\core.py",
+      "bytes": 9401
+    },
+    {
+      "path": "Work 1\\task1_response time, and environ mental impact\\img.png",
+      "bytes": 18063
+    },
+    {
+      "path": "Work 1\\task1_response time, and environ mental impact\\prepare_data.py",
+      "bytes": 9870
+    },
+    {
+      "path": "Work 1\\task1_response time, and environ mental impact\\run_all.py",
+      "bytes": 958
+    },
+    {
+      "path": "Work 1\\task1_response time, and environ mental impact\\run_experiments.py",
+      "bytes": 11407
+    },
+    {
+      "path": "Work 1\\task1_response time, and environ mental impact\\test_models.py",
+      "bytes": 6768
+    },
+    {
+      "path": "Work 1\\task1_response time, and environ mental impact\\validate.py",
+      "bytes": 1787
+    },
+    {
+      "path": "Work 1\\task1_response time, and environ mental impact\\validate_data.py",
+      "bytes": 11079
+    },
+    {
+      "path": "Work 1\\task1_response time, and environ mental impact\\validate_results.py",
+      "bytes": 7473
+    },
+    {
+      "path": "Work 1\\task1_response time, and environ mental impact\\validate_system.py",
+      "bytes": 4444
+    },
+    {
+      "path": "Work 1\\task1_response time, and environ mental impact\\write_report.py",
+      "bytes": 6250
+    },
+    {
+      "path": "Work 1\\task1_response time, and environ mental impact\\data\\processed\\annual_carbon_factors.csv",
+      "bytes": 13609
+    },
+    {
+      "path": "Work 1\\task1_response time, and environ mental impact\\data\\processed\\azure_code.csv",
+      "bytes": 1147796
+    },
+    {
+      "path": "Work 1\\task1_response time, and environ mental impact\\data\\processed\\azure_conversation.csv",
+      "bytes": 1155011
+    },
+    {
+      "path": "Work 1\\task1_response time, and environ mental impact\\data\\processed\\data_audit.json",
+      "bytes": 2644
+    },
+    {
+      "path": "Work 1\\task1_response time, and environ mental impact\\data\\processed\\gb_carbon_intervals.csv",
+      "bytes": 53299
+    },
+    {
+      "path": "Work 1\\task1_response time, and environ mental impact\\outputs\\data_validation.json",
+      "bytes": 1874
+    },
+    {
+      "path": "Work 1\\task1_response time, and environ mental impact\\outputs\\example_power_timeline.csv",
+      "bytes": 751060
+    },
+    {
+      "path": "Work 1\\task1_response time, and environ mental impact\\outputs\\example_request_schedule.csv",
+      "bytes": 920831
+    },
+    {
+      "path": "Work 1\\task1_response time, and environ mental impact\\outputs\\implementation_validation.json",
+      "bytes": 381
+    },
+    {
+      "path": "Work 1\\task1_response time, and environ mental impact\\outputs\\latency_carbon_tradeoff.png",
+      "bytes": 59260
+    },
+    {
+      "path": "Work 1\\task1_response time, and environ mental impact\\outputs\\latency_vs_load.png",
+      "bytes": 90995
+    },
+    {
+      "path": "Work 1\\task1_response time, and environ mental impact\\outputs\\public_benchmark_scope.json",
+      "bytes": 1439
+    },
+    {
+      "path": "Work 1\\task1_response time, and environ mental impact\\outputs\\public_measured_benchmarks.csv",
+      "bytes": 22799
+    },
+    {
+      "path": "Work 1\\task1_response time, and environ mental impact\\outputs\\public_measured_itl_energy.png",
+      "bytes": 107194
+    },
+    {
+      "path": "Work 1\\task1_response time, and environ mental impact\\outputs\\RESULTS_zh.md",
+      "bytes": 3433
+    },
+    {
+      "path": "Work 1\\task1_response time, and environ mental impact\\outputs\\result_validation.json",
+      "bytes": 727
+    },
+    {
+      "path": "Work 1\\task1_response time, and environ mental impact\\outputs\\run_manifest.json",
+      "bytes": 3646
+    },
+    {
+      "path": "Work 1\\task1_response time, and environ mental impact\\outputs\\simulation_runs.csv",
+      "bytes": 255693
+    },
+    {
+      "path": "Work 1\\task1_response time, and environ mental impact\\outputs\\simulation_summary.csv",
+      "bytes": 65364
+    },
+    {
+      "path": "Work 1\\task1_response time, and environ mental impact\\__pycache__\\common.cpython-312.pyc",
+      "bytes": 1247
+    },
+    {
+      "path": "Work 1\\task1_response time, and environ mental impact\\__pycache__\\core.cpython-312.pyc",
+      "bytes": 15532
+    },
+    {
+      "path": "Work 1\\task1_response time, and environ mental impact\\__pycache__\\prepare_data.cpython-312.pyc",
+      "bytes": 15409
+    },
+    {
+      "path": "Work 1\\task1_response time, and environ mental impact\\__pycache__\\test_models.cpython-312.pyc",
+      "bytes": 12291
+    },
+    {
+      "path": "Work 1\\task1_response time, and environ mental impact\\__pycache__\\validate_system.cpython-312.pyc",
+      "bytes": 7431
+    },
+    {
+      "path": "Work 1\\task_1_quality_post\\plot TACVA comparation.py",
+      "bytes": 3747
+    },
+    {
+      "path": "Work 1\\task_1_quality_post\\Quality(sub-model assessment_export_assessor).py",
+      "bytes": 4178
+    },
+    {
+      "path": "Work 1\\task_1_quality_post\\quality(sub-model_assessment_aware_ablation).py",
+      "bytes": 14874
+    },
+    {
+      "path": "Work 1\\task_1_quality_post\\Quality(sub-model_assessment_TACVA).py",
+      "bytes": 12685
+    },
+    {
+      "path": "Work 1\\task_1_quality_post\\tacva_comparison.png",
+      "bytes": 187142
+    },
+    {
+      "path": "Work 1\\task_1_quality_post\\tacva_comparison_refined.png",
+      "bytes": 185471
+    },
+    {
+      "path": "Work 1\\task_1_quality_post\\tacva_comparison_scientific.pdf",
+      "bytes": 26778
+    },
+    {
+      "path": "Work 1\\task_1_quality_post\\tacva_comparison_scientific.png",
+      "bytes": 312072
+    },
+    {
+      "path": "Work 1\\task_1_quality_post\\tacva_comparison_scientific.svg",
+      "bytes": 85468
+    },
+    {
+      "path": "Work 1\\task_1_quality_post\\task2_quality_api.py",
+      "bytes": 8098
+    },
+    {
+      "path": "Work 1\\task_1_quality_post\\saved_models\\metadata.json",
+      "bytes": 937
+    },
+    {
+      "path": "Work 1\\task_1_quality_post\\saved_models\\V.joblib",
+      "bytes": 402228
+    },
+    {
+      "path": "Work 1\\task_1_quality_post\\saved_models\\VC_2.joblib",
+      "bytes": 507271
+    },
+    {
+      "path": "Work 1\\task_1_quality_post\\__pycache__\\quality(sub-model_assessment_aware_ablation).cpython-312.pyc",
+      "bytes": 23705
+    }
+  ],
+  "requested_document_found": false,
+  "equivalent_complete_document": "task2_complete\\runs\\work1_integrated_20261016\\RESULTS_zh.md",
+  "note": "Exact filename 第二问完整求解过程.md absent; RESULTS_zh.md is the full 14-section solution report."
+}

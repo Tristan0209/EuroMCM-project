@@ -1,0 +1,3485 @@
+{
+  "timestamp_utc": "2026-10-17T18:23:58.452155+00:00",
+  "scope": "D:\\EuroMCM\\EuroMCM-project\\TASK 3\\task3_model",
+  "deleted": [
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\04a5cc6ee46d8f92\\common_random_conditions.json",
+      "bytes": 376462,
+      "sha256": "ab032aeb4b76fd622ece6b43bfe39fdd8b24594f763859591b230a490086014b",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\04a5cc6ee46d8f92\\config.json",
+      "bytes": 1208,
+      "sha256": "2390b4ef8e4b3c4c371eb418a196d6e459ac031395038f5505e4c7540ed1c548",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\04a5cc6ee46d8f92\\input_ids.json",
+      "bytes": 231607,
+      "sha256": "1f53066900c6800618399e706d913eb5426f626b191c5587e2017f616b2c97c8",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\07130d49a7311dd7\\common_random_conditions.json",
+      "bytes": 376462,
+      "sha256": "ab032aeb4b76fd622ece6b43bfe39fdd8b24594f763859591b230a490086014b",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\07130d49a7311dd7\\config.json",
+      "bytes": 1208,
+      "sha256": "efbe22c2c57c3192fe2df9fd01fc88f184e1715a1034ff4e2fd37ff4c9017c9b",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\07130d49a7311dd7\\energy_ledger.csv.gz",
+      "bytes": 554939,
+      "sha256": "b7afb28192efc4e5c0276dd4ab242893ac607c8204a73ac4cde8e090c7ce7c1c",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\07130d49a7311dd7\\events.csv.gz",
+      "bytes": 395363,
+      "sha256": "989ca66f72b1792b2ed346227e61028eafe5530c130b9422e0377e54f7b73fdb",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\07130d49a7311dd7\\input_ids.json",
+      "bytes": 231607,
+      "sha256": "1f53066900c6800618399e706d913eb5426f626b191c5587e2017f616b2c97c8",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\07130d49a7311dd7\\metrics.json",
+      "bytes": 3189,
+      "sha256": "e69d9c439b33dfca66a528eb74c97fe63a26e9c4489a29127b60daf9ae905efd",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\07130d49a7311dd7\\requests.csv.gz",
+      "bytes": 521840,
+      "sha256": "aeb95759a7f3a0dd30d8b823ed30b6f33af1e61ff8f407999c8cda398a062cd5",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\07130d49a7311dd7\\solver_log.jsonl.gz",
+      "bytes": 42,
+      "sha256": "6ea62a138846016bb13a28b69c7d354d2bf1a8003db8edd4b303e2da42a1df4a",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\0b30baf20ab49312\\common_random_conditions.json",
+      "bytes": 25633,
+      "sha256": "99e1b4271a8b247e0a4f42b3777325060cb649051770db8f7bab5fd5a938f153",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\0b30baf20ab49312\\config.json",
+      "bytes": 1249,
+      "sha256": "a089c37809db7cf2154325e348b7b29d7dc3d2ba9ff0ad4a5eae5e9d1e2463ce",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\0b30baf20ab49312\\energy_ledger.csv.gz",
+      "bytes": 40301,
+      "sha256": "c22438674e8974040c862f4cdc07bee4d4751e935ce0ce94a910bccd8a09c86f",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\0b30baf20ab49312\\events.csv.gz",
+      "bytes": 28056,
+      "sha256": "ab74ca986bfb08ec75706bb902e2a4c55676f47f2e4ee6616ac7e9cbc523065b",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\0b30baf20ab49312\\input_ids.json",
+      "bytes": 15752,
+      "sha256": "b90046991855886e699deec69e1f38c19b88956417439b4206a9e221f9c3c137",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\0b30baf20ab49312\\metrics.json",
+      "bytes": 3112,
+      "sha256": "f80d196db6ef4e5bd9d7aaef4ab947661fcd73d1fa95cb722854975b00990d89",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\0b30baf20ab49312\\requests.csv.gz",
+      "bytes": 35872,
+      "sha256": "8752109feddaf5a2058122575ce0f6f4ad917bad528d8110e70ed4fa52decf2a",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\0b30baf20ab49312\\solver_log.jsonl.gz",
+      "bytes": 42,
+      "sha256": "d5010c966f868a452765b8a71ab6b35221298614661b50e09b8f020e8b27ac3b",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\0bde76b66598a468\\common_random_conditions.json",
+      "bytes": 25608,
+      "sha256": "6f4a89cbdd0afcff1d779421b2c21ac670a7b34f161ba8631a2477277c2b0782",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\0bde76b66598a468\\config.json",
+      "bytes": 1207,
+      "sha256": "4ee4abad28e42c4db58d3e7d88eb80f4f58966ec6c2dea8587dac0613898a4fc",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\0bde76b66598a468\\energy_ledger.csv.gz",
+      "bytes": 40525,
+      "sha256": "8c43187737acef25e997fa9f9ff5cafd2e13f08533d0eac5483e2c7501638ef7",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\0bde76b66598a468\\events.csv.gz",
+      "bytes": 28289,
+      "sha256": "ed3f4189c3c7d1affaf63a9b6bf264c2ce2b5767d854eb7f6c94d887f6c631c5",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\0bde76b66598a468\\input_ids.json",
+      "bytes": 15752,
+      "sha256": "b90046991855886e699deec69e1f38c19b88956417439b4206a9e221f9c3c137",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\0bde76b66598a468\\metrics.json",
+      "bytes": 3169,
+      "sha256": "189cb88ebf16387daa358533541b28dff4205b70e62c47f8451c5666342b025c",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\0bde76b66598a468\\requests.csv.gz",
+      "bytes": 37834,
+      "sha256": "288c28b8d732578d25693d0d876c7381aeb61a0a4d2ab2e0058b211fad654974",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\0bde76b66598a468\\solver_log.jsonl.gz",
+      "bytes": 3229,
+      "sha256": "48394715b9d1ff1f7292c7ca823d6eac99da392913db348a8c646e1a61292fe6",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\105cd45d9d70ab34\\common_random_conditions.json",
+      "bytes": 25624,
+      "sha256": "79c3bbe8284140d1f0cbf93fe368ab68f3c03db01554e5ef26a09c35e81f8942",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\105cd45d9d70ab34\\config.json",
+      "bytes": 1250,
+      "sha256": "9bd9092e479c6419dddf75ac4190f7b420924e18d444f2914d3294306ad7ff9c",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\105cd45d9d70ab34\\energy_ledger.csv.gz",
+      "bytes": 40458,
+      "sha256": "cfd7a6e8b6827d38df7c3dabd53214caa876c71faa53e8077ef97b053f1bc8a5",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\105cd45d9d70ab34\\events.csv.gz",
+      "bytes": 28184,
+      "sha256": "85a6dc634a33f23e80ee155a5ba895e9efc325230a33360928c5cb07d107cf41",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\105cd45d9d70ab34\\input_ids.json",
+      "bytes": 15752,
+      "sha256": "b90046991855886e699deec69e1f38c19b88956417439b4206a9e221f9c3c137",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\105cd45d9d70ab34\\metrics.json",
+      "bytes": 3112,
+      "sha256": "1131f686d70df0f52c0fc84d3bb9601ae217875a53aae6921c016910288a0482",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\105cd45d9d70ab34\\requests.csv.gz",
+      "bytes": 35869,
+      "sha256": "da94b2d8bc48e79598b23b1a790c92ebc1be86cd4b98c93febf6999ce4869715",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\105cd45d9d70ab34\\solver_log.jsonl.gz",
+      "bytes": 42,
+      "sha256": "baa40528329c5f74bc59b8e41c4db45e95fe7176ed4af7b5c4539d5f3be07444",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\1248a94ba8267ce9\\common_random_conditions.json",
+      "bytes": 51156,
+      "sha256": "307e7e9d1c171310846fe2c828222ab0bd360b0ec3a9bb51560526a7d225e36b",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\1248a94ba8267ce9\\config.json",
+      "bytes": 1251,
+      "sha256": "c94ad71f2b7aa66729e8a4dfa9f6c2e2625627eb3a0c842230a2f0dd257250e6",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\1248a94ba8267ce9\\energy_ledger.csv.gz",
+      "bytes": 79252,
+      "sha256": "db86c62515186e6fe8b54ad20bbd19d4dd6b07be6d464003bc95bcfdb6269a4c",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\1248a94ba8267ce9\\events.csv.gz",
+      "bytes": 55472,
+      "sha256": "6e3dc66b00abbdde43153818414e4b09964502d138b36776b145da037bd047bf",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\1248a94ba8267ce9\\input_ids.json",
+      "bytes": 31430,
+      "sha256": "ab75d58287625c25fbb38e09f84c606265b2e99ada3fbb6cdba3a1df8b162aa7",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\1248a94ba8267ce9\\metrics.json",
+      "bytes": 3111,
+      "sha256": "0d4d6882da6618958d4666a78d7ab5e0842f09d3cffa14b49910191d4327c995",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\1248a94ba8267ce9\\requests.csv.gz",
+      "bytes": 70568,
+      "sha256": "42de171cbcf72689592fb089b5350c03ddbd273e625c44aa0f7e5bd259c2a570",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\1248a94ba8267ce9\\solver_log.jsonl.gz",
+      "bytes": 42,
+      "sha256": "8df50a185b26e4ef82276a2e1310b59dd13356dec540bb8e23af5d42a5abbbdc",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\137c1a02130b7d29\\common_random_conditions.json",
+      "bytes": 25633,
+      "sha256": "99e1b4271a8b247e0a4f42b3777325060cb649051770db8f7bab5fd5a938f153",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\137c1a02130b7d29\\config.json",
+      "bytes": 1248,
+      "sha256": "42e943c7f3bf18d0f7640e608e71e8b7033b960483b39973c969726146483c51",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\137c1a02130b7d29\\energy_ledger.csv.gz",
+      "bytes": 37784,
+      "sha256": "ff827628d67a77e6793e015a11f44219dedd01ee87349f48a423b9c813124647",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\137c1a02130b7d29\\events.csv.gz",
+      "bytes": 28548,
+      "sha256": "6aa45dd100fe37389b64181fb0e6d88d21b74298e44139c48f46e78c0e39e62f",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\137c1a02130b7d29\\input_ids.json",
+      "bytes": 15752,
+      "sha256": "b90046991855886e699deec69e1f38c19b88956417439b4206a9e221f9c3c137",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\137c1a02130b7d29\\metrics.json",
+      "bytes": 3125,
+      "sha256": "13b21c0f331bf4300ceee943c5f17390c02ce165f3d73683f4a3c52d8c8bd16d",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\137c1a02130b7d29\\requests.csv.gz",
+      "bytes": 35948,
+      "sha256": "a1ba4001c749e8df935b72fe7ca450720ee567363bc918937e380c2af106d9e4",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\137c1a02130b7d29\\solver_log.jsonl.gz",
+      "bytes": 42,
+      "sha256": "059632d04c83bf507c094dbaa90279cab8a049d856590ddd4bf010b3819d5411",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\1572798168df5991\\common_random_conditions.json",
+      "bytes": 25608,
+      "sha256": "6f4a89cbdd0afcff1d779421b2c21ac670a7b34f161ba8631a2477277c2b0782",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\1572798168df5991\\config.json",
+      "bytes": 1250,
+      "sha256": "bcb8070e37b6f0495b8004238e0a83614862e085dc4253b5eaab7f228c758c3e",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\1572798168df5991\\energy_ledger.csv.gz",
+      "bytes": 40499,
+      "sha256": "c0a813ea837e5ace36d07fb70590b680a8d16ba3d542b577fdf1d2531dca65a1",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\1572798168df5991\\events.csv.gz",
+      "bytes": 28289,
+      "sha256": "cf28560bdf49576a4fed5fe2318a9080b06cdda3cf637d6b27a352b8c3adde9c",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\1572798168df5991\\input_ids.json",
+      "bytes": 15752,
+      "sha256": "b90046991855886e699deec69e1f38c19b88956417439b4206a9e221f9c3c137",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\1572798168df5991\\metrics.json",
+      "bytes": 3157,
+      "sha256": "ae432ccbeafb364fe94dec1ffc88cfa909bd2e23657a34c0e18cc8118d62d661",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\1572798168df5991\\requests.csv.gz",
+      "bytes": 37834,
+      "sha256": "3e992cf0a8904ca036f6d49611595d392b27e5e372e43a4a9a1090d47bafaee8",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\1572798168df5991\\solver_log.jsonl.gz",
+      "bytes": 3228,
+      "sha256": "eb7cf18a407975dc11803a3c80a3a545f0f703f89dfabc497c286463b247b799",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\164b513fc0064535\\common_random_conditions.json",
+      "bytes": 25608,
+      "sha256": "6f4a89cbdd0afcff1d779421b2c21ac670a7b34f161ba8631a2477277c2b0782",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\164b513fc0064535\\config.json",
+      "bytes": 1248,
+      "sha256": "a0cbb7e9d8576726a2757add322f79e7980efdfe4de024d121dfcba311c84744",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\164b513fc0064535\\energy_ledger.csv.gz",
+      "bytes": 37740,
+      "sha256": "2b28962a0aae5bc905e0582a1b9e3e8c039684bcc67fed2f5c5c6006fa73a329",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\164b513fc0064535\\events.csv.gz",
+      "bytes": 28562,
+      "sha256": "ba4ccc5059db9c4437d6fc2c46e2890db6eb1c90758edc566b06898e775fb3de",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\164b513fc0064535\\input_ids.json",
+      "bytes": 15752,
+      "sha256": "b90046991855886e699deec69e1f38c19b88956417439b4206a9e221f9c3c137",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\164b513fc0064535\\metrics.json",
+      "bytes": 3130,
+      "sha256": "5794fdc763d5c26f469fb646d17948faa0d1d1a0f847a06f606a81c648baffcb",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\164b513fc0064535\\requests.csv.gz",
+      "bytes": 36036,
+      "sha256": "c3b1d548b81f67677c3fa68aa885c2e8f971fce6a07a3d3c95f8527e7ba059c3",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\164b513fc0064535\\solver_log.jsonl.gz",
+      "bytes": 42,
+      "sha256": "a8a976b09dcddfa6c9226031f29726ac307ca8d4ef6bfa08a39d5694edc6794a",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\18c28ca5890c144e\\common_random_conditions.json",
+      "bytes": 25624,
+      "sha256": "79c3bbe8284140d1f0cbf93fe368ab68f3c03db01554e5ef26a09c35e81f8942",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\18c28ca5890c144e\\config.json",
+      "bytes": 1249,
+      "sha256": "5728172b845d8fedeb79fa1622140cd0ca10d9d8aaa83f907aae26a8ec9260da",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\18c28ca5890c144e\\energy_ledger.csv.gz",
+      "bytes": 37754,
+      "sha256": "9de67ecdd996d8aab1414d20340b317cfc7745f866d07964bde57aafcc5914dd",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\18c28ca5890c144e\\events.csv.gz",
+      "bytes": 28554,
+      "sha256": "22ef90109cefb9aa7654ba5c2f7736ef07233b15fe9596e11392f9607af88308",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\18c28ca5890c144e\\input_ids.json",
+      "bytes": 15752,
+      "sha256": "b90046991855886e699deec69e1f38c19b88956417439b4206a9e221f9c3c137",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\18c28ca5890c144e\\metrics.json",
+      "bytes": 3126,
+      "sha256": "dad030df8c80aead510cf99975edde1442a1c09cc59ee4d2b5483fb03e40914a",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\18c28ca5890c144e\\requests.csv.gz",
+      "bytes": 35964,
+      "sha256": "a83d0f5e96be119a52456605448b58f1bced84bf491fd02618a2e362278bc709",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\18c28ca5890c144e\\solver_log.jsonl.gz",
+      "bytes": 42,
+      "sha256": "baa40528329c5f74bc59b8e41c4db45e95fe7176ed4af7b5c4539d5f3be07444",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\1946a4bbf8ef191b\\common_random_conditions.json",
+      "bytes": 5061,
+      "sha256": "8c0adee1ee04f983c3c5e5c20ea95277cfa0181f4b948aaace3107ea215da40a",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\1946a4bbf8ef191b\\config.json",
+      "bytes": 1207,
+      "sha256": "9615a8623c08a2b8882451d96519db4226bc68635e14ba93fee4d02c4cdaf4df",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\1946a4bbf8ef191b\\energy_ledger.csv.gz",
+      "bytes": 8481,
+      "sha256": "ad898ca80440c034135284e2d8646c77a22b91677b694a47b87aa778d06ec7cf",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\1946a4bbf8ef191b\\events.csv.gz",
+      "bytes": 5982,
+      "sha256": "3158e91776f0c0a4d85ddaed974811559d63b84c4c2f8b3efbce524156fe9883",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\1946a4bbf8ef191b\\input_ids.json",
+      "bytes": 3080,
+      "sha256": "8ece0c649208b17d97f9ba33c11f85ae0f5cf80705ddfa3eb97b51385786c2d8",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\1946a4bbf8ef191b\\metrics.json",
+      "bytes": 3109,
+      "sha256": "6e81b7ba6ce683dd160bfcc405210b88506c560956b4815a79e816fee4679bf6",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\1946a4bbf8ef191b\\requests.csv.gz",
+      "bytes": 7859,
+      "sha256": "752fc0d9c63aa5574df4ee6daf9e4ca95c34c645892dadae7af7991b3b3e5ae7",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\1946a4bbf8ef191b\\solver_log.jsonl.gz",
+      "bytes": 42,
+      "sha256": "671e9377e63c41ffaa9a61bbc3a9a8a738cc6121abe120bed71880e009253e74",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\1f9d6b1e637014e3\\common_random_conditions.json",
+      "bytes": 25633,
+      "sha256": "99e1b4271a8b247e0a4f42b3777325060cb649051770db8f7bab5fd5a938f153",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\1f9d6b1e637014e3\\config.json",
+      "bytes": 1249,
+      "sha256": "066348bfe43c2d798f9b67e331e1c953f51952c0ddb9c3fe252bef0e86b10c82",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\1f9d6b1e637014e3\\energy_ledger.csv.gz",
+      "bytes": 40301,
+      "sha256": "80310d765fa08c3788cd21cef668f3a0178e6659a52e908242f8496e97802e1d",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\1f9d6b1e637014e3\\events.csv.gz",
+      "bytes": 28056,
+      "sha256": "3d3b7973c4a71dfaf16335cd255196b9697d8137e0034be498d70b6fd873b9a0",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\1f9d6b1e637014e3\\input_ids.json",
+      "bytes": 15752,
+      "sha256": "b90046991855886e699deec69e1f38c19b88956417439b4206a9e221f9c3c137",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\1f9d6b1e637014e3\\metrics.json",
+      "bytes": 3112,
+      "sha256": "0af119f9428d583b99bf7917b7f6551e2e66781437b9299e20895ac3a2ede452",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\1f9d6b1e637014e3\\requests.csv.gz",
+      "bytes": 35872,
+      "sha256": "dbe107ab4c0b1ce43dcb2e0ee54be5f61b67c9ed4014fe7d9a6b456f62fb4820",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\1f9d6b1e637014e3\\solver_log.jsonl.gz",
+      "bytes": 42,
+      "sha256": "17db0ae821f369940265806370807bcfa68e10960109eee665a30e8ac3b92b7e",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\22e594f2ab29c810\\common_random_conditions.json",
+      "bytes": 5061,
+      "sha256": "8c0adee1ee04f983c3c5e5c20ea95277cfa0181f4b948aaace3107ea215da40a",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\22e594f2ab29c810\\config.json",
+      "bytes": 1250,
+      "sha256": "ccca0bf0e0cf5d3fb349dad122e9ae946e8c24865774d5c867235d253d757927",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\22e594f2ab29c810\\energy_ledger.csv.gz",
+      "bytes": 8517,
+      "sha256": "202426e2beaf2f0febf3571e05413c583684a5d7863a7a317b1302819c7fb0d7",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\22e594f2ab29c810\\events.csv.gz",
+      "bytes": 6015,
+      "sha256": "c500e3eb472feb9b30de52f7a2b8c51336ea1ae00c7ca8b25040ac9e085e4a8a",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\22e594f2ab29c810\\input_ids.json",
+      "bytes": 3080,
+      "sha256": "8ece0c649208b17d97f9ba33c11f85ae0f5cf80705ddfa3eb97b51385786c2d8",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\22e594f2ab29c810\\metrics.json",
+      "bytes": 3169,
+      "sha256": "d43ce1abd69415c4846439b4e0459a5a802e930be29192c0220bda9f317a5430",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\22e594f2ab29c810\\requests.csv.gz",
+      "bytes": 8285,
+      "sha256": "399bc0bbf2b69ebafa7e7f94e37747183442ab445df7609e6c589e360e1c91b9",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\22e594f2ab29c810\\solver_log.jsonl.gz",
+      "bytes": 1138,
+      "sha256": "5280a52e0234376d68cc30d88d714c829ffc095d21c54b0d38885c8d93b2bffb",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\267a863b2047d8cc\\common_random_conditions.json",
+      "bytes": 25608,
+      "sha256": "6f4a89cbdd0afcff1d779421b2c21ac670a7b34f161ba8631a2477277c2b0782",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\267a863b2047d8cc\\config.json",
+      "bytes": 1249,
+      "sha256": "36b7ebf8e2207ca97aea3b966df2f007d514fce34545b19e8bbe89225e86ab9b",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\267a863b2047d8cc\\energy_ledger.csv.gz",
+      "bytes": 40415,
+      "sha256": "c35bed4ed95f6a24fa122f562d3e3c6f185d8e42f47fc1405d42b821ea6602bf",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\267a863b2047d8cc\\events.csv.gz",
+      "bytes": 28063,
+      "sha256": "92d913fe3dde3c54f93fb5d44b957577a98e66ecd31ad51c40762d85adb7907b",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\267a863b2047d8cc\\input_ids.json",
+      "bytes": 15752,
+      "sha256": "b90046991855886e699deec69e1f38c19b88956417439b4206a9e221f9c3c137",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\267a863b2047d8cc\\metrics.json",
+      "bytes": 3112,
+      "sha256": "27e065be652b48dc0ca07ea888fb1bd19d2ec4a1d536b8980ec57ec63b6ed889",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\267a863b2047d8cc\\requests.csv.gz",
+      "bytes": 35823,
+      "sha256": "c2039850eb314d606e9831083e744189c33040b7e0e15b7704744dc7cb12074b",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\267a863b2047d8cc\\solver_log.jsonl.gz",
+      "bytes": 42,
+      "sha256": "44234fe7acc804922ddb94a2142ed79f43756bb91b2f2dd3e977edcccfa1b18a",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\2d93742b830b1535\\common_random_conditions.json",
+      "bytes": 5061,
+      "sha256": "8c0adee1ee04f983c3c5e5c20ea95277cfa0181f4b948aaace3107ea215da40a",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\2d93742b830b1535\\config.json",
+      "bytes": 1249,
+      "sha256": "a4e5ea4503e52905e7dcacc05ec43a17b9622d19e78515a51e6ec51a10c2869d",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\2d93742b830b1535\\energy_ledger.csv.gz",
+      "bytes": 7909,
+      "sha256": "26a340fa64f939fbef84725eb721e977373ce138e72588e86bca0532634f260f",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\2d93742b830b1535\\events.csv.gz",
+      "bytes": 6076,
+      "sha256": "97f311703c46c530c8b24be3a2b7a6c90a971c98d87aba7435fcb5be1a9b6e29",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\2d93742b830b1535\\input_ids.json",
+      "bytes": 3080,
+      "sha256": "8ece0c649208b17d97f9ba33c11f85ae0f5cf80705ddfa3eb97b51385786c2d8",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\2d93742b830b1535\\metrics.json",
+      "bytes": 3134,
+      "sha256": "f5f48cc17480b80cebe8d3f27a4ea2f421e07e2a7854a8fd056da6540ef084aa",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\2d93742b830b1535\\requests.csv.gz",
+      "bytes": 7871,
+      "sha256": "9be472554dbaf47e551a92e741438aa7c02bfad3d478a8f0fba1b2fd8e3dbb99",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\2d93742b830b1535\\solver_log.jsonl.gz",
+      "bytes": 42,
+      "sha256": "7504ccd4a7af715f06d0c2b495a80e2c8a15cae7a3bb3698cc278e0ce6e46937",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\33fbc36d470523f5\\common_random_conditions.json",
+      "bytes": 376462,
+      "sha256": "ab032aeb4b76fd622ece6b43bfe39fdd8b24594f763859591b230a490086014b",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\33fbc36d470523f5\\config.json",
+      "bytes": 1251,
+      "sha256": "9e6ea480527d42d5ea8eadd8651dfd1b846190cab288071a2a9810705bbc760b",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\33fbc36d470523f5\\energy_ledger.csv.gz",
+      "bytes": 560272,
+      "sha256": "cd61a21c699c9ce56a836ee89111405d4a22dc94d8488731d6355e948b8a0d92",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\33fbc36d470523f5\\events.csv.gz",
+      "bytes": 406151,
+      "sha256": "69b521c88664fc3a3ef6a5a17da2190d77167c0bb1e7d0993d9f0fdebd25934a",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\33fbc36d470523f5\\input_ids.json",
+      "bytes": 231607,
+      "sha256": "1f53066900c6800618399e706d913eb5426f626b191c5587e2017f616b2c97c8",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\33fbc36d470523f5\\metrics.json",
+      "bytes": 3266,
+      "sha256": "66ca24abfc428e2945012d19f992af561afa537c82aaecbb9ca4fbdab4f7fcee",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\33fbc36d470523f5\\requests.csv.gz",
+      "bytes": 553619,
+      "sha256": "52c2c427769e70fda8480a7a170f0036b714817ddc2251b0173cc1e0f175e8b6",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\33fbc36d470523f5\\solver_log.jsonl.gz",
+      "bytes": 34009,
+      "sha256": "01228776f67344aa56cf7b385e6a4bc3119971c03d640f590419565d54388d09",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\346914fae896670d\\common_random_conditions.json",
+      "bytes": 25624,
+      "sha256": "79c3bbe8284140d1f0cbf93fe368ab68f3c03db01554e5ef26a09c35e81f8942",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\346914fae896670d\\config.json",
+      "bytes": 1249,
+      "sha256": "c0d0617a6f0b21d36483383581ba1eb0df8367e63655fee0e13d967d8ada52b4",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\346914fae896670d\\energy_ledger.csv.gz",
+      "bytes": 40365,
+      "sha256": "cbc04cd7c09cfca2e3a2430717d8bcc804d02a25b2dd604ff5c8297c6095a11e",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\346914fae896670d\\events.csv.gz",
+      "bytes": 28059,
+      "sha256": "e107ed1a5381c5db875864573627e009391761e88c6e60a104637cb29ca47f71",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\346914fae896670d\\input_ids.json",
+      "bytes": 15752,
+      "sha256": "b90046991855886e699deec69e1f38c19b88956417439b4206a9e221f9c3c137",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\346914fae896670d\\metrics.json",
+      "bytes": 3107,
+      "sha256": "f7a1a1a694f5269bafea8a8f738375fb09d96a862054d093fee4c17885ed5491",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\346914fae896670d\\requests.csv.gz",
+      "bytes": 35851,
+      "sha256": "b52048d5f39096c57c78b834631bd42b5cf46f26f614805f976f42fd56e28c5f",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\346914fae896670d\\solver_log.jsonl.gz",
+      "bytes": 42,
+      "sha256": "185a49e7f094f371bb08d276c1e5bc0370753b3ed1a0c792d1fb0129b8f06a88",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\3cce64079a3ccfe5\\common_random_conditions.json",
+      "bytes": 25633,
+      "sha256": "99e1b4271a8b247e0a4f42b3777325060cb649051770db8f7bab5fd5a938f153",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\3cce64079a3ccfe5\\config.json",
+      "bytes": 1250,
+      "sha256": "49e7522351c845e4547a3d755fd2b25892cfc3b0737e9d95eba616f304ee511e",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\3cce64079a3ccfe5\\energy_ledger.csv.gz",
+      "bytes": 40308,
+      "sha256": "3aea5ba042e2792bc6d00c3c7894d677d8caab92ad2cfacf4ab054acd2175a2e",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\3cce64079a3ccfe5\\events.csv.gz",
+      "bytes": 28058,
+      "sha256": "f3a21e302b0b259b683d689e3b15cf9d7b72e705685c4f6f2fdeb989a681bee9",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\3cce64079a3ccfe5\\input_ids.json",
+      "bytes": 15752,
+      "sha256": "b90046991855886e699deec69e1f38c19b88956417439b4206a9e221f9c3c137",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\3cce64079a3ccfe5\\metrics.json",
+      "bytes": 3124,
+      "sha256": "49fd2353b22b52f96aaab5715edeb8b71db622a68594cff2925d588f03a93809",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\3cce64079a3ccfe5\\requests.csv.gz",
+      "bytes": 35879,
+      "sha256": "26b3500f9cea410393ce48fdb764151bd29411ccac59461c24f07730a85ae8c2",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\3cce64079a3ccfe5\\solver_log.jsonl.gz",
+      "bytes": 42,
+      "sha256": "7c4a92442c084c99ae854c2067f33257757267396d45141d5fa841d91407b8eb",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\3e7387dc0103b030\\common_random_conditions.json",
+      "bytes": 25608,
+      "sha256": "6f4a89cbdd0afcff1d779421b2c21ac670a7b34f161ba8631a2477277c2b0782",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\3e7387dc0103b030\\config.json",
+      "bytes": 1250,
+      "sha256": "693d29fb429fdda87d35c40070c90cc5afd50ae6738a67643b6680c4f25fdee4",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\3e7387dc0103b030\\energy_ledger.csv.gz",
+      "bytes": 40503,
+      "sha256": "9f859fb6b606f3a4000260b0c60da7dce05b98af02e3c32c0ce531d8a5312476",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\3e7387dc0103b030\\events.csv.gz",
+      "bytes": 28172,
+      "sha256": "b028d467c0fb08e51789f2a787d15c6937ddec50b60a792123684ed04751997f",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\3e7387dc0103b030\\input_ids.json",
+      "bytes": 15752,
+      "sha256": "b90046991855886e699deec69e1f38c19b88956417439b4206a9e221f9c3c137",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\3e7387dc0103b030\\metrics.json",
+      "bytes": 3111,
+      "sha256": "7e7fa07b1b6607687341aa751871271ae967b55c9b52c90cda9731cad6f5ca61",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\3e7387dc0103b030\\requests.csv.gz",
+      "bytes": 35806,
+      "sha256": "b6cc868d14f0a5716f3c1cdcb6382097e24e5a1c96492992cf768537775bb36c",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\3e7387dc0103b030\\solver_log.jsonl.gz",
+      "bytes": 42,
+      "sha256": "5658108775b9f1979b05f7bac5022e2dc5af0f214105c72baf349d657c4a2302",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\408de8c2a9606c01\\common_random_conditions.json",
+      "bytes": 5061,
+      "sha256": "8c0adee1ee04f983c3c5e5c20ea95277cfa0181f4b948aaace3107ea215da40a",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\408de8c2a9606c01\\config.json",
+      "bytes": 1204,
+      "sha256": "25009979c7f847f54de4a7dbce86eb26078759ea4c0d9f862da07dc028ff21ee",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\408de8c2a9606c01\\energy_ledger.csv.gz",
+      "bytes": 9842,
+      "sha256": "f7f1c8e5f664f55920314eb7fbfcd807323df7c6cf1087d960105218c78c56a8",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\408de8c2a9606c01\\events.csv.gz",
+      "bytes": 7155,
+      "sha256": "18a287e1df2068218d37505e4f895879736eef79125450e80e5ea8f98865a464",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\408de8c2a9606c01\\input_ids.json",
+      "bytes": 3080,
+      "sha256": "8ece0c649208b17d97f9ba33c11f85ae0f5cf80705ddfa3eb97b51385786c2d8",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\408de8c2a9606c01\\metrics.json",
+      "bytes": 3147,
+      "sha256": "39d2feb95a86e84f7b19904fcb3783be4ab13b9402a05a163384e4f75bac3f50",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\408de8c2a9606c01\\requests.csv.gz",
+      "bytes": 8363,
+      "sha256": "309d38cdde5a710f7273fa420de5266df9fe4d90cb7b1a9ca79ac76c2d284d6d",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\408de8c2a9606c01\\solver_log.jsonl.gz",
+      "bytes": 3802,
+      "sha256": "7a1806a1eb516b08232de9ff493a7b558ff9108b484392e38ec9b1b70d0b89fa",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\46e81f99fb897acb\\common_random_conditions.json",
+      "bytes": 25608,
+      "sha256": "6f4a89cbdd0afcff1d779421b2c21ac670a7b34f161ba8631a2477277c2b0782",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\46e81f99fb897acb\\config.json",
+      "bytes": 1249,
+      "sha256": "62c75555a20cb39cd932e5ae1eaff1834f26aee086ad30366c4d66d7d5cf5720",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\46e81f99fb897acb\\energy_ledger.csv.gz",
+      "bytes": 40415,
+      "sha256": "c4eb4791ae16019418756bb7b60fe7aaa4f3da8002381eb74a24481004e0e6e5",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\46e81f99fb897acb\\events.csv.gz",
+      "bytes": 28063,
+      "sha256": "36dc67e2907bb6afde10548c26e925022d652c99835ad12e2ddff0888586d6ae",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\46e81f99fb897acb\\input_ids.json",
+      "bytes": 15752,
+      "sha256": "b90046991855886e699deec69e1f38c19b88956417439b4206a9e221f9c3c137",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\46e81f99fb897acb\\metrics.json",
+      "bytes": 3111,
+      "sha256": "c33deb6e706c4f0de846fa9bcdd505becf32dfdcd14074ab058b3ec21739819c",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\46e81f99fb897acb\\requests.csv.gz",
+      "bytes": 35823,
+      "sha256": "c22e42744c63d747ac0b8714a9456fd6da020359fb66d00e891e0a9af54c8bf6",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\46e81f99fb897acb\\solver_log.jsonl.gz",
+      "bytes": 42,
+      "sha256": "a8a976b09dcddfa6c9226031f29726ac307ca8d4ef6bfa08a39d5694edc6794a",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\4d40a828379fc2b0\\common_random_conditions.json",
+      "bytes": 5061,
+      "sha256": "8c0adee1ee04f983c3c5e5c20ea95277cfa0181f4b948aaace3107ea215da40a",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\4d40a828379fc2b0\\config.json",
+      "bytes": 1206,
+      "sha256": "41ace0f9639bce2bf53ef7272100e859e6c10df4f95e55e36596fe2a37af0722",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\4d40a828379fc2b0\\energy_ledger.csv.gz",
+      "bytes": 7941,
+      "sha256": "38bd74658956fe5fcfd91a195389ba2905ef5c11ffba39ec7a20710b25c05e12",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\4d40a828379fc2b0\\events.csv.gz",
+      "bytes": 6076,
+      "sha256": "ef3d74cc64e2bc8259b3c2f2ac4a6bf21111c9dca2483766c2907f2671dc0b05",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\4d40a828379fc2b0\\input_ids.json",
+      "bytes": 3080,
+      "sha256": "8ece0c649208b17d97f9ba33c11f85ae0f5cf80705ddfa3eb97b51385786c2d8",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\4d40a828379fc2b0\\metrics.json",
+      "bytes": 3148,
+      "sha256": "bb748c172b36ef4112cc5026d6c80b3a61eeae7e5d4ca1dee6a8d9d215af9742",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\4d40a828379fc2b0\\requests.csv.gz",
+      "bytes": 7871,
+      "sha256": "183dba487419abbaa38d26df899dc8d7dd9f583d9c87b9b1fd9eb12e091b1216",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\4d40a828379fc2b0\\solver_log.jsonl.gz",
+      "bytes": 42,
+      "sha256": "671e9377e63c41ffaa9a61bbc3a9a8a738cc6121abe120bed71880e009253e74",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\4dfcf7b7b9a44655\\common_random_conditions.json",
+      "bytes": 25608,
+      "sha256": "6f4a89cbdd0afcff1d779421b2c21ac670a7b34f161ba8631a2477277c2b0782",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\4dfcf7b7b9a44655\\config.json",
+      "bytes": 1250,
+      "sha256": "e166e8e05fcd4133cb6a518e56f040dfddf325442e35ff5d65a68630fd5ae118",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\4dfcf7b7b9a44655\\energy_ledger.csv.gz",
+      "bytes": 40414,
+      "sha256": "436794e82c9bba5aacb990bdaa9e6a20a9cb526a733e8455c5e9f1d797ff0534",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\4dfcf7b7b9a44655\\events.csv.gz",
+      "bytes": 28061,
+      "sha256": "f69ff6a3525e29e5278ed83f3ee062f8fe614f5023630a67893f96714f197098",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\4dfcf7b7b9a44655\\input_ids.json",
+      "bytes": 15752,
+      "sha256": "b90046991855886e699deec69e1f38c19b88956417439b4206a9e221f9c3c137",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\4dfcf7b7b9a44655\\metrics.json",
+      "bytes": 3110,
+      "sha256": "fdeb3a8e81ff8e025c2b5eddb6daf658b1e9f57f12f6cf8950f6fb469c907254",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\4dfcf7b7b9a44655\\requests.csv.gz",
+      "bytes": 35810,
+      "sha256": "723d32dfb0000c258600a035ea7bd9e027bcbb9211fac51a1391bec50faf79c8",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\4dfcf7b7b9a44655\\solver_log.jsonl.gz",
+      "bytes": 42,
+      "sha256": "facd33db7750bf183896939eb096ae5e21f3749beb67e79bc70629a3e069a29d",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\548646491b2191fc\\common_random_conditions.json",
+      "bytes": 25608,
+      "sha256": "6f4a89cbdd0afcff1d779421b2c21ac670a7b34f161ba8631a2477277c2b0782",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\548646491b2191fc\\config.json",
+      "bytes": 1204,
+      "sha256": "fd15183e49fec76e78ef0854240e186b9b0e7a1e2d9e0b7ae1b6d27799d8ac76",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\548646491b2191fc\\energy_ledger.csv.gz",
+      "bytes": 45568,
+      "sha256": "ed1ee6bbf59ef813b85047b06de7384a8cfb2eccb6294fde72be4821c43ed2e0",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\548646491b2191fc\\events.csv.gz",
+      "bytes": 33063,
+      "sha256": "be1f708cd6b4a4d2f8ac4ab2c39ba3933c329a8b9c2dbe8388916ca4a828f6ba",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\548646491b2191fc\\input_ids.json",
+      "bytes": 15752,
+      "sha256": "b90046991855886e699deec69e1f38c19b88956417439b4206a9e221f9c3c137",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\548646491b2191fc\\metrics.json",
+      "bytes": 3125,
+      "sha256": "13b6f150794c235da9358c69a9f77ae7ae690dd2d10f41dedbb3b48c88065062",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\548646491b2191fc\\requests.csv.gz",
+      "bytes": 38392,
+      "sha256": "f83ea60767e4f7a0dcdb0d20867e01c5a4d31a67bc371963e808a588f0a2a7be",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\548646491b2191fc\\solver_log.jsonl.gz",
+      "bytes": 16349,
+      "sha256": "c4cd8c255d3de626b8fa08f192186a0b95c56e285f666432ced83bf737c18a98",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\599451284c5cec1c\\common_random_conditions.json",
+      "bytes": 51156,
+      "sha256": "307e7e9d1c171310846fe2c828222ab0bd360b0ec3a9bb51560526a7d225e36b",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\599451284c5cec1c\\config.json",
+      "bytes": 1205,
+      "sha256": "d63fe968680a3eed61f9c5db8244aed460d95079aa6378b619d60a9c1544656a",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\599451284c5cec1c\\energy_ledger.csv.gz",
+      "bytes": 88909,
+      "sha256": "32484c99408ebd23f52dc690fde8d0c39f688de39ac013c4530f2a26fc21d179",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\599451284c5cec1c\\events.csv.gz",
+      "bytes": 64940,
+      "sha256": "026145f30a3f061b10e1a8ca1101664eefe961b8b549ccf4e6a831a19cd511c6",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\599451284c5cec1c\\input_ids.json",
+      "bytes": 31430,
+      "sha256": "ab75d58287625c25fbb38e09f84c606265b2e99ada3fbb6cdba3a1df8b162aa7",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\599451284c5cec1c\\metrics.json",
+      "bytes": 3137,
+      "sha256": "73d8cc34ff8c4c62438de2dae5ddf82d07fbca41ed281d172277b3936b7c8d11",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\599451284c5cec1c\\requests.csv.gz",
+      "bytes": 75817,
+      "sha256": "d2702f40138e9a5a53e901ad10087a706aa01b9f0b3792e099d0b9d5ab53b6ca",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\599451284c5cec1c\\solver_log.jsonl.gz",
+      "bytes": 31706,
+      "sha256": "85bb19a69a89901520e76b8ffa22747e44dab221fd4cc875dc251fd7632a2d2e",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\5ea0ed7192faca7a\\common_random_conditions.json",
+      "bytes": 25633,
+      "sha256": "99e1b4271a8b247e0a4f42b3777325060cb649051770db8f7bab5fd5a938f153",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\5ea0ed7192faca7a\\config.json",
+      "bytes": 1249,
+      "sha256": "03d65da39191b9bc2e05e03bae44a319b60c0fc6f02815c88ed09d7e5e6ae819",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\5ea0ed7192faca7a\\energy_ledger.csv.gz",
+      "bytes": 37784,
+      "sha256": "5815fb06283ce5d4a25ec52998e2b7b3a993ec8cd90b907a107d097164819a54",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\5ea0ed7192faca7a\\events.csv.gz",
+      "bytes": 28548,
+      "sha256": "24bc58809b2f69d3377f0a1b430532001f7c62427362fe0b9f61a793a424c611",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\5ea0ed7192faca7a\\input_ids.json",
+      "bytes": 15752,
+      "sha256": "b90046991855886e699deec69e1f38c19b88956417439b4206a9e221f9c3c137",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\5ea0ed7192faca7a\\metrics.json",
+      "bytes": 3125,
+      "sha256": "4cf257d42206874ebca83363fb1de927a5181157db3ef3d5dbfc660f83b0ce6d",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\5ea0ed7192faca7a\\requests.csv.gz",
+      "bytes": 35948,
+      "sha256": "0d0a6b408aea2df8cc3acba78d6bca8b6b8dfdb22d3d204520603e6dd6891953",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\5ea0ed7192faca7a\\solver_log.jsonl.gz",
+      "bytes": 42,
+      "sha256": "b13239fe0200adc05f6024d9e737f1d886ad11a40b299d783ad30cdab17f334b",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\67a7a11b96d7e9bf\\common_random_conditions.json",
+      "bytes": 25624,
+      "sha256": "79c3bbe8284140d1f0cbf93fe368ab68f3c03db01554e5ef26a09c35e81f8942",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\67a7a11b96d7e9bf\\config.json",
+      "bytes": 1248,
+      "sha256": "b7241efcf61b538f9ef2b8a7ac2b9f8789970af4f3fb61ae230c0dc8a23c3a3a",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\67a7a11b96d7e9bf\\energy_ledger.csv.gz",
+      "bytes": 37754,
+      "sha256": "bf42fbfd9ed1fea28fa5aeade6aa22cfa78561640069e1fa7f2dd0f14db8fd6c",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\67a7a11b96d7e9bf\\events.csv.gz",
+      "bytes": 28554,
+      "sha256": "f8bd0204e6734b966f751d67aee5faa5e13206b46c8728190dd3520b12222485",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\67a7a11b96d7e9bf\\input_ids.json",
+      "bytes": 15752,
+      "sha256": "b90046991855886e699deec69e1f38c19b88956417439b4206a9e221f9c3c137",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\67a7a11b96d7e9bf\\metrics.json",
+      "bytes": 3126,
+      "sha256": "eef4e2f27779b13c2dcd9d539b4c9cbee2a02b02d8a32aec9a06d264bcdb9ebf",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\67a7a11b96d7e9bf\\requests.csv.gz",
+      "bytes": 35964,
+      "sha256": "e118ac9af3c8d1a8b8f7136fa62546ed444f3e7c46637e4293d088fbf998ad61",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\67a7a11b96d7e9bf\\solver_log.jsonl.gz",
+      "bytes": 42,
+      "sha256": "7cd703f8df763ba59a7ad7dce438236522b660adbeedcbb26be6691aa6b321da",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\69dd866939501562\\common_random_conditions.json",
+      "bytes": 25624,
+      "sha256": "79c3bbe8284140d1f0cbf93fe368ab68f3c03db01554e5ef26a09c35e81f8942",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\69dd866939501562\\config.json",
+      "bytes": 1249,
+      "sha256": "8959bc4a0d8887da74058791e977e16c5f0526e5acb75fa7db81fd5ec538440f",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\69dd866939501562\\energy_ledger.csv.gz",
+      "bytes": 40365,
+      "sha256": "20343ab4b7c90b0bd4af795f7067d0d16b99e10fbf053898ee10252ef1b924e8",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\69dd866939501562\\events.csv.gz",
+      "bytes": 28059,
+      "sha256": "b0ebb4b76ce7837d8eb842388b6da81848cdcb00c297aaae086f37764315a9c1",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\69dd866939501562\\input_ids.json",
+      "bytes": 15752,
+      "sha256": "b90046991855886e699deec69e1f38c19b88956417439b4206a9e221f9c3c137",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\69dd866939501562\\metrics.json",
+      "bytes": 3108,
+      "sha256": "2933e0b733cdc2d706b15648ddf14aa06555ac6a1884fa3bd8773f3f2f5df8ae",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\69dd866939501562\\requests.csv.gz",
+      "bytes": 35851,
+      "sha256": "256c1fed1bb47a580434a9548feec384f7057bdd2e4643124947231b83702319",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\69dd866939501562\\solver_log.jsonl.gz",
+      "bytes": 42,
+      "sha256": "7cd703f8df763ba59a7ad7dce438236522b660adbeedcbb26be6691aa6b321da",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\6af30f7ab4b096bf\\common_random_conditions.json",
+      "bytes": 51156,
+      "sha256": "307e7e9d1c171310846fe2c828222ab0bd360b0ec3a9bb51560526a7d225e36b",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\6af30f7ab4b096bf\\config.json",
+      "bytes": 1251,
+      "sha256": "66c80a67566565218f3be49ec2708d8d0f41beb4c7566c5a8352f1934a332513",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\6af30f7ab4b096bf\\energy_ledger.csv.gz",
+      "bytes": 79374,
+      "sha256": "58b2c3517c007b9f021e460a72c983eaee8e37e432a65e1dbbc5c5952a4270fd",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\6af30f7ab4b096bf\\events.csv.gz",
+      "bytes": 56124,
+      "sha256": "69ea94f2f20dd4c011964b6b705df84d367bedca9959b5bffd4cab00711d7c56",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\6af30f7ab4b096bf\\input_ids.json",
+      "bytes": 31430,
+      "sha256": "ab75d58287625c25fbb38e09f84c606265b2e99ada3fbb6cdba3a1df8b162aa7",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\6af30f7ab4b096bf\\metrics.json",
+      "bytes": 3162,
+      "sha256": "b5408aed199c7917151c9683a6904ad2bfe2bfaf6661c041f69c7da931f9e61d",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\6af30f7ab4b096bf\\requests.csv.gz",
+      "bytes": 74638,
+      "sha256": "fcb2255fa71d9264ba675de20b33463e4489225aae5763f8c72c5ca21b667f34",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\6af30f7ab4b096bf\\solver_log.jsonl.gz",
+      "bytes": 5561,
+      "sha256": "f3af7eced82b227b034eba23faa465765021dc06852f64285a5dd599977f311e",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\6b9158af2311fbe8\\common_random_conditions.json",
+      "bytes": 51156,
+      "sha256": "307e7e9d1c171310846fe2c828222ab0bd360b0ec3a9bb51560526a7d225e36b",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\6b9158af2311fbe8\\config.json",
+      "bytes": 1208,
+      "sha256": "60ac140b8dbb8accd8bc53b3a529b097a02732a17eb0f6f77f7bc49e8bb3c4c7",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\6b9158af2311fbe8\\energy_ledger.csv.gz",
+      "bytes": 79409,
+      "sha256": "c31d4f684ae274fbe745bd8c724d6dde7e179649eb5e13c31a72fff455e780d9",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\6b9158af2311fbe8\\events.csv.gz",
+      "bytes": 56124,
+      "sha256": "d7445b6df626fa13c9c1e849fef8d6d16b06b3e4bd5847469dcccf7c70d0167d",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\6b9158af2311fbe8\\input_ids.json",
+      "bytes": 31430,
+      "sha256": "ab75d58287625c25fbb38e09f84c606265b2e99ada3fbb6cdba3a1df8b162aa7",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\6b9158af2311fbe8\\metrics.json",
+      "bytes": 3175,
+      "sha256": "678c04fded6d274a8d23ef4abb017d4c57ecc882b40880e376f59557723766f4",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\6b9158af2311fbe8\\requests.csv.gz",
+      "bytes": 74638,
+      "sha256": "af352a45bc1e78bbeaceba184654475981f3429c463db4037021080d34623c13",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\6b9158af2311fbe8\\solver_log.jsonl.gz",
+      "bytes": 5553,
+      "sha256": "4d390cde7c726b7763e2f124585cfe2051211ddec2918ab0d50da1b4d23a8db9",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\71a63a5ffefe0493\\common_random_conditions.json",
+      "bytes": 25608,
+      "sha256": "6f4a89cbdd0afcff1d779421b2c21ac670a7b34f161ba8631a2477277c2b0782",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\71a63a5ffefe0493\\config.json",
+      "bytes": 1249,
+      "sha256": "52beea301ad69194aa8f40f45ccc8a2c5b2789b434f19aa529d633994e2ab2e9",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\71a63a5ffefe0493\\energy_ledger.csv.gz",
+      "bytes": 37740,
+      "sha256": "49fbe3fae8e8f336d756738e73764813571f54aa5327f962aab2bfdd494090fd",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\71a63a5ffefe0493\\events.csv.gz",
+      "bytes": 28562,
+      "sha256": "404b83ccde54d63d01c38842bdd7538f841708dad4f568192c362ee9658f01e3",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\71a63a5ffefe0493\\input_ids.json",
+      "bytes": 15752,
+      "sha256": "b90046991855886e699deec69e1f38c19b88956417439b4206a9e221f9c3c137",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\71a63a5ffefe0493\\metrics.json",
+      "bytes": 3130,
+      "sha256": "db55c8f1bda15e659c78c96e4b2b1c07678375bf6388aad14f46c2fba14d616c",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\71a63a5ffefe0493\\requests.csv.gz",
+      "bytes": 36036,
+      "sha256": "20863b6757226d8d64805da1379b75e82b9e1e222975f00528868f3d669f207b",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\71a63a5ffefe0493\\solver_log.jsonl.gz",
+      "bytes": 42,
+      "sha256": "5658108775b9f1979b05f7bac5022e2dc5af0f214105c72baf349d657c4a2302",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\74767e739b92cd5d\\common_random_conditions.json",
+      "bytes": 25608,
+      "sha256": "6f4a89cbdd0afcff1d779421b2c21ac670a7b34f161ba8631a2477277c2b0782",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\74767e739b92cd5d\\config.json",
+      "bytes": 1207,
+      "sha256": "64ca54132c011273fe07c5a45f31e42e2a0f5e35305f8719dd1b1ce54ce075f3",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\74767e739b92cd5d\\energy_ledger.csv.gz",
+      "bytes": 40441,
+      "sha256": "4981b19c4914de0349e1527f039aeb5a3c75ba0de373e064f380215770cf1110",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\74767e739b92cd5d\\events.csv.gz",
+      "bytes": 28063,
+      "sha256": "cc7881f570e2630a6a38ceae9015b58786ec52aa9792d4e992d85dbf332ffeec",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\74767e739b92cd5d\\input_ids.json",
+      "bytes": 15752,
+      "sha256": "b90046991855886e699deec69e1f38c19b88956417439b4206a9e221f9c3c137",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\74767e739b92cd5d\\metrics.json",
+      "bytes": 3124,
+      "sha256": "2cd8ec6193cc9ea6bf07bdecabab99dcb3ebef2d17acee4d030b8b8b0a679282",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\74767e739b92cd5d\\requests.csv.gz",
+      "bytes": 35823,
+      "sha256": "1ee896db3c020a43a4fff30a8f649abf5bafc497d43097fa321ba2bbf3c5815e",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\74767e739b92cd5d\\solver_log.jsonl.gz",
+      "bytes": 42,
+      "sha256": "002c2cff347267cdf70df7f8276182f734a6285414cdb7696a8b68d1010d2b78",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\74a27ec7cf149dad\\common_random_conditions.json",
+      "bytes": 25608,
+      "sha256": "6f4a89cbdd0afcff1d779421b2c21ac670a7b34f161ba8631a2477277c2b0782",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\74a27ec7cf149dad\\config.json",
+      "bytes": 1249,
+      "sha256": "5e640c65f6f3604d86981b3a327e411a72a341d7b7d7d6e6098bc2e2c742d355",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\74a27ec7cf149dad\\energy_ledger.csv.gz",
+      "bytes": 37740,
+      "sha256": "7627ca3c399672b9870fcf682831d078f9f6fa784bddd1cbc9ba79daf87dc6b8",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\74a27ec7cf149dad\\events.csv.gz",
+      "bytes": 28562,
+      "sha256": "0d3d8f8a0d1711a4e8954b9c8cc2b53b818d68a5fb8c7ba0d8fe716b9bf96ff6",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\74a27ec7cf149dad\\input_ids.json",
+      "bytes": 15752,
+      "sha256": "b90046991855886e699deec69e1f38c19b88956417439b4206a9e221f9c3c137",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\74a27ec7cf149dad\\metrics.json",
+      "bytes": 3131,
+      "sha256": "389d9be232557c9b219dd17e692780047a4900e82e60da7a38c37051cd236911",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\74a27ec7cf149dad\\requests.csv.gz",
+      "bytes": 36036,
+      "sha256": "6e13801d76e4170ae1e326549ccb8d9867668d77631b92c789913ff72ad660e0",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\74a27ec7cf149dad\\solver_log.jsonl.gz",
+      "bytes": 42,
+      "sha256": "e7b64634043f3c6b8d9136b594a1a8866327863d52e280e1e10ea95c1880e222",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\764af4cd7720003b\\common_random_conditions.json",
+      "bytes": 376462,
+      "sha256": "ab032aeb4b76fd622ece6b43bfe39fdd8b24594f763859591b230a490086014b",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\764af4cd7720003b\\config.json",
+      "bytes": 1248,
+      "sha256": "861dc673d01bdeaf37fbb73c4bafd3c57087d3b08ce3a05f9578601919d1d231",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\764af4cd7720003b\\energy_ledger.csv.gz",
+      "bytes": 599843,
+      "sha256": "750e9fbaa3e1c90b14688bfa8f6cd9c69ddbb0a27217015229fa839ae9125f62",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\764af4cd7720003b\\events.csv.gz",
+      "bytes": 439912,
+      "sha256": "24ec14d69b3c867d0ae99f6b2283e613fcb076b30e425b2930d4098bce3cd826",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\764af4cd7720003b\\input_ids.json",
+      "bytes": 231607,
+      "sha256": "1f53066900c6800618399e706d913eb5426f626b191c5587e2017f616b2c97c8",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\764af4cd7720003b\\metrics.json",
+      "bytes": 3224,
+      "sha256": "eb5d74dfc67c2169d6112c3f9b356927163a4fcbdd4832fcbe1f23dc5e3915cb",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\764af4cd7720003b\\requests.csv.gz",
+      "bytes": 577588,
+      "sha256": "c82d378fe6eefb2c635234078d1d3471f50958d648135f1dc85a704b5401e7b5",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\764af4cd7720003b\\solver_log.jsonl.gz",
+      "bytes": 200486,
+      "sha256": "99e609ff49633fd34c84df843e3ee404065ee070e40d80812700db2ad9c32bde",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\7a12557084ea7edd\\common_random_conditions.json",
+      "bytes": 51156,
+      "sha256": "307e7e9d1c171310846fe2c828222ab0bd360b0ec3a9bb51560526a7d225e36b",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\7a12557084ea7edd\\config.json",
+      "bytes": 1250,
+      "sha256": "5a12ef3aaa4051ca36636352d6099f1da3cacd9c555027e72cbf94785959d19f",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\7a12557084ea7edd\\energy_ledger.csv.gz",
+      "bytes": 73958,
+      "sha256": "ae52d0a9d3e2140507a072507060cc0ccbad25275fa585a49fe171a8dd56bd57",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\7a12557084ea7edd\\events.csv.gz",
+      "bytes": 56311,
+      "sha256": "433f7086eba8c489d1e8aae32fe627ae2e1ac791c9890640557be530ddc1253e",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\7a12557084ea7edd\\input_ids.json",
+      "bytes": 31430,
+      "sha256": "ab75d58287625c25fbb38e09f84c606265b2e99ada3fbb6cdba3a1df8b162aa7",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\7a12557084ea7edd\\metrics.json",
+      "bytes": 3131,
+      "sha256": "e02a1b57980f40558dc346f460df364efa7ed419dde616c128395287883d2af1",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\7a12557084ea7edd\\requests.csv.gz",
+      "bytes": 70754,
+      "sha256": "806e492bc45eacf383510939fd59fdc31c1a0f6e962cffc7e485f2b9085763d2",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\7a12557084ea7edd\\solver_log.jsonl.gz",
+      "bytes": 42,
+      "sha256": "8df50a185b26e4ef82276a2e1310b59dd13356dec540bb8e23af5d42a5abbbdc",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\7fd6f5bae818ad3c\\common_random_conditions.json",
+      "bytes": 25624,
+      "sha256": "79c3bbe8284140d1f0cbf93fe368ab68f3c03db01554e5ef26a09c35e81f8942",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\7fd6f5bae818ad3c\\config.json",
+      "bytes": 1250,
+      "sha256": "f96727f3efe7dc47807eb3b253d449dba0f45787bc097d4613e931dfb7454cdd",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\7fd6f5bae818ad3c\\energy_ledger.csv.gz",
+      "bytes": 40380,
+      "sha256": "5d71701a49b02ffa8eda187b527a363d0ec641dceb929a350fd46b23f919fd5e",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\7fd6f5bae818ad3c\\events.csv.gz",
+      "bytes": 28067,
+      "sha256": "f85dad850d294bb864327cb7b22df13310d5e6f6688f7776901840f43245df71",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\7fd6f5bae818ad3c\\input_ids.json",
+      "bytes": 15752,
+      "sha256": "b90046991855886e699deec69e1f38c19b88956417439b4206a9e221f9c3c137",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\7fd6f5bae818ad3c\\metrics.json",
+      "bytes": 3110,
+      "sha256": "0ca2a3ff29fb672732bab8073c40059e2ef2d5ae61a87406284d5e6c6ef5d473",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\7fd6f5bae818ad3c\\requests.csv.gz",
+      "bytes": 35858,
+      "sha256": "79388006518642e370d0e1a77e429f043aa74b2687e7893c49a45b61816b8ef0",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\7fd6f5bae818ad3c\\solver_log.jsonl.gz",
+      "bytes": 42,
+      "sha256": "818d1ab75e4be24359409c646a10ed27dfdbab2ca5a2ff3742e5a25235c7bc83",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\832594c5ee508690\\common_random_conditions.json",
+      "bytes": 376462,
+      "sha256": "ab032aeb4b76fd622ece6b43bfe39fdd8b24594f763859591b230a490086014b",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\832594c5ee508690\\config.json",
+      "bytes": 1251,
+      "sha256": "2c2e7b6c26977ea7a96a4e0565bf1889b2db06ed7900edaa4b84eae76c5c460c",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\832594c5ee508690\\energy_ledger.csv.gz",
+      "bytes": 554908,
+      "sha256": "50c3c447d43f94d482dfa47353e7cc245535097881322ac09bfcafe6fb2b37cc",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\832594c5ee508690\\events.csv.gz",
+      "bytes": 395363,
+      "sha256": "122c9adecb97272b471ddf3d341ea15584de17864b715d0acd4a095c380ec22e",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\832594c5ee508690\\input_ids.json",
+      "bytes": 231607,
+      "sha256": "1f53066900c6800618399e706d913eb5426f626b191c5587e2017f616b2c97c8",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\832594c5ee508690\\metrics.json",
+      "bytes": 3185,
+      "sha256": "bfd49c34541534eef7d7381814f0105e8ea055a3bb3e50e9c0289703eeb5dba8",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\832594c5ee508690\\requests.csv.gz",
+      "bytes": 521840,
+      "sha256": "3d7199cf2a6a404932ce3549b7489d1c235172dec5e5e51c62e4bf6f69c45b84",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\832594c5ee508690\\solver_log.jsonl.gz",
+      "bytes": 42,
+      "sha256": "05368c261da939e66ee9b4f402f11f717c57f8b3a9e0467295c701051a1c6ab5",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\83331b2e39515a51\\common_random_conditions.json",
+      "bytes": 5061,
+      "sha256": "8c0adee1ee04f983c3c5e5c20ea95277cfa0181f4b948aaace3107ea215da40a",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\83331b2e39515a51\\config.json",
+      "bytes": 742,
+      "sha256": "4601717bff3372f77a260279e1e31c6704a5b707c2598d5642294c8c2a2a900c",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\83331b2e39515a51\\energy_ledger.csv.gz",
+      "bytes": 7941,
+      "sha256": "9786462999184c3e9d2f397b5e77863992bf9c4fdb17f70d5bf0ad3cbcb13f2c",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\83331b2e39515a51\\events.csv.gz",
+      "bytes": 6076,
+      "sha256": "77db309feb843eef6ce7d4fb0d5380696593e7ebbf63376794e22f50efec66a2",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\83331b2e39515a51\\input_ids.json",
+      "bytes": 3080,
+      "sha256": "8ece0c649208b17d97f9ba33c11f85ae0f5cf80705ddfa3eb97b51385786c2d8",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\83331b2e39515a51\\metrics.json",
+      "bytes": 2674,
+      "sha256": "19c3bbe147e1650d67174efe4930afcf2eb418badc69cce29b8e40e791e51d3c",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\83331b2e39515a51\\requests.csv.gz",
+      "bytes": 7871,
+      "sha256": "7645f2b908da1edc883d47654714e8c60f6315ee3f101faf45f95b22cb7af089",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\83331b2e39515a51\\solver_log.jsonl.gz",
+      "bytes": 42,
+      "sha256": "6191d92834b4bb968eb0cc46274751e6003861aa1d3be3ecfcd08294651a1221",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\8347e3e4232f1019\\common_random_conditions.json",
+      "bytes": 25608,
+      "sha256": "6f4a89cbdd0afcff1d779421b2c21ac670a7b34f161ba8631a2477277c2b0782",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\8347e3e4232f1019\\config.json",
+      "bytes": 1247,
+      "sha256": "63fd8314eb0b143ac405e07135e0ca0a328563a7ecb14d145e07f2925371fdc4",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\8347e3e4232f1019\\energy_ledger.csv.gz",
+      "bytes": 45540,
+      "sha256": "53289dc997b1dba51eb7c4b00f9448d0b7c00f029d7b054146c9fdafbd39f7cc",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\8347e3e4232f1019\\events.csv.gz",
+      "bytes": 33063,
+      "sha256": "8f1168c0a9ce5efa331278eefe3f4a1f7d7b4b3568337d4c1393e8db91c79629",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\8347e3e4232f1019\\input_ids.json",
+      "bytes": 15752,
+      "sha256": "b90046991855886e699deec69e1f38c19b88956417439b4206a9e221f9c3c137",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\8347e3e4232f1019\\metrics.json",
+      "bytes": 3110,
+      "sha256": "3817d99108d8a44f2fd0a25fe4f9095712dda95efe71e455e8f7d0d6c5907852",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\8347e3e4232f1019\\requests.csv.gz",
+      "bytes": 38392,
+      "sha256": "73ab8d1879597e29f321ed4a1321900583ef8be4934c41f7884bcbad203b6da0",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\8347e3e4232f1019\\solver_log.jsonl.gz",
+      "bytes": 16040,
+      "sha256": "9cda0cfdd46573ed4e4cd6ff8eecaff83febb38647bb0c08657828aa21fac1c9",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\8be6c2bb207b6a0d\\common_random_conditions.json",
+      "bytes": 25633,
+      "sha256": "99e1b4271a8b247e0a4f42b3777325060cb649051770db8f7bab5fd5a938f153",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\8be6c2bb207b6a0d\\config.json",
+      "bytes": 1250,
+      "sha256": "ea3c58b47634c6169766812ae6df62a90648dd88a3113d8bfa01c463169d57c3",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\8be6c2bb207b6a0d\\energy_ledger.csv.gz",
+      "bytes": 40394,
+      "sha256": "8a324edc060745c1a7c8b3521c82a59736a0d9af7e05ddedd4d1636eab8ecf66",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\8be6c2bb207b6a0d\\events.csv.gz",
+      "bytes": 28387,
+      "sha256": "420c7ee4e3c68f433d5e7e7805d734c69adeaab33264d4d336577bd63ead3b11",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\8be6c2bb207b6a0d\\input_ids.json",
+      "bytes": 15752,
+      "sha256": "b90046991855886e699deec69e1f38c19b88956417439b4206a9e221f9c3c137",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\8be6c2bb207b6a0d\\metrics.json",
+      "bytes": 3118,
+      "sha256": "2d06732761ae5b8956b0275434ada3f6fb52f65ca4c958f3139d0a82e495a9f0",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\8be6c2bb207b6a0d\\requests.csv.gz",
+      "bytes": 35848,
+      "sha256": "e8feba0734b40b90bcc35396f7de1563c24ca53b6904dccea7e7021f74f21cdb",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\8be6c2bb207b6a0d\\solver_log.jsonl.gz",
+      "bytes": 42,
+      "sha256": "76e6f0006019277a9e8a9e34e491a95ce01bd6c122eca306586da9326120dd34",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\8dfebed52c55daf9\\common_random_conditions.json",
+      "bytes": 25633,
+      "sha256": "99e1b4271a8b247e0a4f42b3777325060cb649051770db8f7bab5fd5a938f153",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\8dfebed52c55daf9\\config.json",
+      "bytes": 1249,
+      "sha256": "95800c9bae81890ef709abff34542c412f29b76398dcfa0efa15d022b4b0a0dc",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\8dfebed52c55daf9\\energy_ledger.csv.gz",
+      "bytes": 40301,
+      "sha256": "43082743fe910a2622ef6c2597b78b3c0eca2d1912fcd01ba40a25db0851ce64",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\8dfebed52c55daf9\\events.csv.gz",
+      "bytes": 28056,
+      "sha256": "280055ffe39cd6c2adaffd4513dea2d20d039b5b5c8e8b9682067344166aaaa0",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\8dfebed52c55daf9\\input_ids.json",
+      "bytes": 15752,
+      "sha256": "b90046991855886e699deec69e1f38c19b88956417439b4206a9e221f9c3c137",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\8dfebed52c55daf9\\metrics.json",
+      "bytes": 3111,
+      "sha256": "21e6b0b5b23d89dfba1a8ad337647bff8e2d8df991de0ab5e50b0bc965ea1211",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\8dfebed52c55daf9\\requests.csv.gz",
+      "bytes": 35872,
+      "sha256": "aa4ecbd5e06e2381f0776749c93a1851d5baa5204f7f05dd245315a385d000c1",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\8dfebed52c55daf9\\solver_log.jsonl.gz",
+      "bytes": 42,
+      "sha256": "4251e7f61f1fa63aa85c8138eba9305dd006b9b9dc54663d95fafb8c7b1a6e91",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\9aa5c3c993c91b95\\common_random_conditions.json",
+      "bytes": 25633,
+      "sha256": "99e1b4271a8b247e0a4f42b3777325060cb649051770db8f7bab5fd5a938f153",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\9aa5c3c993c91b95\\config.json",
+      "bytes": 1249,
+      "sha256": "27123e5dca1a44dc37f186f950b361395ba995a0fe463d5b8fdc5be48c62934a",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\9aa5c3c993c91b95\\energy_ledger.csv.gz",
+      "bytes": 37784,
+      "sha256": "7de810c4a3787f67ee63cf1d84090c4e3994fee6b160791c33656688e5b7268d",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\9aa5c3c993c91b95\\events.csv.gz",
+      "bytes": 28548,
+      "sha256": "9f7f75a8d2e065055e7ebc7e3f28f6c806e731d7405fa41d9344234645535c35",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\9aa5c3c993c91b95\\input_ids.json",
+      "bytes": 15752,
+      "sha256": "b90046991855886e699deec69e1f38c19b88956417439b4206a9e221f9c3c137",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\9aa5c3c993c91b95\\metrics.json",
+      "bytes": 3126,
+      "sha256": "0c703bd8be50d6dddebda25bc1e7344046d034edcda6491f68f84a5d9b7eb3bd",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\9aa5c3c993c91b95\\requests.csv.gz",
+      "bytes": 35948,
+      "sha256": "58ce6f0f9e852e0993947770f67c7591cda1424c9b9183414b7f46ad32182c7f",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\9aa5c3c993c91b95\\solver_log.jsonl.gz",
+      "bytes": 42,
+      "sha256": "8249b19b1dab3598ec13e8a915c9949e055fe24004576bb173cf3b4e33c52c42",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\9cfbdf8ecf6f558d\\common_random_conditions.json",
+      "bytes": 25633,
+      "sha256": "99e1b4271a8b247e0a4f42b3777325060cb649051770db8f7bab5fd5a938f153",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\9cfbdf8ecf6f558d\\config.json",
+      "bytes": 1250,
+      "sha256": "22d111a7e3afbf7ac8d2b2d60c8546958c5e81d72a7658cfae97258ecaac2bf4",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\9cfbdf8ecf6f558d\\energy_ledger.csv.gz",
+      "bytes": 40392,
+      "sha256": "4be0132ae792ab32c95aba6b6a6a47be8d9a86b4222c1b9e8d8cda6436dae10c",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\9cfbdf8ecf6f558d\\events.csv.gz",
+      "bytes": 28172,
+      "sha256": "97cedde80de2df77ac1af11c9e8c1ff5b437c36e420a078ecd6b33408ce31a33",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\9cfbdf8ecf6f558d\\input_ids.json",
+      "bytes": 15752,
+      "sha256": "b90046991855886e699deec69e1f38c19b88956417439b4206a9e221f9c3c137",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\9cfbdf8ecf6f558d\\metrics.json",
+      "bytes": 3119,
+      "sha256": "c189358544c562ae4fad2698d81cb077c1cae96c762296743cd53d7007b34e03",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\9cfbdf8ecf6f558d\\requests.csv.gz",
+      "bytes": 35855,
+      "sha256": "aa6ce55c70d1165928747f09366885cb061584c9ad55a6ca42d93031168bad1a",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\9cfbdf8ecf6f558d\\solver_log.jsonl.gz",
+      "bytes": 42,
+      "sha256": "7b11d7f6869b9cb5f21745c3aada1c97cb45f208748bc4b794b3f87c41e02294",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\ab04a7b5903afa41\\common_random_conditions.json",
+      "bytes": 5061,
+      "sha256": "8c0adee1ee04f983c3c5e5c20ea95277cfa0181f4b948aaace3107ea215da40a",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\ab04a7b5903afa41\\config.json",
+      "bytes": 1247,
+      "sha256": "3224e7e003862b0fe6ca11aad35861541922dd2d05b54b75e19ba123b572b6f9",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\ab04a7b5903afa41\\energy_ledger.csv.gz",
+      "bytes": 9810,
+      "sha256": "88f36ef256b2f861df5bf7b698d996c6050b878d40e40838ae1836e9855add5b",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\ab04a7b5903afa41\\events.csv.gz",
+      "bytes": 7155,
+      "sha256": "7c704c2dff8998f3a4261c9e0f18d081eab41c72556274baa37d3f5ed7f0312f",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\ab04a7b5903afa41\\input_ids.json",
+      "bytes": 3080,
+      "sha256": "8ece0c649208b17d97f9ba33c11f85ae0f5cf80705ddfa3eb97b51385786c2d8",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\ab04a7b5903afa41\\metrics.json",
+      "bytes": 3134,
+      "sha256": "c307e915dcdf04c3ca0d5f3e82370d10f3c3509c356ba54ea60651062b0c71b4",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\ab04a7b5903afa41\\requests.csv.gz",
+      "bytes": 8363,
+      "sha256": "8a5d757f5ad697b55d112334eee817773b986c64cb64bbd4c48bf53d8368662a",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\ab04a7b5903afa41\\solver_log.jsonl.gz",
+      "bytes": 3825,
+      "sha256": "875e116ae8d3a859f6c12d2ce46782cce5899c6b50c79dee0d05e05e1f1a84c7",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\af23e3e3e14c04b6\\common_random_conditions.json",
+      "bytes": 25624,
+      "sha256": "79c3bbe8284140d1f0cbf93fe368ab68f3c03db01554e5ef26a09c35e81f8942",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\af23e3e3e14c04b6\\config.json",
+      "bytes": 1249,
+      "sha256": "230a17f9f74198e60b8abffa0737e2ce85f05c214cd9dab2302fa492bd855e0a",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\af23e3e3e14c04b6\\energy_ledger.csv.gz",
+      "bytes": 40365,
+      "sha256": "63d210ce28599096c3082497a9f4516a0043ef87d2ae099436f9bca020f92dc0",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\af23e3e3e14c04b6\\events.csv.gz",
+      "bytes": 28059,
+      "sha256": "77b7ce361ec8c483690e0f5a35ca8d2834c57edb34db05a0f08e5e494513b19e",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\af23e3e3e14c04b6\\input_ids.json",
+      "bytes": 15752,
+      "sha256": "b90046991855886e699deec69e1f38c19b88956417439b4206a9e221f9c3c137",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\af23e3e3e14c04b6\\metrics.json",
+      "bytes": 3108,
+      "sha256": "be75852a65857bf2110103c96193fff0e7faf836f44535428155c16f6bfc0bf4",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\af23e3e3e14c04b6\\requests.csv.gz",
+      "bytes": 35851,
+      "sha256": "312aa445339f763acc3f5dab19e58fd0b73f9f32a521ccc425d18085db554589",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\af23e3e3e14c04b6\\solver_log.jsonl.gz",
+      "bytes": 42,
+      "sha256": "059632d04c83bf507c094dbaa90279cab8a049d856590ddd4bf010b3819d5411",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\af49a9891e53b475\\common_random_conditions.json",
+      "bytes": 376462,
+      "sha256": "ab032aeb4b76fd622ece6b43bfe39fdd8b24594f763859591b230a490086014b",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\af49a9891e53b475\\config.json",
+      "bytes": 1207,
+      "sha256": "44afbc0660743446ef053bea460617bee89011c0ad81e1dc08b2316b2d7c1a49",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\af49a9891e53b475\\energy_ledger.csv.gz",
+      "bytes": 515248,
+      "sha256": "a8f5e238125583881273cb7b71320c9ba84a828d460ed6e7f572edc3ae4f61fe",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\af49a9891e53b475\\events.csv.gz",
+      "bytes": 397365,
+      "sha256": "e4ea0b90bd26f4b5a09bd6e9a67cd0cb6c9093165bb5549e5210f8bc4bc16f9d",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\af49a9891e53b475\\input_ids.json",
+      "bytes": 231607,
+      "sha256": "1f53066900c6800618399e706d913eb5426f626b191c5587e2017f616b2c97c8",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\af49a9891e53b475\\metrics.json",
+      "bytes": 3200,
+      "sha256": "7368abad102784c11b48f3a418dd07b21c9f8aefefb8b55ce865fbb31144dbdd",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\af49a9891e53b475\\requests.csv.gz",
+      "bytes": 525800,
+      "sha256": "753de42810c7a7f0d93dc142ea3521ea7b7c05c897a164e1cf6126897ab0fde2",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\af49a9891e53b475\\solver_log.jsonl.gz",
+      "bytes": 42,
+      "sha256": "ee237e0669871202ec3d5f87ddc6a28c8defd946f1508dcf643538d8318d8efc",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\b76aab5800bd5ddc\\common_random_conditions.json",
+      "bytes": 25624,
+      "sha256": "79c3bbe8284140d1f0cbf93fe368ab68f3c03db01554e5ef26a09c35e81f8942",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\b76aab5800bd5ddc\\config.json",
+      "bytes": 1249,
+      "sha256": "d888b6cb78803c10370c3df27eeb016a51c5497fc0068613d32b4d423f0a376f",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\b76aab5800bd5ddc\\energy_ledger.csv.gz",
+      "bytes": 37754,
+      "sha256": "83cbe9b5d7bd4a10f436fd349c90f8507a3575d1d22534608c0f8ff5bcf01007",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\b76aab5800bd5ddc\\events.csv.gz",
+      "bytes": 28554,
+      "sha256": "da9cb94c4ede0217c4394d9c561957db82b5c63f0f40b2114983c73a434b3856",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\b76aab5800bd5ddc\\input_ids.json",
+      "bytes": 15752,
+      "sha256": "b90046991855886e699deec69e1f38c19b88956417439b4206a9e221f9c3c137",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\b76aab5800bd5ddc\\metrics.json",
+      "bytes": 3126,
+      "sha256": "43e157ccbb75b37733a1c8ad81515275eb7c9bc1f87c645520a4897def2069e1",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\b76aab5800bd5ddc\\requests.csv.gz",
+      "bytes": 35964,
+      "sha256": "52944ed759f18ad77469fc8c07258601928aa112fbdff61ea3e4e6b4c63d9fc6",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\b76aab5800bd5ddc\\solver_log.jsonl.gz",
+      "bytes": 42,
+      "sha256": "04d2e9c0d478a3d3974ee56e1c917c5054bb4c3b24df507a40b132d73efbd0a4",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\bc8eaf4a877efc37\\common_random_conditions.json",
+      "bytes": 25633,
+      "sha256": "99e1b4271a8b247e0a4f42b3777325060cb649051770db8f7bab5fd5a938f153",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\bc8eaf4a877efc37\\config.json",
+      "bytes": 1248,
+      "sha256": "393a3369d830713e6d7e364977ca95a380bdb4e63fa935dc41d414a73e1a1789",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\bc8eaf4a877efc37\\energy_ledger.csv.gz",
+      "bytes": 37784,
+      "sha256": "9c2a09fbb60105214a1dd6943d12bebbb9b5ba74b31794b3c1aa67a8ae9fe6a8",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\bc8eaf4a877efc37\\events.csv.gz",
+      "bytes": 28548,
+      "sha256": "d5b67ba1ca6400116fd3a6e70a1a3c7f9013c87db5adbeb0138a0cede840fac6",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\bc8eaf4a877efc37\\input_ids.json",
+      "bytes": 15752,
+      "sha256": "b90046991855886e699deec69e1f38c19b88956417439b4206a9e221f9c3c137",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\bc8eaf4a877efc37\\metrics.json",
+      "bytes": 3126,
+      "sha256": "19178bc1111c21e680cc2e08e73a1c1ea76def8a507d255cf081d6e72cc1502d",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\bc8eaf4a877efc37\\requests.csv.gz",
+      "bytes": 35948,
+      "sha256": "5215def6ee8f5d6635b1850e9831c81719d535cfd6e773297106be93e9bd8f35",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\bc8eaf4a877efc37\\solver_log.jsonl.gz",
+      "bytes": 42,
+      "sha256": "4251e7f61f1fa63aa85c8138eba9305dd006b9b9dc54663d95fafb8c7b1a6e91",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\bcca9ae3534b391a\\common_random_conditions.json",
+      "bytes": 51156,
+      "sha256": "307e7e9d1c171310846fe2c828222ab0bd360b0ec3a9bb51560526a7d225e36b",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\bcca9ae3534b391a\\config.json",
+      "bytes": 1248,
+      "sha256": "f7c989552d5977c4f71381f09d9bdb9f837d74f75dd5a2428285927b555662d2",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\bcca9ae3534b391a\\energy_ledger.csv.gz",
+      "bytes": 88878,
+      "sha256": "e2e2fbe2f39c84200b6385a6ad68c3656c3509c70f8257b06d9db998cc0c0b13",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\bcca9ae3534b391a\\events.csv.gz",
+      "bytes": 64940,
+      "sha256": "d3340c59d2b9d7f02dd1aed15f0c880a280a8ede87a0b353a4248e2689117f90",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\bcca9ae3534b391a\\input_ids.json",
+      "bytes": 31430,
+      "sha256": "ab75d58287625c25fbb38e09f84c606265b2e99ada3fbb6cdba3a1df8b162aa7",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\bcca9ae3534b391a\\metrics.json",
+      "bytes": 3124,
+      "sha256": "dd5eb8a899fcd3386aa8a057a06249fea02a6b1e088073de3b7868eca5d47b06",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\bcca9ae3534b391a\\requests.csv.gz",
+      "bytes": 75817,
+      "sha256": "b6367b1159e524ce756a893dfd01cd546616d0eb0e3c615418844cf368351ed7",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\bcca9ae3534b391a\\solver_log.jsonl.gz",
+      "bytes": 31531,
+      "sha256": "7347ceb318e9c22599fe084c7bc468586254a3dba37876e1d3bec511e103192e",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\c459741a55afa06f\\common_random_conditions.json",
+      "bytes": 5061,
+      "sha256": "8c0adee1ee04f983c3c5e5c20ea95277cfa0181f4b948aaace3107ea215da40a",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\c459741a55afa06f\\config.json",
+      "bytes": 1250,
+      "sha256": "5357a4f6e489329ba1e4d1a23720b64981cd102c57af1bcd7e96cfdee2583977",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\c459741a55afa06f\\energy_ledger.csv.gz",
+      "bytes": 8452,
+      "sha256": "81665da10d6e4a04984d8bfb3538c47b322a5a38b2a3dffc70491c310522816a",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\c459741a55afa06f\\events.csv.gz",
+      "bytes": 5982,
+      "sha256": "4df9d41495302b92986604273b869dc3099495976ca1921e248d5881018648c9",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\c459741a55afa06f\\input_ids.json",
+      "bytes": 3080,
+      "sha256": "8ece0c649208b17d97f9ba33c11f85ae0f5cf80705ddfa3eb97b51385786c2d8",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\c459741a55afa06f\\metrics.json",
+      "bytes": 3093,
+      "sha256": "9fddcdeefb809fa881a4d786c6ebd93134153222a0996753b2a9809075d56122",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\c459741a55afa06f\\requests.csv.gz",
+      "bytes": 7859,
+      "sha256": "c9fce14323e4fda3cdfcecf16c8e7116087c4c913f7158482fcd0fc39a896e00",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\c459741a55afa06f\\solver_log.jsonl.gz",
+      "bytes": 42,
+      "sha256": "7504ccd4a7af715f06d0c2b495a80e2c8a15cae7a3bb3698cc278e0ce6e46937",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\c4bdcd51d38ccc07\\common_random_conditions.json",
+      "bytes": 25624,
+      "sha256": "79c3bbe8284140d1f0cbf93fe368ab68f3c03db01554e5ef26a09c35e81f8942",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\c4bdcd51d38ccc07\\config.json",
+      "bytes": 1248,
+      "sha256": "973848ee6449158125d552306d179e7fbede6048d8f0b2e80ef84e7d99e026c6",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\c4bdcd51d38ccc07\\energy_ledger.csv.gz",
+      "bytes": 37754,
+      "sha256": "6ffb6df7295513751b4768b2c2b0f1244909f5795283839f90ef65e368fc13a1",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\c4bdcd51d38ccc07\\events.csv.gz",
+      "bytes": 28554,
+      "sha256": "74bbc56e862c7224ececde3778c6989dca0e5bb0b4aec7c30026c0427402458f",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\c4bdcd51d38ccc07\\input_ids.json",
+      "bytes": 15752,
+      "sha256": "b90046991855886e699deec69e1f38c19b88956417439b4206a9e221f9c3c137",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\c4bdcd51d38ccc07\\metrics.json",
+      "bytes": 3126,
+      "sha256": "b71b61caa9ce15c319ca71684def6d54db1651c929ca86aa0b0749e0e597e5a4",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\c4bdcd51d38ccc07\\requests.csv.gz",
+      "bytes": 35964,
+      "sha256": "47fb22de12221b2dc8ea32785a7a39fe395f14b40f0b93ac765b8d6a096bf9aa",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\c4bdcd51d38ccc07\\solver_log.jsonl.gz",
+      "bytes": 42,
+      "sha256": "185a49e7f094f371bb08d276c1e5bc0370753b3ed1a0c792d1fb0129b8f06a88",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\c65fe28034a8150f\\common_random_conditions.json",
+      "bytes": 25624,
+      "sha256": "79c3bbe8284140d1f0cbf93fe368ab68f3c03db01554e5ef26a09c35e81f8942",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\c65fe28034a8150f\\config.json",
+      "bytes": 1250,
+      "sha256": "bc70c84a853e523c62562cef7864fd584869d661584bb2a2ac4bef0866e808e3",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\c65fe28034a8150f\\energy_ledger.csv.gz",
+      "bytes": 40510,
+      "sha256": "969eb26e8bb1db387d69501d4a5fd687a2ad2d7ea9d5137eab1847e6c03ca6d9",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\c65fe28034a8150f\\events.csv.gz",
+      "bytes": 28407,
+      "sha256": "0e955e6c4e0502761eaa643d326468df443b580b4ec8afaf404fd127e90c14f6",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\c65fe28034a8150f\\input_ids.json",
+      "bytes": 15752,
+      "sha256": "b90046991855886e699deec69e1f38c19b88956417439b4206a9e221f9c3c137",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\c65fe28034a8150f\\metrics.json",
+      "bytes": 3117,
+      "sha256": "c33ffc3b2b5aed06217d24abc2db7437ac444fda98ca2b5661a1c37e093bdc7f",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\c65fe28034a8150f\\requests.csv.gz",
+      "bytes": 35905,
+      "sha256": "4e14d8b5431bced5fd900e4bd148059eb4b6b7de98d20356e6fb0918210a2ca4",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\c65fe28034a8150f\\solver_log.jsonl.gz",
+      "bytes": 42,
+      "sha256": "04d2e9c0d478a3d3974ee56e1c917c5054bb4c3b24df507a40b132d73efbd0a4",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\c83497d22c3ae583\\common_random_conditions.json",
+      "bytes": 25608,
+      "sha256": "6f4a89cbdd0afcff1d779421b2c21ac670a7b34f161ba8631a2477277c2b0782",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\c83497d22c3ae583\\config.json",
+      "bytes": 1249,
+      "sha256": "a9bd09ab51ab93af26b4c701009ae1b7daac2e3592acbe3954556f4e6ee170d7",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\c83497d22c3ae583\\energy_ledger.csv.gz",
+      "bytes": 40415,
+      "sha256": "afaa37128b8d99a0d483d201f6c4d09e951d574d24f71fa5cb19cb22559d8924",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\c83497d22c3ae583\\events.csv.gz",
+      "bytes": 28063,
+      "sha256": "6d95989371914fa89942a1fb34764f4cade9719431752a4242f468b77ad1d0d9",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\c83497d22c3ae583\\input_ids.json",
+      "bytes": 15752,
+      "sha256": "b90046991855886e699deec69e1f38c19b88956417439b4206a9e221f9c3c137",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\c83497d22c3ae583\\metrics.json",
+      "bytes": 3111,
+      "sha256": "b38b919da8ac721db4792344abef564d5efaac631a5b67f13d32440c7a456afd",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\c83497d22c3ae583\\requests.csv.gz",
+      "bytes": 35823,
+      "sha256": "2451c3c89b5c7a84a0f31a4b74107ad01d1b3b20b7d33f45a48c98b31f5cfc25",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\c83497d22c3ae583\\solver_log.jsonl.gz",
+      "bytes": 42,
+      "sha256": "c38a9cf53f8770cede723d919fb8d037154a26d17728450cd91966d4ebede05f",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\c9e861b6bfd2b8e8\\common_random_conditions.json",
+      "bytes": 5061,
+      "sha256": "8c0adee1ee04f983c3c5e5c20ea95277cfa0181f4b948aaace3107ea215da40a",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\c9e861b6bfd2b8e8\\config.json",
+      "bytes": 1207,
+      "sha256": "1babc2f166147c29912f83a75b84c9da7a0d9a191a1434a3953ccd0c3e3545fe",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\c9e861b6bfd2b8e8\\energy_ledger.csv.gz",
+      "bytes": 8543,
+      "sha256": "177c16b3e0225513a9234d5a38e0b7e7511a16ad2200ce545cc2bf4dd6bb37d0",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\c9e861b6bfd2b8e8\\events.csv.gz",
+      "bytes": 6015,
+      "sha256": "1ddf6dc8e5cbe42495caa2cd91806ed1237bb84b3f965abc6997e26077e4249a",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\c9e861b6bfd2b8e8\\input_ids.json",
+      "bytes": 3080,
+      "sha256": "8ece0c649208b17d97f9ba33c11f85ae0f5cf80705ddfa3eb97b51385786c2d8",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\c9e861b6bfd2b8e8\\metrics.json",
+      "bytes": 3183,
+      "sha256": "83c07e4c4a4be08f6a5d486091abd9b4a05e21c9b0fcbfb7e877a3c0aab9b8c8",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\c9e861b6bfd2b8e8\\requests.csv.gz",
+      "bytes": 8285,
+      "sha256": "317f129d6eb106d44e001cf898531724ced92c6fc072c8426a5af9e9e0fea362",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\c9e861b6bfd2b8e8\\solver_log.jsonl.gz",
+      "bytes": 1138,
+      "sha256": "acbcc456293ca2446f575747394955f3042be1813b5eb7bd6033a3fdc9fe74fb",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\cafa324942c3afd2\\common_random_conditions.json",
+      "bytes": 25608,
+      "sha256": "6f4a89cbdd0afcff1d779421b2c21ac670a7b34f161ba8631a2477277c2b0782",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\cafa324942c3afd2\\config.json",
+      "bytes": 1248,
+      "sha256": "cb476c9d25a88ec93f01bfe10b82e87a86232f1f8e82abe016970e9ea7595f38",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\cafa324942c3afd2\\energy_ledger.csv.gz",
+      "bytes": 37740,
+      "sha256": "bfdb44eeeae0d3da5b995e8bb77cd012ec4d3564f0f41a91929582a72876d478",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\cafa324942c3afd2\\events.csv.gz",
+      "bytes": 28562,
+      "sha256": "2df090a0052ddd94e52a2b11bf7d16d7f65e1b4de4b9118e3bcbb2c58fae8ffd",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\cafa324942c3afd2\\input_ids.json",
+      "bytes": 15752,
+      "sha256": "b90046991855886e699deec69e1f38c19b88956417439b4206a9e221f9c3c137",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\cafa324942c3afd2\\metrics.json",
+      "bytes": 3131,
+      "sha256": "c20ed0d83516e2c77ef57a62eb1cd88d452186e28c58bea808179566453c9972",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\cafa324942c3afd2\\requests.csv.gz",
+      "bytes": 36036,
+      "sha256": "e58eb78fb1233aa384ad233faa8ec239ab24f693504620a5afb454785279e7e3",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\cafa324942c3afd2\\solver_log.jsonl.gz",
+      "bytes": 42,
+      "sha256": "44234fe7acc804922ddb94a2142ed79f43756bb91b2f2dd3e977edcccfa1b18a",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\cd683116ef814eae\\common_random_conditions.json",
+      "bytes": 25624,
+      "sha256": "79c3bbe8284140d1f0cbf93fe368ab68f3c03db01554e5ef26a09c35e81f8942",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\cd683116ef814eae\\config.json",
+      "bytes": 1248,
+      "sha256": "7a0cfe9b6150081bd51c47cb3f06d615ee01acf2c33a8613d7e66d0f339a571c",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\cd683116ef814eae\\energy_ledger.csv.gz",
+      "bytes": 37754,
+      "sha256": "b6c32b7c23cee24881a4ee139efb5e52ad2bf8d11f802ca21ca29946a563bbca",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\cd683116ef814eae\\events.csv.gz",
+      "bytes": 28554,
+      "sha256": "176f40d6ce53e657c1843a58101ab5121503aa6b3d867832d48fee669fd91e31",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\cd683116ef814eae\\input_ids.json",
+      "bytes": 15752,
+      "sha256": "b90046991855886e699deec69e1f38c19b88956417439b4206a9e221f9c3c137",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\cd683116ef814eae\\metrics.json",
+      "bytes": 3125,
+      "sha256": "94c16dac5a85d2ec4451d92c4daa62a660bbb9784f845c9fc8b13f5bf08be3b3",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\cd683116ef814eae\\requests.csv.gz",
+      "bytes": 35964,
+      "sha256": "b7b0955576053a8232b11f3de6d6e7af22e2f14ca206a500e52fdaffddc35dbd",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\cd683116ef814eae\\solver_log.jsonl.gz",
+      "bytes": 42,
+      "sha256": "059632d04c83bf507c094dbaa90279cab8a049d856590ddd4bf010b3819d5411",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\d1daeaa270372c98\\common_random_conditions.json",
+      "bytes": 5061,
+      "sha256": "8c0adee1ee04f983c3c5e5c20ea95277cfa0181f4b948aaace3107ea215da40a",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\d1daeaa270372c98\\config.json",
+      "bytes": 740,
+      "sha256": "ae1b4fb317ff09017f4c25f44170bccb46f6b8a799b835c2781d183bfebb30df",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\d1daeaa270372c98\\energy_ledger.csv.gz",
+      "bytes": 9842,
+      "sha256": "2c6ddc63f2ca65cba3c92e3b57ff1318f7b93eb7b304a50dbdc89e958916ed00",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\d1daeaa270372c98\\events.csv.gz",
+      "bytes": 7155,
+      "sha256": "1440fe53eac6f0861f0e939a900756648e995d1f953fd57a7c8f289f9f644512",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\d1daeaa270372c98\\input_ids.json",
+      "bytes": 3080,
+      "sha256": "8ece0c649208b17d97f9ba33c11f85ae0f5cf80705ddfa3eb97b51385786c2d8",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\d1daeaa270372c98\\metrics.json",
+      "bytes": 2683,
+      "sha256": "40df32d496b39055cc177fc7ccd572c04d9d2f320b5fba6e75016be96fee8194",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\d1daeaa270372c98\\requests.csv.gz",
+      "bytes": 8363,
+      "sha256": "279b4369135c6c1ecebe2f43a4f3e74f74553d65c74c9cea9f802cb185653868",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\d1daeaa270372c98\\solver_log.jsonl.gz",
+      "bytes": 3834,
+      "sha256": "3558dba9acb5f24d136632962a0d2bef703de5ff6feb0b0fe912e9e1263ce279",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\d22d8d6e0c834fed\\common_random_conditions.json",
+      "bytes": 5061,
+      "sha256": "8c0adee1ee04f983c3c5e5c20ea95277cfa0181f4b948aaace3107ea215da40a",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\d22d8d6e0c834fed\\config.json",
+      "bytes": 743,
+      "sha256": "68b6abbb26c017f2afc64decfd3d5fcd14ae5d7194a8827cd7b11e00d4c7e866",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\d22d8d6e0c834fed\\energy_ledger.csv.gz",
+      "bytes": 8481,
+      "sha256": "29144a4b4e1df7a3090aeeb158d18e698a6b9291c77da04782c4eb5bf2f65d61",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\d22d8d6e0c834fed\\events.csv.gz",
+      "bytes": 5982,
+      "sha256": "1d9903adf29299efc5de3663da93d1c20ebc78d6495cdadbfa43acc19ae9faae",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\d22d8d6e0c834fed\\input_ids.json",
+      "bytes": 3080,
+      "sha256": "8ece0c649208b17d97f9ba33c11f85ae0f5cf80705ddfa3eb97b51385786c2d8",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\d22d8d6e0c834fed\\metrics.json",
+      "bytes": 2645,
+      "sha256": "c9c44f006b3c33b59afb616fb80c9306f9e45aed40087b6b6fd470e5fb71b8a9",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\d22d8d6e0c834fed\\requests.csv.gz",
+      "bytes": 7859,
+      "sha256": "3439af8c502f37313fa8a3e749a48cfd2f32d50faf79e18fd63c88e7cce5a04f",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\d22d8d6e0c834fed\\solver_log.jsonl.gz",
+      "bytes": 42,
+      "sha256": "6191d92834b4bb968eb0cc46274751e6003861aa1d3be3ecfcd08294651a1221",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\d3ff1905d35b90eb\\common_random_conditions.json",
+      "bytes": 51156,
+      "sha256": "307e7e9d1c171310846fe2c828222ab0bd360b0ec3a9bb51560526a7d225e36b",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\d3ff1905d35b90eb\\config.json",
+      "bytes": 1208,
+      "sha256": "c1fcc7ad8b71b838186b62892c364e775e47fa965991c351e19490084d49e5db",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\d3ff1905d35b90eb\\energy_ledger.csv.gz",
+      "bytes": 79284,
+      "sha256": "3321cb8b7d0dee7d1f8a8182b5aec7c9b2dd788f4f77d6f15e15d7e813878db7",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\d3ff1905d35b90eb\\events.csv.gz",
+      "bytes": 55472,
+      "sha256": "fb9e7449795d1cd7cb65d6a531a7a42062b8c99236821a27da2f4e73f27d4869",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\d3ff1905d35b90eb\\input_ids.json",
+      "bytes": 31430,
+      "sha256": "ab75d58287625c25fbb38e09f84c606265b2e99ada3fbb6cdba3a1df8b162aa7",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\d3ff1905d35b90eb\\metrics.json",
+      "bytes": 3125,
+      "sha256": "0a4923693744832075bb2a8a5a26933de987c8dafb3e59deedf12a174670f09e",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\d3ff1905d35b90eb\\requests.csv.gz",
+      "bytes": 70568,
+      "sha256": "c97deb0f09f6c32cd9a4064da1cf0a631f1bf86062f1c15cc4a1682e6a1b757c",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\d3ff1905d35b90eb\\solver_log.jsonl.gz",
+      "bytes": 42,
+      "sha256": "053d71f58b42f14a0368d43f7c6a4df8cacbf1f3ada0be3ba89a769fd4c613d8",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\d55a44e8cb946465\\common_random_conditions.json",
+      "bytes": 25624,
+      "sha256": "79c3bbe8284140d1f0cbf93fe368ab68f3c03db01554e5ef26a09c35e81f8942",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\d55a44e8cb946465\\config.json",
+      "bytes": 1249,
+      "sha256": "f5aa9bb97a6617e251849492feea2fca5236a0e1583c8e0bf6e62acc003813a0",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\d55a44e8cb946465\\energy_ledger.csv.gz",
+      "bytes": 37754,
+      "sha256": "4aaaab0c9993e21c5886c7958495cb38a37d99db8df2aee8122d09304cc30ce7",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\d55a44e8cb946465\\events.csv.gz",
+      "bytes": 28554,
+      "sha256": "6b6adb168cf1f6ad83ccf46dbfdcb1aebfab88b42fe50dba7e9851ec931e0e67",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\d55a44e8cb946465\\input_ids.json",
+      "bytes": 15752,
+      "sha256": "b90046991855886e699deec69e1f38c19b88956417439b4206a9e221f9c3c137",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\d55a44e8cb946465\\metrics.json",
+      "bytes": 3125,
+      "sha256": "e593d980b6b5dde924ab05e71f34b2958870af62f44265f3a504c431509d3c08",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\d55a44e8cb946465\\requests.csv.gz",
+      "bytes": 35964,
+      "sha256": "39e5a29bd51d690820359798d9e799aa4ac4556157719843ad7879707b498fda",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\d55a44e8cb946465\\solver_log.jsonl.gz",
+      "bytes": 42,
+      "sha256": "818d1ab75e4be24359409c646a10ed27dfdbab2ca5a2ff3742e5a25235c7bc83",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\de8e64b8c8590238\\common_random_conditions.json",
+      "bytes": 51156,
+      "sha256": "307e7e9d1c171310846fe2c828222ab0bd360b0ec3a9bb51560526a7d225e36b",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\de8e64b8c8590238\\config.json",
+      "bytes": 1207,
+      "sha256": "48a813d9005b819ece754c506a1cfe0fa368bc76537a7d0bdc0e677b6c298683",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\de8e64b8c8590238\\energy_ledger.csv.gz",
+      "bytes": 73987,
+      "sha256": "85f67e613c1d74860ac0dd0030d9d420fb12b97f4169f7df41a3db6a6c44df07",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\de8e64b8c8590238\\events.csv.gz",
+      "bytes": 56311,
+      "sha256": "3133aa0668a55ca7361e6fc4f014fa64c028c13acc73be023e4abd3efa9dff92",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\de8e64b8c8590238\\input_ids.json",
+      "bytes": 31430,
+      "sha256": "ab75d58287625c25fbb38e09f84c606265b2e99ada3fbb6cdba3a1df8b162aa7",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\de8e64b8c8590238\\metrics.json",
+      "bytes": 3144,
+      "sha256": "2d00e62806de1d859227546e160873fa425bfcaa50b49e93f632704aa00978a6",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\de8e64b8c8590238\\requests.csv.gz",
+      "bytes": 70754,
+      "sha256": "b11d743aebce8e253589f7c710b8284783a3286dd010f4e2fd449adac0b237a6",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\de8e64b8c8590238\\solver_log.jsonl.gz",
+      "bytes": 42,
+      "sha256": "053d71f58b42f14a0368d43f7c6a4df8cacbf1f3ada0be3ba89a769fd4c613d8",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\deec6225ba87e600\\common_random_conditions.json",
+      "bytes": 25633,
+      "sha256": "99e1b4271a8b247e0a4f42b3777325060cb649051770db8f7bab5fd5a938f153",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\deec6225ba87e600\\config.json",
+      "bytes": 1248,
+      "sha256": "ab38ce6e27a96cb69d5c91948b32809c72ef3c68b03508c7dfeb78839dd48017",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\deec6225ba87e600\\energy_ledger.csv.gz",
+      "bytes": 37784,
+      "sha256": "094a0a523575932c093740d01a4e00dd630ee97422ee434cbf8143f67673701b",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\deec6225ba87e600\\events.csv.gz",
+      "bytes": 28548,
+      "sha256": "c4928f10a71f78499e7523b0637454e07e9abbbd4443eb35461dfbe58cf1623e",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\deec6225ba87e600\\input_ids.json",
+      "bytes": 15752,
+      "sha256": "b90046991855886e699deec69e1f38c19b88956417439b4206a9e221f9c3c137",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\deec6225ba87e600\\metrics.json",
+      "bytes": 3125,
+      "sha256": "1feb3b865f27dc4fcd63c4c094622f1adf3f41c0e153f17f0594ca94030aad9a",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\deec6225ba87e600\\requests.csv.gz",
+      "bytes": 35948,
+      "sha256": "861765b70967116344e3b83bf97180027795d2efdd675e32f3c1cbd90cc109e0",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\deec6225ba87e600\\solver_log.jsonl.gz",
+      "bytes": 42,
+      "sha256": "17db0ae821f369940265806370807bcfa68e10960109eee665a30e8ac3b92b7e",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\e2b6baca48206857\\common_random_conditions.json",
+      "bytes": 25608,
+      "sha256": "6f4a89cbdd0afcff1d779421b2c21ac670a7b34f161ba8631a2477277c2b0782",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\e2b6baca48206857\\config.json",
+      "bytes": 1249,
+      "sha256": "f7a43bd8e621528cdd55d834c71cc687f3817295c818334623086ce200db515f",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\e2b6baca48206857\\energy_ledger.csv.gz",
+      "bytes": 37740,
+      "sha256": "d0e5525222c7b4d7bbcc263f99e9a5a61144f3628d90bb8492093e2d9b2bc51e",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\e2b6baca48206857\\events.csv.gz",
+      "bytes": 28562,
+      "sha256": "29cefd0c66286461ec767a610e995827970c82b77bfce4bad636c7498e8ea625",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\e2b6baca48206857\\input_ids.json",
+      "bytes": 15752,
+      "sha256": "b90046991855886e699deec69e1f38c19b88956417439b4206a9e221f9c3c137",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\e2b6baca48206857\\metrics.json",
+      "bytes": 3131,
+      "sha256": "769edfcaef69abeb50184b1822e18ba1ac7ad363ebdbbcd8b8485f5ec760b318",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\e2b6baca48206857\\requests.csv.gz",
+      "bytes": 36036,
+      "sha256": "783f2820e95d70315b6a541b41eaa290bc241041d1b6978006890a72b0a5aede",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\e2b6baca48206857\\solver_log.jsonl.gz",
+      "bytes": 42,
+      "sha256": "d05c587cb8f39bbe7f1bc95131d28c19e5f2c92aeb33a945792bc44ebf49d902",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\ea8a855a9f3999b4\\common_random_conditions.json",
+      "bytes": 5061,
+      "sha256": "8c0adee1ee04f983c3c5e5c20ea95277cfa0181f4b948aaace3107ea215da40a",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\ea8a855a9f3999b4\\config.json",
+      "bytes": 743,
+      "sha256": "5c26a4ebbcc491afacb5238f658cdd6b2ec39c16c1897c6e9117347ad99eb482",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\ea8a855a9f3999b4\\energy_ledger.csv.gz",
+      "bytes": 8543,
+      "sha256": "99debb8104ab962937965f91de7e02a2292ca59cc9b249b2ae595ace31465d4f",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\ea8a855a9f3999b4\\events.csv.gz",
+      "bytes": 6015,
+      "sha256": "66447c0355ee3d3bea88b656cbe6566ce45cb8c293eb56ce7f98e827668e676e",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\ea8a855a9f3999b4\\input_ids.json",
+      "bytes": 3080,
+      "sha256": "8ece0c649208b17d97f9ba33c11f85ae0f5cf80705ddfa3eb97b51385786c2d8",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\ea8a855a9f3999b4\\metrics.json",
+      "bytes": 2718,
+      "sha256": "65db50a3f134249105881b5fd80d424010420efda1910615daf96b26c9ee0139",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\ea8a855a9f3999b4\\requests.csv.gz",
+      "bytes": 8285,
+      "sha256": "c056a32e40a077bcea077e1947e9eb5d1426c88699fd7d3824845c400940c8fb",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\ea8a855a9f3999b4\\solver_log.jsonl.gz",
+      "bytes": 1141,
+      "sha256": "a152728e37065c688aa9ddc12b490722d437b88c1baca3b8c81c51bbfaf38a02",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\eac1e1fe1d28b28d\\common_random_conditions.json",
+      "bytes": 25608,
+      "sha256": "6f4a89cbdd0afcff1d779421b2c21ac670a7b34f161ba8631a2477277c2b0782",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\eac1e1fe1d28b28d\\config.json",
+      "bytes": 1248,
+      "sha256": "f36377881b6fb757ed65f737efc9466fd96227e5f8897dab34ef3eeb28a90d9a",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\eac1e1fe1d28b28d\\energy_ledger.csv.gz",
+      "bytes": 37740,
+      "sha256": "e146b01c121b0ef67fd0e40426e8c8c1e8c71a325ab9372104806cd4d4e67344",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\eac1e1fe1d28b28d\\events.csv.gz",
+      "bytes": 28562,
+      "sha256": "4a1c53cc2e593afd997262f54770e22a4900bcfb9280d5fa48cc4cef73a37bee",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\eac1e1fe1d28b28d\\input_ids.json",
+      "bytes": 15752,
+      "sha256": "b90046991855886e699deec69e1f38c19b88956417439b4206a9e221f9c3c137",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\eac1e1fe1d28b28d\\metrics.json",
+      "bytes": 3131,
+      "sha256": "003b5d04b654841bc6286224635f093511fdda32870e7c33c8ee0e08f4a9f6c4",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\eac1e1fe1d28b28d\\requests.csv.gz",
+      "bytes": 36036,
+      "sha256": "34152710fd00d09f6a33136436be167fb6defb83d668f7ac201a61122d6af4ad",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\eac1e1fe1d28b28d\\solver_log.jsonl.gz",
+      "bytes": 42,
+      "sha256": "c38a9cf53f8770cede723d919fb8d037154a26d17728450cd91966d4ebede05f",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\ec06232a7a4452f0\\common_random_conditions.json",
+      "bytes": 25608,
+      "sha256": "6f4a89cbdd0afcff1d779421b2c21ac670a7b34f161ba8631a2477277c2b0782",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\ec06232a7a4452f0\\config.json",
+      "bytes": 1250,
+      "sha256": "2b22bf4be055eb52b0a6765d881f4b86955288b39c3a3595650d43ca2ae20551",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\ec06232a7a4452f0\\energy_ledger.csv.gz",
+      "bytes": 40538,
+      "sha256": "b280c20d93f002b2f89aaa3e0082afeebbfae95aefe2609b03c8c769b30bf1f9",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\ec06232a7a4452f0\\events.csv.gz",
+      "bytes": 28376,
+      "sha256": "93529398e23cc4c56b60096c0dbe3e0d3cef59b20f3498dedf2fe501952ee200",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\ec06232a7a4452f0\\input_ids.json",
+      "bytes": 15752,
+      "sha256": "b90046991855886e699deec69e1f38c19b88956417439b4206a9e221f9c3c137",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\ec06232a7a4452f0\\metrics.json",
+      "bytes": 3124,
+      "sha256": "edc51ff70c9a0e58a81fe9ff5dcaf3190c95796431383009f564b014d0872d6e",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\ec06232a7a4452f0\\requests.csv.gz",
+      "bytes": 35855,
+      "sha256": "42bd89434243a308eabee1e3acb52ec07b5a1b8011195659c924bc8e6f4ba8bf",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\ec06232a7a4452f0\\solver_log.jsonl.gz",
+      "bytes": 42,
+      "sha256": "e7b64634043f3c6b8d9136b594a1a8866327863d52e280e1e10ea95c1880e222",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\eefcb25be590176b\\common_random_conditions.json",
+      "bytes": 25608,
+      "sha256": "6f4a89cbdd0afcff1d779421b2c21ac670a7b34f161ba8631a2477277c2b0782",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\eefcb25be590176b\\config.json",
+      "bytes": 1249,
+      "sha256": "52efaf017c6ba77d605d37f3696f4dad5cf4e0630a900dd2f3556d6933d6a34d",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\eefcb25be590176b\\energy_ledger.csv.gz",
+      "bytes": 37740,
+      "sha256": "baf50eb69ff0b1f2dc528f775fb5b2aad70c6ecd4a4664a3a3500de3e46045ad",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\eefcb25be590176b\\events.csv.gz",
+      "bytes": 28562,
+      "sha256": "073083e50c840dc291154b5bb92876174f84ae1bbf7cd876e2d32694792a3c07",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\eefcb25be590176b\\input_ids.json",
+      "bytes": 15752,
+      "sha256": "b90046991855886e699deec69e1f38c19b88956417439b4206a9e221f9c3c137",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\eefcb25be590176b\\metrics.json",
+      "bytes": 3130,
+      "sha256": "100394891e4c8cd64d51e3fed87513f52ada98581e6e0423a9fa55f6e261c7d3",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\eefcb25be590176b\\requests.csv.gz",
+      "bytes": 36036,
+      "sha256": "5ed4dfc47ae865fb81c4af453c4f45f6a39cbf538827446d7b6dc26e6d7c9c40",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\eefcb25be590176b\\solver_log.jsonl.gz",
+      "bytes": 42,
+      "sha256": "facd33db7750bf183896939eb096ae5e21f3749beb67e79bc70629a3e069a29d",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\efd2580476f019ba\\common_random_conditions.json",
+      "bytes": 25608,
+      "sha256": "6f4a89cbdd0afcff1d779421b2c21ac670a7b34f161ba8631a2477277c2b0782",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\efd2580476f019ba\\config.json",
+      "bytes": 1206,
+      "sha256": "5e469844a6f64997d56cae3f23b90f84273324ec4b5a928d71e9909cfe88c8a5",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\efd2580476f019ba\\energy_ledger.csv.gz",
+      "bytes": 37767,
+      "sha256": "5ebb061d4fedbf318a90c86c821893aa4f566a0e79063ea15c0b734df090c776",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\efd2580476f019ba\\events.csv.gz",
+      "bytes": 28562,
+      "sha256": "08da90911617d7cb23013403bac6aadfc7bde0bf858ae2ebeb03cee1aa329719",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\efd2580476f019ba\\input_ids.json",
+      "bytes": 15752,
+      "sha256": "b90046991855886e699deec69e1f38c19b88956417439b4206a9e221f9c3c137",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\efd2580476f019ba\\metrics.json",
+      "bytes": 3143,
+      "sha256": "71dc2f6eff16fbdda2c2bbb09574950305434ec4931afb5916d12f55fcbac99b",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\efd2580476f019ba\\requests.csv.gz",
+      "bytes": 36036,
+      "sha256": "d2cd4264e52d2259e0c215f0920636b264aed488b455df62ea80eebe86897e16",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\efd2580476f019ba\\solver_log.jsonl.gz",
+      "bytes": 42,
+      "sha256": "671e9377e63c41ffaa9a61bbc3a9a8a738cc6121abe120bed71880e009253e74",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\effa9eb8e6a71b26\\common_random_conditions.json",
+      "bytes": 25608,
+      "sha256": "6f4a89cbdd0afcff1d779421b2c21ac670a7b34f161ba8631a2477277c2b0782",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\effa9eb8e6a71b26\\config.json",
+      "bytes": 1250,
+      "sha256": "ae1b4d3a12ca7c304082e7ba3ff82d9bb265017c140659edc7daca1ddace4b28",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\effa9eb8e6a71b26\\energy_ledger.csv.gz",
+      "bytes": 40415,
+      "sha256": "40d3ba75fff60fcad3e674ab2e324d1a3e68e395bafa1f864e3882efaa97e86a",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\effa9eb8e6a71b26\\events.csv.gz",
+      "bytes": 28063,
+      "sha256": "5a5c1d03fcb4b699adec8b56503d069620b22a0b920a3b966cb3285ecf00b5de",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\effa9eb8e6a71b26\\input_ids.json",
+      "bytes": 15752,
+      "sha256": "b90046991855886e699deec69e1f38c19b88956417439b4206a9e221f9c3c137",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\effa9eb8e6a71b26\\metrics.json",
+      "bytes": 3112,
+      "sha256": "2110b4a496b560190d29a757dc3a3040d9d88821943a479d3930edb53aa7a980",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\effa9eb8e6a71b26\\requests.csv.gz",
+      "bytes": 35823,
+      "sha256": "e285dd4e046939bd833514cb9146cbcc1adda0cfb40d25ceecbce1f7695d99f9",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\effa9eb8e6a71b26\\solver_log.jsonl.gz",
+      "bytes": 42,
+      "sha256": "f1276cf79f0beb7b0d855c06bf3e8e2da932bdd73aaba139fea801291a85befa",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\f85282335c9fa735\\common_random_conditions.json",
+      "bytes": 25633,
+      "sha256": "99e1b4271a8b247e0a4f42b3777325060cb649051770db8f7bab5fd5a938f153",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\f85282335c9fa735\\config.json",
+      "bytes": 1249,
+      "sha256": "9bbf0fe32a0d4149efc816d50124b4d0d59a21f8aab5cdbfd420eee2d67d1f35",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\f85282335c9fa735\\energy_ledger.csv.gz",
+      "bytes": 37784,
+      "sha256": "5413fd1bfed36c9ae96d8c9a4a0916dc87050d63c969d70b7823f5fb69ac6159",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\f85282335c9fa735\\events.csv.gz",
+      "bytes": 28548,
+      "sha256": "5db3e639446f9cfd512269928075aed25d6d18fbedadc6d180b7dcd2b24d1380",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\f85282335c9fa735\\input_ids.json",
+      "bytes": 15752,
+      "sha256": "b90046991855886e699deec69e1f38c19b88956417439b4206a9e221f9c3c137",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\f85282335c9fa735\\metrics.json",
+      "bytes": 3126,
+      "sha256": "037880a4a0311b2f18bd1fdb234003b62fa3d749ae81ac7bacae15dc97f3207e",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\f85282335c9fa735\\requests.csv.gz",
+      "bytes": 35948,
+      "sha256": "3560b95a47ff4afa5e08cf04aae7049cf1d14da4c6b592f3385e325d02e8b98e",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\f85282335c9fa735\\solver_log.jsonl.gz",
+      "bytes": 42,
+      "sha256": "11756523e6628e698b4806f6ad41920c2e369fb7d506edba2ba0d3e1df78d23b",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\ff87ab6e07131183\\common_random_conditions.json",
+      "bytes": 376462,
+      "sha256": "ab032aeb4b76fd622ece6b43bfe39fdd8b24594f763859591b230a490086014b",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\ff87ab6e07131183\\config.json",
+      "bytes": 1250,
+      "sha256": "f6a123334280a37257d25ecba015858cc70b816e7b349f54459195f74efea064",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\ff87ab6e07131183\\energy_ledger.csv.gz",
+      "bytes": 515216,
+      "sha256": "239bf3f0a78dd4791389fb222a735b2ffeb4bbd8c8d53e997c6a19765ac0ff5f",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\ff87ab6e07131183\\events.csv.gz",
+      "bytes": 397365,
+      "sha256": "19cbb4ac0f6a83ba4510d6a94fb015cda174ca52ce4719c6344a4811cee63148",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\ff87ab6e07131183\\input_ids.json",
+      "bytes": 231607,
+      "sha256": "1f53066900c6800618399e706d913eb5426f626b191c5587e2017f616b2c97c8",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\ff87ab6e07131183\\metrics.json",
+      "bytes": 3186,
+      "sha256": "17c2e0041c281a3af4e8b48b7748d860ed5eeed2d2457b9d9031cc00554f99c3",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\ff87ab6e07131183\\requests.csv.gz",
+      "bytes": 525800,
+      "sha256": "112f27608a48e095e2d0d16cb3df8f69da7aadc63892a845288d90428210c474",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "archives\\legacy_power_175_250_20261017\\results\\runs\\ff87ab6e07131183\\solver_log.jsonl.gz",
+      "bytes": 42,
+      "sha256": "ab029260432d1dd69e3f073d0b1ccfb5bc11a7b14a588971a69dbdbed39428a3",
+      "reason": "legacy trial not used or not completed; absent from final artifact manifest"
+    },
+    {
+      "path": "output\\pdf\\01_求解过程与结果分析_回复.pdf",
+      "bytes": 356506,
+      "sha256": "43b06016ac0953a0dfcab15894b0b120541fa4260873d0964e38888a394e5cf7",
+      "reason": "identical legacy PDF/export record already preserved in archive"
+    },
+    {
+      "path": "output\\pdf\\02_第三问完整求解与运行指南.pdf",
+      "bytes": 429694,
+      "sha256": "d25c63a6fe11a00f4118c2d2f4e644228b0bb19e8daaf77076c113bac535e268",
+      "reason": "identical legacy PDF/export record already preserved in archive"
+    },
+    {
+      "path": "output\\pdf\\03_模型定义.pdf",
+      "bytes": 197016,
+      "sha256": "e0a8de08a82050f736d684b4efcc2a2eadf444866ac67b4047fb6bad64898c4c",
+      "reason": "identical legacy PDF/export record already preserved in archive"
+    },
+    {
+      "path": "output\\pdf\\04_结果报告.pdf",
+      "bytes": 281141,
+      "sha256": "71fd8c2d0d6013e4003f20f585746eaa20ba9b4aa88bf3d9f206b2eb8ddd9dea",
+      "reason": "identical legacy PDF/export record already preserved in archive"
+    },
+    {
+      "path": "output\\pdf\\05_验证报告.pdf",
+      "bytes": 140821,
+      "sha256": "f12748dea8acaaa13cbbb79d35ae1dcd489b2a979a3e040ea226e1c2ec633314",
+      "reason": "identical legacy PDF/export record already preserved in archive"
+    },
+    {
+      "path": "output\\pdf\\content_preservation.json",
+      "bytes": 654,
+      "sha256": "abd47c6a4dadb8e78ceb31944c8ea01a180d0ad14f568363a5d498948390e2f6",
+      "reason": "identical legacy PDF/export record already preserved in archive"
+    },
+    {
+      "path": "output\\pdf\\export_manifest.json",
+      "bytes": 1960,
+      "sha256": "8aea26f112b9a80531d0c2dfe5dd2d7078132e72d4949497508da19bb5e3ef08",
+      "reason": "identical legacy PDF/export record already preserved in archive"
+    },
+    {
+      "path": "output\\pdf\\pdf_qa.json",
+      "bytes": 1129,
+      "sha256": "f5bc142cb5319750e528dc43bd8fbc723e68dab4e1fd644d8f5a822490dfafc5",
+      "reason": "identical legacy PDF/export record already preserved in archive"
+    },
+    {
+      "path": "pdf_export\\上一条回复.md",
+      "bytes": 17195,
+      "sha256": "7339d3c26e65df4d2f21701e37c426cc01f3fff91601383e7f78b475e1818ab3",
+      "reason": "legacy reply source unused by current exporter; identical archived copy retained"
+    },
+    {
+      "path": "pdf_export\\build_logs\\export_01.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "empty export log"
+    },
+    {
+      "path": "pdf_export\\build_logs\\export_02.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "empty export log"
+    },
+    {
+      "path": "pdf_export\\build_logs\\export_03.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "empty export log"
+    },
+    {
+      "path": "pdf_export\\build_logs\\export_04.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "empty export log"
+    },
+    {
+      "path": "pdf_export\\build_logs\\export_05.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "empty export log"
+    }
+  ],
+  "blocked": [],
+  "preserved": [
+    "Task 1 and Task 2 and data_preparation untouched",
+    "all 336 current final experiment runs",
+    "legacy final runs, baseline inputs, code, documents and PDFs needed for comparison and provenance"
+  ],
+  "archive_inventory_note": "Original legacy run_inventory.csv intentionally retained as historical record; removed trials were explicitly unused or incomplete.",
+  "deleted_file_count": 577,
+  "reclaimed_bytes": 24438457,
+  "removed_legacy_trial_directories": 71,
+  "verification": {
+    "system_tests_passed": 25,
+    "current_artifact_hashes_verified": 2811,
+    "retained_archive_hashes_verified": 2816,
+    "code_changes": false,
+    "current_final_experiment_runs_retained": 336
+  }
+}

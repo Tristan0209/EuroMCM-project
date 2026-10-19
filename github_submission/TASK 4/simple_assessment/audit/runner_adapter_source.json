@@ -1,0 +1,8 @@
+{
+  "source": "D:\\EuroMCM\\EuroMCM-project\\TASK 4\\task4_core\\runner.py",
+  "sha256": "df0641f173a1ad9490bf61eb020812faf1baf4672127b044d7acc4fad98e219f",
+  "adapter": "D:\\EuroMCM\\EuroMCM-project\\TASK 4\\simple_assessment\\simple_runner.py",
+  "sha256_adapter": "3816b627e3951c167cee2d5eda48d08bc7f5086d9f7b5feabc06b68171b3dc6f",
+  "old_task4_files_preserved": 1602,
+  "changes": "absolute imports/class name; exact four-scenario gate; local code hashes; study metadata only"
+}

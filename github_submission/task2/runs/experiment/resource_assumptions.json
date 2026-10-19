@@ -1,0 +1,96 @@
+{
+  "source_core": "D:\\project\\EuroMCM-project\\Work 1\\task1_response time, and environ mental impact\\core.py",
+  "source_sha256": "450fca8d801e34697205398e133cee9f15e0ffd6e4d7d67e0a1fef8a7247480c",
+  "profile": {
+    "name": "illustrative_independent_replica",
+    "model_hardware": "unspecified; replace with isolated measurements",
+    "service_provenance": "assumed_not_fitted_to_public_measurements",
+    "power_provenance": "ML.ENERGY_single_B200_GPU_power_at_specific_Qwen3_configuration_plus_assumed_idle_and_shared_power_not_system_measurement",
+    "pue_provenance": "assumed_not_measured",
+    "service_boundary": "server_service_excludes_queue_and_external_network",
+    "power_scope": "single_DGX_B200_eight_installed_GPUs_independent_replicas",
+    "feature_names": [
+      "1",
+      "input_k",
+      "output_after_first_k",
+      "input_k_squared",
+      "input_k_times_output_k",
+      "output_k_squared"
+    ],
+    "prefill_coefficients": [
+      0.05,
+      0.2,
+      0.0,
+      0.01,
+      0.0,
+      0.0
+    ],
+    "decode_coefficients": [
+      0.0,
+      0.0,
+      8.0,
+      0.0,
+      0.1,
+      0.02
+    ],
+    "residual_log_sigma": 0.15,
+    "pue": 1.2,
+    "gpu_count_per_server": 8,
+    "shared_w": 1500.0,
+    "gpu_idle_w": 175.0,
+    "gpu_busy_w": 760.0,
+    "server_max_w": 14300.0,
+    "shared_power_sensitivity_w": [
+      750.0,
+      1500.0,
+      2500.0
+    ],
+    "gpu_idle_sensitivity_w": [
+      100.0,
+      175.0,
+      250.0
+    ],
+    "gpus_per_server": 8
+  },
+  "large_service_multipliers": [
+    1,
+    2,
+    3
+  ],
+  "primary_large_service_multiplier": 3,
+  "arrival_shape_source": "D:\\project\\EuroMCM-project\\Work 1\\task1_response time, and environ mental impact\\data\\processed\\azure_code.csv",
+  "arrival_assignment": "random RouterBench request order mapped to Azure gap shape only; not real same-request data",
+  "reference_arrival_span_s": 14975.284795286887,
+  "reference_utilization_L_pool": 0.6,
+  "fixed_common_infrastructure": "two separately powered 8-GPU DGX boxes (one S pool, one L pool); 1 or 2 active GPU serving slots per pool, unoccupied GPUs still idle; both powered for entire common horizon",
+  "power_model": "per DGX: shared_w + busy_gpus*gpu_busy_w + (8-busy_gpus)*gpu_idle_w",
+  "fixed_common_observation_horizon": "max final completion among compared strategies in each scenario",
+  "controller": {
+    "router_s": 0.01,
+    "post_s": 0.002,
+    "incremental_w": 10,
+    "measured": false
+  },
+  "lengths": "regex proxies, not actual model tokenizer counts; current output used only for ex-post resource evaluation",
+  "carbon_factor": 183.44,
+  "carbon_unit": "gCO2e/kWh",
+  "carbon_boundary": "annual_production_ghg_EEA_not_marginal",
+  "constant_price_eur_per_kwh": 0.09109158223975815,
+  "price_derivation": "Work 1 DE-LU load1/replica1 electricity EUR / facility kWh; held constant in a new counterfactual, not a current retail tariff",
+  "raw_energy_charts_price_series_available": false,
+  "dgx_power_parameters_source": "shared and idle assumed; busy GPU from specific ML.ENERGY workload proxy, not measured whole-system or GPT-4 power",
+  "capex": {
+    "dgx_price_usd": 515000,
+    "usd_to_eur": 0.9,
+    "dgx_share_per_replica": 0.125,
+    "lifetime_years": 5
+  },
+  "matching_warning": "GPT-4 hardware is unknown and not deployable on the assumed DGX; these are anonymous-backend scenarios",
+  "api_and_selfhost_costs_added": false,
+  "measured_GPT4_or_Mixtral_energy": false,
+  "repetitions": 3,
+  "common_random_numbers": "same mean-one request shock for S/L and all strategies",
+  "uncertainty_scope": "conditional Monte Carlo only, not fitted hardware uncertainty",
+  "submission_source_sha256": "d85965a7c7a8af321b03c4df8fd73aeaeb1e360edc3cedf5653d3691c3e776d8",
+  "submission_note": "Original source_sha256 retained; submission_source_sha256 identifies the comment-free copy."
+}

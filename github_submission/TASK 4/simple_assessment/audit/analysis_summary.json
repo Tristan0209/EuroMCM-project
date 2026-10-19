@@ -1,0 +1,31 @@
+{
+  "status": "ACTUAL_SIMPLE_SIMULATION_RESULTS",
+  "seeds": [
+    2029101800,
+    2029101801,
+    2029101802
+  ],
+  "new_strategy_executions": 24,
+  "all_C1_C8_executions": 0,
+  "prediction_changed_ids": [
+    137,
+    139,
+    133
+  ],
+  "baseline_P1_service_violation_mean": 0.00018177686889343333,
+  "growth_P1_service_violation_mean": 0.0016966612131127674,
+  "growth_minus_original_baseline_carbon_g": [
+    3.6995099849882536,
+    3.482303429824242,
+    0.30562323908816325
+  ],
+  "theoretical_critical_growth_rate": [
+    0.9938819727072357,
+    0.982153868579609,
+    1.000399773461342
+  ],
+  "failed_request_instances_across_policy_executions": 842,
+  "censored_across_policy_executions": 0,
+  "not_real_deployment_measurements": true,
+  "no_new_optimizer": true
+}

@@ -1,0 +1,19 @@
+{
+  "status": "FROZEN_CONDITIONAL_SIMULATION_RELEASE",
+  "frozen_at_utc": "2026-10-18T02:48:45.219747+00:00",
+  "scope": "validated execution and complete evidence; NOT zero-SLA, all-solves-success or deployed-hardware certification",
+  "core": "7335 x 24 seeds x 5 policies; all new executions",
+  "F_H": "six full-cohort seeds; affected safety/control reruns completed",
+  "gate": "audit/final_gate.json",
+  "validation": "validation_checklist.csv",
+  "measured_wall_reproduction": "not guaranteed across hardware or background load",
+  "dependencies": {
+    "python": "3.9.13",
+    "numpy": "1.24.4",
+    "scipy": "1.9.1",
+    "highs_bundled": "1.2.2",
+    "pandas": "2.3.3",
+    "matplotlib": "3.5.2",
+    "pytest": "7.1.2"
+  }
+}

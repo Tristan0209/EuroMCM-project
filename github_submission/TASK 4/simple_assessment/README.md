@@ -1,0 +1,1 @@
+四个情景为 Baseline、Difficult、Prediction Error 和 Demand Growth，每个情景有三个固定种子及两种策略。`Task4_Simple_Results.csv` 是保存的汇总结果，`runs/` 是历史证据。重新运行使用 `reproduced_dry_run/` 和 `reproduced_runs/`。历史记录中的路径和哈希对应原环境；完整运行方法见仓库根 README。

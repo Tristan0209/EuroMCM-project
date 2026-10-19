@@ -1,0 +1,5 @@
+task_type,quality_loss_low,quality_loss_high,pass_loss_low,pass_loss_high,cost_saving_low,cost_saving_high,scope
+ALL,0.0018734852882303613,0.007190640609754592,0.0009545888449474976,0.006681210799018271,0.06433609273977936,0.07969185434405597,conditional_prompt_group_bootstrap_not_retraining_or_server_uncertainty
+Code,0.0,0.0,0.0,0.0,0.0,0.0,conditional_prompt_group_bootstrap_not_retraining_or_server_uncertainty
+General,0.002708070048745261,0.009301558448161894,0.0016251354279523294,0.008486818345973276,0.15775926154811704,0.18903789442596794,conditional_prompt_group_bootstrap_not_retraining_or_server_uncertainty
+Math,0.0,0.0,0.0,0.0,0.0,0.0,conditional_prompt_group_bootstrap_not_retraining_or_server_uncertainty

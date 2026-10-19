@@ -1,0 +1,58 @@
+{
+  "trace": "D:\\project\\EuroMCM-project\\AI_datasets\\Azure\\AzureLLMInferenceTrace_code_1week.csv",
+  "prices": "D:\\project\\EuroMCM-project\\AI_datasets\\energy_charts\\energy-charts_Electricity_production_and_spot_prices_in_all_available_countries_in_2026.csv",
+  "usd_to_eur": 0.9,
+  "dgx_price_usd": 515000,
+  "dgx_share_per_replica": 0.125,
+  "lifetime_years": 5,
+  "maintenance_per_replica_hour": 0,
+  "rows": 5000,
+  "price_date": "2026-05-12",
+  "seed": 20261016,
+  "sigma": 0.15,
+  "replicas": [
+    1,
+    2,
+    4
+  ],
+  "loads": [
+    0.5,
+    1,
+    2
+  ],
+  "rho_ref": 0.6,
+  "pue": 1.2,
+  "idle_w": 175,
+  "busy_w": 760,
+  "server_gpu_count": 8,
+  "shared_w": 1500,
+  "shared_sensitivity": [
+    750,
+    1500,
+    2500
+  ],
+  "gpu_idle_sensitivity": [
+    100,
+    175,
+    250
+  ],
+  "server_max_w": 14300,
+  "validate": true,
+  "out": "D:\\project\\EuroMCM-project\\Work 1\\outputs\\cost_summary.csv",
+  "trace_audit": {
+    "raw_rows_read": 5000,
+    "eligible_rows": 5000,
+    "excluded_rows": 0
+  },
+  "valid_electricity_price_rows_used": 18,
+  "disclaimers": [
+    "2024 Azure workload time pattern is shifted/rescaled to 2026 prices: counterfactual, not observed",
+    "DGX B200 515000 USD is unverified market reference, 1/8 per abstract replica is allocation scenario",
+    "Power model: full 8-GPU server, P_shared=1500W assumed; GPU idle=175W assumed; active=760W benchmark configuration only; capped at 14300W; NOT whole-server measured power",
+    "Full DGX electricity charged even when only 1/2/4 GPUs handle requests; hardware depreciation formula remains per-replica 1/8 DGX (unequal accounting boundary; avoid interpreting as full physical DGX TCO)",
+    "power_sensitivity.csv tests shared 750/1500/2500 W and idle 100/175/250 W as scenarios, NOT measured DGX power",
+    "NVIDIA maximum 14300W is a system upper limit only, not a measured mean. Barroso & Hölzle 2007 supports non-proportional idle power concept, not 1500W on DGX",
+    "source Energy-Charts license statement must be reviewed before redistribution; negatives are preserved",
+    "output tokens known only for offline assessment, not at routing time; hourly purchased price is wholesale, not retail bill"
+  ]
+}

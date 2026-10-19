@@ -1,0 +1,10 @@
+{
+  "data_kind": "actual",
+  "unit": "gCO2/kWh",
+  "emissions_species": "CO2",
+  "timezone": "UTC",
+  "resolution": "hourly",
+  "source": "REPLACE_WITH_PROVIDER_AND_DATASET_URL",
+  "boundary": "REPLACE_WITH_PROVIDER_EMISSIONS_BOUNDARY",
+  "methodology": {"accounting_basis": "production", "scope": "operational", "description": "REPLACE_WITH_PROVIDER_METHOD_AND_URL; do not use this template unchanged"}
+}

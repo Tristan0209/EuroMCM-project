@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "DES_worlds_for_distribution_test": 0,
+  "pre_group_correlation": 0.5072501136340507,
+  "pre_unique_groups": 7332,
+  "carbon_correlation": [
+    [
+      1.0,
+      0.5193639480236637,
+      0.5149327801079556
+    ],
+    [
+      0.5193639480236637,
+      1.0,
+      0.48826568819339405
+    ],
+    [
+      0.5149327801079556,
+      0.48826568819339405,
+      1.0
+    ]
+  ],
+  "conditional_parameter_checks": [
+    {
+      "regime": 0,
+      "parameter_draws_only": 2000,
+      "outage_rate": 0.05,
+      "burst_rate": 0.1115
+    },
+    {
+      "regime": 1,
+      "parameter_draws_only": 2000,
+      "outage_rate": 0.493,
+      "burst_rate": 0.5215
+    }
+  ],
+  "interpretation": "fixed-seed software draw checks, not fitted occurrence probabilities"
+}

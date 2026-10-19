@@ -1,0 +1,12 @@
+{
+  "completed": true,
+  "winner": "Random_Forest",
+  "fallback_tasks": [
+    "Code"
+  ],
+  "main_strategy": "Selected_protected",
+  "research_tolerances_not_problem_requirements": true,
+  "feedback_default_enabled": false,
+  "extra_same_model_compute_enabled": false,
+  "reason_no_extra_thinking": "no matched quality outcomes for extra-token or repeated same-model actions"
+}

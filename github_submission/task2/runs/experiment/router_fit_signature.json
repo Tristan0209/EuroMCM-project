@@ -1,0 +1,9 @@
+{
+  "features_sha256": "ad44738ceca8874cf9da6549ec96ee850c0a9e93d90ba42b5650eca115d78b82",
+  "pre_selection_sha256": "853e0a251516caa6ba97d34aa33318b9fd46365ed2cd28fb3f5946b9ee5a26c1",
+  "fitting_source_sha256": "6913920e0f1e798773e6a1dbf8df95f8b2d416089fe5604640fb05f6b50a4631",
+  "training_rows": 21822,
+  "neural_class_source_sha256": "d8a5a5f6199f5d27911da268779aef30815d34107df1ef97c4782963e750f930",
+  "selection_rows": 3615,
+  "seed": 20261016
+}

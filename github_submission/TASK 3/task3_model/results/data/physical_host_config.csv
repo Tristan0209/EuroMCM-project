@@ -1,0 +1,7 @@
+host_id,region,model_type,physical_hosts,gpu_count_per_host,shared_w,gpu_idle_w,gpu_busy_w,pue,server_max_w,idle_it_power_w,one_busy_slot_it_power_w,admitted_serving_slots
+DE_S_DGX01,DE,S,1,8,1500.0,175.0,760,1.2,14300.0,2900.0,3485.0,1
+DE_L_DGX01,DE,L,1,8,1500.0,175.0,760,1.2,14300.0,2900.0,3485.0,1
+FR_S_DGX01,FR,S,1,8,1500.0,175.0,760,1.2,14300.0,2900.0,3485.0,1
+FR_L_DGX01,FR,L,1,8,1500.0,175.0,760,1.2,14300.0,2900.0,3485.0,1
+ES_S_DGX01,ES,S,1,8,1500.0,175.0,760,1.2,14300.0,2900.0,3485.0,1
+ES_L_DGX01,ES,L,1,8,1500.0,175.0,760,1.2,14300.0,2900.0,3485.0,1

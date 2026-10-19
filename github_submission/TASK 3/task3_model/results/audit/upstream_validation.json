@@ -1,0 +1,8 @@
+{
+  "legacy_interface_tests": {
+    "passed": true,
+    "tests": 21
+  },
+  "legacy_full_validator": "superseded: old paths and independent-replica power keys do not describe current upstream",
+  "current_data_validation": "explicit current-source checks in verify_current_sources; no legacy power pass claimed"
+}
